@@ -15,13 +15,18 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
-      - name: Add XML Declaration and DOCTYPE
+      - name: Check if XML Declaration Exists
         run: |
-          # Add the XML declaration and DOCTYPE to the top of the epg.xml
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > temp.xml
-          echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' >> temp.xml
-          cat epg.xml >> temp.xml
-          mv temp.xml epg.xml
+          # Check if the XML declaration is already present at the beginning
+          if ! head -n 1 epg.xml | grep -q '<?xml version="1.0" encoding="UTF-8"?>'; then
+            echo "Adding XML declaration and DOCTYPE..."
+            # If not, add XML declaration and DOCTYPE on the same line at the top
+            echo '<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE tv SYSTEM "xmltv.dtd">' > temp.xml
+            cat epg.xml >> temp.xml
+            mv temp.xml epg.xml
+          else
+            echo "XML declaration already exists."
+          fi
 
       - name: Check for Title "Bluey" in XML and Add Icon to All Matches
         run: |
