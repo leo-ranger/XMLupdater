@@ -13,12 +13,25 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch EPG XML
-        run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+        run: |
+          # Fetch the EPG XML
+          curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+
+      - name: Check for Title "Bluey" in XML and Add Icon to All Matches
+        run: |
+          # Check if "Bluey" exists in the title tag (with lang="zh")
+          if grep -q '<title lang="zh">Bluey</title>' epg.xml; then
+            echo "Found Bluey in the EPG XML!"
+            # Add the <icon> tag below each occurrence of <title lang="zh">Bluey</title>
+            sed -i '/<title lang="zh">Bluey<\/title>/a <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>' epg.xml
+          else
+            echo "Bluey not found in the EPG XML."
+          fi
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add epg.xml
-          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Updated EPG with Bluey icon $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push
