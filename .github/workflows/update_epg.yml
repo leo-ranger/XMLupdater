@@ -13,9 +13,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch EPG XML
-        run: |
-          # Fetch the EPG XML
-          curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+        run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+
 
       - name: Check for Title "Bluey" in XML and Add Icon to All Matches
         run: |
