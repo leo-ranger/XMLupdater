@@ -21,13 +21,19 @@ jobs:
           echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' | cat - epg.xml > temp.xml
           mv temp.xml epg.xml
 
-      - name: Check for Title "Bluey" in XML and Add Icon to All Matches
+      - name: Check for Title "Bluey" in XML and Add Icon and Categories
         run: |
           # Check if "Bluey" exists in the title tag (with lang="zh")
           if grep -q '<title lang="zh">Bluey</title>' epg.xml; then
             echo "Found Bluey in the EPG XML!"
-            # Add the <icon> tag below each occurrence of <title lang="zh">Bluey</title>
-            sed -i '/<title lang="zh">Bluey<\/title>/a <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>/a <category lang="en">Kids</category>' epg.xml
+            # Add <icon> tag and multiple <category> tags below each occurrence of <title lang="zh">Bluey</title>
+            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
+            <category lang="en">Series</category>\
+            <category lang="en">Animation</category>\
+            <category lang="en">Comedy</category>\
+            <category lang="en">Drama</category>\
+            <category lang="en">Kids</category>' epg.xml
           else
             echo "Bluey not found in the EPG XML."
           fi
