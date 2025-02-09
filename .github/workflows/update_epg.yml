@@ -19,7 +19,21 @@ jobs:
         run: echo "BLUEY_ICON=https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255" >> $GITHUB_ENV
 
       - name: Fetch First EPG XML (Channel 1)
-        run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+        run: curl -s -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+
+      - name: Fetch Second EPG XML (Channel 2)
+        run: curl -s -o epg2.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=93341"
+
+      - name: Validate EPG Files
+        run: |
+          if [[ ! -s epg2.xml ]]; then
+            echo "Error: epg2.xml is empty!" >&2
+            exit 1
+          fi
+          if ! xmlstarlet val -q epg2.xml; then
+            echo "Error: epg2.xml is not valid XML!" >&2
+            exit 1
+          fi
 
       - name: Modify First EPG (Check for Bluey)
         run: |
@@ -36,9 +50,6 @@ jobs:
           else
             echo "Bluey not found in Channel 1."
           fi
-
-      - name: Fetch Second EPG XML (Channel 2)
-        run: curl -o epg2.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=93341"
 
       - name: Modify Second EPG (Check for Bluey)
         run: |
@@ -58,9 +69,10 @@ jobs:
 
       - name: Merge EPG Data Correctly
         run: |
-          xmlstarlet ed -L -d "//tv" epg2.xml  # Remove <tv> root from second file
-          xmlstarlet ed -L -s "/tv" -t elem -n "programmes" -v "" epg.xml  # Create a wrapper if needed
-          xmlstarlet ed -L -m "//programme" "/tv/programmes" epg2.xml epg.xml  # Move programmes from epg2.xml into epg.xml
+          echo "Ensuring valid XML merge..."
+          xmlstarlet ed -L -d "//tv" epg2.xml || { echo "Error modifying epg2.xml"; exit 1; }
+          xmlstarlet ed -L -s "/tv" -t elem -n "programmes" -v "" epg.xml
+          xmlstarlet ed -L -m "//programme" "/tv/programmes" epg2.xml epg.xml
 
       - name: Commit and push if changed
         run: |
