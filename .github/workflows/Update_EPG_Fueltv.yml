@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add SAMSUNG_FuelTv.xml
+          git add Individual/SAMSUNG_FuelTv.xml
           git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase  # Fetch and rebase changes from the remote
           git push
