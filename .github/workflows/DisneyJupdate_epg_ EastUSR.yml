@@ -17,8 +17,8 @@ jobs:
 
       - name: Add XML Declaration and DOCTYPE
         run: |
-          echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' | cat - USA-Disney_Jr_East.xml > temp.xml
-          mv temp.xml USA-Disney_Jr_East.xml
+          # Add the DOCTYPE declaration on the first line
+          sed -i '1s|^|<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE tv SYSTEM "xmltv.dtd">\n|' USA-Disney_Jr_East.xml
 
       - name: Check for Title "Bluey" in XML and Add Icon and Categories
         run: |
