@@ -20,21 +20,6 @@ jobs:
           # Add the DOCTYPE declaration at the end of the first line
           sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' SAMSUNG_FuelTv.xml
 
-      - name: Check for Title "Bluey" in XML and Add Icon and Categories
-        run: |
-          if grep -q '<title lang="zh">Bluey</title>' USA-Disney_Jr_East.xml; then
-            echo "Found Bluey in the EPG XML!"
-            sed -i '/<title lang="zh">Bluey<\/title>/a \
-            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Animation</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Drama</category>\
-            <category lang="en">Kids</category>' SAMSUNG_FuelTv.xml
-          else
-            echo "Bluey not found in the EPG XML."
-          fi
-
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
