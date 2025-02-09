@@ -15,10 +15,15 @@ jobs:
       - name: Fetch First EPG XML (Channel 1)
         run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
-      - name: Add XML Declaration and DOCTYPE
-        run: |
-          echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' | cat - epg.xml > temp.xml
-          mv temp.xml epg.xml
+- name: Add XML Declaration and DOCTYPE
+  run: |
+    # Check if DOCTYPE already exists to prevent duplicates
+    if ! grep -q '<!DOCTYPE tv SYSTEM "xmltv.dtd">' epg.xml; then
+      sed -i '1a <!DOCTYPE tv SYSTEM "xmltv.dtd">' epg.xml
+    else
+      echo "DOCTYPE already exists, skipping."
+    fi
+
 
       - name: Modify First EPG (Check for Bluey)
         run: |
