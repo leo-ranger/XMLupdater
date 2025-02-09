@@ -12,19 +12,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create individual folder if it doesn't exist
+        run: mkdir -p individual
+
       - name: Fetch EPG XML
-        run: curl -o SAMSUNG_FuelTv.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=93341"
+        run: curl -o individual/SAMSUNG_FuelTv.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=93341"
 
       - name: Add XML Declaration and DOCTYPE
         run: |
-          # Add the DOCTYPE declaration at the end of the first line
-          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' SAMSUNG_FuelTv.xml
+          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' individual/SAMSUNG_FuelTv.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add Individual/SAMSUNG_FuelTv.xml
+          git add individual/SAMSUNG_FuelTv.xml
           git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase  # Fetch and rebase changes from the remote
+          git pull --rebase
           git push
