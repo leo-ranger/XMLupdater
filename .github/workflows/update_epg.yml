@@ -12,20 +12,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Install xmlstarlet
+        run: sudo apt-get update && sudo apt-get install -y xmlstarlet
+
+      - name: Set Environment Variables
+        run: echo "BLUEY_ICON=https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255" >> $GITHUB_ENV
+
       - name: Fetch First EPG XML (Channel 1)
         run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
       - name: Modify First EPG (Check for Bluey)
         run: |
-          if grep -q '<title lang="zh">Bluey</title>' epg.xml; then
+          if xmlstarlet sel -t -m "//programme/title[@lang='zh'][text()='Bluey']" -v . epg.xml | grep -q "Bluey"; then
             echo "Found Bluey in Channel 1!"
-            sed -i '/<title lang="zh">Bluey<\/title>/a \
-            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Animation</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Drama</category>\
-            <category lang="en">Kids</category>' epg.xml
+            xmlstarlet ed -L \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "icon" -v "" \
+              -i "//programme[title[@lang='zh']='Bluey']/icon" -t attr -n "src" -v "$BLUEY_ICON" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Series" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Animation" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Comedy" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Drama" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Kids" epg.xml
           else
             echo "Bluey not found in Channel 1."
           fi
@@ -35,28 +42,31 @@ jobs:
 
       - name: Modify Second EPG (Check for Bluey)
         run: |
-          if grep -q '<title lang="zh">Bluey</title>' epg2.xml; then
+          if xmlstarlet sel -t -m "//programme/title[@lang='zh'][text()='Bluey']" -v . epg2.xml | grep -q "Bluey"; then
             echo "Found Bluey in Channel 2!"
-            sed -i '/<title lang="zh">Bluey<\/title>/a \
-            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Animation</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Drama</category>\
-            <category lang="en">Kids</category>' epg2.xml
+            xmlstarlet ed -L \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "icon" -v "" \
+              -i "//programme[title[@lang='zh']='Bluey']/icon" -t attr -n "src" -v "$BLUEY_ICON" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Series" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Animation" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Comedy" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Drama" \
+              -s "//programme[title[@lang='zh']='Bluey']" -t elem -n "category" -v "Kids" epg2.xml
           else
             echo "Bluey not found in Channel 2."
           fi
 
-      - name: Append Second EPG Data to First
+      - name: Merge EPG Data Correctly
         run: |
-          tail -n +2 epg2.xml >> epg.xml  # Remove first line and append
+          xmlstarlet ed -L -d "//tv" epg2.xml  # Remove <tv> root from second file
+          xmlstarlet ed -L -s "/tv" -t elem -n "programmes" -v "" epg.xml  # Create a wrapper if needed
+          xmlstarlet ed -L -m "//programme" "/tv/programmes" epg2.xml epg.xml  # Move programmes from epg2.xml into epg.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          if [[ -n $(git status --porcelain) ]]; then
+          if ! git diff --quiet; then
             git add epg.xml
             git commit -m "Updated EPG sequentially $(date +%Y-%m-%d)"
             git push
