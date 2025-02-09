@@ -1,0 +1,44 @@
+name: Update EPG XML Disney Jr East
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at midnight UTC daily
+  workflow_dispatch:  # Allows manual runs
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch EPG XML
+        run: curl -o USA-Disney_Jr_East.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
+
+      - name: Add XML Declaration and DOCTYPE
+        run: |
+          echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' | cat - USA-Disney_Jr_East.xml > temp.xml
+          mv temp.xml USA-Disney_Jr_East.xml
+
+      - name: Check for Title "Bluey" in XML and Add Icon and Categories
+        run: |
+          if grep -q '<title lang="zh">Bluey</title>' USA-Disney_Jr_East.xml; then
+            echo "Found Bluey in the EPG XML!"
+            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
+            <category lang="en">Series</category>\
+            <category lang="en">Animation</category>\
+            <category lang="en">Comedy</category>\
+            <category lang="en">Drama</category>\
+            <category lang="en">Kids</category>' USA-Disney_Jr_East.xml
+          else
+            echo "Bluey not found in the EPG XML."
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add USA-Disney_Jr_East.xml
+          git commit -m "Updated EPG with Bluey icon $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
