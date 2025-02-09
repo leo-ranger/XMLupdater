@@ -12,21 +12,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch EPG XML
+      - name: Fetch First EPG XML (Channel 1)
         run: curl -o epg.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
       - name: Add XML Declaration and DOCTYPE
         run: |
-          # Add both XML declaration and DOCTYPE on the same line at the top
           echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">' | cat - epg.xml > temp.xml
           mv temp.xml epg.xml
 
-      - name: Check for Title "Bluey" in XML and Add Icon and Categories
+      - name: Modify First EPG (Check for Bluey)
         run: |
-          # Check if "Bluey" exists in the title tag (with lang="zh")
           if grep -q '<title lang="zh">Bluey</title>' epg.xml; then
-            echo "Found Bluey in the EPG XML!"
-            # Add <icon> tag and multiple <category> tags below each occurrence of <title lang="zh">Bluey</title>
+            echo "Found Bluey in Channel 1!"
             sed -i '/<title lang="zh">Bluey<\/title>/a \
             <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
             <category lang="en">Series</category>\
@@ -35,13 +32,38 @@ jobs:
             <category lang="en">Drama</category>\
             <category lang="en">Kids</category>' epg.xml
           else
-            echo "Bluey not found in the EPG XML."
+            echo "Bluey not found in Channel 1."
           fi
+
+      - name: Fetch Second EPG XML (Channel 2)
+        run: curl -o epg2.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=93341"
+
+      - name: Modify Second EPG (Check for Bluey)
+        run: |
+          if grep -q '<title lang="zh">Bluey</title>' epg2.xml; then
+            echo "Found Bluey in Channel 2!"
+            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
+            <category lang="en">Series</category>\
+            <category lang="en">Animation</category>\
+            <category lang="en">Comedy</category>\
+            <category lang="en">Drama</category>\
+            <category lang="en">Kids</category>' epg2.xml
+          else
+            echo "Bluey not found in Channel 2."
+          fi
+
+      - name: Append Second EPG Data to First
+        run: |
+          tail -n +2 epg2.xml >> epg.xml  # Remove first line and append
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add epg.xml
-          git commit -m "Updated EPG with Bluey icon $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git push
+          if [[ -n $(git status --porcelain) ]]; then
+            git add epg.xml
+            git commit -m "Updated EPG sequentially $(date +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to commit"
