@@ -15,10 +15,10 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o USA-Disney_Jr_East.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
-- name: Add XML Declaration and DOCTYPE
-  run: |
-    # Add the DOCTYPE declaration at the end of the first line
-    sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' USA-Disney_Jr_East.xml
+      - name: Add XML Declaration and DOCTYPE
+        run: |
+          # Add the DOCTYPE declaration at the end of the first line
+          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' USA-Disney_Jr_East.xml
 
       - name: Check for Title "Bluey" in XML and Add Icon and Categories
         run: |
