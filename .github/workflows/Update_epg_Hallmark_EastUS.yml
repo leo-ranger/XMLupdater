@@ -25,8 +25,8 @@ jobs:
       - name: Check for Title "The Golden Girls" in XML and Add Icon and Categories
         run: |
           if grep -q '<title lang="zh">The Golden Girls</title>' individual/USA-Hallmark_EastUS.xml; then
-            echo "Found Bluey in the EPG XML!"
-            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            echo "Found The Golden Girls in the EPG XML!"
+            sed -i '/<title lang="zh">The Golden Girls<\/title>/a \
             <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>\
             <category lang="en">Series</category>\
             <category lang="en">Comedy</category>\
