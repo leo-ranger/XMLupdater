@@ -41,7 +41,7 @@ jobs:
         run: |
           if grep -q '<title lang="zh">Mickey Mouse Funhouse</title>' individual/USA-Disney_Jr_East.xml; then
             echo "Found Mickey Mouse Funhouse in the EPG XML!"
-            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            sed -i '/<title lang="zh">Mickey Mouse Funhouse<\/title>/a \
             <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>\
             <category lang="en">Educational</category>\
             <category lang="en">Animation</category>\
