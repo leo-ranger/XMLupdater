@@ -27,7 +27,7 @@ jobs:
           if grep -q '<title lang="zh">Bluey</title>' individual/USA-Disney_Jr_East.xml; then
             echo "Found Bluey in the EPG XML!"
             sed -i '/<title lang="zh">Bluey<\/title>/a \
-            <icon src="https://static.wikia.nocookie.net/blueypedia/images/4/41/Bluey_logi.png/revision/latest/thumbnail/width/360/height/360?cb=20190120094255"/>\
+            <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>\
             <category lang="en">Series</category>\
             <category lang="en">Animation</category>\
             <category lang="en">Comedy</category>\
@@ -35,6 +35,20 @@ jobs:
             <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
           else
             echo "Bluey not found in the EPG XML."
+          fi
+
+      - name: Check for Title "Mickey Mouse Funhouse" in XML and Add Icon and Categories
+        run: |
+          if grep -q '<title lang="zh">Mickey Mouse Funhouse</title>' individual/USA-Disney_Jr_East.xml; then
+            echo "Found Mickey Mouse Funhouse in the EPG XML!"
+            sed -i '/<title lang="zh">Bluey<\/title>/a \
+            <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>\
+            <category lang="en">Educational</category>\
+            <category lang="en">Animation</category>\
+            <category lang="en">Comedy</category>\
+            <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
+          else
+            echo "Mickey Mouse Funhouse not found in the EPG XML."
           fi
 
       - name: Commit and push if changed
