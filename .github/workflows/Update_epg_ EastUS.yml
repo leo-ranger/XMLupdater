@@ -37,10 +37,10 @@ jobs:
             echo "Bluey not found in the EPG XML."
           fi
 
-      - name: Check for Title "Mickey Mouse Funhouse" in XML and Add Icon and Categories
+      - name: Check for Title "Mickey Mouse Clubhouse" in XML and Add Icon and Categories
         run: |
-          if grep -q '<title lang="zh">Mickey Mouse Funhouse</title>' individual/USA-Disney_Jr_East.xml; then
-            echo "Found Mickey Mouse Funhouse in the EPG XML!"
+          if grep -q '<title lang="zh">Mickey Mouse Clubhouse</title>' individual/USA-Disney_Jr_East.xml; then
+            echo "Mickey Mouse Clubhouse in the EPG XML!"
             sed -i '/<title lang="zh">Mickey Mouse Funhouse<\/title>/a \
             <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>\
             <category lang="en">Educational</category>\
@@ -48,7 +48,7 @@ jobs:
             <category lang="en">Comedy</category>\
             <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
           else
-            echo "Mickey Mouse Funhouse not found in the EPG XML."
+            echo "Mickey Mouse Clubhouse not found in the EPG XML."
           fi
 
       - name: Commit and push if changed
