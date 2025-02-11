@@ -1,209 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250211063524 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250210.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250210&amp;timezone=None">
+<tv date="20250211090347 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250211.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250211&amp;timezone=None">
   <channel id="93341">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608031118561677_38.png" />
   </channel>
-  <programme channel="93341" start="20250210015000 +0000" stop="20250210020000 +0000">
-    <title lang="zh">What's Going On – Sn 1, Ep 5. Connor O'Leary</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210020000 +0000" stop="20250210023000 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 2. Episode 2</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210023000 +0000" stop="20250210030000 +0000">
-    <title lang="zh">M80 – Sn 1, Ep 9. Nate Adams</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210030000 +0000" stop="20250210033000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 6. Backyard Babylon</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210033000 +0000" stop="20250210040000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 7. Bark Beetle Juice</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210040000 +0000" stop="20250210043000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 10. Buffalo Pregnancy Test</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210043000 +0000" stop="20250210050000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 11. Ladies Night</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210050000 +0000" stop="20250210053000 +0000">
-    <title lang="zh">Route 66 Tour</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210053000 +0000" stop="20250210060000 +0000">
-    <title lang="zh">The Gypsy Tour</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210060000 +0000" stop="20250210063000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 7. Music Making, Awards and Pro's Teaching</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210063000 +0000" stop="20250210070000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 8. Giving Back and Giving In</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210070000 +0000" stop="20250210073000 +0000">
-    <title lang="zh">On Surfari – Sn 1, Ep 10. Sumba</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210073000 +0000" stop="20250210080000 +0000">
-    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 5. I Love Sharks</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210080000 +0000" stop="20250210083000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 6. Backyard Babylon</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210083000 +0000" stop="20250210090000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 7. Bark Beetle Juice</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210090000 +0000" stop="20250210092000 +0000">
-    <title lang="zh">Movimento – Sn 1, Ep 3. Corais</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210092000 +0000" stop="20250210093000 +0000">
-    <title lang="zh">What's Going On – Sn 1, Ep 8. Split Keel x Myconaut</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210093000 +0000" stop="20250210115000 +0000">
-    <title lang="zh">Thundercloud</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210115000 +0000" stop="20250210120000 +0000">
-    <title lang="zh">What's Going On – Sn 1, Ep 5. Connor O'Leary</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210120000 +0000" stop="20250210123000 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 2. Episode 2</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210123000 +0000" stop="20250210130000 +0000">
-    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 4. Fill the Void</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210130000 +0000" stop="20250210133000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 7. Music Making, Awards and Pro's Teaching</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210133000 +0000" stop="20250210140000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 8. Giving Back and Giving In</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210140000 +0000" stop="20250210143000 +0000">
-    <title lang="zh">Thrillbillies – Sn 4, Ep 2. Whitney's Fairy Tale</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210143000 +0000" stop="20250210150000 +0000">
-    <title lang="zh">Thrillbillies – Sn 4, Ep 3. Hero Worship</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210150000 +0000" stop="20250210153000 +0000">
-    <title lang="zh">On Surfari – Sn 1, Ep 10. Sumba</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210153000 +0000" stop="20250210160000 +0000">
-    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 5. I Love Sharks</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210160000 +0000" stop="20250210163000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 11. Wrecking Ball</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210163000 +0000" stop="20250210170000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 12. Dragonfly</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210170000 +0000" stop="20250210173000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 10. Buffalo Pregnancy Test</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210173000 +0000" stop="20250210180000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 11. Ladies Night</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210180000 +0000" stop="20250210183000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 7. Music Making, Awards and Pro's Teaching</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210183000 +0000" stop="20250210190000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 8. Giving Back and Giving In</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210190000 +0000" stop="20250210193000 +0000">
-    <title lang="zh">Route 66 Tour</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210193000 +0000" stop="20250210195000 +0000">
-    <title lang="zh">Movimento – Sn 1, Ep 3. Corais</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210195000 +0000" stop="20250210200000 +0000">
-    <title lang="zh">What's Going On – Sn 1, Ep 8. Split Keel x Myconaut</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210200000 +0000" stop="20250210222000 +0000">
-    <title lang="zh">Thundercloud</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210222000 +0000" stop="20250210223000 +0000">
-    <title lang="zh">What's Going On – Sn 1, Ep 5. Connor O'Leary</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210223000 +0000" stop="20250210230000 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 2. Episode 2</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
-  <programme channel="93341" start="20250210230000 +0000" stop="20250211000000 +0000">
-    <title lang="zh">Vans Get-N Classic – Vol 3</title>
-    <desc />
-    <date>2025-02-10</date>
-  </programme>
   <programme channel="93341" start="20250211000000 +0000" stop="20250211003000 +0000">
     <title lang="zh">Behind the Gate – Sn 2, Ep 13. The Titans</title>
     <desc />
@@ -414,9 +214,224 @@
     <desc />
     <date>2025-02-11</date>
   </programme>
-  <programme channel="93341" start="20250212000000 +0000" stop="20250213000000 +0000">
+  <programme channel="93341" start="20250212000000 +0000" stop="20250212003000 +0000">
     <title lang="zh">Behind the Gate – Sn 2, Ep 15. Pursuit</title>
     <desc />
     <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212003000 +0000" stop="20250212010000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 16. Viking Spirit</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212010000 +0000" stop="20250212013000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 5. Episode 5</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212013000 +0000" stop="20250212020000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 6. Episode 6</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212020000 +0000" stop="20250212023000 +0000">
+    <title lang="zh">M80 – Sn 1, Ep 13. The Best of M80</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212023000 +0000" stop="20250212030000 +0000">
+    <title lang="zh">M80 – Sn 2, Ep 2. Travis Pastrana</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212030000 +0000" stop="20250212033000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 10. Shredabago</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212033000 +0000" stop="20250212040000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 11. Treehouse</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212040000 +0000" stop="20250212043000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 14. Deep Inside</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212043000 +0000" stop="20250212050000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 1. Launching In Aspen</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212050000 +0000" stop="20250212054500 +0000">
+    <title lang="zh">CPH Open: Everyone is a Winner</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212054500 +0000" stop="20250212060000 +0000">
+    <title lang="zh">Skate Total Urbe 2021</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212060000 +0000" stop="20250212063000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 3. Midler Down</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212063000 +0000" stop="20250212070000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 4. Rolling with the Homies</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212070000 +0000" stop="20250212073000 +0000">
+    <title lang="zh">On Surfari – Sn 2, Ep 2. Russia</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212073000 +0000" stop="20250212080000 +0000">
+    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 7. Brock Swell</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212080000 +0000" stop="20250212083000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 10. Shredabago</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212083000 +0000" stop="20250212090000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 11. Treehouse</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212090000 +0000" stop="20250212093000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 5. Derek Jumps the Grand Canyon</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212093000 +0000" stop="20250212100000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 6. Johnny's Cage Fight</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212100000 +0000" stop="20250212103000 +0000">
+    <title lang="zh">Drive Thru – Sn 6, Ep 4. The Gold Coast</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212103000 +0000" stop="20250212110000 +0000">
+    <title lang="zh">Drive Thru – Sn 6, Ep 5. The Joel Connection</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212110000 +0000" stop="20250212114500 +0000">
+    <title lang="zh">CPH Open: Everyone is a Winner</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212114500 +0000" stop="20250212120000 +0000">
+    <title lang="zh">Skate Total Urbe 2021</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212120000 +0000" stop="20250212123000 +0000">
+    <title lang="zh">Bubba's World – Sn 1, Ep 5. The Trip</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212123000 +0000" stop="20250212130000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 6. The Dream</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212130000 +0000" stop="20250212132000 +0000">
+    <title lang="zh">Movimento – Sn 1, Ep 3. Corais</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212132000 +0000" stop="20250212133000 +0000">
+    <title lang="zh">What's Going On – Sn 1, Ep 8. Split Keel x Myconaut</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212133000 +0000" stop="20250212155000 +0000">
+    <title lang="zh">Thundercloud</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212155000 +0000" stop="20250212160000 +0000">
+    <title lang="zh">What's Going On – Sn 1, Ep 5. Connor O'Leary</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212160000 +0000" stop="20250212163000 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 2. Episode 2</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212163000 +0000" stop="20250212170000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 16. Viking Spirit</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212170000 +0000" stop="20250212172000 +0000">
+    <title lang="zh">Movimento – Sn 1, Ep 3. Corais</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212172000 +0000" stop="20250212173000 +0000">
+    <title lang="zh">What's Going On – Sn 1, Ep 8. Split Keel x Myconaut</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212173000 +0000" stop="20250212195000 +0000">
+    <title lang="zh">Thundercloud</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212195000 +0000" stop="20250212200000 +0000">
+    <title lang="zh">What's Going On – Sn 1, Ep 5. Connor O'Leary</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212200000 +0000" stop="20250212203000 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 2. Episode 2</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212203000 +0000" stop="20250212210000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 6. The Dream</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212210000 +0000" stop="20250212213000 +0000">
+    <title lang="zh">Drive Thru – Sn 6, Ep 5. The Joel Connection</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212213000 +0000" stop="20250212220000 +0000">
+    <title lang="zh">Drive Thru – Sn 6, Ep 6. The Footy Game</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212220000 +0000" stop="20250212223000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 5. Derek Jumps the Grand Canyon</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212223000 +0000" stop="20250212230000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 6. Johnny's Cage Fight</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250212230000 +0000" stop="20250213000000 +0000">
+    <title lang="zh">Freedom of Space</title>
+    <desc />
+    <date>2025-02-12</date>
+  </programme>
+  <programme channel="93341" start="20250213000000 +0000" stop="20250214000000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 17. Dutch Courage</title>
+    <desc />
+    <date>2025-02-13</date>
   </programme>
 </tv>
