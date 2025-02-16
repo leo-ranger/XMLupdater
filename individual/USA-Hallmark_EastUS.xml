@@ -1,179 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250215091341 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250215.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250215&amp;timezone=None">
+<tv date="20250216092029 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250216.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250216&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403490" start="20250215000000 +0000" stop="20250215020000 +0000">
-    <title lang="zh">Sugarplummed</title>
-    <desc>When Emily wishes for a perfect Christmas like the ones found in the popular Sugarplum movies, she's shocked when Sugarplum herself appears to help her fulfill it.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215020000 +0000" stop="20250215030000 +0000">
-    <title lang="zh">The Way Home</title>
-    <desc>The Landrys and Elliot reach difficult decisions and come to key realizations, as each sees that they may need to say goodbye to an aspect of their life.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215030000 +0000" stop="20250215033000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose gives the boot to penny-pinching Miles; Blanche loses track of Sophia while Dorothy is vacationing.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215033000 +0000" stop="20250215040000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche discovers she has exceeded the legal number of tenants she is allowed; Dorothy discovers Sophia's first marriage.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215040000 +0000" stop="20250215043000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose thinks her late husband is using inanimate objects to communicate with her from beyond the grave.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215043000 +0000" stop="20250215050000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche's date still lives with his mother; Stan wants Dorothy and Sophia to attend therapy with him.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215050000 +0000" stop="20250215053000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy's Saturday night date causes Rose, Blanche and Sophia to recall scandalous evenings from the past.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215053000 +0000" stop="20250215060000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose gives the boot to penny-pinching Miles; Blanche loses track of Sophia while Dorothy is vacationing.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215060000 +0000" stop="20250215063000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier has Niles hire a legal shark (Saul Rubinek) to help with his divorce but fears having to testify.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215063000 +0000" stop="20250215070000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Niles plays matchmaker when Roz's former boyfriend (Saul Rubinek) becomes involved with Daphne.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215070000 +0000" stop="20250215073000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Temperamental caterers, nit-picky preparations and feuding almost foil Frasier's tasteful dinner party.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215073000 +0000" stop="20250215080000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Niles and Frasier throw a reception to prove that Niles is respectable.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215080000 +0000" stop="20250215083000 +0000">
-    <title lang="zh">Cheers</title>
-    <desc>Sam agrees to pitch in a charity softball game against a team of Playmates.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215083000 +0000" stop="20250215090000 +0000">
-    <title lang="zh">Cheers</title>
-    <desc>Sam and the Coach are taking the same night school course in geography.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215090000 +0000" stop="20250215100000 +0000">
-    <title lang="zh">Psych</title>
-    <desc>Shawn claims that an Army private's suicide was really murder and suspects that Juliet's brother is involved.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215100000 +0000" stop="20250215110000 +0000">
-    <title lang="zh">Psych</title>
-    <desc>Shawn and Gus join Shawn's girlfriend on a rafting trip; Shawn suspects foul play when a member of the group goes overboard.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215110000 +0000" stop="20250215113000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy's son Michael is getting married to an older woman, and the mothers of the bride and groom are concerned.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215113000 +0000" stop="20250215120000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Flashbacks recall previous attempts by the roommates to lose weight.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215120000 +0000" stop="20250215123000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Sophia learns that the hospital may have switched Dorothy at birth with another baby.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215123000 +0000" stop="20250215130000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Sophia faces a moral dilemma when an ill friend asks for help in ending her life.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215130000 +0000" stop="20250215150000 +0000">
-    <title lang="zh">Playing Cupid</title>
-    <desc>A girl sets her single father up with her teacher after starting a matchmaking business for a school project.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215150000 +0000" stop="20250215170000 +0000">
-    <title lang="zh">Love in Store</title>
-    <desc>Two rival shopping hosts are forced together while competing for a promotion and find that their on-air chemistry kindles an off-air spark.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215170000 +0000" stop="20250215190000 +0000">
-    <title lang="zh">The Story of Us</title>
-    <desc>The owner of a bookstore butts heads with an architect who plans on renovating the neighborhood.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215190000 +0000" stop="20250215210000 +0000">
-    <title lang="zh">Valentine Ever After</title>
-    <desc>A woman finds love and her true calling in life while performing community service for her involvement in a bar brawl.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215210000 +0000" stop="20250215230000 +0000">
-    <title lang="zh">Matching Hearts</title>
-    <desc>As Valentine's Day nears, a matchmaker must find a mate for an entrepreneur who believes staying single is the key to success.</desc>
-    <date>2025-02-15</date>
-  </programme>
-  <programme channel="403490" start="20250215230000 +0000" stop="20250216000000 +0000">
-    <title lang="zh">It Was Always You</title>
-    <desc>A woman's engagement plans get thrown into disarray when her fiance's free-spirited brother returns home.</desc>
-    <date>2025-02-15</date>
-  </programme>
   <programme channel="403490" start="20250216010000 +0000" stop="20250216030100 +0000">
     <title lang="zh">Return to Office</title>
     <desc>After making the return to the office on a hybrid schedule, two coworkers known to each other only as Ms. Monday and Mr. Tuesday start sending friendly notes, sparking an office romance.</desc>
@@ -334,9 +164,69 @@
     <desc>When Helen, a kind hearted and shy florist, meets the perfect man at a Valentine's masquerade ball, she enlists the help of her best friend Henry to track him down, only to find that her perfect man may already be right in front of her.</desc>
     <date>2025-02-16</date>
   </programme>
-  <programme channel="403490" start="20250217000000 +0000" stop="20250218000000 +0000">
+  <programme channel="403490" start="20250217000000 +0000" stop="20250217020000 +0000">
     <title lang="zh">Return to Office</title>
     <desc>After making the return to the office on a hybrid schedule, two coworkers known to each other only as Ms. Monday and Mr. Tuesday start sending friendly notes, sparking an office romance.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217020000 +0000" stop="20250217030000 +0000">
+    <title lang="zh">When Calls the Heart</title>
+    <desc>Elizabeth and Nathan's date night leads to an undercover operation at a glamorous party; Lucas and Edie grow closer over cards; Rosemary holds auditions for a play.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217030000 +0000" stop="20250217050000 +0000">
+    <title lang="zh">Love on the Menu</title>
+    <desc>A popular chef rejects the idea of creating a gourmet frozen food line when the idea is presented by a food executive. But when the restaurant he runs with his wife faces financial problems, he reluctantly makes a deal.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217050000 +0000" stop="20250217070000 +0000">
+    <title lang="zh">Love on the Right Course</title>
+    <desc>A professional golfer suffers a series of setbacks and returns home to Budapest to reevaluate her future. While there, a golf pro helps her rediscover herself and find love.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217070000 +0000" stop="20250217090000 +0000">
+    <title lang="zh">Anything for Love</title>
+    <desc>A high-powered executive lies about her career on her online dating profile, while her match also hides his true identity.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217090000 +0000" stop="20250217110000 +0000">
+    <title lang="zh">Beverly Hills Wedding</title>
+    <desc>A meddling woman wins her sister an all-expenses-paid wedding in Beverly Hills, Calif., but soon learns her ex is also helping plan the ceremony.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217110000 +0000" stop="20250217130000 +0000">
+    <title lang="zh">Mix Up in the Mediterranean</title>
+    <desc>A small-town cook finds romance while impersonating his big-city twin to compete in a culinary contest.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217130000 +0000" stop="20250217150000 +0000">
+    <title lang="zh">Sense and Sensibility</title>
+    <desc>After the death of their father, the Dashwoods' entire world changes drastically. While one sister is torn between two men, the other is holding out hope for the man who has her heart.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217150000 +0000" stop="20250217170000 +0000">
+    <title lang="zh">Falling for You</title>
+    <desc>A small town's radio station manager meets her match when a visiting businessman can't seem to see beyond the screen of his laptop computer. Everything changes when she ropes him into participating in her bachelor bake-off to help save the station.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217170000 +0000" stop="20250217190000 +0000">
+    <title lang="zh">Dater's Handbook</title>
+    <desc>After reading a book about dating and changing her personality to find a lover, a woman realizes the man she wants is right in front of her.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217190000 +0000" stop="20250217210000 +0000">
+    <title lang="zh">Welcome to Valentine</title>
+    <desc>After losing her apartment and her job right before Valentine's Day, Olivia meets George, who takes her on a cross-country road trip that has them reevaluating life's priorities.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217210000 +0000" stop="20250217230000 +0000">
+    <title lang="zh">The Lost Valentine</title>
+    <desc>A reporter (Jennifer Love Hewitt) seeks the truth about a woman's (Betty White) husband (Billy Magnussen), a pilot who never returned from duty in World War II.</desc>
+    <date>2025-02-17</date>
+  </programme>
+  <programme channel="403490" start="20250217230000 +0000" stop="20250218000000 +0000">
+    <title lang="zh">All Things Valentine</title>
+    <desc>A blogger who experiences terrible luck on Valentine's Day meets a handsome veterinarian. When she finds out that he's the one who's been leaving rude comments about her articles, she begins to question whether her luck has really changed.</desc>
     <date>2025-02-17</date>
   </programme>
 </tv>
