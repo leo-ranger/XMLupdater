@@ -1,194 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250308085350 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250308.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250308&amp;timezone=None">
+<tv date="20250309085834 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250309.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250309&amp;timezone=None">
   <channel id="93341">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608031118561677_38.png" />
   </channel>
-  <programme channel="93341" start="20250308000000 +0000" stop="20250308003000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 18. Numbers Game</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308003000 +0000" stop="20250308010000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 19. Stranger Things</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308010000 +0000" stop="20250308013000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 6, Ep 9. Tampa Party Team Episode</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308013000 +0000" stop="20250308020000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 6, Ep 10. The Ye Olde Episode</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308020000 +0000" stop="20250308023000 +0000">
-    <title lang="zh">M80 – Sn 2, Ep 9. Seth Enslow</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308023000 +0000" stop="20250308030000 +0000">
-    <title lang="zh">M80 – Sn 2, Ep 10. Doug Parsons</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308030000 +0000" stop="20250308033000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 4. Musical Shred</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308033000 +0000" stop="20250308040000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 5. Land of Giants</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308040000 +0000" stop="20250308043000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 13. Gettin' El Gaucho</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308043000 +0000" stop="20250308050000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 14. Deep Inside</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308050000 +0000" stop="20250308060000 +0000">
-    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308060000 +0000" stop="20250308063000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 6. Age Factor</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308063000 +0000" stop="20250308070000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 7. Lucky's Heroes</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308070000 +0000" stop="20250308071500 +0000">
-    <title lang="zh">Matty Manners Surfboards</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308071500 +0000" stop="20250308073000 +0000">
-    <title lang="zh">Lipe Dylong – 50 Years of Shaping</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308073000 +0000" stop="20250308080000 +0000">
-    <title lang="zh">Concrete Pow Wow</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308080000 +0000" stop="20250308083000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 3. Golfland</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308083000 +0000" stop="20250308090000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 4. Musical Shred</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308090000 +0000" stop="20250308093000 +0000">
-    <title lang="zh">Thrillbillies – Sn 4, Ep 7. Tom Spond</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308093000 +0000" stop="20250308100000 +0000">
-    <title lang="zh">Thrillbillies – Sn 4, Ep 8. Clay's Dream</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308100000 +0000" stop="20250308120500 +0000">
-    <title lang="zh">Thunderstruck 12</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308120500 +0000" stop="20250308121500 +0000">
-    <title lang="zh">Snowchef – Sn 3, Ep 7. What are the bakery secrets at Deer Valley?</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308121500 +0000" stop="20250308124500 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 5. Episode 5</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308124500 +0000" stop="20250308140000 +0000">
-    <title lang="zh">Surf Proprio</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308140000 +0000" stop="20250308143000 +0000">
-    <title lang="zh">LIVE: Simple Session 2025 – BMX Women Finals</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308143000 +0000" stop="20250308150000 +0000">
-    <title lang="zh">Thrillbillies – Sn 4, Ep 3. Hero Worship</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308150000 +0000" stop="20250308153000 +0000">
-    <title lang="zh">LIVE: Simple Session 2025 – BMX Women Finals</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308153000 +0000" stop="20250308160000 +0000">
-    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 9. The Tour</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308160000 +0000" stop="20250308163000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 14. Reality Check</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308163000 +0000" stop="20250308170000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 15. Pursuit</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308170000 +0000" stop="20250308173000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 5. Going Berserk</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308173000 +0000" stop="20250308180000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 6. Dish-Dash and Splash</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308180000 +0000" stop="20250308203500 +0000">
-    <title lang="zh">1000 Waves to Surfing Glory</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308203500 +0000" stop="20250308204500 +0000">
-    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308204500 +0000" stop="20250308210000 +0000">
-    <title lang="zh">Glitch</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308210000 +0000" stop="20250308230000 +0000">
-    <title lang="zh">Machotaildrop</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
-  <programme channel="93341" start="20250308230000 +0000" stop="20250309000000 +0000">
-    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
-    <desc />
-    <date>2025-03-08</date>
-  </programme>
   <programme channel="93341" start="20250309000000 +0000" stop="20250309010000 +0000">
     <title lang="zh">Vans Get-N Classic – Vol 3</title>
     <desc />
@@ -348,5 +163,140 @@
     <title lang="zh">1000 Waves to Surfing Glory</title>
     <desc />
     <date>2025-03-09</date>
+  </programme>
+  <programme channel="93341" start="20250310013500 +0000" stop="20250310014500 +0000">
+    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310014500 +0000" stop="20250310034500 +0000">
+    <title lang="zh">The Ordinary Skier</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310034500 +0000" stop="20250310041500 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310041500 +0000" stop="20250310043000 +0000">
+    <title lang="zh">Custom – Sn 3, Ep 10. The Life of Khule Ngubane</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310043000 +0000" stop="20250310050000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 2. New York! New York!</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310050000 +0000" stop="20250310060000 +0000">
+    <title lang="zh">Lift-Off: The Story of the Superpipe</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310060000 +0000" stop="20250310063000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 5, Ep 2. Ticket Home</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310063000 +0000" stop="20250310070000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 5, Ep 3. Lights Camera Action</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310070000 +0000" stop="20250310071500 +0000">
+    <title lang="zh">Lipe Dylong – 50 Years of Shaping</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310071500 +0000" stop="20250310073000 +0000">
+    <title lang="zh">MOTE: 50 Years Around the Sun</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310073000 +0000" stop="20250310080000 +0000">
+    <title lang="zh">The Gypsea Tour</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310080000 +0000" stop="20250310083000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 7. Flutag: Flight of the Shredheaded Stepchildren</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310083000 +0000" stop="20250310090000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 8. Sink or Swim</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310090000 +0000" stop="20250310113500 +0000">
+    <title lang="zh">1000 Waves to Surfing Glory</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310113500 +0000" stop="20250310114500 +0000">
+    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310114500 +0000" stop="20250310134500 +0000">
+    <title lang="zh">The Ordinary Skier</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310134500 +0000" stop="20250310141500 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310141500 +0000" stop="20250310143000 +0000">
+    <title lang="zh">What's Going On – Sn 1, Ep 2. Soli Bailey</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310143000 +0000" stop="20250310150000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 6. Johnny's Cage Fight</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310150000 +0000" stop="20250310153000 +0000">
+    <title lang="zh">On Surfari – Sn 1, Ep 7. Korea</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310153000 +0000" stop="20250310160000 +0000">
+    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 10. The Crew</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310160000 +0000" stop="20250310163000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 16. Viking Spirit</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310163000 +0000" stop="20250310170000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 17. Dutch Courage</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310170000 +0000" stop="20250310174500 +0000">
+    <title lang="zh">Lost in Thought</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310174500 +0000" stop="20250310202000 +0000">
+    <title lang="zh">1000 Waves to Surfing Glory</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310202000 +0000" stop="20250310203000 +0000">
+    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
+    <desc />
+    <date>2025-03-10</date>
+  </programme>
+  <programme channel="93341" start="20250310203000 +0000" stop="20250311000000 +0000">
+    <title lang="zh">The Ordinary Skier</title>
+    <desc />
+    <date>2025-03-10</date>
   </programme>
 </tv>
