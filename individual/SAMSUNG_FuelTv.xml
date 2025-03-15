@@ -1,169 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250314090655 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250314.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250314&amp;timezone=None">
+<tv date="20250315090606 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250315.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250315&amp;timezone=None">
   <channel id="93341">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608031118561677_38.png" />
   </channel>
-  <programme channel="93341" start="20250314000000 +0000" stop="20250314003000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 6. Almost There</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314003000 +0000" stop="20250314010000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 7. The Takeover</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314010000 +0000" stop="20250314013000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 4. Captain and Casey Island</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314013000 +0000" stop="20250314020000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 5. Office Space</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314020000 +0000" stop="20250314023000 +0000">
-    <title lang="zh">M80 – Sn 3, Ep 4. Riders 4 Christ</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314023000 +0000" stop="20250314030000 +0000">
-    <title lang="zh">M80 – Sn 3, Ep 5. Todd Potter</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314030000 +0000" stop="20250314033000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 12. Heavy Equipment</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314033000 +0000" stop="20250314040000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 13. Over A Barrel</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314040000 +0000" stop="20250314043000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 1. Street Cred</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314043000 +0000" stop="20250314050000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 2. Shoving Off</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314050000 +0000" stop="20250314060000 +0000">
-    <title lang="zh">Without a Paddle</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314060000 +0000" stop="20250314063000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 6, Ep 2. Camp Kick-Off</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314063000 +0000" stop="20250314070000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 6, Ep 3. Pros and Bros</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314070000 +0000" stop="20250314071500 +0000">
-    <title lang="zh">Returning Home</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314071500 +0000" stop="20250314073000 +0000">
-    <title lang="zh">Fogo de Graxa</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314073000 +0000" stop="20250314080000 +0000">
-    <title lang="zh">The Great Alpine Highway – 73</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314080000 +0000" stop="20250314083000 +0000">
-    <title lang="zh">Built to Shred – Sn 1, Ep 1. Slab City</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314083000 +0000" stop="20250314090000 +0000">
-    <title lang="zh">Built to Shred – Sn 1, Ep 2. Raging Waterless</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314090000 +0000" stop="20250314093000 +0000">
-    <title lang="zh">Thrillbillies – Sn 1, Ep 9. Monster Truck Madness</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314093000 +0000" stop="20250314100000 +0000">
-    <title lang="zh">Thrillbillies – Sn 1, Ep 1. Wet and Wild</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314100000 +0000" stop="20250314123500 +0000">
-    <title lang="zh">1000 Waves to Surfing Glory</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314123500 +0000" stop="20250314124500 +0000">
-    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314124500 +0000" stop="20250314144500 +0000">
-    <title lang="zh">The Ordinary Skier</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314144500 +0000" stop="20250314151500 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314151500 +0000" stop="20250314153000 +0000">
-    <title lang="zh">Matty Manners Surfboards</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314153000 +0000" stop="20250314160000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 1, Ep 1. Tom Burt &amp; Matt Hammer</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314160000 +0000" stop="20250314183500 +0000">
-    <title lang="zh">1000 Waves to Surfing Glory</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314183500 +0000" stop="20250314184500 +0000">
-    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314184500 +0000" stop="20250314204500 +0000">
-    <title lang="zh">The Ordinary Skier</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314204500 +0000" stop="20250314211500 +0000">
-    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314211500 +0000" stop="20250314230000 +0000">
-    <title lang="zh">The Pilot</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
-  <programme channel="93341" start="20250314230000 +0000" stop="20250315000000 +0000">
-    <title lang="zh">Legacy – Surfing Now and Then</title>
-    <desc />
-    <date>2025-03-14</date>
-  </programme>
   <programme channel="93341" start="20250315000000 +0000" stop="20250315003000 +0000">
     <title lang="zh">Behind the Gate – Sn 1, Ep 8. Rollercoaster</title>
     <desc />
@@ -309,8 +149,153 @@
     <desc />
     <date>2025-03-15</date>
   </programme>
-  <programme channel="93341" start="20250316000000 +0000" stop="20250317000000 +0000">
+  <programme channel="93341" start="20250316000000 +0000" stop="20250316023500 +0000">
     <title lang="zh">1000 Waves to Surfing Glory</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316023500 +0000" stop="20250316024500 +0000">
+    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316024500 +0000" stop="20250316044500 +0000">
+    <title lang="zh">The Ordinary Skier</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316044500 +0000" stop="20250316051500 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316051500 +0000" stop="20250316053000 +0000">
+    <title lang="zh">Returning Home</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316053000 +0000" stop="20250316060000 +0000">
+    <title lang="zh">Moments</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316060000 +0000" stop="20250316063000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 6, Ep 4. Lights, Camera, Action</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316063000 +0000" stop="20250316070000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 6, Ep 5. Don't Mess with Chuck</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316070000 +0000" stop="20250316071500 +0000">
+    <title lang="zh">Reason to Ride</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316071500 +0000" stop="20250316073000 +0000">
+    <title lang="zh">4 Days in Bali</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316073000 +0000" stop="20250316080000 +0000">
+    <title lang="zh">Moments</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316080000 +0000" stop="20250316083000 +0000">
+    <title lang="zh">Built to Shred – Sn 1, Ep 3. Hawaiian Style</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316083000 +0000" stop="20250316090000 +0000">
+    <title lang="zh">Built to Shred – Sn 1, Ep 4. Surf Rail of Death</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316090000 +0000" stop="20250316093000 +0000">
+    <title lang="zh">Thrillbillies – Sn 1, Ep 8. Turn Down The Suck</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316093000 +0000" stop="20250316100000 +0000">
+    <title lang="zh">Thrillbillies – Sn 1, Ep 3. When In Doubt, Gas It!</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316100000 +0000" stop="20250316103000 +0000">
+    <title lang="zh">Drive Thru – Sn 4, Ep 3. Jamaican Vibes</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316103000 +0000" stop="20250316110000 +0000">
+    <title lang="zh">Drive Thru – Sn 4, Ep 4. Dolphins, Sharks, and Rastas</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316110000 +0000" stop="20250316113000 +0000">
+    <title lang="zh">Moments</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316113000 +0000" stop="20250316120000 +0000">
+    <title lang="zh">Red Monkey, Full Moon</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316120000 +0000" stop="20250316123000 +0000">
+    <title lang="zh">Bubba's World – Sn 1, Ep 1. The Compound</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316123000 +0000" stop="20250316130000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 3, Ep 7. Spring Creek National</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316130000 +0000" stop="20250316133000 +0000">
+    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 5. Competitive Side</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316133000 +0000" stop="20250316134500 +0000">
+    <title lang="zh">MOTE: 50 Years Around the Sun</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316134500 +0000" stop="20250316162000 +0000">
+    <title lang="zh">1000 Waves to Surfing Glory</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316162000 +0000" stop="20250316163000 +0000">
+    <title lang="zh">Imperfect Waves – Sn 1, Ep 2. Andalucia</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316163000 +0000" stop="20250316183000 +0000">
+    <title lang="zh">The Ordinary Skier</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316183000 +0000" stop="20250316190000 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 6. Episode 6</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316190000 +0000" stop="20250316210000 +0000">
+    <title lang="zh">For The Dream</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316210000 +0000" stop="20250316220000 +0000">
+    <title lang="zh">Surfing Favela</title>
+    <desc />
+    <date>2025-03-16</date>
+  </programme>
+  <programme channel="93341" start="20250316220000 +0000" stop="20250317000000 +0000">
+    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
     <desc />
     <date>2025-03-16</date>
   </programme>
