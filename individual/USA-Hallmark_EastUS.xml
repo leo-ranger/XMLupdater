@@ -1,215 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250317092103 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250317.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250317&amp;timezone=None">
+<tv date="20250318091903 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250318.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250318&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403490" start="20250317010000 +0000" stop="20250317020000 +0000">
-    <title lang="zh">When Calls the Heart</title>
-    <desc>When Little Jack falls ill, Elizabeth and Nathan care for him together as Hickam and Mei race to secure medicine; the kids broadcast a baseball game over the radio to lift spirits.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317020000 +0000" stop="20250317040000 +0000">
-    <title lang="zh">The Wedding Veil</title>
-    <desc>After discovering a long-lost painting, museum curator Avery and new board member Peter investigate the artwork's origins as they plan to unveil it at a gala.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317040000 +0000" stop="20250317043000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>A young man claims to be the illegitimate son of Blanche's late husband.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317043000 +0000" stop="20250317050000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose must test for AIDS following the revelation that she may have received a tainted transfusion.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317050000 +0000" stop="20250317053000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose's childhood love reappears and vies with Miles for her attention.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317053000 +0000" stop="20250317060000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche's love life is the basis for her sister's romantic novel.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317060000 +0000" stop="20250317063000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy sees an old flame; Blanche and Sophia fall prey to con artists.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317063000 +0000" stop="20250317070000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>A young man claims to be the illegitimate son of Blanche's late husband.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317070000 +0000" stop="20250317073000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose must test for AIDS following the revelation that she may have received a tainted transfusion.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317073000 +0000" stop="20250317080000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose's childhood love reappears and vies with Miles for her attention.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317080000 +0000" stop="20250317083000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche's love life is the basis for her sister's romantic novel.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317083000 +0000" stop="20250317090000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy sees an old flame; Blanche and Sophia fall prey to con artists.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317090000 +0000" stop="20250317093000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Seattle's opera conductor (Patrick Stewart) believes Frasier is gay and starts wooing him with lavish gifts and invitations to high-society parties.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317093000 +0000" stop="20250317100000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier and Martin fall for the boys' childhood sitter (Wendie Malick); Niles begins to show symptoms of anxiety.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317100000 +0000" stop="20250317103000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Dr. Jack Morgan returns to Houston with the intention of resuming his romance with Reba, despite the fact that he is still married.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317103000 +0000" stop="20250317110000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba advises Van to treat Cheyenne as an equal in the family budget, which prompts him to give her an allowance.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317110000 +0000" stop="20250317113000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>In an effort to save Brock and Barbra Jean from losing their home, Reba and Van buy their house and rent it out to them.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317113000 +0000" stop="20250317120000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>After the family makes fun of Reba's poor eyesight, she secretly gets laser eye surgery, which leaves her temporarily blind.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317120000 +0000" stop="20250317123000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba and Brock must attend an anger management therapy session that was mandated by the court during their divorce.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317123000 +0000" stop="20250317130000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>A physical reveals that Reba has high blood pressure; Van asks for Brock's advice on anniversary gifts.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317130000 +0000" stop="20250317133000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba and Barbra Jean overwhelm Cheyenne with advice when she plans her second wedding to Van; Cheyenne tries to call off the wedding.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317133000 +0000" stop="20250317140000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba is rushed to the hospital after collapsing at Van and Cheyenne's non-wedding; Van and Cheyenne question their marriage.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317140000 +0000" stop="20250317143000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche supplies a date for wedding-bound Dorothy; Sophia puts a curse on the newlyweds.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317143000 +0000" stop="20250317150000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy's gambling addiction worries Sophia; Blanche dates a co-worker.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317150000 +0000" stop="20250317153000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>An FBI agent investigates the girls ahead of a possible visit from President Bush, which leads them to reminisce about their experiences together.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317153000 +0000" stop="20250317160000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>The girls continue to reminisce about their experiences together; an FBI agent announces that President Bush will be visiting their home; Dorothy readies a list of points to make to the president.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317160000 +0000" stop="20250317180000 +0000">
-    <title lang="zh">Love Locks</title>
-    <desc>A woman (Rebecca Romijn) returns to Paris after a 20-year absence and ends up reconnecting with her college boyfriend (Jerry O'Connell).</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317180000 +0000" stop="20250317200000 +0000">
-    <title lang="zh">Love's Portrait</title>
-    <desc>Museum curator Lily finds a painting that's identical to her and searches for the artist in Ireland. While there, a charming man joins her on her quest and helps her rediscover love.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317200000 +0000" stop="20250317220000 +0000">
-    <title lang="zh">Forever in My Heart</title>
-    <desc>Two people find love in Ireland but their dreams drive them apart. Five years later, they reunite and the woman must decide where her heart belongs.</desc>
-    <date>2025-03-17</date>
-  </programme>
-  <programme channel="403490" start="20250317220000 +0000" stop="20250318000000 +0000">
-    <title lang="zh">As Luck Would Have It</title>
-    <desc>A woman tries to win over a handsome local after entering a world-renowned matchmaking festival in Ireland.</desc>
-    <date>2025-03-17</date>
-  </programme>
   <programme channel="403490" start="20250318000000 +0000" stop="20250318020000 +0000">
     <title lang="zh">Love of the Irish</title>
     <desc>Tired of bad luck, Fiona takes her mother on a trip to Ireland to turn things around. She soon meets a charming single father who helps her make her own luck.</desc>
@@ -405,9 +199,199 @@
     <desc>Jenny feels an instant attraction to the handsome best man, Craig, at her sister's wedding. But her hopes of romance are quickly dashed when she is introduced to Craig's plus one, Lana.</desc>
     <date>2025-03-18</date>
   </programme>
-  <programme channel="403490" start="20250319000000 +0000" stop="20250320000000 +0000">
+  <programme channel="403490" start="20250319000000 +0000" stop="20250319020000 +0000">
     <title lang="zh">Winter in Vail</title>
     <desc>A Los Angeles event coordinator learns that her estranged uncle has recently passed away and left her a chalet in Vail, Colo.</desc>
     <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319020000 +0000" stop="20250319023000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Dorothy does not pay heed to Sophia's advice about the rekindled romance with Stan.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319023000 +0000" stop="20250319030000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Rose, who was adopted, meets her biological father while Sophia is in the hospital.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319030000 +0000" stop="20250319033000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Stan interests Dorothy in re-establishing a relationship; Rose makes an ill-advised sale.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319033000 +0000" stop="20250319040000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Blanche's childhood nanny pays a visit; Sophia's matchmaking irks Dorothy.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319040000 +0000" stop="20250319043000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Dorothy receives pressure because she refuses to give a passing grade to the school football star.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319043000 +0000" stop="20250319050000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Dorothy does not pay heed to Sophia's advice about the rekindled romance with Stan.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319050000 +0000" stop="20250319053000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Lilith's (Bebe Neuwirth) friend sets her up on a blind date with Frasier; Niles and Daphne urge Martin to get rid of his gun.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319053000 +0000" stop="20250319060000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>The media frenzy surrounding Maris' murder trial gives Niles celebrity, making Frasier increasingly jealous.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319060000 +0000" stop="20250319063000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Station staffers vie to lose the most weight for charity; Eddie observes a pigeon; Daphne keeps injuring Niles in her sleep.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319063000 +0000" stop="20250319070000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Fearing a lawsuit, Frasier takes in Ann (Julia Sweeney); Niles attempts to stop an embarrassing portrait of himself from being published.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319070000 +0000" stop="20250319073000 +0000">
+    <title lang="zh">Cheers</title>
+    <desc>Norm gets the whole gang involved when he invests in a combination laundry and tanning salon.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319073000 +0000" stop="20250319080000 +0000">
+    <title lang="zh">Cheers</title>
+    <desc>Diane brags about her date at a trendy restaurant, so Sam pretends to be a world-famous heart surgeon to get reservations of his own.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319080000 +0000" stop="20250319083000 +0000">
+    <title lang="zh">Psych</title>
+    <desc>Shawn and Juliet throw a housewarming party. Sean attempts to bond with Juliet's stepfather, and soon realizes he has a few secrets.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319083000 +0000" stop="20250319090000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Fearing a lawsuit, Frasier takes in Ann (Julia Sweeney); Niles attempts to stop an embarrassing portrait of himself from being published.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319090000 +0000" stop="20250319093000 +0000">
+    <title lang="zh">Cheers</title>
+    <desc>Norm gets the whole gang involved when he invests in a combination laundry and tanning salon.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319093000 +0000" stop="20250319100000 +0000">
+    <title lang="zh">Cheers</title>
+    <desc>Diane brags about her date at a trendy restaurant, so Sam pretends to be a world-famous heart surgeon to get reservations of his own.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319100000 +0000" stop="20250319103000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba and Van end their real estate partnership; Barbra Jean auditions to be the new weather girl at a local TV station.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319103000 +0000" stop="20250319110000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba deals with Kyra and Cheyenne, who are at odds because Kyra feels her sister can not get enough of the family spotlight.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319110000 +0000" stop="20250319113000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Kyra posts a video of Van on the Internet; Reba advises Brock to make a romantic gesture in order to save his marriage.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319113000 +0000" stop="20250319120000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Barbra Jean suspects that the station's new intern was brought in to be her successor.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319120000 +0000" stop="20250319123000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Sophia wants to join a convent, but finds the rules too strict; Blanche is in an accident.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319123000 +0000" stop="20250319130000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Blanche dreams of a visit from her deceased husband; Dorothy finds herself in a love triangle while looking to meet her ideal man.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319130000 +0000" stop="20250319133000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Sophia becomes a sexy seductress to lure Tony into bed; Rose promises celibacy.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319133000 +0000" stop="20250319140000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>The unexpected happens when Blanche tries to break up with her disabled boyfriend.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319140000 +0000" stop="20250319160000 +0000">
+    <title lang="zh">June in January</title>
+    <desc>When her fiance (Wes Brown) receives a job offer, a woman (Brooke D'Orsay) must suddenly plan her wedding in three weeks.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319160000 +0000" stop="20250319180000 +0000">
+    <title lang="zh">Romance to the Rescue</title>
+    <desc>Kyra plans to enter her dog in an agility show to impress a potential love interest. The problem is, she doesn't have a dog, so she needs to find and train one quickly.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319180000 +0000" stop="20250319200000 +0000">
+    <title lang="zh">A Picture of Her</title>
+    <desc>After becoming the subject of an award-winning magazine cover, a woman embarks on a quest to uncover the true identity of the photographer who snapped her photo.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319200000 +0000" stop="20250319220000 +0000">
+    <title lang="zh">The Story of Us</title>
+    <desc>The owner of a bookstore butts heads with an architect who plans on renovating the neighborhood.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250319220000 +0000" stop="20250320000000 +0000">
+    <title lang="zh">Matching Hearts</title>
+    <desc>As Valentine's Day nears, a matchmaker must find a mate for an entrepreneur who believes staying single is the key to success.</desc>
+    <date>2025-03-19</date>
+  </programme>
+  <programme channel="403490" start="20250320000000 +0000" stop="20250321000000 +0000">
+    <title lang="zh">Royal-ish</title>
+    <desc>Lacey is an amusement park princess who befriends eight-year-old Rose, a real-life princess and is recruited by her handsome father to travel to their kingdom and be the new governess.</desc>
+    <date>2025-03-20</date>
   </programme>
 </tv>
