@@ -1,199 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250320090715 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250320.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250320&amp;timezone=None">
+<tv date="20250321090844 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/93341/20250321.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=93341&amp;date=20250321&amp;timezone=None">
   <channel id="93341">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/08/20240608031118561677_38.png" />
   </channel>
-  <programme channel="93341" start="20250320000000 +0000" stop="20250320003000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 14. Shifting Sand</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320003000 +0000" stop="20250320010000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 15. Breaking Point</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320010000 +0000" stop="20250320013000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 12. Space Oddity</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320013000 +0000" stop="20250320020000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 13. Horrible Horror</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320020000 +0000" stop="20250320023000 +0000">
-    <title lang="zh">M80 – Sn 4, Ep 5. Alvaro Dal Fara</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320023000 +0000" stop="20250320030000 +0000">
-    <title lang="zh">M80 – Sn 4, Ep 6. Scott Stephens</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320030000 +0000" stop="20250320033000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 2. Dumpster Diving for Shred</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320033000 +0000" stop="20250320040000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 3. Shred Mountain</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320040000 +0000" stop="20250320043000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 4. Teen Wolf</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320043000 +0000" stop="20250320050000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 5. The US Open</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320050000 +0000" stop="20250320060000 +0000">
-    <title lang="zh">Freedom of Space</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320060000 +0000" stop="20250320063000 +0000">
-    <title lang="zh">Camp Woodward – Sn 7, Ep 2. Episode 2</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320063000 +0000" stop="20250320070000 +0000">
-    <title lang="zh">Camp Woodward – Sn 11, Ep 3. The Rivalry Begins</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320070000 +0000" stop="20250320071500 +0000">
-    <title lang="zh">Ya Missed It – Sn 1, Ep 1. Surfing Canggu Bali</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320071500 +0000" stop="20250320073000 +0000">
-    <title lang="zh">Monster Euro Tour – Episode 2</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320073000 +0000" stop="20250320080000 +0000">
-    <title lang="zh">Ya Missed It – Sn 1, Ep 3. Kandui – Off Season Ments</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320080000 +0000" stop="20250320083000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 5. Camp Shredleton</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320083000 +0000" stop="20250320090000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 6. Storming KONA</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320090000 +0000" stop="20250320093000 +0000">
-    <title lang="zh">Thrillbillies – Sn 1, Ep 6. Road Trip</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320093000 +0000" stop="20250320100000 +0000">
-    <title lang="zh">Thrillbillies – Sn 1, Ep 12. Summer Fun</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320100000 +0000" stop="20250320103000 +0000">
-    <title lang="zh">Drive Thru – Sn 5, Ep 3. Handbags</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320103000 +0000" stop="20250320110000 +0000">
-    <title lang="zh">Drive Thru – Sn 5, Ep 4. Planes, Trains and Automobiles</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320110000 +0000" stop="20250320113000 +0000">
-    <title lang="zh">Lost in Chile</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320113000 +0000" stop="20250320120000 +0000">
-    <title lang="zh">Ya Missed It – Sn 1, Ep 3. Kandui – Off Season Ments</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320120000 +0000" stop="20250320123000 +0000">
-    <title lang="zh">Bubba's World – Sn 1, Ep 3. The Call</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320123000 +0000" stop="20250320130000 +0000">
-    <title lang="zh">The Moto: Inside the Outdoors – Sn 3, Ep 9. Unadilla National</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320130000 +0000" stop="20250320133000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 4, Ep 8. Finale</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320133000 +0000" stop="20250320140000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 5, Ep 1. Stakes are High</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320140000 +0000" stop="20250320154500 +0000">
-    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320154500 +0000" stop="20250320174500 +0000">
-    <title lang="zh">For The Dream</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320174500 +0000" stop="20250320180000 +0000">
-    <title lang="zh">Episode 1</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320180000 +0000" stop="20250320183000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 7. Music Making, Awards and Pro's Teaching</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320183000 +0000" stop="20250320190000 +0000">
-    <title lang="zh">Fuel TV presents Camp Woodward – Sn 3, Ep 8. Giving Back and Giving In</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320190000 +0000" stop="20250320204500 +0000">
-    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320204500 +0000" stop="20250320224500 +0000">
-    <title lang="zh">For The Dream</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320224500 +0000" stop="20250320230000 +0000">
-    <title lang="zh">Episode 1</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320230000 +0000" stop="20250320234500 +0000">
-    <title lang="zh">CPH Open: Everyone is a Winner</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
-  <programme channel="93341" start="20250320234500 +0000" stop="20250321000000 +0000">
-    <title lang="zh">Homegrown – Alaskan Ski Area</title>
-    <desc />
-    <date>2025-03-20</date>
-  </programme>
   <programme channel="93341" start="20250321000000 +0000" stop="20250321003000 +0000">
     <title lang="zh">Behind the Gate – Sn 1, Ep 16. Swede Dreams</title>
     <desc />
@@ -374,9 +184,179 @@
     <desc />
     <date>2025-03-21</date>
   </programme>
-  <programme channel="93341" start="20250322000000 +0000" stop="20250323000000 +0000">
+  <programme channel="93341" start="20250322000000 +0000" stop="20250322003000 +0000">
     <title lang="zh">Behind the Gate – Sn 1, Ep 18. Riders On The Storm</title>
     <desc />
     <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322003000 +0000" stop="20250322010000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 19. Nerves Of Steel</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322010000 +0000" stop="20250322013000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322013000 +0000" stop="20250322020000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 4. Episode 4</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322020000 +0000" stop="20250322023000 +0000">
+    <title lang="zh">M80 – Sn 5, Ep 2. Andre Villa</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322023000 +0000" stop="20250322030000 +0000">
+    <title lang="zh">M80 – Sn 5, Ep 3. Lance Coury</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322030000 +0000" stop="20250322033000 +0000">
+    <title lang="zh">Built to Shred – Sn 2, Ep 6. Storming KONA</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322033000 +0000" stop="20250322040000 +0000">
+    <title lang="zh">Built to Shred – Sn 2, Ep 7. 3 Wishes</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322040000 +0000" stop="20250322043000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 1. Tailgate Alaska</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322043000 +0000" stop="20250322050000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 2. Taming Alaska</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322050000 +0000" stop="20250322060000 +0000">
+    <title lang="zh">Surfing Favela</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322060000 +0000" stop="20250322063000 +0000">
+    <title lang="zh">Camp Woodward – Sn 7, Ep 4. Episode 4</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322063000 +0000" stop="20250322070000 +0000">
+    <title lang="zh">Camp Woodward – Sn 11, Ep 5. Land It Dude</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322070000 +0000" stop="20250322071500 +0000">
+    <title lang="zh">Monster Euro Tour – Episode 2</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322071500 +0000" stop="20250322073000 +0000">
+    <title lang="zh">Rayssa Leal – From Brazil To The World</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322073000 +0000" stop="20250322080000 +0000">
+    <title lang="zh">Terra Incognita</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322080000 +0000" stop="20250322083000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 2. Shred Playground</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322083000 +0000" stop="20250322090000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 3. Shred Penitentiary</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322090000 +0000" stop="20250322093000 +0000">
+    <title lang="zh">Thrillbillies – Sn 3, Ep 3. Board Meeting</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322093000 +0000" stop="20250322100000 +0000">
+    <title lang="zh">Thrillbillies – Sn 3, Ep 4. The Jackhammer</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322100000 +0000" stop="20250322114500 +0000">
+    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322114500 +0000" stop="20250322134500 +0000">
+    <title lang="zh">For The Dream</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322134500 +0000" stop="20250322140000 +0000">
+    <title lang="zh">Episode 1</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322140000 +0000" stop="20250322143000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 11. Bikin' Buddies</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322143000 +0000" stop="20250322150000 +0000">
+    <title lang="zh">Thrillbillies – Sn 4, Ep 12. Sir Crumsalot &amp; King Shrimpy</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322150000 +0000" stop="20250322164500 +0000">
+    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322164500 +0000" stop="20250322184500 +0000">
+    <title lang="zh">For The Dream</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322184500 +0000" stop="20250322190000 +0000">
+    <title lang="zh">Episode 1</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322190000 +0000" stop="20250322194500 +0000">
+    <title lang="zh">Riding – Sn 2, Ep 2. Mozambique</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322194500 +0000" stop="20250322200000 +0000">
+    <title lang="zh">Lipe Dylong – 50 Years of Shaping</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322200000 +0000" stop="20250322214500 +0000">
+    <title lang="zh">Boardroom – Legends of Surfboard Shaping</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322214500 +0000" stop="20250322230000 +0000">
+    <title lang="zh">Surf Proprio</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322230000 +0000" stop="20250322234500 +0000">
+    <title lang="zh">Drive to Ride</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250322234500 +0000" stop="20250323000000 +0000">
+    <title lang="zh">Skate Total Urbe 2021</title>
+    <desc />
+    <date>2025-03-22</date>
+  </programme>
+  <programme channel="93341" start="20250323000000 +0000" stop="20250324000000 +0000">
+    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
+    <desc />
+    <date>2025-03-23</date>
   </programme>
 </tv>
