@@ -1,199 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250328091945 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250328.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250328&amp;timezone=None">
+<tv date="20250329091913 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250329.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250329&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403490" start="20250328000000 +0000" stop="20250328020000 +0000">
-    <title lang="zh">Mystery 101</title>
-    <desc>A community theater troupe mounts a production of a murder mystery that Amy Winslow unearthed; on opening night, someone tries to kill the leading lady, and Travis is forced to halt the show because it has become a crime scene.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328020000 +0000" stop="20250328023000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche's plans to marry go awry when she discovers her fiance is a bigamist.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328023000 +0000" stop="20250328030000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche, Dorothy and Sophia cheer up a hospitalized Rose after she becomes ill at a crashed class reunion.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328030000 +0000" stop="20250328033000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Before waking from surgery, Rose dreams that she, Blanche and Dorothy are 100 years in the future.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328033000 +0000" stop="20250328040000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche pairs Dorothy with her visiting uncle (Leslie Nielsen), but later regrets her matchmaking.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328040000 +0000" stop="20250328043000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy and Lucas' plot to get even with Blanche leads to a surprise wedding.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328043000 +0000" stop="20250328050000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche's plans to marry go awry when she discovers her fiance is a bigamist.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328050000 +0000" stop="20250328053000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>When Brock spends a night in Jake's treehouse, Reba finds herself babysitting her ex-husband's newborn.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328053000 +0000" stop="20250328060000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Cheyenne goes into labor shortly before her high-school graduation ceremony; Reba sings a lullaby to her new granddaughter in the hospital.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328060000 +0000" stop="20250328063000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba's children carouse at Brock and Barbra Jean's place; Cheyenne and Van commiserate with each other about the baby.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328063000 +0000" stop="20250328070000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Just when Reba thinks things are getting back to normal, the Montgomery family is forced to move back in.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328070000 +0000" stop="20250328073000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier's agent (Harriet Sansom Harris) conspires with Roz to help Frasier win a local broadcasting award.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328073000 +0000" stop="20250328080000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier searches the city for Martin's recliner after it is accidentally thrown away.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328080000 +0000" stop="20250328083000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier's fear that he is entering middle age causes him to hesitate before asking out a young saleswoman.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328083000 +0000" stop="20250328090000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Frasier travels to the wilds of Canada with Martin, Niles, Daphne and Eddie the dog.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328090000 +0000" stop="20250328093000 +0000">
-    <title lang="zh">Cheers</title>
-    <desc>Sam and Diane play referee when they are invited to dinner by Frasier and Lilith.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328093000 +0000" stop="20250328100000 +0000">
-    <title lang="zh">Cheers</title>
-    <desc>Sam and Diane attend a prenuptial session with prominent marriage counselor Dr. Simon Finch-Royce (John Cleese).</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328100000 +0000" stop="20250328103000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Cheyenne and Van apply for food stamps; against her better judgement, Reba accepts working at her ex-husband's office.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328103000 +0000" stop="20250328110000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba accepts a job reporting to Barbra Jean in Brock's dental office; Cheyenne goes to college; Van stays home to watch Elizabeth.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328110000 +0000" stop="20250328113000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba tries to refrain from making fun of Barbra Jean during Jake's birthday party, but her plan backfires.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328113000 +0000" stop="20250328120000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Kyra is irked when Reba takes a romantic interest in her boyfriend's dad, creating a double-dating dilemma.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328120000 +0000" stop="20250328123000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy must face her ex-husband Stanley Zbornak when her daughter announces her upcoming wedding.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328123000 +0000" stop="20250328130000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Rose finds herself romantically involved for the first time since her husband's death.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328130000 +0000" stop="20250328133000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Blanche must decide whether to donate one of her kidneys to the sister she hates.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328133000 +0000" stop="20250328140000 +0000">
-    <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
-  <category lang="en">Series</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-    <desc>Dorothy's attractive date flirts with Blanche, sparking a rivalry between the two.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328140000 +0000" stop="20250328160000 +0000">
-    <title lang="zh">A Paris Proposal</title>
-    <desc>Emily and Sebastian travel to Paris to land an ad account, but soon wind up in a tricky situation when the client mistakes them for a happy couple.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328160000 +0000" stop="20250328180000 +0000">
-    <title lang="zh">Country at Heart</title>
-    <desc>A struggling country singer meets a Nashville songwriter in need of inspiration. Teaming up to write a song, their work gets complicated but results in both a hit song and true love.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328180000 +0000" stop="20250328200000 +0000">
-    <title lang="zh">The Color of Rain</title>
-    <desc>While consoling each other over the recent loss of their spouses, a man (Warren Christie) and a woman (Lacey Chabert) grow close and fall in love.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328200000 +0000" stop="20250328220000 +0000">
-    <title lang="zh">One Winter Weekend</title>
-    <desc>Burned out on dating, Cara, a magazine writer, decides to go on a dating detox. She plans a ski getaway with her best friend, but the resort mistakenly double-books them with two eligible men, including Ben, an entrepreneur.</desc>
-    <date>2025-03-28</date>
-  </programme>
-  <programme channel="403490" start="20250328220000 +0000" stop="20250329000000 +0000">
-    <title lang="zh">Next Stop, Christmas</title>
-    <desc>Angie wonders what life would be like if she had married an ex who became famous. When she finds herself magically transported into the past, Angie has the chance to relive that Christmas and learn what (and who) is truly important to her.</desc>
-    <date>2025-03-28</date>
-  </programme>
   <programme channel="403490" start="20250329000000 +0000" stop="20250329020000 +0000">
     <title lang="zh">Leah's Perfect Gift</title>
     <desc>A Jewish Leah accompanies her boyfriend to Connecticut to experience a traditional Christmas with his family.</desc>
@@ -353,7 +163,172 @@
     <desc>Helen gets blindsided when her husband asks for a separation. With help from a friendly vet and a rambunctious stray dog, she rediscovers her strength and begins to rebuild her life.</desc>
     <date>2025-03-29</date>
   </programme>
-  <programme channel="403490" start="20250330000000 +0000" stop="20250331000000 +0000">
+  <programme channel="403490" start="20250330000000 +0000" stop="20250330020100 +0000">
+    <title lang="zh">Hearts Around the Table: Shari's Second Act</title>
+    <desc>Shari just moved back to D.C. after a breakup and hopes to start painting again. Inspiration hits when she meets Evan, a repairman who winds up actually being a gallery owner.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330020100 +0000" stop="20250330040100 +0000">
+    <title lang="zh">Royal-ish</title>
+    <desc>Lacey is an amusement park princess who befriends eight-year-old Rose, a real-life princess and is recruited by her handsome father to travel to their kingdom and be the new governess.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330040100 +0000" stop="20250330043100 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Sophia challenges Dorothy to prove she is spry enough to take a trip to Italy.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330043100 +0000" stop="20250330050100 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>After a burglar enters the house, Rose buys a gun to feel more safe.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330050100 +0000" stop="20250330053100 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Blanche dates a young aerobics instructor; Rose's mother, Alma Lindstrom, teaches her an important lesson.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330053100 +0000" stop="20250330060100 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>The women bring their separate views of death into focus after Sophia suffers the symptoms of a heart attack.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330060100 +0000" stop="20250330063000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Dorothy's ex-husband comes to town and spends the night with her.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330063000 +0000" stop="20250330070000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Sophia challenges Dorothy to prove she is spry enough to take a trip to Italy.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330070000 +0000" stop="20250330073000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>After a burglar enters the house, Rose buys a gun to feel more safe.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330073000 +0000" stop="20250330080000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Blanche dates a young aerobics instructor; Rose's mother, Alma Lindstrom, teaches her an important lesson.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330080000 +0000" stop="20250330083000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>The women bring their separate views of death into focus after Sophia suffers the symptoms of a heart attack.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330083000 +0000" stop="20250330090000 +0000">
+    <title lang="zh">The Golden Girls</title>
+  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+    <desc>Dorothy's ex-husband comes to town and spends the night with her.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330090000 +0000" stop="20250330093000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Martin objects when Frasier demands that Eddie be neutered after fathering a litter of puppies.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330093000 +0000" stop="20250330100000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Frasier invites the new station manager (Eric Lutes) home for dinner and a date with Daphne, but Frasier is unaware that the man is gay.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330100000 +0000" stop="20250330103000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Cheyenne convinces her mother to try speed-dating after Reba has a disastrous night on the town.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330103000 +0000" stop="20250330110000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba invites her beau home to meet the family; Brock and the children attend Barbra Jean's family reunion in Fisheye Bottom.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330110000 +0000" stop="20250330113000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba invites her beau home to meet the family; Brock and the children attend Barbra Jean's family reunion in Fisheye Bottom.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330113000 +0000" stop="20250330120000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba learns she will be spending Christmas Eve alone; Cheyenne and Van try to start a holiday tradition, but their plan backfires.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330120000 +0000" stop="20250330123000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Everyone takes turns in front of the camera to create a video family album for Cheyenne's baby, Elizabeth.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330123000 +0000" stop="20250330130000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba and Barbra Jean are furious when Brock reveals he had a vasectomy; Cheyenne and Van move out of the house in protest when Reba lays down new rules following a pregnancy scare.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330130000 +0000" stop="20250330150000 +0000">
+    <title lang="zh">In My Dreams</title>
+    <desc>After meeting only in their dreams, a man (Mike Vogel) and a woman (Katharine McPhee) have seven days to turn their romantic visions into reality.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330150000 +0000" stop="20250330170000 +0000">
+    <title lang="zh">Love, Romance &amp; Chocolate</title>
+    <desc>On a trip to Belgium, Emma is introduced to renowned chocolatier Luc, who is in the midst of a competition to create the most romantic chocolate in Belgium for the upcoming Belgian royal wedding. A budding romance develops between the pair.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330170000 +0000" stop="20250330190000 +0000">
+    <title lang="zh">Two Scoops of Italy</title>
+    <desc>When an American chef travels to a quaint village in Italy, she falls in love with the flavors, the culture, and the gentleman who helped her discover it all.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330190000 +0000" stop="20250330210000 +0000">
+    <title lang="zh">The Wish Swap</title>
+    <desc>When Casey and Henry find themselves celebrating their birthdays at the same restaurant, they make birthday wishes at the same time which are granted. However they end up getting each other's wishes.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330210000 +0000" stop="20250330230000 +0000">
+    <title lang="zh">Head Over Heels</title>
+    <desc>Addison lands a life-changing internship at a studio leading up to the New York Fashion Week. Addison is determined to hold onto her integrity and her family values while struggling to balance it all and forge a path to success and romance.</desc>
+    <date>2025-03-30</date>
+  </programme>
+  <programme channel="403490" start="20250330230000 +0000" stop="20250331000000 +0000">
     <title lang="zh">Hearts Around the Table: Shari's Second Act</title>
     <desc>Shari just moved back to D.C. after a breakup and hopes to start painting again. Inspiration hits when she meets Evan, a repairman who winds up actually being a gallery owner.</desc>
     <date>2025-03-30</date>
