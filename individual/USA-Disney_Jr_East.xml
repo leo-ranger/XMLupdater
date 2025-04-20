@@ -1,429 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250419083824 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403674/20250419.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403674&amp;date=20250419&amp;timezone=None">
+<tv date="20250420084358 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403674/20250420.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403674&amp;date=20250420&amp;timezone=None">
   <channel id="403674">
     <display-name lang="US">Disney Junior USA - East</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403674" start="20250419002000 +0000" stop="20250419005000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>With the help of Reptil, Team Spidey gets new dino powers to defeat Gobby's Dino-Mech; team Spidey must stop a ghost that's stealing from the museum.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419005000 +0000" stop="20250419011500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bingo is desperate to show off her handstand skills. Bluey turns a tree stump into a game of Helicopter. Chloe tries to teach her dad to play Bluey's game.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419011500 +0000" stop="20250419014500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey plays a game of "Shops" with her friends; a pool trip is a blast, until Dad forgets everything; the Heeler family plays a game and goes on an adventure.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419014500 +0000" stop="20250419015500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>While playing a game of hairdressers, Bluey learns that Dad has nits.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419015500 +0000" stop="20250419022500 +0000">
-    <title lang="zh">SuperKitties</title>
-    <desc>After Sparks falls off his SuperKitty Kit, the SuperKitties help him get the courage to ride it again; Bitsy eats too many treats and can't help the team stop Lab Rat.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419022500 +0000" stop="20250419025000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>When the villains team up to take out the heroes, it's up to Ghost-Spider and Ms. Marvel to save the day; when Spidey loses one of his web-shooters, two kids get the dream of a lifetime to help him recover it from Doc Ock.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419025000 +0000" stop="20250419031500 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Electro steals the subway's electricity and the team uses its knowledge to stop her; Team Spidey must rescue Mr. Von Carnegie from Gobby and Rhino, who seek treasure.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419031500 +0000" stop="20250419034000 +0000">
-    <title lang="zh">Star Wars: Young Jedi Adventures</title>
-    <desc>The Jedi search for a creature; Kai must stop a thief.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419034000 +0000" stop="20250419040500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bingo finds a toy turtle at the playground and wants to take him home; Mom's sister Brandy comes over for a visit; Bluey and Bingo hide under the house and spy on two mysterious tradies working in the backyard.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419040500 +0000" stop="20250419043000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>At the pharmacy, Bluey and Bingo have fun playing with the CCTV screens.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419043000 +0000" stop="20250419045500 +0000">
-    <title lang="zh">Dino Ranch</title>
-    <desc>The Cassidys and Tinhorns face off in a race, but they must work together to finish it; Jon makes a mistake while making a delivery, and realizes there's always more to learn.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419045500 +0000" stop="20250419052000 +0000">
-    <title lang="zh">Dino Ranch</title>
-    <desc>The Ranchers switch their dino-rides by riding each other's dinosaurs; eggs start hatching, so Min tries to wrangle the newborns and keep them safe.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419052000 +0000" stop="20250419054500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419054500 +0000" stop="20250419061000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo play pirates on the hammock swing; Bingo's favorite toy goes missing; Bluey needs advice on dealing with noisy neighbors.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419061000 +0000" stop="20250419063500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Muffin plays the game of library her way; Mum, Dad and Bingo must pass swim school; Bluey, Bingo and Dad always take out the bins.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419063500 +0000" stop="20250419070000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419070000 +0000" stop="20250419072500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo want a lick of each other's ice cream; Bingo is playing Bad Mood with Dad; two babysitters turn up to look after Bluey and Bingo.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419072500 +0000" stop="20250419075000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Dad thinks Bluey and Bingo have too many toys; Bluey and friends get ambushed by the Terriers; Bluey and Bingo play a game of Burger Shop with Dad.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419075000 +0000" stop="20250419081500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419081500 +0000" stop="20250419084000 +0000">
-    <title lang="zh">Mickey and the Roadster Racers</title>
-    <desc>The gang works to save Goofy's favorite drive-in movie theater with a grand reopening.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419084000 +0000" stop="20250419090500 +0000">
-    <title lang="zh">Mickey and the Roadster Racers</title>
-    <desc>Donald must take charge of the garage when Mickey leaves on business; the Happy Helpers guard a valuable painting.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419090500 +0000" stop="20250419093000 +0000">
-    <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
-  <category lang="en">Educational</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Kids</category>
-    <desc>Donald, Mickey and Goofy try to figure out what sort of animal has lost their egg; Donald takes care of the egg.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419093000 +0000" stop="20250419100000 +0000">
-    <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
-  <category lang="en">Educational</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Kids</category>
-    <desc>Mickey finds an egg that hatches into a dragon; he and his friends must convince Wizard Pete that they did not steal it.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419100000 +0000" stop="20250419102500 +0000">
-    <title lang="zh">Firebuds</title>
-    <desc>Bo fails to watch a young wee-hicle, and they both end up stuck on a raft in the creek; Piston must overcome his fears of mythical monster trucks to save his lost friends.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419102500 +0000" stop="20250419105000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Dad tries to teach Bluey how to play chess, but Mom thinks she is still too young; Bingo helps Mom make an omelette for Dad's birthday; Lucky's Dad is outraged that modern Pass the Parcel has a present in every layer.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419105000 +0000" stop="20250419111500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419111500 +0000" stop="20250419113000 +0000">
-    <title lang="zh">Morphle and the Magic Pets</title>
-    <desc>Morphle The Bus takes the family on a once-in-a-lifetime field trip; after a rainstorm, Mila, Morphle and Jordie set out to hug a rainbow.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419113000 +0000" stop="20250419120000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey can't get to sleep, so Mum reads her a story; Dad pretends he was born yesterday; Bingo and Dad brave a magpie protecting its nest.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419120000 +0000" stop="20250419123000 +0000">
-    <title lang="zh">Kindergarten: The Musical</title>
-    <desc>Berti, along with her new friends, navigates the exciting and emotional experiences that come with starting school for the very first time.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419123000 +0000" stop="20250419130000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Dad plays trampoline games with Bluey and Bingo; Dad plans on throwing out Bluey's old drawings; Bingo causes chaos at Bluey's backyard zoo.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419130000 +0000" stop="20250419133000 +0000">
-    <title lang="zh">Disney Jr's Ariel</title>
-    <desc>Fernie makes a new friend; Ariel finds a lost dogfish.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419133000 +0000" stop="20250419140000 +0000">
-    <title lang="zh">Mickey Mouse Funhouse</title>
-    <desc>To help them find out if dragons are good or bad, Funny takes Mickey, Minnie and their friends to the Kingdom of Majestica, where they are transformed into knights, knaves and princesses.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419140000 +0000" stop="20250419143000 +0000">
-    <title lang="zh">SuperKitties</title>
-    <desc>Mr. Puppypaws steals royal objects from the Museum; When Cat Burglar shrinks Buddy on his way to steal musical instruments, Buddy learns that he does not have to be big to be super.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419143000 +0000" stop="20250419150000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and her friends play a game of helicopter with a tree stump; Chloe tries to teach her dad to improvise and play Bluey's game of Octopus at home; Mum reminisces about Bluey and Judo as babies, where it was a race to see who would walk first.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419150000 +0000" stop="20250419153000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo make mud pizzas; Bluey and Bingo's giant, invisible friend, Tina; Bluey promises her customer Bingo the best tour ever.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419153000 +0000" stop="20250419160000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419160000 +0000" stop="20250419173500 +0000">
-    <title lang="zh">Finding Nemo</title>
-    <desc>A clown fish (Albert Brooks) embarks on a journey to find his son (Alexander Gould) after losing him in the Great Barrier Reef.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419173500 +0000" stop="20250419180000 +0000">
-    <title lang="zh">Kindergarten: The Musical</title>
-    <desc>Berti really has to go to the bathroom, but she holds it in because she doesn't want to miss her turn with the glitter pen; Radish is super grumpy and nobody can cheer him up!</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419180000 +0000" stop="20250419182500 +0000">
-    <title lang="zh">Pupstruction</title>
-    <desc>Chick eggs roll away from their coop in the middle of an Easter egg hunt and the Pups must find them; the Pups help a yodeler not to cause any more avalanches.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419182500 +0000" stop="20250419185000 +0000">
-    <title lang="zh">SuperKitties</title>
-    <desc>When Zsa-Zsa steals other birds' goodies for her Aunt Lola, the SuperKitties must save the Songbird Soiree; Lab Rat lights up Kittydale in the middle of the night.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419185000 +0000" stop="20250419192500 +0000">
-    <title lang="zh">SuperKitties</title>
-    <desc>Buddy joins the Bunny Brigade and helps the SuperKitties save Easter treats from Zsa-Zsa; Lab Rat steals all the Easter eggs from the Kittydale Easter Egg Hunt.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419192500 +0000" stop="20250419195000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The Heelers go on a road trip! Mum bans the girls from saying the word 'dunny.' Bluey wants to help Dad make Bingo's birthday cake.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419195000 +0000" stop="20250419201500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo are worn as Mum and Dad's backpacks; Bluey and Chloe embark on a quest to save the kingdom; while playing copycat, Bluey finds a hurt budgie.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419201500 +0000" stop="20250419204000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419204000 +0000" stop="20250419210500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey keeps breaking her promises; Bluey teaches Bingo how to use magic; Bluey teaches Bingo to be more like him.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419210500 +0000" stop="20250419213000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Dad is accused of fluffing in Bluey's face; Bluey and Mackenzie play with two older friends; Bluey and Bingo want Dad all to themselves.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419213000 +0000" stop="20250419220000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Invisible mischievous fairies infest the house; Bluey, Bingo and Dad play "Work!"; Bluey and Dad lift Bingo's spirits.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419220000 +0000" stop="20250419222500 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Doc Ock shrinks Spidey, Ghost-Spider and Spin down to the size of actual spiders; when Green Goblin ruins the Spidey Team's egg hunt, the heroes must foil his dastardly plans.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419222500 +0000" stop="20250419225000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Black Cat is stealing stuffed animals, and only Team Spidey can stop her; the Spidey Team works together to rescue Hulk's pet, Buns Buns, after Doc Ock multiplies her.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419225000 +0000" stop="20250419231500 +0000">
-    <title lang="zh">Mickey Mouse Funhouse</title>
-    <desc>It takes Goofy longer to learn ballet steps than Donald and Mickey; King Ludwig's nephews, Hueth, Deweth, and Loueth, struggle to learn about new Easter activities in Majestica.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419231500 +0000" stop="20250419234000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Rhino and Green Goblin steal the city's groundhog on Groundhog Day; when Zola steals all the toys, Team Spidey must get them back before Miles' little sister has her birthday.</desc>
-    <date>2025-04-19</date>
-  </programme>
-  <programme channel="403674" start="20250419234000 +0000" stop="20250420000000 +0000">
-    <title lang="zh">Robogobo</title>
-    <desc>Hopper keeps his promise to care for a rare egg, even when Gimme Pig steals it. When Gill the goldfish flees his vet check-up, RoboGobo must save him from Gimme Pig.</desc>
-    <date>2025-04-19</date>
-  </programme>
   <programme channel="403674" start="20250420000500 +0000" stop="20250420003000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -624,7 +204,7 @@
     <desc>Mickey enlists his hot-rod racing friends to join his crew for a Spring Grand Prix throughout Hot Dog Hills; the Happy Helpers find perfect plants for customers on Mother's Day.</desc>
     <date>2025-04-20</date>
   </programme>
-  <programme channel="403674" start="20250420090500 +0000" stop="20250421000000 +0000">
+  <programme channel="403674" start="20250420090500 +0000" stop="20250420093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
   <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
   <category lang="en">Educational</category>
@@ -633,5 +213,700 @@
   <category lang="en">Kids</category>
     <desc>Minnie and Daisy board the Glove Balloon in an effort make rain clouds so they can water their gardens.</desc>
     <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420093000 +0000" stop="20250420100000 +0000">
+    <title lang="zh">Mickey Mouse Clubhouse</title>
+  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <category lang="en">Educational</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Kids</category>
+    <desc>Mickey and friends celebrate the first day of spring by looking for specially decorated eggs.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420100000 +0000" stop="20250420102500 +0000">
+    <title lang="zh">Firebuds</title>
+    <desc>Wayne disguises himself as a science fair judge and tricks Jayden into making him an invention; the Firebuds take part in a first responder scavenger hunt.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420102500 +0000" stop="20250420105000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo love to video chat; Dad agrees to buy ice cream; Dad tells a real-life fairy tale.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420105000 +0000" stop="20250420111500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420111500 +0000" stop="20250420113000 +0000">
+    <title lang="zh">Morphle and the Magic Pets</title>
+    <desc>Mila helps Chroma overcome his stage fright for a talent show at the Magic Pet Center; Maria has a new RoboPet.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420113000 +0000" stop="20250420120000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey, Bingo and Mum enjoy a game of Keepy-Uppy around the house; Bluey and Bingo squabble over their magic xylophone; Coco keeps taking shortcuts while playing Shadowlands.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420120000 +0000" stop="20250420123000 +0000">
+    <title lang="zh">Kindergarten: The Musical</title>
+    <desc>Berti really has to go to the bathroom, but she holds it in because she doesn't want to miss her turn with the glitter pen; Radish is super grumpy and nobody can cheer him up!</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420123000 +0000" stop="20250420130000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play The Quiet Game; when Mum and Dad have a disagreement, Bluey makes Dad write a love letter to Mum; in the park, Bluey meets a new playmate, Winnie.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420130000 +0000" stop="20250420133000 +0000">
+    <title lang="zh">Disney Jr's Ariel</title>
+    <desc>Ursula gets sick; Ariel and family take a road trip.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420133000 +0000" stop="20250420140000 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>It takes Goofy longer to learn ballet steps than Donald and Mickey; King Ludwig's nephews, Hueth, Deweth, and Loueth, struggle to learn about new Easter activities in Majestica.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420140000 +0000" stop="20250420143000 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>Buddy joins the Bunny Brigade and helps the SuperKitties save Easter treats from Zsa-Zsa; Lab Rat steals all the Easter eggs from the Kittydale Easter Egg Hunt.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420143000 +0000" stop="20250420150000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420150000 +0000" stop="20250420153000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420153000 +0000" stop="20250420160000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Doc Ock shrinks Spidey, Ghost-Spider and Spin down to the size of actual spiders; when Green Goblin ruins the Spidey Team's egg hunt, the heroes must foil his dastardly plans.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420160000 +0000" stop="20250420172500 +0000">
+    <title lang="zh">The Lion King</title>
+    <desc>After the death of his royal father, a young lion returns to battle his scheming uncle for the jungle throne.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420172500 +0000" stop="20250420181500 +0000">
+    <title lang="zh">Mickey's Great Clubhouse Hunt</title>
+    <desc>Mickey Mouse (Wayne Allwine) must save his friends after his clubhouse mysteriously disappears.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420181500 +0000" stop="20250420184000 +0000">
+    <title lang="zh">Robogobo</title>
+    <desc>Hopper keeps his promise to care for a rare egg, even when Gimme Pig steals it. When Gill the goldfish flees his vet check-up, RoboGobo must save him from Gimme Pig.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420184000 +0000" stop="20250420191000 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>Buddy joins the Bunny Brigade and helps the SuperKitties save Easter treats from Zsa-Zsa; Lab Rat steals all the Easter eggs from the Kittydale Easter Egg Hunt.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420191000 +0000" stop="20250420195000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Having heaps of fun with Bluey's family.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420195000 +0000" stop="20250420201500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Mum gets everyone to play musical statues.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420201500 +0000" stop="20250420204000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420204000 +0000" stop="20250420210500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Jack and Rusty play Army at school; the girls set up a fancy restaurant for Mum and Dad; Bluey, Bingo and Muffin strike a deal with the dads.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420210500 +0000" stop="20250420213000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The Heelers take a trip to Hammerbarn; Bingo has an idea for a new game; Dad eats Bingo's last chip.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420213000 +0000" stop="20250420220000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Rusty interrupts Bluey's game at playgroup; Doctor Bluey operates on a cat in Dad's tummy; Bluey misses Mum when she goes out for the night.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420220000 +0000" stop="20250420222500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Rhino and Green Goblin steal the city's groundhog on Groundhog Day; when Zola steals all the toys, Team Spidey must get them back before Miles' little sister has her birthday.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420222500 +0000" stop="20250420225000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>When Black Cat steals a sparkly egg from the zoo, Team Spidey must save it before it hatches; Spidey's offer to let Hulk hang out in WEB-Quarters quickly turns into a disaster.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420225000 +0000" stop="20250420231500 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>The gang goes snowboarding and beginner Daisy thinks she's ready for the difficult slopes; the gang loses track of mayor Franken-Pete's new kitten.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420231500 +0000" stop="20250420234000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Black Cat is stealing stuffed animals, and only Team Spidey can stop her; the Spidey Team works together to rescue Hulk's pet, Buns Buns, after Doc Ock multiplies her.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250420234000 +0000" stop="20250421000000 +0000">
+    <title lang="zh">Robogobo</title>
+    <desc>On Father's Day, Dax reunites a lost baby elephant with her dad while waiting to spend time with his own dad; Booster struggles with giving away his old blankie.</desc>
+    <date>2025-04-20</date>
+  </programme>
+  <programme channel="403674" start="20250421000500 +0000" stop="20250421003000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play a game of Burger Shop with Dad; Bluey and Bingo go on an Easter egg treasure hunt; Bluey and Mackenzie play with two older friends.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421003000 +0000" stop="20250421005500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey is upset when Dad keeps stopping on their walk; Bluey is Dad's only hope to make it to the airport; Bluey takes a solo adventure on the beach.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421005500 +0000" stop="20250421012000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Mum and Dad need to finish their housework; Dad, Bluey and Bingo play Sheepdog; Jack pretends to be a sailor on his way home.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421012000 +0000" stop="20250421015000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421015000 +0000" stop="20250421020000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>When Bluey's house becomes overrun by mischievous fairies, the whole family work together to hunt the invisible imps.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421020000 +0000" stop="20250421022500 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>The SuperKitties need to find out who is stealing the sparkly things in town, including Amara's tiara; when Buddy gets a new super suit, he has to learn to use its new powers.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421022500 +0000" stop="20250421025000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo love to video chat; Dad agrees to buy ice cream; Dad tells a real-life fairy tale.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421025000 +0000" stop="20250421031500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Gobby and Rhino steal Lockjaw, a teleporting pup, in hopes of making him an accomplice; when Zola traps The Thing, Spidey and Ghost-Spider under a dome, Miles must save the day.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421031500 +0000" stop="20250421034000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>When the team is trapped on an island with a prank-throwing lighthouse, the team must save the day; when Doc Ock steals Vibranium, Spidey and Black Panther team up to stop her.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421034000 +0000" stop="20250421040500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey, Bingo and Mum enjoy a game of Keepy-Uppy around the house; Bluey and Bingo squabble over their magic xylophone; Coco keeps taking shortcuts while playing Shadowlands.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421040500 +0000" stop="20250421043000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play The Quiet Game; when Mum and Dad have a disagreement, Bluey makes Dad write a love letter to Mum; in the park, Bluey meets a new playmate, Winnie.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421043000 +0000" stop="20250421045500 +0000">
+    <title lang="zh">Dino Ranch</title>
+    <desc>Herding triceratops to greener pastures becomes a much more difficult task than anticipated; a sick spinosaurus needs to be tended to at the Ranch.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421045500 +0000" stop="20250421052000 +0000">
+    <title lang="zh">Dino Ranch</title>
+    <desc>Miguel shows Jon and Min the most important part of an inventor's process; Angus' love for his new Dino transporter causes complications for the Jr. ranchers.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421052000 +0000" stop="20250421054500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421054500 +0000" stop="20250421061000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Honey's trip to Dr. Bingo keeps getting interrupted; Mum and Dad create their own Magic Claw machine; Bluey takes her tooth fairy money to the market.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421061000 +0000" stop="20250421063500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Mum gets everyone to play musical statues.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421063500 +0000" stop="20250421070000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Jack and Rusty play Army at school; the girls set up a fancy restaurant for Mum and Dad; Bluey, Bingo and Muffin strike a deal with the dads.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421070000 +0000" stop="20250421072500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The Heelers take a trip to Hammerbarn; Bingo has an idea for a new game; Dad eats Bingo's last chip.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421072500 +0000" stop="20250421075000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Rusty interrupts Bluey's game at playgroup; Doctor Bluey operates on a cat in Dad's tummy; Bluey misses Mum when she goes out for the night.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421075000 +0000" stop="20250421081500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey is upset when Dad keeps stopping on their walk; Bluey is Dad's only hope to make it to the airport; Bluey takes a solo adventure on the beach.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421081500 +0000" stop="20250421084000 +0000">
+    <title lang="zh">Mickey and the Roadster Racers</title>
+    <desc>On his day off, Mickey gets called back to help at the garage; the Happy Helpers look after Mrs. Sweetums' candy store and factory.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421084000 +0000" stop="20250421090500 +0000">
+    <title lang="zh">Mickey and the Roadster Racers</title>
+    <desc>During Fun-tastical Field Day, Donald tries to do all the competitions himself; the girls reunite for a race so that Clarabelle can try to become a Roadsterette.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421090500 +0000" stop="20250421093000 +0000">
+    <title lang="zh">Mickey Mouse Clubhouse</title>
+  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <category lang="en">Educational</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Kids</category>
+    <desc>With the help of his friends, Donald teaches Donald Jr. a song and dance routine for "Show Your Special Talent Day.".</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421093000 +0000" stop="20250421100000 +0000">
+    <title lang="zh">Mickey Mouse Clubhouse</title>
+  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <category lang="en">Educational</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Kids</category>
+    <desc>Mickey and pals help Daisy find her new friend Wilbur the grasshopper.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421100000 +0000" stop="20250421102500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo call Nana to ask one major question; Bingo finds her big girl bark; teacher Calypso has her hands full in the classroom.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421102500 +0000" stop="20250421105500 +0000">
+    <title lang="zh">Mickey Mouse Clubhouse</title>
+  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <category lang="en">Educational</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Kids</category>
+    <desc>Daisy Duck has lost Bo Peep's sheep and doesn't know where to find them.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421105500 +0000" stop="20250421113000 +0000">
+    <title lang="zh">Mickey Mouse Clubhouse</title>
+  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <category lang="en">Educational</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Kids</category>
+    <desc>Minnie sings at Mistletoe Mountain; the instruments are missing.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421113000 +0000" stop="20250421120000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421120000 +0000" stop="20250421123000 +0000">
+    <title lang="zh">Robogobo</title>
+    <desc>On Father's Day, Dax reunites a lost baby elephant with her dad while waiting to spend time with his own dad; Booster struggles with giving away his old blankie.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421123000 +0000" stop="20250421130000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Indy and Rusty can't agree in a game of Mum and Dads; Bluey and Bingo work together to climb Mount MumandDad; magic asparagus turns the family into wild animals.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421130000 +0000" stop="20250421132500 +0000">
+    <title lang="zh">Disney Jr's Ariel</title>
+    <desc>Ariel composes a celebratory song for Atlantica; she tries to assist Flounder in the All-Atlantica Swim Race.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421132500 +0000" stop="20250421135000 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>To help them find out if dragons are good or bad, Funny takes Mickey, Minnie and their friends to the Kingdom of Majestica, where they are transformed into knights, knaves and princesses.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421135000 +0000" stop="20250421141500 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>Mickey, and friends travel to Cloud Kingdom to see if Willie the Giant knows why it hasn't rained; on Razzle Dazzle Day, Donald makes a wish with a genie to win all the prizes.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421141500 +0000" stop="20250421144000 +0000">
+    <title lang="zh">Kindergarten: The Musical</title>
+    <desc>Berti and Radish pretend to be twins for the day; Jamil is "Student of the Day," but he doesn't have time to fill out his poster because all of his friends need his help.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421144000 +0000" stop="20250421150500 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>When Ginny gets a boo-boo, Sparks, Buddy and Bitsy have to learn to work as a team without her; the SuperKitties help Peanut get Nadia's stolen toy car back from Zsa-Zsa.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421150500 +0000" stop="20250421152500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The Heelers play a game of Bus; Mum and Bluey play Mum School, where Mum teaches Bluey how to corral her rowdy kids; Bingo decides she's too tired to walk and needs a piggyback.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421152500 +0000" stop="20250421154500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play pirates on the hammock swing; Bingo's favorite toy goes missing; Bluey needs advice on dealing with noisy neighbors.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421154500 +0000" stop="20250421161000 +0000">
+    <title lang="zh">Pupstruction</title>
+    <desc>When Pupstruction rebuilds its headquarters thanks to a foul smell, everyone has big ideas for what the new HQ should be; Phinny accidentally breaks Grandma Dee's beloved dump truck.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421161000 +0000" stop="20250421163500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo want a lick of each other's ice cream; Bingo is playing Bad Mood with Dad; two babysitters turn up to look after Bluey and Bingo.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421163500 +0000" stop="20250421170000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Team Spidey helps the city when Zola becomes a superhero like Iron Man; aunt May's birthday balloon ride strands her, Spidey and Gobby on an island.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421170000 +0000" stop="20250421172500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>When Gobby, Electro, and Rhino get dino powers, they take over the Dino-Web Tree House. Spidey must catch a tiny Zola loose in Aunt May's house.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421172500 +0000" stop="20250421175000 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>SuperKitty superfan Pickles helps the team save the day; the SuperKitties stop Zsa-Zsa from turning the Kittydale water tower into her own giant bubble bath.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421175000 +0000" stop="20250421181500 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>The SuperKitties stop Zsa-Zsa from turning animals' voices into musical instruments; Sparks and Buddy accidentally hurt each other's feelings.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421181500 +0000" stop="20250421183000 +0000">
+    <title lang="zh">Morphle and the Magic Pets</title>
+    <desc>Mila must keep Countasheep's magic powers from putting her birthday party guests to sleep.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421183000 +0000" stop="20250421185500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Spidey and Doc Ock fall into Trapster's trap; the only way out is to work together; Spidey and The Thing search for a friend's missing chess piece.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421185500 +0000" stop="20250421192000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo play restaurant with Grandad; the kids play Café so Bingo can eat Pavlova; Bluey tracks mud into the house.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421192000 +0000" stop="20250421194500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo construct a mini-civilization; Mum is crowned Queen with the girls as her butlers; Bluey and Bingo commute on the Dad-Train.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421194500 +0000" stop="20250421201500 +0000">
+    <title lang="zh">Kindergarten: The Musical</title>
+    <desc>The kindergartners write a song and sing it for the whole school; Tej brings his favorite dinosaur toy to school but doesn't want his friends to play with it.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421201500 +0000" stop="20250421204500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421204500 +0000" stop="20250421211500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>At the pharmacy, Bluey and Bingo have fun playing with the CCTV screens.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421211500 +0000" stop="20250421214500 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>Sparks forgets to eat breakfast, so he has to face his fear of loud noises to help his team, even if he is hungry.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421214500 +0000" stop="20250421221500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Muffin plays the game of library her way; Mum, Dad and Bingo must pass swim school; Bluey, Bingo and Dad always take out the bins.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421221500 +0000" stop="20250421224000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bigno help Uncle Stripe and Bandit play squash and spend the day with Nana; Bingo has to learn to play alone.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421224000 +0000" stop="20250421230500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Spin's favorite mythical creature may actually exist; when Spidey and Hulk's powers are switched by Doc Ock, they must teach each other how to be each other to defeat her.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421230500 +0000" stop="20250421233000 +0000">
+    <title lang="zh">Robogobo</title>
+    <desc>Dax and Allie help a little firefly overcome her fear of the dark and save the day; Hopper must rescue a prickly porcupine from a big bouncy house.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421233000 +0000" stop="20250421235500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Zola steals the Bookmobile and the writer Millicent McKeen; the villains team up to steal back their old inventions from the museum's new exhibit.</desc>
+    <date>2025-04-21</date>
+  </programme>
+  <programme channel="403674" start="20250421235500 +0000" stop="20250422000000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>It's Bingo's turn with Kindy's Bob Bilby puppet; a game goes haywire when Bingo stops playing; five minutes feels like an eternity when waiting.</desc>
+    <date>2025-04-21</date>
   </programme>
 </tv>
