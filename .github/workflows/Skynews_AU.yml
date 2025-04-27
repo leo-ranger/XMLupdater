@@ -24,10 +24,7 @@ jobs:
 
       - name: Add Icon and Categories to All Programmes
         run: |
-          sed -i '/<programme /a \
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>\
-\n<category lang="en">Current Affairs</category>\
-\n<category lang="en">News</category>' individual/AU-Sky_News.xml
+          sed -i '/<programme /a <icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>\n<category lang="en">Current Affairs</category>\n<category lang="en">News</category>' individual/AU-Sky_News.xml
 
       - name: Commit and push if changed
         run: |
