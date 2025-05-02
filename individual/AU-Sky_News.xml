@@ -1,153 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250501084416 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421896/20250501.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421896&amp;date=20250501&amp;timezone=None">
+<tv date="20250502083906 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421896/20250502.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421896&amp;date=20250502&amp;timezone=None">
   <channel id="421896">
     <display-name lang="Australia">Sky News Extra</display-name>
     <icon src="" />
   </channel>
-  <programme channel="421896" start="20250501000000 +0000" stop="20250501020000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501020000 +0000" stop="20250501040000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501040000 +0000" stop="20250501060000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501060000 +0000" stop="20250501092700 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501092700 +0000" stop="20250501100600 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Federal Politics</title>
-    <desc>Prime Minister Anthony Albanese held a joint news conference in Forrestfield, Western Australia and answered questions from the media.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501100600 +0000" stop="20250501111600 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">National Press Club</title>
-    <desc>Nationals Leader David Littleproud addressed the National Press Club of Australia in Canberra and answered questions from the media.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501111600 +0000" stop="20250501113200 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Federal Politics</title>
-    <desc>Finance Minister Katy Gallagher held a news conference in Canberra and answered questions from the media.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501113200 +0000" stop="20250501123700 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">National Press Club</title>
-    <desc>Minister for Health and Aged Care, Mark Butler debates health policy with his Coalition counterpart, Anne Ruston at the National Press Club of Australia in Canberra.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501123700 +0000" stop="20250501132500 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">US Politics</title>
-    <desc>U.S. President Donald Trump signed more executive orders at the White House on April 23, 2025.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501132500 +0000" stop="20250501140000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Federal Politics</title>
-    <desc>Prime Minister Anthony Albanese delivered a speech and participated in a Q&amp;A in Perth.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501140000 +0000" stop="20250501150000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Kenny Report</title>
-    <desc>The common sense approach to the big issues facing the nation.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501150000 +0000" stop="20250501160000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Credlin</title>
-    <desc>Join Australia's most sought out political commentator, Peta Credlin, as she offers her razor-sharp political analysis each weeknight.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501160000 +0000" stop="20250501170000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Bolt Report</title>
-    <desc>With a proven track record of driving the news cycle, Andrew Bolt steers discussion, encourages debate and offers his perspective on national affairs.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501170000 +0000" stop="20250501180000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sharri</title>
-    <desc>Award-winning investigative reporter Sharri Markson with her take on the big news stories of the day.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501180000 +0000" stop="20250501190000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Paul Murray Live</title>
-    <desc>Paul Murray provides the last line of defence for common sense.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501190000 +0000" stop="20250501200000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Late Debate</title>
-    <desc>Get three sides to every story and your first look at tomorrow's papers, with James Macpherson, Liz Storer and Caleb Bond.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501200000 +0000" stop="20250501204800 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">US Politics</title>
-    <desc>U.S. President Donald Trump signed more executive orders at the White House on April 23, 2025.</desc>
-    <date>2025-05-01</date>
-  </programme>
-  <programme channel="421896" start="20250501204800 +0000" stop="20250502000000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-05-01</date>
-  </programme>
   <programme channel="421896" start="20250502000000 +0000" stop="20250502020000 +0000">
 <icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
 <category lang="en">Current Affairs</category>
@@ -292,12 +148,164 @@
     <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
     <date>2025-05-02</date>
   </programme>
-  <programme channel="421896" start="20250503000000 +0000" stop="20250504000000 +0000">
+  <programme channel="421896" start="20250503000000 +0000" stop="20250503020000 +0000">
 <icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
 <category lang="en">Current Affairs</category>
 <category lang="en">News</category>
     <title lang="zh">Sky News Election Channel</title>
     <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
     <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503020000 +0000" stop="20250503040000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503040000 +0000" stop="20250503060000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503060000 +0000" stop="20250503080000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503080000 +0000" stop="20250503100000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503100000 +0000" stop="20250503110000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">The U.S. Report</title>
+    <desc>James Morrow takes a deep dive into US politics, giving his unique and hilarious perspective on all things White House and Capitol Hill.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503110000 +0000" stop="20250503113000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Lefties Losing It</title>
+    <desc>Encore: The name says it all! Rita Panahi's unique take on what's winding people up.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503113000 +0000" stop="20250503121500 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">The Media Show</title>
+    <desc>Encore: Jack Houghton dissects the highs and lows of news reporting, calls out fake news, and puts media behaviour under the spotlight.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503121500 +0000" stop="20250503130000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Racing Dreams: The Championships</title>
+    <desc>Encore: Stay up to date with the latest racing news both on and off the track with hosts Julie Snook and Tim Gilbert.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503130000 +0000" stop="20250503140000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Newsnight</title>
+    <desc>The latest late-night news, sport, and business, including live coverage of key news events and analysis.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503140000 +0000" stop="20250503150000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503150000 +0000" stop="20250503160000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503160000 +0000" stop="20250503163000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503163000 +0000" stop="20250503170000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503170000 +0000" stop="20250503180000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503180000 +0000" stop="20250503190000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503190000 +0000" stop="20250503200000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">C-SPAN on Sky News Extra</title>
+    <desc>Only on Sky News Extra, C-SPAN takes you to Washington for news direct from Congress and the Biden administration.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503200000 +0000" stop="20250503220000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250503220000 +0000" stop="20250504000000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-03</date>
+  </programme>
+  <programme channel="421896" start="20250504000000 +0000" stop="20250505000000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Election Channel</title>
+    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
+    <date>2025-05-04</date>
   </programme>
 </tv>
