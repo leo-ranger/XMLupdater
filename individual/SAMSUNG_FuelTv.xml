@@ -1,209 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250506091308 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250506.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250506&amp;timezone=None">
+<tv date="20250507091322 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250507.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250507&amp;timezone=None">
   <channel id="421685">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/04/05/20250405021902351736_60.png" />
   </channel>
-  <programme channel="421685" start="20250506000000 +0000" stop="20250506003000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 4. Captain and Casey Island</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506003000 +0000" stop="20250506010000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 5. Office Space</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506010000 +0000" stop="20250506013000 +0000">
-    <title lang="zh">M80 – Sn 3, Ep 7. Loose Ends</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506013000 +0000" stop="20250506020000 +0000">
-    <title lang="zh">M80 – Sn 4, Ep 1. Derek Garland</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506020000 +0000" stop="20250506023000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 4. Offshore Banking</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506023000 +0000" stop="20250506030000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 5. Recycle</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506030000 +0000" stop="20250506033000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 7. Fed Up With Goon</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506033000 +0000" stop="20250506040000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 1. Korear</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506040000 +0000" stop="20250506043000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 6. Omar Hassan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506043000 +0000" stop="20250506050000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 7. Corey Bohan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506050000 +0000" stop="20250506053000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 6. Groms</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506053000 +0000" stop="20250506060000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 8. Mark Landvik &amp; Markku Koski</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506060000 +0000" stop="20250506061500 +0000">
-    <title lang="zh">Impacto – Sn 1, Ep 6. Robert Aleman</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506061500 +0000" stop="20250506070000 +0000">
-    <title lang="zh">Riding Portugal – Sn 1, Ep 2. Exploring the Coast of Freedom</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506070000 +0000" stop="20250506073000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 4. Offshore Banking</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506073000 +0000" stop="20250506080000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 5. Recycle</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506080000 +0000" stop="20250506083000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 6. Omar Hassan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506083000 +0000" stop="20250506090000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 7. Corey Bohan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506090000 +0000" stop="20250506093000 +0000">
-    <title lang="zh">Drive Thru – Sn 7, Ep 1. We Got Dane</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506093000 +0000" stop="20250506100000 +0000">
-    <title lang="zh">Drive Thru – Sn 7, Ep 2. The White Wetsuit</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506100000 +0000" stop="20250506101500 +0000">
-    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 3. Episode 3</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506101500 +0000" stop="20250506120000 +0000">
-    <title lang="zh">Archy: Built for Speed, Born to Ride</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506120000 +0000" stop="20250506130000 +0000">
-    <title lang="zh">YETI Natural Selection 2024 – Women Day 1</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506130000 +0000" stop="20250506140000 +0000">
-    <title lang="zh">Shack Therapy</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506140000 +0000" stop="20250506141500 +0000">
-    <title lang="zh">Impacto – Sn 1, Ep 6. Robert Aleman</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506141500 +0000" stop="20250506150000 +0000">
-    <title lang="zh">Riding Portugal – Sn 1, Ep 2. Exploring the Coast of Freedom</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506150000 +0000" stop="20250506153000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 19. Nerves Of Steel</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506153000 +0000" stop="20250506160000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 20. FIM MXoN</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506160000 +0000" stop="20250506163000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 7. Fed Up With Goon</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506163000 +0000" stop="20250506170000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 1. Korear</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506170000 +0000" stop="20250506171500 +0000">
-    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 3. Episode 3</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506171500 +0000" stop="20250506190000 +0000">
-    <title lang="zh">Archy: Built for Speed, Born to Ride</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506190000 +0000" stop="20250506200000 +0000">
-    <title lang="zh">YETI Natural Selection 2024 – Women Day 1</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506200000 +0000" stop="20250506210000 +0000">
-    <title lang="zh">Shack Therapy</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506210000 +0000" stop="20250506213000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 6. Omar Hassan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506213000 +0000" stop="20250506220000 +0000">
-    <title lang="zh">Firsthand – Sn 7, Ep 7. Corey Bohan</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506220000 +0000" stop="20250506224500 +0000">
-    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506224500 +0000" stop="20250506230000 +0000">
-    <title lang="zh">4 Days in Bali</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506230000 +0000" stop="20250506233000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 1. Time for Redemption</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
-  <programme channel="421685" start="20250506233000 +0000" stop="20250507000000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 2. Re-ignited</title>
-    <desc />
-    <date>2025-05-06</date>
-  </programme>
   <programme channel="421685" start="20250507000000 +0000" stop="20250507003000 +0000">
     <title lang="zh">The Captain and Casey Show – Sn 7, Ep 6. C&amp;C 7 Network News</title>
     <desc />
@@ -414,9 +214,219 @@
     <desc />
     <date>2025-05-07</date>
   </programme>
-  <programme channel="421685" start="20250508000000 +0000" stop="20250509000000 +0000">
+  <programme channel="421685" start="20250508000000 +0000" stop="20250508003000 +0000">
     <title lang="zh">The Captain and Casey Show – Sn 7, Ep 8. Holiday Day</title>
     <desc />
     <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508003000 +0000" stop="20250508010000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 9. Underdeveloped</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508010000 +0000" stop="20250508013000 +0000">
+    <title lang="zh">M80 – Sn 4, Ep 4. Grant Teel</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508013000 +0000" stop="20250508020000 +0000">
+    <title lang="zh">M80 – Sn 4, Ep 5. Alvaro Dal Fara</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508020000 +0000" stop="20250508023000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 8. Skullcandy Potluck Junk Jam</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508023000 +0000" stop="20250508030000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 9. Junkyard Dogs</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508030000 +0000" stop="20250508033000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 4. Teen Wolf</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508033000 +0000" stop="20250508040000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 5. The US Open</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508040000 +0000" stop="20250508043000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 7. Nicolas Mueller</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508043000 +0000" stop="20250508050000 +0000">
+    <title lang="zh">Firsthand – Sn 7, Ep 11. Zered Basset</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508050000 +0000" stop="20250508053000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 1. Oh Canada</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508053000 +0000" stop="20250508060000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 2. Russia</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508060000 +0000" stop="20250508061500 +0000">
+    <title lang="zh">Impacto – Sn 1, Ep 8. Eliezer Dantes</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508061500 +0000" stop="20250508070000 +0000">
+    <title lang="zh">Riding Portugal – Sn 1, Ep 4. Azores, the Living Island</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508070000 +0000" stop="20250508073000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 8. Skullcandy Potluck Junk Jam</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508073000 +0000" stop="20250508080000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 9. Junkyard Dogs</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508080000 +0000" stop="20250508083000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 7. Nicolas Mueller</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508083000 +0000" stop="20250508090000 +0000">
+    <title lang="zh">Firsthand – Sn 7, Ep 11. Zered Basset</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508090000 +0000" stop="20250508093000 +0000">
+    <title lang="zh">Drive Thru – Sn 7, Ep 3. Barneys in all of You</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508093000 +0000" stop="20250508100000 +0000">
+    <title lang="zh">Drive Thru – Sn 7, Ep 4. Huckleberry Hound</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508100000 +0000" stop="20250508104500 +0000">
+    <title lang="zh">Lost in Thought</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508104500 +0000" stop="20250508110000 +0000">
+    <title lang="zh">Glitch</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508110000 +0000" stop="20250508111500 +0000">
+    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508111500 +0000" stop="20250508130000 +0000">
+    <title lang="zh">Archy: Built for Speed, Born to Ride</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508130000 +0000" stop="20250508140000 +0000">
+    <title lang="zh">YETI Natural Selection 2024 – Women Day 1</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508140000 +0000" stop="20250508141500 +0000">
+    <title lang="zh">Impacto – Sn 1, Ep 8. Eliezer Dantes</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508141500 +0000" stop="20250508150000 +0000">
+    <title lang="zh">Riding Portugal – Sn 1, Ep 4. Azores, the Living Island</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508150000 +0000" stop="20250508151500 +0000">
+    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508151500 +0000" stop="20250508170000 +0000">
+    <title lang="zh">Archy: Built for Speed, Born to Ride</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508170000 +0000" stop="20250508180000 +0000">
+    <title lang="zh">YETI Natural Selection 2024 – Women Day 1</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508180000 +0000" stop="20250508183000 +0000">
+    <title lang="zh">Drive Thru – Sn 7, Ep 3. Barneys in all of You</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508183000 +0000" stop="20250508190000 +0000">
+    <title lang="zh">Drive Thru – Sn 7, Ep 4. Huckleberry Hound</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508190000 +0000" stop="20250508193000 +0000">
+    <title lang="zh">Bubba's World – Sn 1, Ep 9. The Assistant</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508193000 +0000" stop="20250508200000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 3, Ep 7. Spring Creek National</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508200000 +0000" stop="20250508204500 +0000">
+    <title lang="zh">Lost in Thought</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508204500 +0000" stop="20250508210000 +0000">
+    <title lang="zh">Glitch</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508210000 +0000" stop="20250508213000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 7. Nicolas Mueller</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508213000 +0000" stop="20250508220000 +0000">
+    <title lang="zh">Firsthand – Sn 7, Ep 11. Zered Basset</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508220000 +0000" stop="20250508224500 +0000">
+    <title lang="zh">Thrill Seekers &amp; Risk Takers</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508224500 +0000" stop="20250508230000 +0000">
+    <title lang="zh">ORB</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508230000 +0000" stop="20250508233000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 5. La Dolce Vita</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250508233000 +0000" stop="20250509000000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 6. Rain Hit Rodeo</title>
+    <desc />
+    <date>2025-05-08</date>
+  </programme>
+  <programme channel="421685" start="20250509000000 +0000" stop="20250510000000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 7, Ep 10. Mariano's Restaurant</title>
+    <desc />
+    <date>2025-05-09</date>
   </programme>
 </tv>
