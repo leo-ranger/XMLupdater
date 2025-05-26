@@ -1,217 +1,187 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250525092047 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250525.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250525&amp;timezone=None">
+<tv date="20250526091613 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250526.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250526&amp;timezone=None">
   <channel id="421685">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/04/05/20250405021902351736_60.png" />
   </channel>
-  <programme channel="421685" start="20250525000000 +0000" stop="20250525003000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 3. Episode 3</title>
+  <programme channel="421685" start="20250526000000 +0000" stop="20250526003000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 5. Episode 5</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525003000 +0000" stop="20250525010000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 4. Episode 4</title>
+  <programme channel="421685" start="20250526003000 +0000" stop="20250526010000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 6. Episode 6</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525010000 +0000" stop="20250525013000 +0000">
-    <title lang="zh">M80 – Sn 2, Ep 12. Mike Mason</title>
+  <programme channel="421685" start="20250526010000 +0000" stop="20250526013000 +0000">
+    <title lang="zh">M80 – Sn 3, Ep 1. SRH</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525013000 +0000" stop="20250525020000 +0000">
-    <title lang="zh">M80 – Sn 2, Ep 13. Best of Season 2</title>
+  <programme channel="421685" start="20250526013000 +0000" stop="20250526020000 +0000">
+    <title lang="zh">M80 – Sn 3, Ep 2. Jimmy Fitzpatrick</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525020000 +0000" stop="20250525023000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 2. Shred Playground</title>
+  <programme channel="421685" start="20250526020000 +0000" stop="20250526023000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 4. Offshore Banking</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525023000 +0000" stop="20250525030000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 3. Shred Penitentiary</title>
+  <programme channel="421685" start="20250526023000 +0000" stop="20250526030000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 5. Recycle</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525030000 +0000" stop="20250525033000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 4. Mountain Creek</title>
+  <programme channel="421685" start="20250526030000 +0000" stop="20250526033000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 6. Raging Buffalo</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525033000 +0000" stop="20250525040000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 5. Layover In Cleveland</title>
+  <programme channel="421685" start="20250526033000 +0000" stop="20250526040000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 7. Vans Tahoe Cup</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525040000 +0000" stop="20250525043000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 8. Chad Sharpe</title>
+  <programme channel="421685" start="20250526040000 +0000" stop="20250526043000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 3. Simon Chamberlain</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525043000 +0000" stop="20250525050000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 9. Brandon Beibel</title>
+  <programme channel="421685" start="20250526043000 +0000" stop="20250526050000 +0000">
+    <title lang="zh">Firsthand – Sn 10, Ep 11. Chico Brenes</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525050000 +0000" stop="20250525053000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 2. Superpark 15</title>
+  <programme channel="421685" start="20250526050000 +0000" stop="20250526053000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 5. Standard Girls</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525053000 +0000" stop="20250525060000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 3. No Boundaries</title>
+  <programme channel="421685" start="20250526053000 +0000" stop="20250526060000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 6. The Return of KJ</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525060000 +0000" stop="20250525061500 +0000">
-    <title lang="zh">Impacto – Sn 1, Ep 7. Antony Lopez</title>
+  <programme channel="421685" start="20250526060000 +0000" stop="20250526061500 +0000">
+    <title lang="zh">Impacto – Sn 1, Ep 8. Eliezer Dantes</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525061500 +0000" stop="20250525070000 +0000">
-    <title lang="zh">Riding Portugal – Sn 1, Ep 5. The South of Portugal</title>
+  <programme channel="421685" start="20250526061500 +0000" stop="20250526070000 +0000">
+    <title lang="zh">Riding Portugal – Sn 1, Ep 6. A Ride Between Rivers</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525070000 +0000" stop="20250525073000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 2. Shred Playground</title>
+  <programme channel="421685" start="20250526070000 +0000" stop="20250526073000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 4. Offshore Banking</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525073000 +0000" stop="20250525080000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 3. Shred Penitentiary</title>
+  <programme channel="421685" start="20250526073000 +0000" stop="20250526080000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 5. Recycle</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525080000 +0000" stop="20250525083000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 8. Chad Sharpe</title>
+  <programme channel="421685" start="20250526080000 +0000" stop="20250526083000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 3. Simon Chamberlain</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525083000 +0000" stop="20250525090000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 9. Brandon Beibel</title>
+  <programme channel="421685" start="20250526083000 +0000" stop="20250526090000 +0000">
+    <title lang="zh">Firsthand – Sn 10, Ep 11. Chico Brenes</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525090000 +0000" stop="20250525093000 +0000">
-    <title lang="zh">Drive Thru – Sn 2, Ep 9. Lisbon</title>
+  <programme channel="421685" start="20250526090000 +0000" stop="20250526093000 +0000">
+    <title lang="zh">Drive Thru – Sn 2, Ep 11. Spain</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525093000 +0000" stop="20250525100000 +0000">
-    <title lang="zh">Drive Thru – Sn 2, Ep 10. Lisbon</title>
+  <programme channel="421685" start="20250526093000 +0000" stop="20250526100000 +0000">
+    <title lang="zh">Drive Thru – Sn 2, Ep 12. Biarritz</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525100000 +0000" stop="20250525110000 +0000">
-    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525110000 +0000" stop="20250525113000 +0000">
-    <title lang="zh">Bubba's World – Sn 2, Ep 6. The Doctor</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525113000 +0000" stop="20250525120000 +0000">
-    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 2. A Good Life</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525120000 +0000" stop="20250525123000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 2. Superpark 15</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525123000 +0000" stop="20250525130000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 3. No Boundaries</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525130000 +0000" stop="20250525133000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 8. Chad Sharpe</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525133000 +0000" stop="20250525140000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 9. Brandon Beibel</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525140000 +0000" stop="20250525141500 +0000">
-    <title lang="zh">Impacto – Sn 1, Ep 7. Antony Lopez</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525141500 +0000" stop="20250525150000 +0000">
-    <title lang="zh">Riding Portugal – Sn 1, Ep 5. The South of Portugal</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525150000 +0000" stop="20250525153000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 17. Mind The Gap</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525153000 +0000" stop="20250525160000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 18. Riders On The Storm</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525160000 +0000" stop="20250525163000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 4. Mountain Creek</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525163000 +0000" stop="20250525170000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 5. Layover In Cleveland</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525170000 +0000" stop="20250525173000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 2. Superpark 15</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525173000 +0000" stop="20250525180000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 3. No Boundaries</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525180000 +0000" stop="20250525181500 +0000">
-    <title lang="zh">Locals – Sn 1, Ep 5. Jorge Simões</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525181500 +0000" stop="20250525200000 +0000">
-    <title lang="zh">The Old, The Young, and The Sea</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525200000 +0000" stop="20250525210000 +0000">
-    <title lang="zh">Making of The Ultimate Wave Tahiti</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525210000 +0000" stop="20250525213000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 8. Chad Sharpe</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525213000 +0000" stop="20250525220000 +0000">
-    <title lang="zh">Firsthand – Sn 10, Ep 9. Brandon Beibel</title>
-    <desc />
-    <date>2025-05-25</date>
-  </programme>
-  <programme channel="421685" start="20250525220000 +0000" stop="20250525224500 +0000">
+  <programme channel="421685" start="20250526100000 +0000" stop="20250526104500 +0000">
     <title lang="zh">Sweet as… BMX in Oz</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
   </programme>
-  <programme channel="421685" start="20250525224500 +0000" stop="20250526000000 +0000">
+  <programme channel="421685" start="20250526104500 +0000" stop="20250526110000 +0000">
     <title lang="zh">Monster Euro Tour – Episode 2</title>
     <desc />
-    <date>2025-05-25</date>
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526110000 +0000" stop="20250526113000 +0000">
+    <title lang="zh">Bubba's World – Sn 2, Ep 7. The Amateur</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526113000 +0000" stop="20250526120000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 3. A Reason to Race</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526120000 +0000" stop="20250526123000 +0000">
+    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 2. Episode 2</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526123000 +0000" stop="20250526140000 +0000">
+    <title lang="zh">The Grand Bizarre</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526140000 +0000" stop="20250526141500 +0000">
+    <title lang="zh">Locals – Sn 1, Ep 5. Jorge Simões</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526141500 +0000" stop="20250526160000 +0000">
+    <title lang="zh">The Old, The Young, and The Sea</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526160000 +0000" stop="20250526163000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 6. Raging Buffalo</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526163000 +0000" stop="20250526170000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 1, Ep 7. Vans Tahoe Cup</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526170000 +0000" stop="20250526173000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 5. Standard Girls</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526173000 +0000" stop="20250526180000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 8, Ep 6. The Return of KJ</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526180000 +0000" stop="20250526183000 +0000">
+    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 2. Episode 2</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526183000 +0000" stop="20250526200000 +0000">
+    <title lang="zh">The Grand Bizarre</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526200000 +0000" stop="20250526201500 +0000">
+    <title lang="zh">Locals – Sn 1, Ep 5. Jorge Simões</title>
+    <desc />
+    <date>2025-05-26</date>
+  </programme>
+  <programme channel="421685" start="20250526201500 +0000" stop="20250527000000 +0000">
+    <title lang="zh">The Old, The Young, and The Sea</title>
+    <desc />
+    <date>2025-05-26</date>
   </programme>
 </tv>
