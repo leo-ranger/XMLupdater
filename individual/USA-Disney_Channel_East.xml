@@ -1,271 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250526094019 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/405072/20250526.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=405072&amp;date=20250526&amp;timezone=None">
+<tv date="20250527093633 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/405072/20250527.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=405072&amp;date=20250527&amp;timezone=None">
   <channel id="405072">
     <display-name lang="Canada">Disney Channel Canada - East</display-name>
     <icon src="" />
   </channel>
-  <programme channel="405072" start="20250526004500 +0000" stop="20250526010000 +0000">
-    <title lang="zh">Polly and the Zhu Zhu Pets</title>
-    <desc>Frankie is determined to stay up until midnight to ring in the New Year.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526010000 +0000" stop="20250526013000 +0000">
-    <title lang="zh">Undercover High</title>
-    <desc>An English class is pranked; a wrestling team's names and uniforms are changed.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526013000 +0000" stop="20250526020000 +0000">
-    <title lang="zh">Driving Me Crazy</title>
-    <desc>Rahil is excited, while his father remains calm; Aaliyah has trouble listening.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526020000 +0000" stop="20250526023000 +0000">
-    <title lang="zh">Made Up</title>
-    <desc>Dressed as a bearded fitness guru, a girl teaches her dad that farting is the key to a sound mind and body.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526023000 +0000" stop="20250526030000 +0000">
-    <title lang="zh">The Three Amigonauts</title>
-    <desc>Kirbie tries to get Herby to chill out.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526030000 +0000" stop="20250526033000 +0000">
-    <title lang="zh">The ZhuZhus</title>
-    <desc>Num Nums announces she is no longer going to be Num Nums and bad things start to happen; Frankie and the Zhus are allowed to make up the rules of the house for a day.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526033000 +0000" stop="20250526040000 +0000">
-    <title lang="zh">The Stanley Dynamic</title>
-    <desc>Dad and Lori plan a heist to rescue Luke after he glues himself to a painting.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526040000 +0000" stop="20250526043000 +0000">
-    <title lang="zh">Bunk'd: Learning the Ropes</title>
-    <desc>When Winnie becomes counselor for a day, Destiny decides to show her how her reckless behavior affects others; Noah receives some bad news; Lou plans a livestream.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526043000 +0000" stop="20250526050000 +0000">
-    <title lang="zh">Jessie</title>
-    <desc>Jessie auditions for a television show, but Zuri impresses the director instead; Emma, Luke, and Ravi search for the source of a sound in the wall.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526050000 +0000" stop="20250526053000 +0000">
-    <title lang="zh">Hamster &amp; Gretel</title>
-    <desc>Gretel tries to hang with the cool kids and must protect them from a disgraced mascot; Kevin and Anthony's desire to be on a prank show threatens their friendship.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526053000 +0000" stop="20250526060000 +0000">
-    <title lang="zh">Hamster &amp; Gretel</title>
-    <desc>Fred turns to Tchotchke Jones for help finding a new villain that has shrunk Kevin; Hamster and Gretel fight a man who has fused himself with a car.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526060000 +0000" stop="20250526063000 +0000">
-    <title lang="zh">Undercover High</title>
-    <desc>An English class is pranked; a wrestling team's names and uniforms are changed.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526063000 +0000" stop="20250526070000 +0000">
-    <title lang="zh">Driving Me Crazy</title>
-    <desc>Rahil is excited, while his father remains calm; Aaliyah has trouble listening.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526070000 +0000" stop="20250526073000 +0000">
-    <title lang="zh">Made Up</title>
-    <desc>Dressed as a bearded fitness guru, a girl teaches her dad that farting is the key to a sound mind and body.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526073000 +0000" stop="20250526080000 +0000">
-    <title lang="zh">Bunk'd: Learning the Ropes</title>
-    <desc>When Winnie becomes counselor for a day, Destiny decides to show her how her reckless behavior affects others; Noah receives some bad news; Lou plans a livestream.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526080000 +0000" stop="20250526083000 +0000">
-    <title lang="zh">Jessie</title>
-    <desc>Jessie auditions for a television show, but Zuri impresses the director instead; Emma, Luke, and Ravi search for the source of a sound in the wall.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526083000 +0000" stop="20250526090000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Six kids are tricked into attending a scientist's fake summer camp on a tropical island full of strange machines, creatures and fashionable mutants.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526090000 +0000" stop="20250526093000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Chip Whistler attempts to create an evil family, so he takes down the Greens; the Greens move to the suburbs and live under new identities to hide from Chip.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526093000 +0000" stop="20250526100000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>The Greens cause trouble during free sample day at the Farmers Market; Cricket and Nancy toilet paper all of Smalton in a quest for pranking glory.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526100000 +0000" stop="20250526102300 +0000">
-    <title lang="zh">Make It Pop</title>
-    <desc>After Corki complains about her roommates to the principal, tensions rise between Corki and Sun Hi; Sun Hi tries to secure rehearsal space for the band; Caleb wants to form a group with the girls.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526102300 +0000" stop="20250526104500 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>Mavis accidentally lures an unwelcome guest into the hotel; Mavis finds her childhood toy, Demented Debbie, in the attic.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526104500 +0000" stop="20250526110700 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>The monsters celebrate Bad Friday by trying to win the Screamie for the best scare; Mavis gives Hank the gift of basketball.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526110700 +0000" stop="20250526113000 +0000">
-    <title lang="zh">The Three Amigonauts</title>
-    <desc>Donnie hatches a plan to scare the Amigonauts; the Amigonauts are rescued by a talking burger.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526113000 +0000" stop="20250526113500 +0000">
-    <title lang="zh">Theme Song Takeover</title>
-    <desc>It might be Dr. Doofenshmirtz's turn to shine or perhaps experience some of Milo's bad luck in a theme song takeover.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526113500 +0000" stop="20250526120000 +0000">
-    <title lang="zh">The ZhuZhus</title>
-    <desc>Polly needs the Zhus to help plan an anniversary party for her mom and dad; the Zhus get lost in the woods after returning a skunk to the wild.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526120000 +0000" stop="20250526122500 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey, Bingo and Mum enjoy a game of Keepy-Uppy around the house; Bluey and Bingo squabble over their magic xylophone; Coco keeps taking shortcuts while playing Shadowlands.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526122500 +0000" stop="20250526125000 +0000">
-    <title lang="zh">Puppy Dog Pals</title>
-    <desc>Bingo and Rolly meet a new puppy, Keia, who has accidentally run away from her owner, Chloe; when Chloe wishes she could have a unicorn, Bingo, Rolly and Keia set out to find one.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526125000 +0000" stop="20250526131500 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Spidey reminds Spin and Ghost-Spider to work as a team to track Rhino; Spidey learns about patience when he and Black Panther must take down Doc Ock.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526131500 +0000" stop="20250526134000 +0000">
-    <title lang="zh">Mickey Mouse Funhouse</title>
-    <desc>Mickey, Minnie and their pals picnic with Willie and Chickie Boo-Boo; Clarabelle invites the gang and their gnome friends to help build the Herotropolis playground.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526134000 +0000" stop="20250526140500 +0000">
-    <title lang="zh">Pupstruction</title>
-    <desc>Phinny struggles to build quietly for a family whose chinchilla neighbor needs to sleep; Bobby Boots wants to show up Pupstruction in front of the mayor, but his attempt backfires.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526140500 +0000" stop="20250526143000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey, Bingo and Mum enjoy a game of Keepy-Uppy around the house; Bluey and Bingo squabble over their magic xylophone; Coco keeps taking shortcuts while playing Shadowlands.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526143000 +0000" stop="20250526145500 +0000">
-    <title lang="zh">Puppy Dog Pals</title>
-    <desc>Bingo and Rolly meet a new puppy, Keia, who has accidentally run away from her owner, Chloe; when Chloe wishes she could have a unicorn, Bingo, Rolly and Keia set out to find one.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526145500 +0000" stop="20250526152000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>Spidey reminds Spin and Ghost-Spider to work as a team to track Rhino; Spidey learns about patience when he and Black Panther must take down Doc Ock.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526152000 +0000" stop="20250526154500 +0000">
-    <title lang="zh">Mickey Mouse Funhouse</title>
-    <desc>Mickey, Minnie and their pals picnic with Willie and Chickie Boo-Boo; Clarabelle invites the gang and their gnome friends to help build the Herotropolis playground.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526154500 +0000" stop="20250526161000 +0000">
-    <title lang="zh">Amphibia</title>
-    <desc>The Plantars stay at a bed-and-breakfast for the night, but Polly discovers the caretakers aren't what they seem; everyone calls Anne crazy when she claims to have seen the mythical Moss Man.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526161000 +0000" stop="20250526163500 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>As the Greens prepare for their Halloween party, Tilly feels bad for Bill, who's disappointed by the poor yield of his small pumpkin patch; Tilly secretly borrows Gwendolyn Zapp's alien chemical compound to make Bill's pumpkins grow bigger.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526163500 +0000" stop="20250526170000 +0000">
-    <title lang="zh">Gravity Falls</title>
-    <desc>When Dipper and Mable hear rumors of a sea monster living in the lake, they want to prove it.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526170000 +0000" stop="20250526172500 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>The monsters celebrate Bad Friday by trying to win the Screamie for the best scare; Mavis gives Hank the gift of basketball.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526172500 +0000" stop="20250526175000 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>Mavis accidentally lures an unwelcome guest into the hotel; Mavis finds her childhood toy, Demented Debbie, in the attic.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526175000 +0000" stop="20250526181500 +0000">
-    <title lang="zh">The Three Amigonauts</title>
-    <desc>Donnie hatches a plan to scare the Amigonauts; the Amigonauts are rescued by a talking burger.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526181500 +0000" stop="20250526184000 +0000">
-    <title lang="zh">The Stanley Dynamic</title>
-    <desc>The family struggles to adjust with the kids all starting at new schools and the parents beginning new jobs.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526184000 +0000" stop="20250526184500 +0000">
-    <title lang="zh">Theme Song Takeover</title>
-    <desc>It might be Dr. Doofenshmirtz's turn to shine or perhaps experience some of Milo's bad luck in a theme song takeover.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526184500 +0000" stop="20250526190000 +0000">
-    <title lang="zh">Polly and the Zhu Zhu Pets</title>
-    <desc>Squiggles hides the family cookie jar as part of a scavenger hunt but forgets where it is.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526190000 +0000" stop="20250526193000 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>The monsters celebrate Bad Friday by trying to win the Screamie for the best scare; Mavis gives Hank the gift of basketball.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526193000 +0000" stop="20250526200000 +0000">
-    <title lang="zh">Hotel Transylvania: The Series</title>
-    <desc>Mavis accidentally lures an unwelcome guest into the hotel; Mavis finds her childhood toy, Demented Debbie, in the attic.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526200000 +0000" stop="20250526203000 +0000">
-    <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
-    <desc>When Lunella runs the rink for a night, she agrees to Casey's get-rich-quick scheme, which threatens Moon Girl's reputation and her family's beloved business.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526203000 +0000" stop="20250526210000 +0000">
-    <title lang="zh">Gravity Falls</title>
-    <desc>When Dipper and Mable hear rumors of a sea monster living in the lake, they want to prove it.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526210000 +0000" stop="20250526213000 +0000">
-    <title lang="zh">Amphibia</title>
-    <desc>The Plantars stay at a bed-and-breakfast for the night, but Polly discovers the caretakers aren't what they seem; everyone calls Anne crazy when she claims to have seen the mythical Moss Man.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526213000 +0000" stop="20250526220000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>As the Greens prepare for their Halloween party, Tilly feels bad for Bill, who's disappointed by the poor yield of his small pumpkin patch; Tilly secretly borrows Gwendolyn Zapp's alien chemical compound to make Bill's pumpkins grow bigger.</desc>
-    <date>2025-05-26</date>
-  </programme>
-  <programme channel="405072" start="20250526220000 +0000" stop="20250527000000 +0000">
-    <title lang="zh">Spin</title>
-    <desc>Rhea is an Indian-American teen whose life revolves around her friends, her family's Indian restaurant and her tightknit family. Everything changes when she falls for aspiring DJ Max, and her long-lost fervor for music is reignited.</desc>
-    <date>2025-05-26</date>
-  </programme>
   <programme channel="405072" start="20250527000000 +0000" stop="20250527003000 +0000">
     <title lang="zh">Bunk'd: Learning the Ropes</title>
     <desc>Winnie helps her brother Wayne propose to his boyfriend during their visit to camp; Lou and Destiny teach Bill about self-care, and Parker finally gets his own place to stay.</desc>
@@ -503,9 +241,251 @@
     <desc>After a military takeover, a princess (Demi Lovato) assumes a new identity and stays with a covert agent and his daughter (Selena Gomez).</desc>
     <date>2025-05-27</date>
   </programme>
-  <programme channel="405072" start="20250528000000 +0000" stop="20250529000000 +0000">
+  <programme channel="405072" start="20250528000000 +0000" stop="20250528003000 +0000">
     <title lang="zh">Bunk'd: Learning the Ropes</title>
     <desc>Lou, Parker, Noah and Destiny head to Dusty Tush, Wyo., to open up a new camp at a dude ranch that they purchased from The Marshall.</desc>
     <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528003000 +0000" stop="20250528010000 +0000">
+    <title lang="zh">Jessie</title>
+    <desc>The Ross kids become concerned that history is repeating itself after an old doorman tells them a building legend about a nanny who did something terrible to the kids in her care on Halloween.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528010000 +0000" stop="20250528013000 +0000">
+    <title lang="zh">Undercover High</title>
+    <desc>A dance class has a fake audience; a hockey team has a strange way of training.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528013000 +0000" stop="20250528020000 +0000">
+    <title lang="zh">Driving Me Crazy</title>
+    <desc>Kamrie deals with an old circus trick while her dad juggles his teaching techniques; Jake is a free spirit.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528020000 +0000" stop="20250528023000 +0000">
+    <title lang="zh">The Stanley Dynamic</title>
+    <desc>When Larry starts spending all of his free time with a new friend, he and Luke get into a brotherly fight.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528023000 +0000" stop="20250528030000 +0000">
+    <title lang="zh">The Three Amigonauts</title>
+    <desc>Burt tries to impress Cork; the Amigonauts create a weird ship for Cork to travel in.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528030000 +0000" stop="20250528033000 +0000">
+    <title lang="zh">The ZhuZhus</title>
+    <desc>Polly leaves her glove at home and the Zhus try to find it before the big game; the Zhu Zhus sneak into the store even though they were told not to come.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528033000 +0000" stop="20250528040000 +0000">
+    <title lang="zh">Make It Pop</title>
+    <desc>The girls plan to audition for the school musical as a trio; Caleb attempts to earn the girls' forgiveness; Jared tries to stop the play's production.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528040000 +0000" stop="20250528060000 +0000">
+    <title lang="zh">Princess Protection Program</title>
+    <desc>After a military takeover, a princess (Demi Lovato) assumes a new identity and stays with a covert agent and his daughter (Selena Gomez).</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528060000 +0000" stop="20250528080000 +0000">
+    <title lang="zh">Princess Protection Program</title>
+    <desc>After a military takeover, a princess (Demi Lovato) assumes a new identity and stays with a covert agent and his daughter (Selena Gomez).</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528080000 +0000" stop="20250528083000 +0000">
+    <title lang="zh">Jessie</title>
+    <desc>The Ross kids become concerned that history is repeating itself after an old doorman tells them a building legend about a nanny who did something terrible to the kids in her care on Halloween.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528083000 +0000" stop="20250528090000 +0000">
+    <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
+    <desc>When Lunella loses a game of chess against a supercomputer, her obsession with winning drives the computer to program every device in the school to attack her.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528090000 +0000" stop="20250528093000 +0000">
+    <title lang="zh">Amphibia</title>
+    <desc>Sprig wants to spend time with Hop Pop on their family fishing trip, but Hop Pop's friend Sylvia gets in the way; Anne's music box goes missing at the mysterious and exclusive Bizarre Bazaar.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528093000 +0000" stop="20250528100000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Bill forces his family to embrace a "Live, Laugh, Love" philosophy; Gloria tries to maintain her café's perfect rating.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528100000 +0000" stop="20250528102300 +0000">
+    <title lang="zh">Make It Pop</title>
+    <desc>The band and the Spirit Squad develop a rivalry over dance moves; Sun Hi tries to learn everything about Corki's hidden past; Valerie enlists Caleb's help in making the perfect song for the Spirit Squad's dance routine.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528102300 +0000" stop="20250528104500 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis accidentally turns Wendy into a ginormous, blobby version of her little self.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528104500 +0000" stop="20250528110700 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis tries to prove she can care for a living creature by rescuing a "bad egg"; the kids try to watch the last episode of their favorite show, Hotel Pennsylvania.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528110700 +0000" stop="20250528113000 +0000">
+    <title lang="zh">The Three Amigonauts</title>
+    <desc>The Amigonauts must retrieve school property from a parallel universe; a cold virus spreads through the student body.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528113000 +0000" stop="20250528113500 +0000">
+    <title lang="zh">Broken Karaoke</title>
+    <desc>Tilly wants to be the Queen of Nice instead of Mean.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528113500 +0000" stop="20250528120000 +0000">
+    <title lang="zh">The ZhuZhus</title>
+    <desc>The dog Polly's watching escapes from the backyard; the Zhus try to make friends with Mr. Kerdel, the school janitor.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528120000 +0000" stop="20250528122500 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The kids stage a horsey wedding; Bluey, Bingo and Dad play a game of Hotel; Bluey struggles to ride her bike and won't give up.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528122500 +0000" stop="20250528125000 +0000">
+    <title lang="zh">Puppy Dog Pals</title>
+    <desc>The pugs must teach a duckling how to be a duck; Bob and the pups go to Washington to compete in an environmental invention competition.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528125000 +0000" stop="20250528131500 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>When Doc Ock's growth serum is used on a baby octopus, the Spidey Team has to stop it from accidentally rampaging into the city; Green Goblin blasts goblin gas all over the city.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528131500 +0000" stop="20250528134000 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>Goofy must practice patience when his birthday party keeps getting interrupted by Rocket Mouse's Outer Space emergencies.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528134000 +0000" stop="20250528140500 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>Pet boots go missing all over Kittydale; when Lab Rat makes all of Kittydale super slippery, Bitsy has to help the SuperKitties stop her.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528140500 +0000" stop="20250528143000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The kids stage a horsey wedding; Bluey, Bingo and Dad play a game of Hotel; Bluey struggles to ride her bike and won't give up.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528143000 +0000" stop="20250528145500 +0000">
+    <title lang="zh">Puppy Dog Pals</title>
+    <desc>The pugs must teach a duckling how to be a duck; Bob and the pups go to Washington to compete in an environmental invention competition.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528145500 +0000" stop="20250528152000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>When Doc Ock's growth serum is used on a baby octopus, the Spidey Team has to stop it from accidentally rampaging into the city; Green Goblin blasts goblin gas all over the city.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528152000 +0000" stop="20250528154500 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>Goofy must practice patience when his birthday party keeps getting interrupted by Rocket Mouse's Outer Space emergencies.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528154500 +0000" stop="20250528161000 +0000">
+    <title lang="zh">Amphibia</title>
+    <desc>After Anne helps Sprig break up with Maddie, strange things start happening to them; during a talent competition, Hop Pop goes a little overboard in training Sprig to win.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528161000 +0000" stop="20250528163500 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket mentors a wild child, and Tilly develops a cult following; Nancy tries to prove herself on the farm; Bill struggles to relax at a fancy spa with Gramma.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528163500 +0000" stop="20250528170000 +0000">
+    <title lang="zh">Gravity Falls</title>
+    <desc>When Dipper tries to impress Wendy by acting older than he really is, he's invited to join a group of teenagers.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528170000 +0000" stop="20250528172500 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis tries to prove she can care for a living creature by rescuing a "bad egg"; the kids try to watch the last episode of their favorite show, Hotel Pennsylvania.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528172500 +0000" stop="20250528175000 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis accidentally turns Wendy into a ginormous, blobby version of her little self.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528175000 +0000" stop="20250528181500 +0000">
+    <title lang="zh">The Three Amigonauts</title>
+    <desc>The Amigonauts must retrieve school property from a parallel universe; a cold virus spreads through the student body.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528181500 +0000" stop="20250528184000 +0000">
+    <title lang="zh">The Stanley Dynamic</title>
+    <desc>Larry and Luke compete to help Mom with her catering job, so they can spend more time with Chelsea.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528184000 +0000" stop="20250528184500 +0000">
+    <title lang="zh">Broken Karaoke</title>
+    <desc>Tilly wants to be the Queen of Nice instead of Mean.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528184500 +0000" stop="20250528190000 +0000">
+    <title lang="zh">Polly and the Zhu Zhu Pets</title>
+    <desc>Zhuper Girl and her Hamster sidekicks battle the evil pirate Girl Beard.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528190000 +0000" stop="20250528193000 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis tries to prove she can care for a living creature by rescuing a "bad egg"; the kids try to watch the last episode of their favorite show, Hotel Pennsylvania.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528193000 +0000" stop="20250528200000 +0000">
+    <title lang="zh">Hotel Transylvania: The Series</title>
+    <desc>Mavis accidentally turns Wendy into a ginormous, blobby version of her little self.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528200000 +0000" stop="20250528203000 +0000">
+    <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
+    <desc>When Lunella creates a chemical to change her hair, she accidentally turns her mane into a vengeful villain that vows to ruin her.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528203000 +0000" stop="20250528210000 +0000">
+    <title lang="zh">Gravity Falls</title>
+    <desc>When Dipper tries to impress Wendy by acting older than he really is, he's invited to join a group of teenagers.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528210000 +0000" stop="20250528213000 +0000">
+    <title lang="zh">Amphibia</title>
+    <desc>After Anne helps Sprig break up with Maddie, strange things start happening to them; during a talent competition, Hop Pop goes a little overboard in training Sprig to win.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528213000 +0000" stop="20250528220000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket mentors a wild child, and Tilly develops a cult following; Nancy tries to prove herself on the farm; Bill struggles to relax at a fancy spa with Gramma.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528220000 +0000" stop="20250528234500 +0000">
+    <title lang="zh">The Slumber Party</title>
+    <desc>Depicting the aftermath of a sleepover birthday party hypnotism gone wrong as best friends Megan and Paige, along with soon-to-be step-sister Veronica, wake up with absolutely no memory of the night before.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250528234500 +0000" stop="20250529000000 +0000">
+    <title lang="zh">Polly and the Zhu Zhu Pets</title>
+    <desc>Zhuper Girl and her Hamster sidekicks battle the evil pirate Girl Beard.</desc>
+    <date>2025-05-28</date>
+  </programme>
+  <programme channel="405072" start="20250529000000 +0000" stop="20250530000000 +0000">
+    <title lang="zh">Bunk'd: Learning the Ropes</title>
+    <desc>Lou, Parker, Noah and Destiny head to Dusty Tush, Wyo., to open up a new camp at a dude ranch that they purchased from The Marshall.</desc>
+    <date>2025-05-29</date>
   </programme>
 </tv>
