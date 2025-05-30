@@ -1,199 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250529091445 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250529.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250529&amp;timezone=None">
+<tv date="20250530091253 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250530.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250530&amp;timezone=None">
   <channel id="421685">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/04/05/20250405021902351736_60.png" />
   </channel>
-  <programme channel="421685" start="20250529000000 +0000" stop="20250529003000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 11. Episode 11</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529003000 +0000" stop="20250529010000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 3, Ep 12. Episode 12</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529010000 +0000" stop="20250529013000 +0000">
-    <title lang="zh">M80 – Sn 3, Ep 7. Loose Ends</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529013000 +0000" stop="20250529020000 +0000">
-    <title lang="zh">M80 – Sn 4, Ep 1. Derek Garland</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529020000 +0000" stop="20250529023000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 10. Shredabago</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529023000 +0000" stop="20250529030000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 11. Treehouse</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529030000 +0000" stop="20250529033000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 4. Skate And Destroy</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529033000 +0000" stop="20250529040000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 5. Freak Out</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529040000 +0000" stop="20250529043000 +0000">
-    <title lang="zh">Firsthand – Sn 11, Ep 6. Torey Pudwill</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529043000 +0000" stop="20250529050000 +0000">
-    <title lang="zh">Firsthand – Sn 3, Ep 10. Will Tant</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529050000 +0000" stop="20250529053000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 1, Ep 3. Jim Rippey &amp; Frederik Kalbermatten</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529053000 +0000" stop="20250529060000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 1, Ep 4. Noah Salasnek &amp; Travis Parker</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529060000 +0000" stop="20250529061500 +0000">
-    <title lang="zh">Impacto – Sn 1, Ep 11. Jesus Fernandez</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529061500 +0000" stop="20250529070000 +0000">
-    <title lang="zh">Riding Portugal – Sn 2, Ep 1. Episode 1</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529070000 +0000" stop="20250529073000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 10. Shredabago</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529073000 +0000" stop="20250529080000 +0000">
-    <title lang="zh">Built to Shred – Sn 3, Ep 11. Treehouse</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529080000 +0000" stop="20250529083000 +0000">
-    <title lang="zh">Firsthand – Sn 11, Ep 6. Torey Pudwill</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529083000 +0000" stop="20250529090000 +0000">
-    <title lang="zh">Firsthand – Sn 3, Ep 10. Will Tant</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529090000 +0000" stop="20250529093000 +0000">
-    <title lang="zh">Drive Thru – Sn 3, Ep 2. The Race</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529093000 +0000" stop="20250529100000 +0000">
-    <title lang="zh">Drive Thru – Sn 3, Ep 3. Shark Beach</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529100000 +0000" stop="20250529110000 +0000">
-    <title lang="zh">Harvey Spannos</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529110000 +0000" stop="20250529114500 +0000">
-    <title lang="zh">Riding Portugal – Sn 2, Ep 3. Episode 3</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529114500 +0000" stop="20250529130000 +0000">
-    <title lang="zh">Every Day is a Saturday: Poor Boyz</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529130000 +0000" stop="20250529131500 +0000">
-    <title lang="zh">Locals – Sn 1, Ep 4. Luis Diaz</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529131500 +0000" stop="20250529150000 +0000">
-    <title lang="zh">Andy Irons: Kissed by God</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529150000 +0000" stop="20250529153000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 5. La Dolce Vita</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529153000 +0000" stop="20250529160000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 6. Rain Hit Rodeo</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529160000 +0000" stop="20250529163000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 4. Skate And Destroy</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529163000 +0000" stop="20250529170000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 2, Ep 5. Freak Out</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529170000 +0000" stop="20250529173000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 1, Ep 3. Jim Rippey &amp; Frederik Kalbermatten</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529173000 +0000" stop="20250529180000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 1, Ep 4. Noah Salasnek &amp; Travis Parker</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529180000 +0000" stop="20250529183000 +0000">
-    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 2. Episode 2</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529183000 +0000" stop="20250529200000 +0000">
-    <title lang="zh">The Grand Bizarre</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529200000 +0000" stop="20250529201500 +0000">
-    <title lang="zh">Locals – Sn 1, Ep 5. Jorge Simões</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529201500 +0000" stop="20250529220000 +0000">
-    <title lang="zh">The Old, The Young, and The Sea</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529220000 +0000" stop="20250529230000 +0000">
-    <title lang="zh">Freedom of Space</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529230000 +0000" stop="20250529233000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 7. Friendly Fire</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
-  <programme channel="421685" start="20250529233000 +0000" stop="20250530000000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 8. Mirage</title>
-    <desc />
-    <date>2025-05-29</date>
-  </programme>
   <programme channel="421685" start="20250530000000 +0000" stop="20250530003000 +0000">
     <title lang="zh">The Captain and Casey Show – Sn 3, Ep 13. Episode 13</title>
     <desc />
@@ -389,9 +199,229 @@
     <desc />
     <date>2025-05-30</date>
   </programme>
-  <programme channel="421685" start="20250531000000 +0000" stop="20250601000000 +0000">
+  <programme channel="421685" start="20250531000000 +0000" stop="20250531003000 +0000">
     <title lang="zh">The Captain and Casey Show – Sn 4, Ep 1. Cool Hand Luke</title>
     <desc />
     <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531003000 +0000" stop="20250531010000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 4, Ep 2. Day at the Beach</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531010000 +0000" stop="20250531013000 +0000">
+    <title lang="zh">M80 – Sn 4, Ep 4. Grant Teel</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531013000 +0000" stop="20250531020000 +0000">
+    <title lang="zh">M80 – Sn 4, Ep 5. Alvaro Dal Fara</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531020000 +0000" stop="20250531023000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 1. Shred Ranch RIP</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531023000 +0000" stop="20250531030000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 2. Weird Science</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531030000 +0000" stop="20250531033000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 1. Korear</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531033000 +0000" stop="20250531040000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 2. Hello, Tokyo!</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531040000 +0000" stop="20250531043000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 4. Marie-France Roy</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531043000 +0000" stop="20250531050000 +0000">
+    <title lang="zh">Firsthand – Sn 11, Ep 11. Craig Mast</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531050000 +0000" stop="20250531053000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 1. Eero Ettala</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531053000 +0000" stop="20250531060000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 2. Terje Haakonsen</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531060000 +0000" stop="20250531061500 +0000">
+    <title lang="zh">Impacto – Sn 1, Ep 13. Sergio Gard</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531061500 +0000" stop="20250531064500 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 1. Episode 1</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531064500 +0000" stop="20250531070000 +0000">
+    <title lang="zh">4 Days in Bali</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531070000 +0000" stop="20250531073000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 1. Shred Ranch RIP</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531073000 +0000" stop="20250531080000 +0000">
+    <title lang="zh">Built to Shred – Sn 4, Ep 2. Weird Science</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531080000 +0000" stop="20250531083000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 4. Marie-France Roy</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531083000 +0000" stop="20250531090000 +0000">
+    <title lang="zh">Firsthand – Sn 11, Ep 11. Craig Mast</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531090000 +0000" stop="20250531093000 +0000">
+    <title lang="zh">Drive Thru – Sn 3, Ep 4. Finding Their Flow</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531093000 +0000" stop="20250531100000 +0000">
+    <title lang="zh">Drive Thru – Sn 3, Ep 5. The South Coast</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531100000 +0000" stop="20250531110000 +0000">
+    <title lang="zh">Riding the Long White Cloud</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531110000 +0000" stop="20250531113000 +0000">
+    <title lang="zh">Bubba's World – Sn 2, Ep 8. The Bird</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531113000 +0000" stop="20250531120000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 4, Ep 4. Fill the Void</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531120000 +0000" stop="20250531123000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 1. Eero Ettala</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531123000 +0000" stop="20250531130000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 2. Terje Haakonsen</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531130000 +0000" stop="20250531133000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 4. Marie-France Roy</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531133000 +0000" stop="20250531140000 +0000">
+    <title lang="zh">Firsthand – Sn 11, Ep 11. Craig Mast</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531140000 +0000" stop="20250531141500 +0000">
+    <title lang="zh">Impacto – Sn 1, Ep 13. Sergio Gard</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531141500 +0000" stop="20250531144500 +0000">
+    <title lang="zh">Surfing Life Travel – Sn 1, Ep 1. Episode 1</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531144500 +0000" stop="20250531150000 +0000">
+    <title lang="zh">4 Days in Bali</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531150000 +0000" stop="20250531153000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 9. Chasing the Red</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531153000 +0000" stop="20250531160000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 10. Pressure Points</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531160000 +0000" stop="20250531163000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 1. Korear</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531163000 +0000" stop="20250531170000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 3, Ep 2. Hello, Tokyo!</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531170000 +0000" stop="20250531173000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 1. Eero Ettala</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531173000 +0000" stop="20250531180000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 2. Terje Haakonsen</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531180000 +0000" stop="20250531200000 +0000">
+    <title lang="zh">Isolated</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531200000 +0000" stop="20250531210000 +0000">
+    <title lang="zh">Riding the Long White Cloud</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531210000 +0000" stop="20250531213000 +0000">
+    <title lang="zh">Firsthand – Sn 3, Ep 4. Marie-France Roy</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531213000 +0000" stop="20250531220000 +0000">
+    <title lang="zh">Firsthand – Sn 11, Ep 11. Craig Mast</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531220000 +0000" stop="20250531230000 +0000">
+    <title lang="zh">Life is Just a Ride</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531230000 +0000" stop="20250531233000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 11. Wrecking Ball</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250531233000 +0000" stop="20250601000000 +0000">
+    <title lang="zh">Behind the Gate – Sn 2, Ep 12. Dragonfly</title>
+    <desc />
+    <date>2025-05-31</date>
+  </programme>
+  <programme channel="421685" start="20250601000000 +0000" stop="20250602000000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 4, Ep 3. Winter Wonderland</title>
+    <desc />
+    <date>2025-06-01</date>
   </programme>
 </tv>
