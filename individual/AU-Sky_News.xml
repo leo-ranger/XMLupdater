@@ -1,145 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250602084304 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421896/20250602.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421896&amp;date=20250602&amp;timezone=None">
+<tv date="20250603084133 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421896/20250603.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421896&amp;date=20250603&amp;timezone=None">
   <channel id="421896">
     <display-name lang="Australia">Sky News Extra</display-name>
     <icon src="" />
   </channel>
-  <programme channel="421896" start="20250602000000 +0000" stop="20250602020000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602020000 +0000" stop="20250602040000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602040000 +0000" stop="20250602060000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602060000 +0000" stop="20250602080000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602080000 +0000" stop="20250602100000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602100000 +0000" stop="20250602110000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602110000 +0000" stop="20250602120000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602120000 +0000" stop="20250602130000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602130000 +0000" stop="20250602140000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Election Channel</title>
-    <desc>Sky News Election Channel is a dedicated political news channel covering the campaign trails across Australia and the world.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602140000 +0000" stop="20250602150000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Kenny Report</title>
-    <desc>The common sense approach to the big issues facing the nation.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602150000 +0000" stop="20250602160000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Credlin</title>
-    <desc>Join Australia's most sought out political commentator, Peta Credlin, as she offers her razor-sharp political analysis each weeknight.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602160000 +0000" stop="20250602170000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Bolt Report</title>
-    <desc>With a proven track record of driving the news cycle, Andrew Bolt steers discussion, encourages debate and offers his perspective on national affairs.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602170000 +0000" stop="20250602180000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sharri</title>
-    <desc>Award-winning investigative reporter Sharri Markson with her take on the big news stories of the day.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602180000 +0000" stop="20250602190000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Paul Murray Live</title>
-    <desc>Paul Murray provides the last line of defence for common sense.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602190000 +0000" stop="20250602200000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">The Late Debate</title>
-    <desc>Get three sides to every story &amp; your first look at tomorrow's papers, with James Macpherson, Caleb Bond and Freya Leach.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602200000 +0000" stop="20250602220000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Extra</title>
-    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
-    <date>2025-06-02</date>
-  </programme>
-  <programme channel="421896" start="20250602220000 +0000" stop="20250603000000 +0000">
-<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
-<category lang="en">Current Affairs</category>
-<category lang="en">News</category>
-    <title lang="zh">Sky News Extra</title>
-    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
-    <date>2025-06-02</date>
-  </programme>
   <programme channel="421896" start="20250603000000 +0000" stop="20250603020000 +0000">
 <icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
 <category lang="en">Current Affairs</category>
@@ -276,12 +140,148 @@
     <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
     <date>2025-06-03</date>
   </programme>
-  <programme channel="421896" start="20250604000000 +0000" stop="20250605000000 +0000">
+  <programme channel="421896" start="20250604000000 +0000" stop="20250604020000 +0000">
 <icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
 <category lang="en">Current Affairs</category>
 <category lang="en">News</category>
     <title lang="zh">Sky News Extra</title>
     <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
     <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604020000 +0000" stop="20250604040000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604040000 +0000" stop="20250604060000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604060000 +0000" stop="20250604080000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604080000 +0000" stop="20250604100000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604100000 +0000" stop="20250604110000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604110000 +0000" stop="20250604120000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604120000 +0000" stop="20250604130000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604130000 +0000" stop="20250604140000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604140000 +0000" stop="20250604150000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">The Kenny Report</title>
+    <desc>The common sense approach to the big issues facing the nation.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604150000 +0000" stop="20250604160000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Credlin</title>
+    <desc>Join Australia's most sought out political commentator, Peta Credlin, as she offers her razor-sharp political analysis each weeknight.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604160000 +0000" stop="20250604170000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">The Bolt Report</title>
+    <desc>With a proven track record of driving the news cycle, Andrew Bolt steers discussion, encourages debate and offers his perspective on national affairs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604170000 +0000" stop="20250604180000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sharri</title>
+    <desc>Award-winning investigative reporter Sharri Markson with her take on the big news stories of the day.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604180000 +0000" stop="20250604190000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Paul Murray Live</title>
+    <desc>Paul Murray provides the last line of defence for common sense.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604190000 +0000" stop="20250604200000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">The Late Debate</title>
+    <desc>Get three sides to every story &amp; your first look at tomorrow's papers, with James Macpherson, Caleb Bond and Freya Leach.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604200000 +0000" stop="20250604220000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250604220000 +0000" stop="20250605000000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-04</date>
+  </programme>
+  <programme channel="421896" start="20250605000000 +0000" stop="20250606000000 +0000">
+<icon src="https://www.yodeck.com/wp-content/uploads/2023/06/Sky-news-Thumbnail.jpg"/>
+<category lang="en">Current Affairs</category>
+<category lang="en">News</category>
+    <title lang="zh">Sky News Extra</title>
+    <desc>Sky News Extra is the home of Australian parliament and public affairs. Watch debate and discussion from across the spectrum of Australian society plus catch up on episodes of popular Sky News evening programs.</desc>
+    <date>2025-06-05</date>
   </programme>
 </tv>
