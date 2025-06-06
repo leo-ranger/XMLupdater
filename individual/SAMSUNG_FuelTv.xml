@@ -1,154 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250605091505 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250605.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250605&amp;timezone=None">
+<tv date="20250606091458 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250606.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250606&amp;timezone=None">
   <channel id="421685">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/04/05/20250405021902351736_60.png" />
   </channel>
-  <programme channel="421685" start="20250605011500 +0000" stop="20250605031500 +0000">
-    <title lang="zh">The Westsiders</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605031500 +0000" stop="20250605033000 +0000">
-    <title lang="zh">Matty Manners Surfboards</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605033000 +0000" stop="20250605040000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 16. Viking Spirit</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605040000 +0000" stop="20250605043000 +0000">
-    <title lang="zh">Firsthand – Sn 12, Ep 4. Jeff Weatherall</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605043000 +0000" stop="20250605050000 +0000">
-    <title lang="zh">Firsthand – Sn 12, Ep 5. Ashley Fiolek</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605050000 +0000" stop="20250605053000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 1. Oh Canada</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605053000 +0000" stop="20250605060000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 2. Russia</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605060000 +0000" stop="20250605063000 +0000">
-    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 3. Chasing Clarity</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605063000 +0000" stop="20250605070000 +0000">
-    <title lang="zh">On Surfari – Sn 1, Ep 2. Bocas Del Toro</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605070000 +0000" stop="20250605073000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 11. Backstage Pass: All Access</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605073000 +0000" stop="20250605080000 +0000">
-    <title lang="zh">Built to Shred – Sn 4, Ep 12. Heavy Equipment</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605080000 +0000" stop="20250605083000 +0000">
-    <title lang="zh">Firsthand – Sn 12, Ep 2. Chris Cole</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605083000 +0000" stop="20250605090000 +0000">
-    <title lang="zh">Firsthand – Sn 12, Ep 3. Chris Del Moro</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605090000 +0000" stop="20250605093000 +0000">
-    <title lang="zh">Drive Thru – Sn 3, Ep 12. The Bungee Jump</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605093000 +0000" stop="20250605100000 +0000">
-    <title lang="zh">Drive Thru – Sn 3, Ep 13. The Last Day</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605100000 +0000" stop="20250605110000 +0000">
-    <title lang="zh">Riding the Long White Cloud</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605110000 +0000" stop="20250605130000 +0000">
-    <title lang="zh">Isolated</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605130000 +0000" stop="20250605150000 +0000">
-    <title lang="zh">The Westsiders</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605150000 +0000" stop="20250605153000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 17. Dutch Courage</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605153000 +0000" stop="20250605160000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 18. Numbers Game</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605160000 +0000" stop="20250605163000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 2. Taming Alaska</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605163000 +0000" stop="20250605170000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 3. Arctic Man</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605170000 +0000" stop="20250605173000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 7. Alaska</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605173000 +0000" stop="20250605180000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 8. Mark Landvik &amp; Markku Koski</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605180000 +0000" stop="20250605200000 +0000">
-    <title lang="zh">Isolated</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605200000 +0000" stop="20250605220000 +0000">
-    <title lang="zh">The Westsiders</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605220000 +0000" stop="20250605230000 +0000">
-    <title lang="zh">Lost in Thought</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605230000 +0000" stop="20250605233000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 17. Dutch Courage</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
-  <programme channel="421685" start="20250605233000 +0000" stop="20250606000000 +0000">
-    <title lang="zh">Behind the Gate – Sn 2, Ep 18. Numbers Game</title>
-    <desc />
-    <date>2025-06-05</date>
-  </programme>
   <programme channel="421685" start="20250606000000 +0000" stop="20250606020000 +0000">
     <title lang="zh">Isolated</title>
     <desc />
@@ -294,9 +149,219 @@
     <desc />
     <date>2025-06-06</date>
   </programme>
-  <programme channel="421685" start="20250607000000 +0000" stop="20250608000000 +0000">
+  <programme channel="421685" start="20250607000000 +0000" stop="20250607003000 +0000">
     <title lang="zh">Shorebreak: The Series – Sn 1, Ep 5. I Love Sharks</title>
     <desc />
     <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607003000 +0000" stop="20250607010000 +0000">
+    <title lang="zh">On Surfari – Sn 1, Ep 5. Caribbean</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607010000 +0000" stop="20250607020000 +0000">
+    <title lang="zh">Riding the Long White Cloud</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607020000 +0000" stop="20250607023000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 1. Changes in The Game</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607023000 +0000" stop="20250607030000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 2. A Different Breed</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607030000 +0000" stop="20250607033000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 6. Trophy Trucks</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607033000 +0000" stop="20250607040000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 7. European Vacation</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607040000 +0000" stop="20250607043000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 8. Raimana Van Bastolaer</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607043000 +0000" stop="20250607050000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 9. Kenny Anderson</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607050000 +0000" stop="20250607053000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 5. Louie Fountain</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607053000 +0000" stop="20250607060000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 6. Time Machine</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607060000 +0000" stop="20250607063000 +0000">
+    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 5. I Love Sharks</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607063000 +0000" stop="20250607070000 +0000">
+    <title lang="zh">On Surfari – Sn 1, Ep 5. Caribbean</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607070000 +0000" stop="20250607073000 +0000">
+    <title lang="zh">Built to Shred – Sn 1, Ep 1. Slab City</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607073000 +0000" stop="20250607080000 +0000">
+    <title lang="zh">Built to Shred – Sn 1, Ep 2. Raging Waterless</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607080000 +0000" stop="20250607083000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 8. Raimana Van Bastolaer</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607083000 +0000" stop="20250607090000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 9. Kenny Anderson</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607090000 +0000" stop="20250607093000 +0000">
+    <title lang="zh">Drive Thru – Sn 4, Ep 1. The Departure</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607093000 +0000" stop="20250607100000 +0000">
+    <title lang="zh">Drive Thru – Sn 4, Ep 2. Hidden Treasures in Puerto Rico</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607100000 +0000" stop="20250607113000 +0000">
+    <title lang="zh">Thunderstruck 10</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607113000 +0000" stop="20250607120000 +0000">
+    <title lang="zh">Bubba's World – Sn 2, Ep 10. The Bro Show</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607120000 +0000" stop="20250607123000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 5. Louie Fountain</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607123000 +0000" stop="20250607130000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 6. Time Machine</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607130000 +0000" stop="20250607133000 +0000">
+    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 5. I Love Sharks</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607133000 +0000" stop="20250607140000 +0000">
+    <title lang="zh">On Surfari – Sn 1, Ep 5. Caribbean</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607140000 +0000" stop="20250607150000 +0000">
+    <title lang="zh">Riding the Long White Cloud</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607150000 +0000" stop="20250607153000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 1. Changes in The Game</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607153000 +0000" stop="20250607160000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 2. A Different Breed</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607160000 +0000" stop="20250607163000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 6. Trophy Trucks</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607163000 +0000" stop="20250607170000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 4, Ep 7. European Vacation</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607170000 +0000" stop="20250607173000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 9. Johon Oloffson</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607173000 +0000" stop="20250607180000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 2, Ep 10. Canada</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607180000 +0000" stop="20250607183000 +0000">
+    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607183000 +0000" stop="20250607203000 +0000">
+    <title lang="zh">Warren Miller's There Comes a Time</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607203000 +0000" stop="20250607204500 +0000">
+    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 4. Episode 4</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607204500 +0000" stop="20250607210000 +0000">
+    <title lang="zh">MOTE: 50 Years Around the Sun</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607210000 +0000" stop="20250607213000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 8. Raimana Van Bastolaer</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607213000 +0000" stop="20250607220000 +0000">
+    <title lang="zh">Firsthand – Sn 12, Ep 9. Kenny Anderson</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607220000 +0000" stop="20250607223000 +0000">
+    <title lang="zh">Bubba's World – Sn 2, Ep 11. The Co-Workers</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607223000 +0000" stop="20250607230000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 6. Time Machine</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607230000 +0000" stop="20250607233000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 7. Burton Hemsedal</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250607233000 +0000" stop="20250608000000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 8. Lake Tahoe</title>
+    <desc />
+    <date>2025-06-07</date>
+  </programme>
+  <programme channel="421685" start="20250608000000 +0000" stop="20250609000000 +0000">
+    <title lang="zh">Shorebreak: The Series – Sn 1, Ep 6. First Swell</title>
+    <desc />
+    <date>2025-06-08</date>
   </programme>
 </tv>
