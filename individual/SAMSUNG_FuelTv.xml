@@ -1,189 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250613091621 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250613.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250613&amp;timezone=None">
+<tv date="20250614091333 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/421685/20250614.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=421685&amp;date=20250614&amp;timezone=None">
   <channel id="421685">
     <display-name lang="Russian Federation">Fuel TV HD</display-name>
     <icon src="https://epg.pw/media/images/epg/2025/04/05/20250405021902351736_60.png" />
   </channel>
-  <programme channel="421685" start="20250613000000 +0000" stop="20250613020000 +0000">
-    <title lang="zh">Warren Miller's There Comes a Time</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613020000 +0000" stop="20250613023000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 13. Soldier Up</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613023000 +0000" stop="20250613030000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 14. Shifting Sand</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613030000 +0000" stop="20250613033000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 5. Going Berserk</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613033000 +0000" stop="20250613040000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 6. Dish-Dash and Splash</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613040000 +0000" stop="20250613043000 +0000">
-    <title lang="zh">Firsthand – Sn 13, Ep 1. Simon Hetrick</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613043000 +0000" stop="20250613050000 +0000">
-    <title lang="zh">Firsthand – Sn 13, Ep 2. Matt Bromley</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613050000 +0000" stop="20250613053000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 4, Ep 4. Terrace, BC Part 2</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613053000 +0000" stop="20250613060000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 4, Ep 5. Mitch Reed</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613060000 +0000" stop="20250613063000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 1. Episode 1</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613063000 +0000" stop="20250613070000 +0000">
-    <title lang="zh">On Surfari – Sn 2, Ep 1. Nicaragua</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613070000 +0000" stop="20250613073000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 6. Storming KONA</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613073000 +0000" stop="20250613080000 +0000">
-    <title lang="zh">Built to Shred – Sn 2, Ep 7. 3 Wishes</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613080000 +0000" stop="20250613083000 +0000">
-    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 3. Episode 3</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613083000 +0000" stop="20250613103000 +0000">
-    <title lang="zh">Warren Miller's There Comes a Time</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613103000 +0000" stop="20250613104500 +0000">
-    <title lang="zh">Dometic Adventure with O – Sn 1, Ep 4. Episode 4</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613104500 +0000" stop="20250613110000 +0000">
-    <title lang="zh">One Shot 4.0 Glacier Surfing</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613110000 +0000" stop="20250613113000 +0000">
-    <title lang="zh">Bubba's World – Sn 1, Ep 2. The Nap</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613113000 +0000" stop="20250613120000 +0000">
-    <title lang="zh">The Moto: Inside the Outdoors – Sn 1, Ep 5. Grinding Down</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613120000 +0000" stop="20250613123000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 4, Ep 4. Terrace, BC Part 2</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613123000 +0000" stop="20250613130000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 4, Ep 5. Mitch Reed</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613130000 +0000" stop="20250613133000 +0000">
-    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 1. Episode 1</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613133000 +0000" stop="20250613140000 +0000">
-    <title lang="zh">On Surfari – Sn 2, Ep 1. Nicaragua</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613140000 +0000" stop="20250613144500 +0000">
-    <title lang="zh">Dude Cruise</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613144500 +0000" stop="20250613150000 +0000">
-    <title lang="zh">Returning Home</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613150000 +0000" stop="20250613153000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 13. Soldier Up</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613153000 +0000" stop="20250613160000 +0000">
-    <title lang="zh">Behind the Gate – Sn 1, Ep 14. Shifting Sand</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613160000 +0000" stop="20250613163000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 5. Going Berserk</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613163000 +0000" stop="20250613170000 +0000">
-    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 6. Dish-Dash and Splash</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613170000 +0000" stop="20250613173000 +0000">
-    <title lang="zh">NEXT GEN Skateboarding – Sn 2, Ep 3. Episode 3</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613173000 +0000" stop="20250613193000 +0000">
-    <title lang="zh">Warren Miller's There Comes a Time</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613193000 +0000" stop="20250613220000 +0000">
-    <title lang="zh">California Collection</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613220000 +0000" stop="20250613223000 +0000">
-    <title lang="zh">Bubba's World – Sn 1, Ep 4. The Game</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613223000 +0000" stop="20250613230000 +0000">
-    <title lang="zh">The Moto: Inside the Outdoors – Sn 1, Ep 6. The Victors</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613230000 +0000" stop="20250613233000 +0000">
-    <title lang="zh">The Standard Snowboard Show – Sn 4, Ep 6. Marko &amp; Jusso</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
-  <programme channel="421685" start="20250613233000 +0000" stop="20250614000000 +0000">
-    <title lang="zh">California Collection</title>
-    <desc />
-    <date>2025-06-13</date>
-  </programme>
   <programme channel="421685" start="20250614020000 +0000" stop="20250614023000 +0000">
     <title lang="zh">Behind the Gate – Sn 1, Ep 15. Breaking Point</title>
     <desc />
@@ -358,5 +178,185 @@
     <title lang="zh">Andy Irons and The Radicals</title>
     <desc />
     <date>2025-06-14</date>
+  </programme>
+  <programme channel="421685" start="20250615020000 +0000" stop="20250615023000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 17. Mind The Gap</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615023000 +0000" stop="20250615030000 +0000">
+    <title lang="zh">Behind the Gate – Sn 1, Ep 18. Riders On The Storm</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615030000 +0000" stop="20250615033000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 9. Costa Rican Crabbin'</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615033000 +0000" stop="20250615040000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 10. Buffalo Pregnancy Test</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615040000 +0000" stop="20250615043000 +0000">
+    <title lang="zh">Firsthand – Sn 1, Ep 3. Ryan Wilburn</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615043000 +0000" stop="20250615050000 +0000">
+    <title lang="zh">Firsthand – Sn 1, Ep 4. Jamie Bestwick</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615050000 +0000" stop="20250615053000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 5, Ep 2. Kazu</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615053000 +0000" stop="20250615060000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 5, Ep 3. Secret Spots: Canada</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615060000 +0000" stop="20250615063000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615063000 +0000" stop="20250615070000 +0000">
+    <title lang="zh">On Surfari – Sn 2, Ep 3. Liberia</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615070000 +0000" stop="20250615073000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 3. Shred Penitentiary</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615073000 +0000" stop="20250615080000 +0000">
+    <title lang="zh">Built to Shred – Sn 3, Ep 4. Offshore Banking</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615080000 +0000" stop="20250615103000 +0000">
+    <title lang="zh">Andy Irons and The Radicals</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615103000 +0000" stop="20250615110000 +0000">
+    <title lang="zh">Drive Thru – Sn 5, Ep 4. Planes, Trains and Automobiles</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615110000 +0000" stop="20250615113000 +0000">
+    <title lang="zh">Bubba's World – Sn 1, Ep 4. The Game</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615113000 +0000" stop="20250615120000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 2, Ep 1. Champions Are Built</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615120000 +0000" stop="20250615123000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 5, Ep 2. Kazu</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615123000 +0000" stop="20250615130000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 5, Ep 3. Secret Spots: Canada</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615130000 +0000" stop="20250615133000 +0000">
+    <title lang="zh">The Captain and Casey Show – Sn 1, Ep 3. Episode 3</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615133000 +0000" stop="20250615140000 +0000">
+    <title lang="zh">On Surfari – Sn 2, Ep 3. Liberia</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615140000 +0000" stop="20250615160000 +0000">
+    <title lang="zh">A Life of Endless Summers: The Bruce Brown Story</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615160000 +0000" stop="20250615163000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 9. Costa Rican Crabbin'</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615163000 +0000" stop="20250615170000 +0000">
+    <title lang="zh">The Adventures of Danny and the Dingo – Sn 5, Ep 10. Buffalo Pregnancy Test</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615170000 +0000" stop="20250615173000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 5. Louie Fountain</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615173000 +0000" stop="20250615180000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 3, Ep 6. Time Machine</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615180000 +0000" stop="20250615183000 +0000">
+    <title lang="zh">Monster Army Documentary</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615183000 +0000" stop="20250615184500 +0000">
+    <title lang="zh">Custom – Sn 9, Ep 3. Dark Fest</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615184500 +0000" stop="20250615204500 +0000">
+    <title lang="zh">Fourcast</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615204500 +0000" stop="20250615210000 +0000">
+    <title lang="zh">Portugal – Back to Back – Sn 2, Ep 2. Faro</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615210000 +0000" stop="20250615213000 +0000">
+    <title lang="zh">Firsthand – Sn 1, Ep 3. Ryan Wilburn</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615213000 +0000" stop="20250615220000 +0000">
+    <title lang="zh">Firsthand – Sn 1, Ep 4. Jamie Bestwick</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615220000 +0000" stop="20250615223000 +0000">
+    <title lang="zh">Bubba's World – Sn 1, Ep 6. The Tourist</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615223000 +0000" stop="20250615230000 +0000">
+    <title lang="zh">The Moto: Inside the Outdoors – Sn 2, Ep 2. Paid to Win</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615230000 +0000" stop="20250615233000 +0000">
+    <title lang="zh">The Standard Snowboard Show – Sn 5, Ep 4. Chas and Crepel Show</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615233000 +0000" stop="20250615234500 +0000">
+    <title lang="zh">Locals – Sn 1, Ep 6. Adolf Silva</title>
+    <desc />
+    <date>2025-06-15</date>
+  </programme>
+  <programme channel="421685" start="20250615234500 +0000" stop="20250616000000 +0000">
+    <title lang="zh">Shades of Winter: Between</title>
+    <desc />
+    <date>2025-06-15</date>
   </programme>
 </tv>
