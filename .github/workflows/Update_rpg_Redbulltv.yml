@@ -1,0 +1,32 @@
+name: Update EPG XML Redbulltv
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs at midnight UTC daily
+  workflow_dispatch:  # Allows manual runs
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create individual folder if it doesn't exist
+        run: mkdir -p individual
+
+      - name: Fetch EPG XML
+        run: curl -o individual/USA-Disney_Jr_East.xml "https://nzxmltv.com/iptv/redbull.xml"
+
+      - name: Add XML Declaration and DOCTYPE
+        run: |
+          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' individual/Redbulltv.xml
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add individual/Redbulltv.xml
+          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase --autostash
+          git push --force
