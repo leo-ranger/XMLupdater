@@ -32,15 +32,15 @@ jobs:
 
           # Replace <channel> block with clean static version
           sed -i '/<channel id=/,/<\/channel>/c\
-  <channel id="10001">\
-    <display-name lang="US">Red Bull TV</display-name>\
-    <icon src="https://i.imgur.com/3IO3vYp.png" />\
-  </channel>' individual/Redbulltv.cleaned.xml
+          <channel id="10001">\
+          <display-name lang="US">Red Bull TV</display-name>\
+          <icon src="https://i.imgur.com/3IO3vYp.png" />\
+          </channel>' individual/Redbulltv.cleaned.xml
 
           # Remove all <url>...</url> lines from the file
           sed -i '/<url>.*<\/url>/d' individual/Redbulltv.cleaned.xml
 
-          # Use awk to transform programmes:
+          # Use awk to transform programmes
           awk '
           BEGIN { RS = "<programme "; ORS = "" }
           NR == 1 { print; next }
