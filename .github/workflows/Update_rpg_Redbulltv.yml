@@ -67,7 +67,7 @@ jobs:
           ' individual/Redbulltv.xml > individual/Redbulltv.cleaned.xml
           
           # Replace original with cleaned
-          mv individual/Redbulltv.xml individual/Redbulltv.xml
+          mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
