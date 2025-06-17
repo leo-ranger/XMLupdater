@@ -2,8 +2,8 @@ name: Update EPG XML Redbulltv
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:      # Allows manual trigger
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:
 
 jobs:
   update:
@@ -21,15 +21,14 @@ jobs:
 
       - name: Clean and Reformat Redbulltv EPG XML
         run: |
-          # Backup original file
           cp individual/Redbulltv.xml individual/Redbulltv_original.xml
 
-          # Extract the date attribute value from <tv> tag
+          # Extract TV date from original file
           tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
 
-          # Write new header and fixed channel block with id=10001
+          # Start fresh cleaned file
           {
-            echo '<?xml version=''1.0'' encoding=''UTF-8''?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
             echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
             echo "  <channel id=\"10001\">"
             echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
@@ -37,15 +36,9 @@ jobs:
             echo "  </channel>"
           } > individual/Redbulltv.cleaned.xml
 
-          # Append program listings, cleaning out unwanted tags and skipping duplicate XML headers/DOCTYPEs
+          # Extract and clean valid <programme> entries only
           awk '
-            BEGIN { in_channel=0; in_programme=0; skip_rating=0; }
-            /^<\?xml/ { next }
-            /^<!DOCTYPE/ { next }
-            /<\/tv>/ { exit }
-            /<channel / { in_channel=1 }
-            in_channel && /<\/channel>/ { in_channel=0; next }
-            in_channel { next }
+            BEGIN { in_programme=0; skip_rating=0; }
             /<programme / { in_programme=1 }
             /<\/programme>/ { in_programme=0 }
             in_programme && /<url>.*<\/url>/ { next }
@@ -53,13 +46,11 @@ jobs:
             in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
             in_programme && /<rating system="Red Bull TV">/ { skip_rating=1; next }
             skip_rating { if (/<\/rating>/) { skip_rating=0 } next }
+            /<\?xml|<!DOCTYPE|<tv|<\/tv>|<channel /,/<\/channel>/ { next }
             { print }
           ' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
 
-          # Close the main <tv> tag
           echo "</tv>" >> individual/Redbulltv.cleaned.xml
-
-          # Replace original with cleaned file
           mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
