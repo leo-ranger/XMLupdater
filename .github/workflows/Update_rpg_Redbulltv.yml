@@ -3,7 +3,7 @@ name: Update EPG XML Redbulltv
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs at midnight UTC daily
-  workflow_dispatch:  # Allows manual runs
+  workflow_dispatch:
 
 jobs:
   update:
@@ -18,15 +18,31 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Add XML Declaration and DOCTYPE
+      - name: Rewrite Header and Clean Channel Info
         run: |
-          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' individual/Redbulltv.xml
+          # Backup original for debugging
+          cp individual/Redbulltv.xml individual/Redbulltv_original.xml
+          
+          # Extract the date from original TV tag
+          tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
+
+          # Start writing the cleaned file
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
+            echo "  <channel id=\"403788\">"
+            echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
+            echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
+            echo "  </channel>"
+            echo "</tv>"
+          } > individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/Redbulltv.xml
-          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Cleaned and updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push --force
