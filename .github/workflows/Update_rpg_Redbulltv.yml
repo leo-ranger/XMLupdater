@@ -23,11 +23,12 @@ jobs:
         run: |
           cp og_time/Redbulltv.xml og_time/Redbulltv_original.xml
 
-          # Extract first programme start time and convert to Sydney time
+          # Extract first programme start time
           first_start=$(grep -oPm1 '<programme start="\K[^"]+' og_time/Redbulltv_original.xml)
-          sydney_time=$(TZ=Australia/Sydney date -d "${first_start:0:14}" +"%Y%m%d%H%M%S %z")
+          first_start_fmt="${first_start:0:4}-${first_start:4:2}-${first_start:6:2} ${first_start:8:2}:${first_start:10:2}:${first_start:12:2}"
+          sydney_time=$(TZ=Australia/Sydney date -d "$first_start_fmt" +"%Y%m%d%H%M%S %z")
 
-          # Start new cleaned XML file
+          # Begin new XML output
           {
             echo '<?xml version="1.0" encoding="UTF-8"?>'
             echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
@@ -38,7 +39,7 @@ jobs:
             echo '  </channel>'
           } > og_time/Redbulltv.cleaned.xml
 
-          # Clean and transform programme blocks
+          # Clean and format programme blocks
           awk '
             BEGIN {
               RS = "</programme>"
@@ -47,38 +48,32 @@ jobs:
             /<programme / {
               match($0, /<programme[^>]*start="([^"]+)"/, a_start)
               match($0, /<programme[^>]*stop="([^"]+)"/, a_stop)
-              start = a_start[1]
-              stop = a_stop[1]
+              start = substr(a_start[1], 1, 14) " +0000"
+              stop = substr(a_stop[1], 1, 14) " +0000"
+              date = substr(start, 1, 4) "-" substr(start, 5, 2) "-" substr(start, 7, 2)
 
-              # Strip timezone from programme start/stop
-              start_clean = substr(start,1,14) " +0000"
-              stop_clean = substr(stop,1,14) " +0000"
-
-              # Format date for <date> tag
-              date = substr(start,1,4) "-" substr(start,5,2) "-" substr(start,7,2)
-
-              match($0, /<title[^>]*lang="[^"]*"[^>]*>([^<]*)<\/title>/, t)
+              match($0, /<title[^>]*>([^<]*)<\/title>/, t)
               title = t[1]
 
-              match($0, /<sub-title[^>]*lang="[^"]*"[^>]*>([^<]*)<\/sub-title>/, st)
+              match($0, /<sub-title[^>]*>([^<]*)<\/sub-title>/, st)
               subtitle = st[1]
               if (length(subtitle) > 0) {
                 title = title " - " subtitle
               }
 
-              match($0, /<desc[^>]*lang="[^"]*"[^>]*>([^<]*)<\/desc>/, d)
+              match($0, /<desc[^>]*>([^<]*)<\/desc>/, d)
               desc = d[1]
 
-              match($0, /<icon src="([^"]*)" ?\/?>/, ic)
+              match($0, /<icon src="([^"]*)"/, ic)
               icon = ic[1]
 
-              printf "  <programme channel=\"421896\" start=\"%s\" stop=\"%s\">\n", start_clean, stop_clean
-              printf "    <title lang=\"en\">%s</title>\n", title
-              printf "    <desc lang=\"en\">%s</desc>\n", desc
+              print "  <programme channel=\"421896\" start=\"" start "\" stop=\"" stop "\">"
+              print "    <title lang=\"en\">" title "</title>"
+              print "    <desc lang=\"en\">" desc "</desc>"
               if (length(icon) > 0) {
-                printf "    <icon src=\"%s\" />\n", icon
+                print "    <icon src=\"" icon "\" />"
               }
-              printf "    <date>%s</date>\n", date
+              print "    <date>" date "</date>"
               print "  </programme>"
             }
           ' og_time/Redbulltv_original.xml >> og_time/Redbulltv.cleaned.xml
