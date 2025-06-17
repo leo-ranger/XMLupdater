@@ -18,8 +18,9 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/USA-Disney_Jr_East.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403674"
 
-      - name: Add DOCTYPE after XML declaration
-        run: sed -i '1a <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/USA-Disney_Jr_East.xml
+      - name: Add XML Declaration and DOCTYPE
+        run: |
+          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' individual/USA-Disney_Jr_East.xml
 
       - name: Check for Title "Bluey" in XML and Add Icon and Categories
         run: |
@@ -35,7 +36,6 @@ jobs:
           else
             echo "Bluey not found in the EPG XML."
           fi
-
       - name: Check for Title "Disney Jr's Ariel" in XML and Add Icon and Categories
         run: |
           if grep -q "<title lang=\"zh\">Disney Jr's Ariel</title>" individual/USA-Disney_Jr_East.xml; then
@@ -65,14 +65,12 @@ jobs:
             echo "Mickey Mouse Clubhouse not found in the EPG XML."
           fi
 
-      - name: Validate XML format
-        run: xmllint --noout individual/USA-Disney_Jr_East.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git pull --rebase --autostash
           git add individual/USA-Disney_Jr_East.xml
           git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git push
+          git pull --rebase --autostash
+          git push --force
