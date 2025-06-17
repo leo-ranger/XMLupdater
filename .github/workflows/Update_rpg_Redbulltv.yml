@@ -1,8 +1,8 @@
-name: Update EPG XML Redbulltv (Sydney time)
+name: Update Red Bull TV EPG (Sydney time & formatting)
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '0 0 * * *'  # daily midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -10,109 +10,113 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Create individual folder if missing
-        run: mkdir -p individual
+      - uses: actions/checkout@v3
 
       - name: Download Red Bull TV EPG XML
         run: curl -o individual/redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Process XML for Sydney timezone and formatting
+      - name: Process XML with Python
         run: |
-          # Set input/output files
-          infile="individual/redbulltv.xml"
-          outfile="individual/redbulltv_processed.xml"
+          python3 <<'EOF'
+          import xml.etree.ElementTree as ET
+          from datetime import datetime
+          import pytz
 
-          # Prepare XML header & fixed channel info
-          header='<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-          <tv date="" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
-          <channel id="10001">
-          <display-name lang="US">Red Bull TV</display-name>
-          <icon src="https://i.imgur.com/3IO3vYp.png" />
-          </channel>'
+          INFILE = "individual/redbulltv.xml"
+          OUTFILE = "individual/redbulltv_processed.xml"
 
-          # Write header to outfile, inserting current datetime in Sydney timezone
-          now=$(TZ=Australia/Sydney date '+%Y-%m-%d %H:%M:%S')
-          echo "$header" | sed "s/date=\"\"/date=\"$now\"/" > "$outfile"
+          # Parse XML
+          tree = ET.parse(INFILE)
+          root = tree.getroot()
 
-          # Function to convert UTC time to Sydney local time + offset for XMLTV format
-          convert_time() {
-            utc_time="$1" # e.g. 20250615191515
-            # Convert to Sydney time ISO 8601 with offset
-            sydney_iso=$(date -u -d "${utc_time:0:8} ${utc_time:8:2}:${utc_time:10:2}:${utc_time:12:2} UTC" +"%Y%m%d%H%M%S %z" --timezone=Australia/Sydney)
-            echo "$sydney_iso"
-          }
+          # Fix header attributes
+          root.attrib.clear()
+          from datetime import timezone
+          now_sydney = datetime.now(pytz.timezone("Australia/Sydney")).strftime("%Y-%m-%d %H:%M:%S")
+          root.attrib.update({
+              'date': now_sydney,
+              'generator-info-name': "NZXMLTV Red Bull TV 1.0",
+              'generator-info-url': "https://nzxmltv.com/iptv/",
+              'source-info-name': "NZXMLTV (Red Bull TV)",
+              'source-info-url': "https://www.redbull.com/int-en/channels/best-of-red-bull-stream",
+              'source-data-url': "https://www.redbull.com/int-en/channels/best-of-red-bull-stream"
+          })
 
-          # Parse input file, process <programme> elements
-          # We use xmlstarlet to safely parse XML if available, else fallback to sed/awk (not recommended)
-          if command -v xmlstarlet >/dev/null 2>&1; then
-            # Using xmlstarlet for clean processing
+          # Remove all existing channels, add fixed one with id=10001
+          for ch in root.findall('channel'):
+              root.remove(ch)
 
-            # Extract and process programmes
-            xmlstarlet sel -t -m "//programme" \
-              -v "concat(
-                '<programme channel=\"',@channel,'\" start=\"',@start,'\" stop=\"',@stop,'\">'
-              )" -n \
-              -v "title" -n \
-              -v "sub-title" -n \
-              -v "desc" -n \
-              -v "icon/@src" -n \
-              -v "episode-num" -n \
-              -v "rating" -n \
-              -v "date" -n \
-              "$infile" | while IFS= read -r line; do
-                # Process each line (simplified example)
-                # For full transformation, a dedicated XML transform script would be better
-                echo "$line"
-              done >> "$outfile"
+          channel = ET.SubElement(root, 'channel', id="10001")
+          display_name = ET.SubElement(channel, 'display-name', lang="US")
+          display_name.text = "Red Bull TV"
+          icon = ET.SubElement(channel, 'icon', src="https://i.imgur.com/3IO3vYp.png")
 
-          else
-            # Fallback: Use sed/awk to process XML text (not safe for complex XML)
+          # Timezone objects
+          tz_utc = pytz.utc
+          tz_sydney = pytz.timezone("Australia/Sydney")
 
-            # Remove all <url> tags from programmes
-            sed '/<programme/,/<\/programme>/{
-              s/<url>.*<\/url>//g
-            }' "$infile" | \
-            # Convert <programme> start and stop times from UTC to Sydney
-            awk '
-            function conv_time(utc,   yyyy,mm,dd,hh,mi,ss,cmd,cmdout,sydney){
-              yyyy=substr(utc,1,4);
-              mm=substr(utc,5,2);
-              dd=substr(utc,7,2);
-              hh=substr(utc,9,2);
-              mi=substr(utc,11,2);
-              ss=substr(utc,13,2);
-              # Construct ISO datetime string
-              cmd="date -u -d \"" yyyy "-" mm "-" dd " " hh ":" mi ":" ss " UTC\" +\"%Y%m%d%H%M%S %z\" --timezone=Australia/Sydney";
-              cmd | getline sydney;
-              close(cmd);
-              return sydney;
-            }
-            /<programme / {
-              start=""; stop="";
-              match($0, /start="([^"]+)"/, a);
-              match($0, /stop="([^"]+)"/, b);
-              start=conv_time(a[1]);
-              stop=conv_time(b[1]);
-              sub(/start="[^"]+"/,"start=\"" start "\"");
-              sub(/stop="[^"]+"/,"stop=\"" stop "\"");
-            }
-            {print}
-            ' >> "$outfile"
-          fi
+          def convert_time(utc_str):
+              # Format is YYYYMMDDHHMMSS with optional space and tz offset
+              # Strip space and offset if present
+              utc_str = utc_str.strip().split()[0]
+              dt = datetime.strptime(utc_str, "%Y%m%d%H%M%S")
+              dt_utc = tz_utc.localize(dt)
+              dt_syd = dt_utc.astimezone(tz_sydney)
+              # Format like: 20250615191515 +1000 or +1100
+              offset = dt_syd.strftime("%z")
+              return dt_syd.strftime("%Y%m%d%H%M%S") + " " + offset
 
-          # Close tv tag at end of file
-          echo "</tv>" >> "$outfile"
+          # Process all programmes
+          for prog in root.findall('programme'):
+              # Convert start/stop
+              start_utc = prog.get('start')
+              stop_utc = prog.get('stop')
+              if start_utc:
+                  prog.set('start', convert_time(start_utc))
+              if stop_utc:
+                  prog.set('stop', convert_time(stop_utc))
 
-          # Replace original file with processed one
-          mv "$outfile" "$infile"
+              # Remove any <url> tags under this programme
+              for url in prog.findall('url'):
+                  prog.remove(url)
 
-      - name: Commit and push if changed
+              # Combine <title> and <sub-title> if sub-title exists
+              title = prog.find('title')
+              subtitle = prog.find('sub-title')
+              if title is not None and subtitle is not None:
+                  title.text = f"{title.text} - {subtitle.text}"
+                  prog.remove(subtitle)
+              # else if only subtitle exists but no title (rare), promote subtitle?
+              elif title is None and subtitle is not None:
+                  title = ET.SubElement(prog, 'title', lang="en")
+                  title.text = subtitle.text
+                  prog.remove(subtitle)
+
+              # Change <desc lang="en"> to <desc>
+              desc = prog.find('desc[@lang="en"]')
+              if desc is not None:
+                  # Create new <desc> without lang attribute, copy text
+                  new_desc = ET.Element('desc')
+                  new_desc.text = desc.text
+                  prog.remove(desc)
+                  prog.append(new_desc)
+
+          # Write output with XML declaration and DOCTYPE on one line
+          xml_str = ET.tostring(root, encoding='utf-8').decode('utf-8')
+          header_line = '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
+          with open(OUTFILE, 'w', encoding='utf-8') as f:
+              f.write(header_line + "\n")
+              f.write(xml_str)
+
+          # Replace original file
+          import os
+          os.replace(OUTFILE, INFILE)
+          EOF
+
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/redbulltv.xml
-          git commit -m "Update Red Bull TV EPG $(date +%Y-%m-%d)" || echo "No changes"
+          git commit -m "Update Red Bull TV EPG with Sydney timezone and formatting" || echo "No changes"
           git push
