@@ -18,15 +18,15 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Reformat Header and Channel Block, Preserve Listings
+      - name: Clean and Format Red Bull TV EPG
         run: |
-          # Backup original for reference
+          # Backup original
           cp individual/Redbulltv.xml individual/Redbulltv_original.xml
 
-          # Extract TV date
+          # Extract <tv date="">
           tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
 
-          # Create new cleaned file
+          # Start cleaned output
           {
             echo '<?xml version="1.0" encoding="UTF-8"?>'
             echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
@@ -37,13 +37,35 @@ jobs:
             echo "  </channel>"
           } > individual/Redbulltv.cleaned.xml
 
-          # Append all <programme> elements from original file
-          awk '/<programme /,/<\/programme>/' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
+          # Filter <programme> blocks and clean unwanted tags
+          awk '
+          /<programme / { in_programme = 1 }
+          /<\/programme>/ { in_programme = 0 }
 
-          # Close the tv tag
+          in_programme && /<url>.*<\/url>/ { next }
+          in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
+          in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
+
+          # Remove <rating system="Red Bull TV">...</rating> block
+          in_programme && /<rating system="Red Bull TV">/ {
+            skip_rating = 1
+            next
+          }
+          skip_rating {
+            if (/<\/rating>/) {
+              skip_rating = 0
+            }
+            next
+          }
+
+          { print }
+
+          ' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
+
+          # Close </tv>
           echo "</tv>" >> individual/Redbulltv.cleaned.xml
 
-          # Replace original with cleaned version
+          # Replace file
           mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
@@ -51,6 +73,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/Redbulltv.xml
-          git commit -m "Formatted Red Bull TV EPG and preserved listings $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Cleaned Red Bull TV EPG: removed extra tags from programme blocks $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push --force
