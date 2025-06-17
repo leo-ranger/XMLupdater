@@ -37,19 +37,6 @@ jobs:
             echo "Bluey not found in the EPG XML."
           fi
 
-      - name: Check for Title "Mickey Mouse Clubhouse" in XML and Add Icon and Categories
-        run: |
-          if grep -iq '<title[^>]*>Mickey Mouse Clubhouse</title>' individual/USA-Disney_Jr_East.xml; then
-            echo "Found Mickey Mouse Clubhouse in the EPG XML!"
-            sed -i '/<title[^>]*>Mickey Mouse Clubhouse<\/title>/a \
-            <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>\
-            <category lang="en">Educational</category>\
-            <category lang="en">Animation</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
-          else
-            echo "Mickey Mouse Clubhouse not found in the EPG XML."
-          fi
       - name: Check for Title "Disney Jr's Ariel" in XML and Add Icon and Categories
         run: |
           if grep -q '<title lang="zh">Disney Jr's Ariel</title>' individual/USA-Disney_Jr_East.xml; then
@@ -63,6 +50,20 @@ jobs:
             <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
           else
             echo "Disney Jr's Ariel not found in the EPG XML."
+          fi
+
+      - name: Check for Title "Mickey Mouse Clubhouse" in XML and Add Icon and Categories
+        run: |
+          if grep -iq '<title[^>]*>Mickey Mouse Clubhouse</title>' individual/USA-Disney_Jr_East.xml; then
+            echo "Found Mickey Mouse Clubhouse in the EPG XML!"
+            sed -i '/<title[^>]*>Mickey Mouse Clubhouse<\/title>/a \
+            <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>\
+            <category lang="en">Educational</category>\
+            <category lang="en">Animation</category>\
+            <category lang="en">Comedy</category>\
+            <category lang="en">Kids</category>' individual/USA-Disney_Jr_East.xml
+          else
+            echo "Mickey Mouse Clubhouse not found in the EPG XML."
           fi
 
       - name: Commit and push if changed
