@@ -1,0 +1,39 @@
+name: Merge All EPGs
+
+on:
+  schedule:
+    - cron: '30 0 * * *'  # Runs daily at 00:30 UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+jobs:
+  merge_epgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install xmlstarlet
+        run: sudo apt-get update && sudo apt-get install -y xmlstarlet
+
+      - name: Merge all EPG XML files into Master_Location/epg.xml
+        run: |
+          mkdir -p Master_Location
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > Master_Location/epg.xml
+          echo '<tv generator-info-name="EPG Merger">' >> Master_Location/epg.xml
+
+          for file in individual/*.xml; do
+            echo "Processing $file"
+            xmlstarlet sel -t -c "/tv/channel" "$file" >> Master_Location/epg.xml
+            xmlstarlet sel -t -c "/tv/programme" "$file" >> Master_Location/epg.xml
+          done
+
+          echo '</tv>' >> Master_Location/epg.xml
+
+      - name: Commit and push combined EPG
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add Master_Location/epg.xml
+          git commit -m "Update Master EPG" || echo "No changes to commit"
+          git push
