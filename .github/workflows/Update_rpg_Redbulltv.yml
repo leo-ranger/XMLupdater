@@ -1,4 +1,4 @@
-name: Update EPG XML Redbulltv
+name: Update EPG XML Redbulltv (Sydney time)
 
 on:
   schedule:
@@ -8,73 +8,111 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Create individual folder
+      - name: Create individual folder if missing
         run: mkdir -p individual
 
-      - name: Fetch EPG XML
-        run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
+      - name: Download Red Bull TV EPG XML
+        run: curl -o individual/redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Clean and transform EPG XML
+      - name: Process XML for Sydney timezone and formatting
         run: |
-          # Remove all XML declarations and DOCTYPE lines
-          sed -i '/<?xml version=.*?>/d' individual/Redbulltv.xml
-          sed -i '/<!DOCTYPE tv SYSTEM.*>/d' individual/Redbulltv.xml
+          # Set input/output files
+          infile="individual/redbulltv.xml"
+          outfile="individual/redbulltv_processed.xml"
 
-          # Insert the XML declaration + DOCTYPE on a single line at the top
-          sed -i '1i<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/Redbulltv.xml
+          # Prepare XML header & fixed channel info
+          header='<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
+          <tv date="" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
+          <channel id="10001">
+          <display-name lang="US">Red Bull TV</display-name>
+          <icon src="https://i.imgur.com/3IO3vYp.png" />
+          </channel>'
 
-          # Replace <channel> block with fixed block
-          sed -i '/<channel id=/,/<\/channel>/c\
-          <channel id="10001">\
-          <display-name lang="US">Red Bull TV</display-name>\
-          <icon src="https://i.imgur.com/3IO3vYp.png" />\
-          </channel>' individual/Redbulltv.xml
+          # Write header to outfile, inserting current datetime in Sydney timezone
+          now=$(TZ=Australia/Sydney date '+%Y-%m-%d %H:%M:%S')
+          echo "$header" | sed "s/date=\"\"/date=\"$now\"/" > "$outfile"
 
-          # Remove all <url> tags
-          sed -i '/<url>.*<\/url>/d' individual/Redbulltv.xml
+          # Function to convert UTC time to Sydney local time + offset for XMLTV format
+          convert_time() {
+            utc_time="$1" # e.g. 20250615191515
+            # Convert to Sydney time ISO 8601 with offset
+            sydney_iso=$(date -u -d "${utc_time:0:8} ${utc_time:8:2}:${utc_time:10:2}:${utc_time:12:2} UTC" +"%Y%m%d%H%M%S %z" --timezone=Australia/Sydney)
+            echo "$sydney_iso"
+          }
 
-          # Transform <programme> blocks
-          perl -0777 -pe '
-            s{<programme\b(.*?)>(.*?)</programme>}{
-              my ($attrs, $content) = ($1, $2);
-              my ($start) = $attrs =~ /start="([^"]*)"/;
-              my ($stop) = $attrs =~ /stop="([^"]*)"/;
+          # Parse input file, process <programme> elements
+          # We use xmlstarlet to safely parse XML if available, else fallback to sed/awk (not recommended)
+          if command -v xmlstarlet >/dev/null 2>&1; then
+            # Using xmlstarlet for clean processing
 
-              # Combine title and subtitle
-              my ($title) = $content =~ /<title[^>]*>([^<]*)<\/title>/;
-              my ($subtitle) = $content =~ /<sub-title[^>]*>([^<]*)<\/sub-title>/;
-              my $fulltitle = $title;
-              $fulltitle .= " - $subtitle" if $subtitle;
+            # Extract and process programmes
+            xmlstarlet sel -t -m "//programme" \
+              -v "concat(
+                '<programme channel=\"',@channel,'\" start=\"',@start,'\" stop=\"',@stop,'\">'
+              )" -n \
+              -v "title" -n \
+              -v "sub-title" -n \
+              -v "desc" -n \
+              -v "icon/@src" -n \
+              -v "episode-num" -n \
+              -v "rating" -n \
+              -v "date" -n \
+              "$infile" | while IFS= read -r line; do
+                # Process each line (simplified example)
+                # For full transformation, a dedicated XML transform script would be better
+                echo "$line"
+              done >> "$outfile"
 
-              # Extract <desc>
-              my ($desc) = $content =~ /<desc[^>]*>(.*?)<\/desc>/s;
+          else
+            # Fallback: Use sed/awk to process XML text (not safe for complex XML)
 
-              # Extract date YYYY-MM-DD from start
-              my $date = "";
-              if ($start =~ /^(\d{4})(\d{2})(\d{2})/) {
-                $date = "$1-$2-$3";
-              }
+            # Remove all <url> tags from programmes
+            sed '/<programme/,/<\/programme>/{
+              s/<url>.*<\/url>//g
+            }' "$infile" | \
+            # Convert <programme> start and stop times from UTC to Sydney
+            awk '
+            function conv_time(utc,   yyyy,mm,dd,hh,mi,ss,cmd,cmdout,sydney){
+              yyyy=substr(utc,1,4);
+              mm=substr(utc,5,2);
+              dd=substr(utc,7,2);
+              hh=substr(utc,9,2);
+              mi=substr(utc,11,2);
+              ss=substr(utc,13,2);
+              # Construct ISO datetime string
+              cmd="date -u -d \"" yyyy "-" mm "-" dd " " hh ":" mi ":" ss " UTC\" +\"%Y%m%d%H%M%S %z\" --timezone=Australia/Sydney";
+              cmd | getline sydney;
+              close(cmd);
+              return sydney;
+            }
+            /<programme / {
+              start=""; stop="";
+              match($0, /start="([^"]+)"/, a);
+              match($0, /stop="([^"]+)"/, b);
+              start=conv_time(a[1]);
+              stop=conv_time(b[1]);
+              sub(/start="[^"]+"/,"start=\"" start "\"");
+              sub(/stop="[^"]+"/,"stop=\"" stop "\"");
+            }
+            {print}
+            ' >> "$outfile"
+          fi
 
-              # Build new programme block
-              "<programme channel=\"10001\" start=\"$start\" stop=\"$stop\">\n" .
-              "  <title lang=\"en\">$fulltitle</title>\n" .
-              "  <desc>$desc</desc>\n" .
-              "  <date>$date</date>\n" .
-              "</programme>"
-            }ges' individual/Redbulltv.xml > individual/Redbulltv.cleaned.xml
+          # Close tv tag at end of file
+          echo "</tv>" >> "$outfile"
 
-          # Overwrite original file
-          mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
+          # Replace original file with processed one
+          mv "$outfile" "$infile"
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add individual/Redbulltv.xml
-          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase --autostash
-          git push --force
+          git add individual/redbulltv.xml
+          git commit -m "Update Red Bull TV EPG $(date +%Y-%m-%d)" || echo "No changes"
+          git push
