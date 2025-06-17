@@ -1,11 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="2025-06-17 04:12:19" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
-  <channel id="10001">
-    <display-name lang="US">Red Bull TV</display-name>
-    <icon src="https://i.imgur.com/3IO3vYp.png" />
-  </channel>
-</tv>
-
 <tv date="20250617144021 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403788/20250617.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403788&amp;date=20250617&amp;timezone=None">
   <channel id="403788">
     <display-name lang="US">Disney - Eastern Feed</display-name>
