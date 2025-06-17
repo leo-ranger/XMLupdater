@@ -23,21 +23,22 @@ jobs:
         run: |
           cp og_time/Redbulltv.xml og_time/Redbulltv_original.xml
 
-          # Extract first programme start time for tv date
+          # Extract first programme start time and convert to Sydney time
           first_start=$(grep -oPm1 '<programme start="\K[^"]+' og_time/Redbulltv_original.xml)
-          formatted_tv_date="${first_start:0:14} ${first_start:15}"
+          sydney_time=$(TZ=Australia/Sydney date -d "${first_start:0:14}" +"%Y%m%d%H%M%S %z")
 
-          # Start fresh cleaned file with XML declaration and TV block
+          # Start new cleaned XML file
           {
-            echo '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
-            echo "<tv date=\"$formatted_tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
-            echo '  <channel id="10001">'
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo "<tv date=\"$sydney_time\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
+            echo '  <channel id="421896">'
             echo '    <display-name lang="US">Red Bull TV</display-name>'
             echo '    <icon src="https://i.imgur.com/3IO3vYp.png" />'
             echo '  </channel>'
           } > og_time/Redbulltv.cleaned.xml
 
-          # Parse and transform programme blocks
+          # Clean and transform programme blocks
           awk '
             BEGIN {
               RS = "</programme>"
@@ -46,12 +47,14 @@ jobs:
             /<programme / {
               match($0, /<programme[^>]*start="([^"]+)"/, a_start)
               match($0, /<programme[^>]*stop="([^"]+)"/, a_stop)
-              match($0, /<programme[^>]*channel="([^"]+)"/, a_chan)
               start = a_start[1]
               stop = a_stop[1]
-              channel = a_chan[1]
 
-              # Format date from start timestamp
+              # Strip timezone from programme start/stop
+              start_clean = substr(start,1,14) " +0000"
+              stop_clean = substr(stop,1,14) " +0000"
+
+              # Format date for <date> tag
               date = substr(start,1,4) "-" substr(start,5,2) "-" substr(start,7,2)
 
               match($0, /<title[^>]*lang="[^"]*"[^>]*>([^<]*)<\/title>/, t)
@@ -69,7 +72,7 @@ jobs:
               match($0, /<icon src="([^"]*)" ?\/?>/, ic)
               icon = ic[1]
 
-              printf "  <programme channel=\"%s\" start=\"%s\" stop=\"%s\">\n", channel, start, stop
+              printf "  <programme channel=\"421896\" start=\"%s\" stop=\"%s\">\n", start_clean, stop_clean
               printf "    <title lang=\"en\">%s</title>\n", title
               printf "    <desc lang=\"en\">%s</desc>\n", desc
               if (length(icon) > 0) {
