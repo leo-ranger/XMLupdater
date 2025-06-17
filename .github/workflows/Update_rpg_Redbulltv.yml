@@ -18,15 +18,15 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Rewrite Header and Clean Channel Info
+      - name: Reformat Header and Channel Block, Preserve Listings
         run: |
-          # Backup original for debugging
+          # Backup original for reference
           cp individual/Redbulltv.xml individual/Redbulltv_original.xml
-          
-          # Extract the date from original TV tag
+
+          # Extract TV date
           tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
 
-          # Start writing the cleaned file
+          # Create new cleaned file
           {
             echo '<?xml version="1.0" encoding="UTF-8"?>'
             echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
@@ -35,14 +35,22 @@ jobs:
             echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
             echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
             echo "  </channel>"
-            echo "</tv>"
-          } > individual/Redbulltv.xml
+          } > individual/Redbulltv.cleaned.xml
+
+          # Append all <programme> elements from original file
+          awk '/<programme /,/<\/programme>/' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
+
+          # Close the tv tag
+          echo "</tv>" >> individual/Redbulltv.cleaned.xml
+
+          # Replace original with cleaned version
+          mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/Redbulltv.xml
-          git commit -m "Cleaned and updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Formatted Red Bull TV EPG and preserved listings $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push --force
