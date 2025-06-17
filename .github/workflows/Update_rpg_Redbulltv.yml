@@ -2,8 +2,8 @@ name: Update EPG XML Redbulltv
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at midnight UTC daily
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
   update:
@@ -18,73 +18,73 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-      - name: Clean and Format Red Bull TV EPG
+      - name: Clean and Reformat Redbulltv EPG XML
         run: |
-# Backup original
-cp individual/Redbulltv.xml individual/Redbulltv_original.xml
+          # Backup original
+          cp individual/Redbulltv.xml individual/Redbulltv_original.xml
 
-# Extract <tv date="">
-tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
+          # Extract <tv date=""> attribute value
+          tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
 
-# Start cleaned output with fixed <tv> and <channel> (id = 10001)
-{
-  echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
-  echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
-  echo "  <channel id=\"10001\">"
-  echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
-  echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
-  echo "  </channel>"
-} > individual/Redbulltv.cleaned.xml
+          # Write new header and channel block with id=10001
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
+            echo "  <channel id=\"10001\">"
+            echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
+            echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
+            echo "  </channel>"
+          } > individual/Redbulltv.cleaned.xml
 
-# Skip original header/channel and clean programme blocks
-awk '
-  BEGIN {
-    in_channel = 0
-    in_programme = 0
-    skip_rating = 0
-  }
+          # Filter out unwanted tags from programmes
+          awk '
+            BEGIN {
+              in_channel = 0
+              in_programme = 0
+              skip_rating = 0
+            }
 
-  /<channel / { in_channel = 1 }
-  in_channel && /<\/channel>/ { in_channel = 0; next }
-  in_channel { next }  # Skip all lines inside the original channel
+            /<channel / { in_channel = 1 }
+            in_channel && /<\/channel>/ { in_channel = 0; next }
+            in_channel { next }
 
-  /<programme / { in_programme = 1 }
-  /<\/programme>/ { in_programme = 0 }
+            /<programme / { in_programme = 1 }
+            /<\/programme>/ { in_programme = 0 }
 
-  # Remove specific tags inside <programme>
-  in_programme && /<url>.*<\/url>/ { next }
-  in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
-  in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
+            # Remove <url> tags inside <programme>
+            in_programme && /<url>.*<\/url>/ { next }
 
-  # Remove full <rating> block
-  in_programme && /<rating system="Red Bull TV">/ {
-    skip_rating = 1
-    next
-  }
-  skip_rating {
-    if (/<\/rating>/) {
-      skip_rating = 0
-    }
-    next
-  }
+            # Remove <episode-num> tags with specific systems inside <programme>
+            in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
+            in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
 
-  { print }
+            # Remove entire <rating system="Red Bull TV">...</rating> blocks
+            in_programme && /<rating system="Red Bull TV">/ {
+              skip_rating = 1
+              next
+            }
+            skip_rating {
+              if (/<\/rating>/) {
+                skip_rating = 0
+              }
+              next
+            }
 
-' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
+            { print }
+          ' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
 
-# Close the <tv> block
-echo "</tv>" >> individual/Redbulltv.cleaned.xml
+          # Close the <tv> element
+          echo "</tv>" >> individual/Redbulltv.cleaned.xml
 
-# Replace the original
-mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
-
+          # Replace the original file with the cleaned version
+          mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/Redbulltv.xml
-          git commit -m "Cleaned Red Bull TV EPG: removed extra tags from programme blocks $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push --force
