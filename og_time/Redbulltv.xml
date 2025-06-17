@@ -1,310 +1,311 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250615191515 +0000" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
-  <channel id="10001">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv date="20250615191515 +1000" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
+  <channel id="421896">
     <display-name lang="US">Red Bull TV</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png" />
   </channel>
-  <programme channel="10001" start="20250615191515 +0000" stop="20250615195902 +0000">
+  <programme channel="421896" start="20250615191515 +0000" stop="20250615195902 +0000">
     <title lang="en">Red Bull Soapbox Race - Toulouse, France</title>
     <desc lang="en">Whether its sports, esports, UCI, Ironman, F1, WRC, TV, music, festivals, films or videos, Red Bull TV has it all!</desc>
     <icon src="https://i.imgur.com/3IO3vYp.png" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615195902 +0000" stop="20250615202449 +0000">
+  <programme channel="421896" start="20250615195902 +0000" stop="20250615202449 +0000">
     <title lang="en">Premier Padel 2025 - Riyadh Premier Padel highlights</title>
     <desc lang="en">Watch the action from the season opener in Saudi Arabia as the world&apos;s best padel players tackle the Riyadh Premier Padel P1.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615202449 +0000" stop="20250615205039 +0000">
+  <programme channel="421896" start="20250615202449 +0000" stop="20250615205039 +0000">
     <title lang="en">Premier Padel 2025 - Gijón Premier Padel highlights</title>
     <desc lang="en">Watch the action from Spain as the world&apos;s best padel players tackle the Gijón Premier Padel P2 at Palacio de Deportes de la Guía-Presidente Adolfo Suárez.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:14c38628-f16c-4a47-89cd-092bf40590bf/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615205039 +0000" stop="20250615211706 +0000">
+  <programme channel="421896" start="20250615205039 +0000" stop="20250615211706 +0000">
     <title lang="en">Premier Padel 2025 - Cancun Premier Padel highlights</title>
     <desc lang="en">Watch the action from Mexico as the world&apos;s best padel players tackle the Cancun Premier Padel P2.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615211706 +0000" stop="20250615214308 +0000">
+  <programme channel="421896" start="20250615211706 +0000" stop="20250615214308 +0000">
     <title lang="en">Premier Padel 2025 - Miami Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615214308 +0000" stop="20250615220916 +0000">
+  <programme channel="421896" start="20250615214308 +0000" stop="20250615220916 +0000">
     <title lang="en">Premier Padel 2025 - Qatar Major Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Qatar Major Premier Padel in Doha, where the sport continues to grow in popularity.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:f9de6231-769e-4a74-921c-272314e4c8ff/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615220916 +0000" stop="20250615223543 +0000">
+  <programme channel="421896" start="20250615220916 +0000" stop="20250615223543 +0000">
     <title lang="en">Premier Padel 2025 - Brussels P2 Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Brussels P2 Premier Padel in Belgium, where the sport continues to grow in popularity.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:981dabaf-4d46-4acf-8cd0-2a5cb398fd4a/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615223543 +0000" stop="20250615230145 +0000">
+  <programme channel="421896" start="20250615223543 +0000" stop="20250615230145 +0000">
     <title lang="en"> - Program information unavailable at this time</title>
     <desc lang="en"></desc>
     <icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615230145 +0000" stop="20250615232401 +0000">
+  <programme channel="421896" start="20250615230145 +0000" stop="20250615232401 +0000">
     <title lang="en">Reel Rock - Big things to come</title>
     <desc lang="en">Elite climber Alex Johnson has attempted to climb the iconic boulder The Swarm, California, for a decade. Not succeeding breaks her down into self-reflection where she finally accepts her sexuality.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615232401 +0000" stop="20250615235052 +0000">
+  <programme channel="421896" start="20250615232401 +0000" stop="20250615235052 +0000">
     <title lang="en">Reel Rock - The Nose speed record part 3</title>
     <desc lang="en">After weeks of practice and more than a few mishaps, Alex Honnold and Tommy Caldwell begin their attempt at the record. Onlookers hold their breath as the two rip up the face at breakneck speed.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250615235052 +0000" stop="20250616001043 +0000">
+  <programme channel="421896" start="20250615235052 +0000" stop="20250616001043 +0000">
     <title lang="en">Reel Rock - The sensei part 1</title>
     <desc lang="en">Yuji Hirayama is one of the greats of modern climbing. He enlists Daniel Woods, a young boulderer with loads of raw talent, to help him climb the unscaled peaks of Mount Kinabalu.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-15</date>
   </programme>
-  <programme channel="10001" start="20250616001043 +0000" stop="20250616003110 +0000">
+  <programme channel="421896" start="20250616001043 +0000" stop="20250616003110 +0000">
     <title lang="en">Reel Rock - The sensei part 2</title>
     <desc lang="en">After Daniel Woods proves himself to Yuji Hirayama, the pair travel to Borneo to establish new routes on Mount Kinabalu. The harsh conditions 13,000ft above sea level test both student and master.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616003110 +0000" stop="20250616004904 +0000">
+  <programme channel="421896" start="20250616003110 +0000" stop="20250616004904 +0000">
     <title lang="en">No Contest: Off Tour - Honolulu</title>
     <desc lang="en">Dive deep into one of surfing&apos;s most historic corners, Honolulu. On the other side of Oahu to the famed North Shore, &apos;Town&apos; serves up an abundance of pristine waves and Hawaiian heritage.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616004904 +0000" stop="20250616010755 +0000">
+  <programme channel="421896" start="20250616004904 +0000" stop="20250616010755 +0000">
     <title lang="en">No Contest: Off Tour - Japan</title>
     <desc lang="en">While Japan is known for both tradition and technology it&apos;s also an archipelago lashed by swell and steeped in surfing culture. Kanoa Igarashi takes you to Tokyo to get a taste of the action.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616010755 +0000" stop="20250616012838 +0000">
+  <programme channel="421896" start="20250616010755 +0000" stop="20250616012838 +0000">
     <title lang="en">No Contest: Off Tour - Sydney</title>
     <desc lang="en">From the Eastern Suburbs to the Central Coast and from The Shire to the Northern Beaches, meet the colourful characters and explore the surfing culture of Australia&apos;s biggest city, Sydney.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616012838 +0000" stop="20250616022147 +0000">
+  <programme channel="421896" start="20250616012838 +0000" stop="20250616022147 +0000">
     <title lang="en">More than a Dive - Pressure in paradise</title>
     <desc lang="en">The 2025 season opens in El Nido, one of the rawest natural settings on tour. Iffland hits her 50th podium. Hunt returns as wildcard to win again – paradise challenges every diver’s mind and body.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:83c82ea1-0042-4fdb-8c75-ac3bb1135656/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616022147 +0000" stop="20250616030350 +0000">
+  <programme channel="421896" start="20250616022147 +0000" stop="20250616030350 +0000">
     <title lang="en">Red Bull Soapbox Race - Barcelona, Spain</title>
     <desc lang="en">The course in Barcelona, Spain, is characterised by long, sweeping turns and obstructions. It leaves some teams with a question: is it better to avoid the hay bales or simply smash through them?</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616030350 +0000" stop="20250616031436 +0000">
+  <programme channel="421896" start="20250616030350 +0000" stop="20250616031436 +0000">
     <title lang="en">Welcome to the fastest soapbox race on Earth - F1 drivers race soapboxes in Montreal</title>
     <desc lang="en">Haystacks, home-made vehicles and crazy obstacles – it&apos;s Max Verstappen and Sergio Pérez of Red Bull Racing vs Racing Bulls&apos; Yuki Tsunoda and Daniel Ricciardo in the soapbox race of the year!</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:4fb17cac-7fa3-4315-a8e7-acbaef9ba24a/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616031436 +0000" stop="20250616035922 +0000">
+  <programme channel="421896" start="20250616031436 +0000" stop="20250616035922 +0000">
     <title lang="en">WSL Championship Tour 2025 - WSL Lexus Pipe Pro wrap show</title>
     <desc lang="en">After five days of competition Barron Mamiya and Tyler Wright leave Hawaii as the 2025 Lexus Pipe Pro champions. Here&apos;s a recap of the highs, the lows, and everything else you need to know.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:e9b42343-b662-4a1e-b04b-9e8c99438b81/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616035922 +0000" stop="20250616044332 +0000">
+  <programme channel="421896" start="20250616035922 +0000" stop="20250616044332 +0000">
     <title lang="en">WSL Championship Tour 2025 - WSL Abu Dhabi Pro wrap show</title>
     <desc lang="en">After three days of insane action, the WSL’s first Middle Eastern event was a wild success. The commentary team break down all the storylines as Caitlin Simmers and Italo Ferreira take the crowns.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:fe6770fa-0896-47e6-8442-815b5ae023dd/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616044332 +0000" stop="20250616052742 +0000">
+  <programme channel="421896" start="20250616044332 +0000" stop="20250616052742 +0000">
     <title lang="en">WSL Championship Tour 2025 - WSL MEO Rip Curl Pro Portugal wrap show</title>
     <desc lang="en">Who was crowned king and queen of Supertubos? Find out here – watch highlights of finals day at MEO Rip Curl Pro Portugal, Europe’s only WSL Championship Tour event.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:a5a65916-53f7-4a03-b67e-89bc04cdc074/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616052742 +0000" stop="20250616055142 +0000">
+  <programme channel="421896" start="20250616052742 +0000" stop="20250616055142 +0000">
     <title lang="en">UCI Mountain Bike World Cup 2024 - XCO and DH highlights – Les Gets</title>
     <desc lang="en">Watch the highlights from the eighth stop of the 2024 World Cup season with all the cross-country and downhill action from Haute-Savoie, Les Gets, France.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:recap-videos:5d54c82b-0d75-4f2c-b6f3-6849e6414907/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616055142 +0000" stop="20250616060000 +0000">
+  <programme channel="421896" start="20250616055142 +0000" stop="20250616060000 +0000">
     <title lang="en">Dual Focus - Sébastien Toutant</title>
     <desc lang="en">Hear from Canadian snowboarder Sébastien Toutant how he got hooked on golf. And check out the obstacle course he&apos;s built at home to keep his body fit and his mind alert. It&apos;s all about having fun.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:a432bb20-7b57-4f26-ace9-3386496942e6/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616060000 +0000" stop="20250616064359 +0000">
+  <programme channel="421896" start="20250616060000 +0000" stop="20250616064359 +0000">
     <title lang="en">Inside Pro Surfing - WSL Lexus Pipe Pro</title>
     <desc lang="en">You’ve seen who won, now find out how it all happened. Take a fly-on-the-wall look at the 2025 Lexus Pipe Pro, from the beating heart of surfing’s proving grounds on the North Shore of Oahu.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616064359 +0000" stop="20250616072835 +0000">
+  <programme channel="421896" start="20250616064359 +0000" stop="20250616072835 +0000">
     <title lang="en">Inside Pro Surfing - WSL Surf Abu Dhabi Pro</title>
     <desc lang="en">As the 2025 WSL Championship Tour heads to the Middle East for the Surf Abu Dhabi Pro, come backstage for a closer look at the action in and out of the water.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616072835 +0000" stop="20250616081235 +0000">
+  <programme channel="421896" start="20250616072835 +0000" stop="20250616081235 +0000">
     <title lang="en">Inside Pro Surfing - WSL MEO Rip Curl Pro Portugal</title>
     <desc lang="en">As the dust settles on the MEO Rip Curl Pro Portugal, come backstage for a closer study of Peniche’s biggest storylines, from the lineup and on dry land.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616081235 +0000" stop="20250616085711 +0000">
+  <programme channel="421896" start="20250616081235 +0000" stop="20250616085711 +0000">
     <title lang="en">Inside Pro Surfing - WSL Surf City El Salvador Pro</title>
     <desc lang="en">Take a closer look at the 2025 Surf City El Salvador Pro’s biggest talking points and key takeaways. See the contest from a new angle.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:1fd62542-4bd8-4abf-984f-080c5e5d7fdc/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616085711 +0000" stop="20250616093112 +0000">
+  <programme channel="421896" start="20250616085711 +0000" stop="20250616093112 +0000">
     <title lang="en">Red Bull Drop In Tour - South America Tour</title>
     <desc lang="en">Skaters Ryan Sheckler, Jamie Foy, Torey Pudwill, Felipe Gustavo, Ryan Decenzo, Alex Sorgente, Angelo Caro, Gustavo Ribeiro, Gavin Bottger and friends rip right through Brazil, Argentina and Chile.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:94a86d40-5c7d-4f01-95b7-838b6c5fb48e/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616093112 +0000" stop="20250616101918 +0000">
+  <programme channel="421896" start="20250616093112 +0000" stop="20250616101918 +0000">
     <title lang="en">Rolling Away - Ryan Sheckler’s skate epic</title>
     <desc lang="en">Dive into the soul of skateboarding with Ryan Sheckler to discuss the importance of skate videos for passionate individuals to push boundaries, chase dreams, and carve their own paths on four wheels.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:films:829c4fad-7ec7-43d7-8195-211d1c139318/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616101918 +0000" stop="20250616103918 +0000">
+  <programme channel="421896" start="20250616101918 +0000" stop="20250616103918 +0000">
     <title lang="en">Leticia Pushes Mzansi - Meet the ladies of South Africa&apos;s skate scene</title>
     <desc lang="en">Leticia Bufoni and Aldana Bertran explore South Africa&apos;s flourishing female skate scene from Johannesburg to Cape Town as they meet legend Melissa Williams and a new wave of rippers.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:films:167d2ec5-97a9-4483-a131-4e750602aadb/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616103918 +0000" stop="20250616113028 +0000">
+  <programme channel="421896" start="20250616103918 +0000" stop="20250616113028 +0000">
     <title lang="en">Esperanto - A love letter to cycling</title>
     <desc lang="en">Shred the language barrier, ride the universal rhythm. Esperanto is an action-packed global journey on two wheels that celebrates the unifying spirit of cycling that transcends language and geography.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:films:d4bd89d1-a11d-4d6d-b031-9b4b02821312/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616113028 +0000" stop="20250616122307 +0000">
+  <programme channel="421896" start="20250616113028 +0000" stop="20250616122307 +0000">
     <title lang="en">Mercedes-Benz UCI Mountain Bike World Cup 2020 - Downhill finals – Lousã</title>
     <desc lang="en">Riders dug deep for the final event of the 2020 UCI Mountain Bike World Cup season in Lousã, Portugal. Get a full recap of all the downhill action in the final fight for the podium.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:7f0f9f27-3086-4cd6-89ea-39cd021823f7/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616122307 +0000" stop="20250616132234 +0000">
+  <programme channel="421896" start="20250616122307 +0000" stop="20250616132234 +0000">
     <title lang="en">One at a Time - Brett Rheeder chases Crankworx glory</title>
     <desc lang="en">Nothing less than first place is satisfactory for slopestyle mountain biker Brett Rheeder. With five Crankworx wins already under his belt, he enters the 2018 season with the chance to add four more.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:films:ee67c339-e4a3-4dd5-96bd-0a24533016b6/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616132234 +0000" stop="20250616140539 +0000">
+  <programme channel="421896" start="20250616132234 +0000" stop="20250616140539 +0000">
     <title lang="en">Red Bull Soapbox Race - Seattle, USA</title>
     <desc lang="en">Brave teams send their homemade soapbox racers down the steepest course in Red Bull Soapbox history. In front of 40,000 fans, the teams will also have to raise the bar in creativity and showmanship.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616140539 +0000" stop="20250616145029 +0000">
+  <programme channel="421896" start="20250616140539 +0000" stop="20250616145029 +0000">
     <title lang="en">Red Bull Soapbox Race - São Paulo, Brazil</title>
     <desc lang="en">The world&apos;s craziest and most creative four-wheeled race went to Brazil for intrepid teams to take on the tricky course with their homemade soapbox cars.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616145029 +0000" stop="20250616153332 +0000">
+  <programme channel="421896" start="20250616145029 +0000" stop="20250616153332 +0000">
     <title lang="en">Red Bull Soapbox Race - Cincinnati, Ohio, USA</title>
     <desc lang="en">Thousands gather in Cincinnati, Ohio, USA, to witness these wacky contraptions compete downhill against their biggest opponent… gravity.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616153332 +0000" stop="20250616161719 +0000">
+  <programme channel="421896" start="20250616153332 +0000" stop="20250616161719 +0000">
     <title lang="en">Red Bull Soapbox Race - Toulouse, France</title>
     <desc lang="en">To win or To(ulouse)? That is the question that will be answered today in this gravity-powered race! May the pink city give strength and courage to the many participants.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:c33fbeb3-ea37-521f-bac7-0444657fc0ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616161719 +0000" stop="20250616164307 +0000">
+  <programme channel="421896" start="20250616161719 +0000" stop="20250616164307 +0000">
     <title lang="en">Premier Padel 2025 - Riyadh Premier Padel highlights</title>
     <desc lang="en">Watch the action from the season opener in Saudi Arabia as the world&apos;s best padel players tackle the Riyadh Premier Padel P1.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:80a36d96-1d8b-4ccd-9445-baab2f595d44/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616164307 +0000" stop="20250616170857 +0000">
+  <programme channel="421896" start="20250616164307 +0000" stop="20250616170857 +0000">
     <title lang="en">Premier Padel 2025 - Gijón Premier Padel highlights</title>
     <desc lang="en">Watch the action from Spain as the world&apos;s best padel players tackle the Gijón Premier Padel P2 at Palacio de Deportes de la Guía-Presidente Adolfo Suárez.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:14c38628-f16c-4a47-89cd-092bf40590bf/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616170857 +0000" stop="20250616173524 +0000">
+  <programme channel="421896" start="20250616170857 +0000" stop="20250616173524 +0000">
     <title lang="en">Premier Padel 2025 - Cancun Premier Padel highlights</title>
     <desc lang="en">Watch the action from Mexico as the world&apos;s best padel players tackle the Cancun Premier Padel P2.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:ea9b4a62-6b33-44dd-8429-8857165c9106/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616173524 +0000" stop="20250616180126 +0000">
+  <programme channel="421896" start="20250616173524 +0000" stop="20250616180126 +0000">
     <title lang="en">Premier Padel 2025 - Miami Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Miami Premier Padel P1 as it joined the padel tournament for the first time in 2025.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:02d02b4b-cd97-4da2-9b7a-7ec04b8dfe40/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616180126 +0000" stop="20250616182734 +0000">
+  <programme channel="421896" start="20250616180126 +0000" stop="20250616182734 +0000">
     <title lang="en">Premier Padel 2025 - Qatar Major Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Qatar Major Premier Padel in Doha, where the sport continues to grow in popularity.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:f9de6231-769e-4a74-921c-272314e4c8ff/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616182734 +0000" stop="20250616185401 +0000">
+  <programme channel="421896" start="20250616182734 +0000" stop="20250616185401 +0000">
     <title lang="en">Premier Padel 2025 - Brussels P2 Premier Padel highlights</title>
     <desc lang="en">Watch the action from the Brussels P2 Premier Padel in Belgium, where the sport continues to grow in popularity.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:videos:981dabaf-4d46-4acf-8cd0-2a5cb398fd4a/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616185401 +0000" stop="20250616192002 +0000">
+  <programme channel="421896" start="20250616185401 +0000" stop="20250616192002 +0000">
     <title lang="en"> - Program information unavailable at this time</title>
     <desc lang="en"></desc>
     <icon src="https://resources.redbull.tv/unknown/rbtv_display_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616192002 +0000" stop="20250616194219 +0000">
+  <programme channel="421896" start="20250616192002 +0000" stop="20250616194219 +0000">
     <title lang="en">Reel Rock - Big things to come</title>
     <desc lang="en">Elite climber Alex Johnson has attempted to climb the iconic boulder The Swarm, California, for a decade. Not succeeding breaks her down into self-reflection where she finally accepts her sexuality.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616194219 +0000" stop="20250616200909 +0000">
+  <programme channel="421896" start="20250616194219 +0000" stop="20250616200909 +0000">
     <title lang="en">Reel Rock - The Nose speed record part 3</title>
     <desc lang="en">After weeks of practice and more than a few mishaps, Alex Honnold and Tommy Caldwell begin their attempt at the record. Onlookers hold their breath as the two rip up the face at breakneck speed.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616200909 +0000" stop="20250616202900 +0000">
+  <programme channel="421896" start="20250616200909 +0000" stop="20250616202900 +0000">
     <title lang="en">Reel Rock - The sensei part 1</title>
     <desc lang="en">Yuji Hirayama is one of the greats of modern climbing. He enlists Daniel Woods, a young boulderer with loads of raw talent, to help him climb the unscaled peaks of Mount Kinabalu.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616202900 +0000" stop="20250616204928 +0000">
+  <programme channel="421896" start="20250616202900 +0000" stop="20250616204928 +0000">
     <title lang="en">Reel Rock - The sensei part 2</title>
     <desc lang="en">After Daniel Woods proves himself to Yuji Hirayama, the pair travel to Borneo to establish new routes on Mount Kinabalu. The harsh conditions 13,000ft above sea level test both student and master.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:eb17e649-80ed-53d9-8e33-f323efbd85ff/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616204928 +0000" stop="20250616210722 +0000">
+  <programme channel="421896" start="20250616204928 +0000" stop="20250616210722 +0000">
     <title lang="en">No Contest: Off Tour - Honolulu</title>
     <desc lang="en">Dive deep into one of surfing&apos;s most historic corners, Honolulu. On the other side of Oahu to the famed North Shore, &apos;Town&apos; serves up an abundance of pristine waves and Hawaiian heritage.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616210722 +0000" stop="20250616212612 +0000">
+  <programme channel="421896" start="20250616210722 +0000" stop="20250616212612 +0000">
     <title lang="en">No Contest: Off Tour - Japan</title>
     <desc lang="en">While Japan is known for both tradition and technology it&apos;s also an archipelago lashed by swell and steeped in surfing culture. Kanoa Igarashi takes you to Tokyo to get a taste of the action.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
     <date>2025-06-16</date>
   </programme>
-  <programme channel="10001" start="20250616212612 +0000" stop="20250616214656 +0000">
+  <programme channel="421896" start="20250616212612 +0000" stop="20250616214656 +0000">
     <title lang="en">No Contest: Off Tour - Sydney</title>
     <desc lang="en">From the Eastern Suburbs to the Central Coast and from The Shire to the Northern Beaches, meet the colourful characters and explore the surfing culture of Australia&apos;s biggest city, Sydney.</desc>
     <icon src="https://resources.redbull.tv/rrn:content:shows:31650ca3-3fa9-4217-99a7-022e4fb444b0/rbtv_cover_art_portrait" />
