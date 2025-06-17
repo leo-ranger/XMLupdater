@@ -16,7 +16,7 @@ jobs:
         run: mkdir -p individual
 
       - name: Fetch EPG XML
-        run: curl -o individual/USA-Disney_Jr_East.xml "https://nzxmltv.com/iptv/redbull.xml"
+        run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
       - name: Add XML Declaration and DOCTYPE
         run: |
