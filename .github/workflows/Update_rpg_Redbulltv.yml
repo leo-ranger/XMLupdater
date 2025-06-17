@@ -29,8 +29,7 @@ jobs:
 
           # Write new header and fixed channel block with id=10001
           {
-            echo '<?xml version="1.0" encoding="UTF-8"?>'
-            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
             echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
             echo "  <channel id=\"10001\">"
             echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
