@@ -16,7 +16,7 @@ jobs:
         run: mkdir -p individual
 
       - name: Fetch EPG XML
-        run: curl -o individual/USA-Disney_Channel_East.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=405072"
+        run: curl -o individual/USA-Disney_Channel_East.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403788"
 
       - name: Add XML Declaration and DOCTYPE
         run: |
