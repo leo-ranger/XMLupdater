@@ -56,7 +56,7 @@ jobs:
           if grep -q "<title lang=\"zh\">SuperKitties</title>" individual/USA-Disney_Jr_East.xml; then
             echo "Found SuperKitties in the EPG XML!"
             sed -i "/<title lang=\"zh\">SuperKitties<\/title>/a \
-            <icon src=\"https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26?/scale?width=1200&aspectRatio=1.78&format=webp"/>\
+            <icon src=\"https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp\"/>\
             <category lang=\"en\">Series</category>\
             <category lang=\"en\">Animation</category>\
             <category lang=\"en\">Drama</category>\
@@ -64,6 +64,7 @@ jobs:
           else
             echo "SuperKitties not found in the EPG XML."
           fi
+
 
       - name: Check for Title "Mickey Mouse Clubhouse" in XML and Add Icon and Categories
         run: |
