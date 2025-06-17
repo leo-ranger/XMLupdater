@@ -8,6 +8,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -18,49 +19,49 @@ jobs:
       - name: Fetch EPG XML
         run: curl -o individual/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
 
-- name: Clean and Reformat Redbulltv EPG XML
-  run: |
-    # Backup original
-    cp individual/Redbulltv.xml individual/Redbulltv_original.xml
+      - name: Clean and Reformat Redbulltv EPG XML
+        run: |
+          # Backup original file
+          cp individual/Redbulltv.xml individual/Redbulltv_original.xml
 
-    # Extract <tv date=""> attribute value
-    tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
+          # Extract the date attribute value from <tv> tag
+          tv_date=$(grep -oP '(?<=<tv date=")[^"]*' individual/Redbulltv_original.xml)
 
-    # Write new header and channel block with id=10001
-    {
-      echo '<?xml version="1.0" encoding="UTF-8"?>'
-      echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
-      echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
-      echo "  <channel id=\"10001\">"
-      echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
-      echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
-      echo "  </channel>"
-    } > individual/Redbulltv.cleaned.xml
+          # Write new header and fixed channel block with id=10001
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
+            echo "  <channel id=\"10001\">"
+            echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
+            echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
+            echo "  </channel>"
+          } > individual/Redbulltv.cleaned.xml
 
-    # Filter out unwanted tags and remove duplicate XML declarations & DOCTYPE, stop after first </tv>
-    awk '
-      BEGIN { in_channel=0; in_programme=0; skip_rating=0; }
-      /^<\?xml/ { next }
-      /^<!DOCTYPE/ { next }
-      /<\/tv>/ { exit }
-      /<channel / { in_channel=1 }
-      in_channel && /<\/channel>/ { in_channel=0; next }
-      in_channel { next }
-      /<programme / { in_programme=1 }
-      /<\/programme>/ { in_programme=0 }
-      in_programme && /<url>.*<\/url>/ { next }
-      in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
-      in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
-      in_programme && /<rating system="Red Bull TV">/ { skip_rating=1; next }
-      skip_rating { if (/<\/rating>/) { skip_rating=0 } next }
-      { print }
-    ' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
+          # Append program listings, cleaning out unwanted tags and skipping duplicate XML headers/DOCTYPEs
+          awk '
+            BEGIN { in_channel=0; in_programme=0; skip_rating=0; }
+            /^<\?xml/ { next }
+            /^<!DOCTYPE/ { next }
+            /<\/tv>/ { exit }
+            /<channel / { in_channel=1 }
+            in_channel && /<\/channel>/ { in_channel=0; next }
+            in_channel { next }
+            /<programme / { in_programme=1 }
+            /<\/programme>/ { in_programme=0 }
+            in_programme && /<url>.*<\/url>/ { next }
+            in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
+            in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
+            in_programme && /<rating system="Red Bull TV">/ { skip_rating=1; next }
+            skip_rating { if (/<\/rating>/) { skip_rating=0 } next }
+            { print }
+          ' individual/Redbulltv_original.xml >> individual/Redbulltv.cleaned.xml
 
-    # Close the <tv> element
-    echo "</tv>" >> individual/Redbulltv.cleaned.xml
+          # Close the main <tv> tag
+          echo "</tv>" >> individual/Redbulltv.cleaned.xml
 
-    # Replace original with cleaned
-    mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
+          # Replace original with cleaned file
+          mv individual/Redbulltv.cleaned.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
