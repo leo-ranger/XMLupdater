@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="2025-06-17 04:12:19" generator-info-name="NZXMLTV Red Bull TV 1.0" generator-info-url="https://nzxmltv.com/iptv/" source-info-name="NZXMLTV (Red Bull TV)" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream">
-  <channel id="403788">
+  <channel id="10001">
     <display-name lang="US">Red Bull TV</display-name>
     <icon src="https://i.imgur.com/3IO3vYp.png" />
   </channel>
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "nzxmltv.dtd">
 <tv date="2025-06-17 04:12:19" source-info-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream" source-info-name="NZXMLTV (Red Bull TV)" source-data-url="https://www.redbull.com/int-en/channels/best-of-red-bull-stream" generator-info-url="https://nzxmltv.com/iptv/" generator-info-name="NZXMLTV Red Bull TV 1.0">
-<channel id="10001">
-<display-name lang="en">Red Bull TV</display-name>
-<url>https://www.redbull.com/int-en/channels/best-of-red-bull-stream</url>
-<icon src="https://i.imgur.com/3IO3vYp.png" />
-<!-- Start NZXMLTV Custom Tags -->
-<desc lang="en">Whether its sports, esports, UCI, Ironman, F1, WRC, TV, music, festivals, films or videos, Red Bull TV has it all!</desc>
-<lcn>10001</lcn>
-<!-- End NZXMLTV Custom Tags -->
-</channel>
 <programme start="20250615191515 +0000" stop="20250615195902 +0000" channel="10001">
 <title lang="en">Red Bull Soapbox Race</title>
 <sub-title lang="en">Toulouse, France</sub-title>
