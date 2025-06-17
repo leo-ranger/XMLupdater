@@ -13,6 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Escape ampersands in individual XML files
+        run: |
+          for file in individual/*.xml; do
+            echo "Fixing ampersands in $file"
+            sed -i 's/&\([^a-zA-Z#]\)/\&amp;\1/g' "$file"
+            sed -i 's/&$/\&amp;/g' "$file"
+          done
+
       - name: Install xmlstarlet
         run: sudo apt-get update && sudo apt-get install -y xmlstarlet
 
