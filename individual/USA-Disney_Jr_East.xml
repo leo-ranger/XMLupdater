@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250617084315 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403674/20250617.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403674&amp;date=20250617&amp;timezone=None">
+<tv date="20250617173959 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403674/20250617.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403674&amp;date=20250617&amp;timezone=None">
   <channel id="403674">
     <display-name lang="US">Disney Junior USA - East</display-name>
     <icon src="" />
   </channel>
   <programme channel="403674" start="20250617002000 +0000" stop="20250617005000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -52,7 +52,7 @@
   </programme>
   <programme channel="403674" start="20250617034000 +0000" stop="20250617040500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -63,7 +63,7 @@
   </programme>
   <programme channel="403674" start="20250617040500 +0000" stop="20250617043000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -84,7 +84,7 @@
   </programme>
   <programme channel="403674" start="20250617052000 +0000" stop="20250617054500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -95,7 +95,7 @@
   </programme>
   <programme channel="403674" start="20250617054500 +0000" stop="20250617061000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -106,7 +106,7 @@
   </programme>
   <programme channel="403674" start="20250617061000 +0000" stop="20250617063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -116,7 +116,7 @@
   </programme>
   <programme channel="403674" start="20250617063500 +0000" stop="20250617070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -126,7 +126,7 @@
   </programme>
   <programme channel="403674" start="20250617070000 +0000" stop="20250617072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -136,7 +136,7 @@
   </programme>
   <programme channel="403674" start="20250617072500 +0000" stop="20250617075000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -147,7 +147,7 @@
   </programme>
   <programme channel="403674" start="20250617075000 +0000" stop="20250617081500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -168,7 +168,7 @@
   </programme>
   <programme channel="403674" start="20250617090500 +0000" stop="20250617093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -178,7 +178,7 @@
   </programme>
   <programme channel="403674" start="20250617093000 +0000" stop="20250617100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -188,7 +188,7 @@
   </programme>
   <programme channel="403674" start="20250617100000 +0000" stop="20250617103000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -209,7 +209,7 @@
   </programme>
   <programme channel="403674" start="20250617113000 +0000" stop="20250617120000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -230,7 +230,7 @@
   </programme>
   <programme channel="403674" start="20250617130000 +0000" stop="20250617132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -240,7 +240,7 @@
   </programme>
   <programme channel="403674" start="20250617132500 +0000" stop="20250617135000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -251,7 +251,7 @@
   </programme>
   <programme channel="403674" start="20250617135000 +0000" stop="20250617141500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -272,7 +272,7 @@
   </programme>
   <programme channel="403674" start="20250617150500 +0000" stop="20250617154500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -288,7 +288,7 @@
   </programme>
   <programme channel="403674" start="20250617161000 +0000" stop="20250617163500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -319,6 +319,7 @@
   </programme>
   <programme channel="403674" start="20250617181500 +0000" stop="20250617184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&h=563&crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ariel babysits cuttlebabies; Flounder becomes the team coach.</desc>
     <date>2025-06-17</date>
   </programme>
@@ -329,7 +330,7 @@
   </programme>
   <programme channel="403674" start="20250617190500 +0000" stop="20250617193000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -340,7 +341,7 @@
   </programme>
   <programme channel="403674" start="20250617193000 +0000" stop="20250617195500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -356,7 +357,7 @@
   </programme>
   <programme channel="403674" start="20250617201500 +0000" stop="20250617204500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -367,7 +368,7 @@
   </programme>
   <programme channel="403674" start="20250617204500 +0000" stop="20250617211500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -383,7 +384,7 @@
   </programme>
   <programme channel="403674" start="20250617214500 +0000" stop="20250617221500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -394,7 +395,7 @@
   </programme>
   <programme channel="403674" start="20250617221500 +0000" stop="20250617224000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -420,7 +421,7 @@
   </programme>
   <programme channel="403674" start="20250617235500 +0000" stop="20250618000000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -431,7 +432,7 @@
   </programme>
   <programme channel="403674" start="20250618002000 +0000" stop="20250618005000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -477,7 +478,7 @@
   </programme>
   <programme channel="403674" start="20250618034000 +0000" stop="20250618040500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -488,7 +489,7 @@
   </programme>
   <programme channel="403674" start="20250618040500 +0000" stop="20250618043000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -509,7 +510,7 @@
   </programme>
   <programme channel="403674" start="20250618052000 +0000" stop="20250618054500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -520,7 +521,7 @@
   </programme>
   <programme channel="403674" start="20250618054500 +0000" stop="20250618061000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -531,7 +532,7 @@
   </programme>
   <programme channel="403674" start="20250618061000 +0000" stop="20250618063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -541,7 +542,7 @@
   </programme>
   <programme channel="403674" start="20250618063500 +0000" stop="20250618070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -551,7 +552,7 @@
   </programme>
   <programme channel="403674" start="20250618070000 +0000" stop="20250618072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -561,7 +562,7 @@
   </programme>
   <programme channel="403674" start="20250618072500 +0000" stop="20250618075000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -572,7 +573,7 @@
   </programme>
   <programme channel="403674" start="20250618075000 +0000" stop="20250618081500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -593,7 +594,7 @@
   </programme>
   <programme channel="403674" start="20250618090500 +0000" stop="20250618093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -603,7 +604,7 @@
   </programme>
   <programme channel="403674" start="20250618093000 +0000" stop="20250618100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -613,7 +614,7 @@
   </programme>
   <programme channel="403674" start="20250618100000 +0000" stop="20250618103000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -634,7 +635,7 @@
   </programme>
   <programme channel="403674" start="20250618113000 +0000" stop="20250618120000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -655,7 +656,7 @@
   </programme>
   <programme channel="403674" start="20250618130000 +0000" stop="20250618132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://play-lh.googleusercontent.com/bqEcu3u2ZXANY_HqhPAgfGvi4_UZ9m7wNHuz3gFjn2Urxw745-D6Va-e4Fh-Im806mMI8kFDhQWAFmLZM7c"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -665,7 +666,7 @@
   </programme>
   <programme channel="403674" start="20250618132500 +0000" stop="20250618135000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -676,7 +677,7 @@
   </programme>
   <programme channel="403674" start="20250618135000 +0000" stop="20250618141500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -697,7 +698,7 @@
   </programme>
   <programme channel="403674" start="20250618150500 +0000" stop="20250618152500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -708,7 +709,7 @@
   </programme>
   <programme channel="403674" start="20250618152500 +0000" stop="20250618154500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -724,7 +725,7 @@
   </programme>
   <programme channel="403674" start="20250618161000 +0000" stop="20250618163500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -755,6 +756,7 @@
   </programme>
   <programme channel="403674" start="20250618181500 +0000" stop="20250618184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&h=563&crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ebb and Flo compete; Fernie wants to play by himself.</desc>
     <date>2025-06-18</date>
   </programme>
@@ -765,7 +767,7 @@
   </programme>
   <programme channel="403674" start="20250618190500 +0000" stop="20250618193000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -776,7 +778,7 @@
   </programme>
   <programme channel="403674" start="20250618193000 +0000" stop="20250618195500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -792,7 +794,7 @@
   </programme>
   <programme channel="403674" start="20250618201500 +0000" stop="20250618204500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -803,7 +805,7 @@
   </programme>
   <programme channel="403674" start="20250618204500 +0000" stop="20250618211500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -819,7 +821,7 @@
   </programme>
   <programme channel="403674" start="20250618214500 +0000" stop="20250618221500 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -830,7 +832,7 @@
   </programme>
   <programme channel="403674" start="20250618221500 +0000" stop="20250618224000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -856,7 +858,7 @@
   </programme>
   <programme channel="403674" start="20250618235500 +0000" stop="20250619000000 +0000">
     <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
