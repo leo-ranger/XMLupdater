@@ -1,8 +1,8 @@
-name: Update Red Bull TV EPG (Sydney time & formatting)
+name: Update EPG XML Redbulltv
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # daily midnight UTC
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -10,113 +10,60 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Download Red Bull TV EPG XML
-        run: curl -o individual/redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
+      - name: Create output folder if it doesn't exist
+        run: mkdir -p og_time
 
-      - name: Process XML with Python
+      - name: Fetch EPG XML
+        run: curl -o og_time/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
+
+      - name: Clean and Reformat Redbulltv EPG XML
         run: |
-          python3 <<'EOF'
-          import xml.etree.ElementTree as ET
-          from datetime import datetime
-          import pytz
+          cp og_time/Redbulltv.xml og_time/Redbulltv_original.xml
 
-          INFILE = "individual/redbulltv.xml"
-          OUTFILE = "individual/redbulltv_processed.xml"
+          # Extract TV date from original file
+          tv_date=$(grep -oP '(?<=<tv date=")[^"]*' og_time/Redbulltv_original.xml)
 
-          # Parse XML
-          tree = ET.parse(INFILE)
-          root = tree.getroot()
+          # Start fresh cleaned file
+          {
+            echo '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
+            echo "  <channel id=\"10001\">"
+            echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
+            echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
+            echo "  </channel>"
+          } > og_time/Redbulltv.cleaned.xml
 
-          # Fix header attributes
-          root.attrib.clear()
-          from datetime import timezone
-          now_sydney = datetime.now(pytz.timezone("Australia/Sydney")).strftime("%Y-%m-%d %H:%M:%S")
-          root.attrib.update({
-              'date': now_sydney,
-              'generator-info-name': "NZXMLTV Red Bull TV 1.0",
-              'generator-info-url': "https://nzxmltv.com/iptv/",
-              'source-info-name': "NZXMLTV (Red Bull TV)",
-              'source-info-url': "https://www.redbull.com/int-en/channels/best-of-red-bull-stream",
-              'source-data-url': "https://www.redbull.com/int-en/channels/best-of-red-bull-stream"
-          })
+          # Extract and clean valid <programme> entries only
+          awk '
+            BEGIN { in_programme=0; skip_rating=0; }
+            /<programme / { in_programme=1 }
+            /<\/programme>/ { in_programme=0 }
+            in_programme && /<url>.*<\/url>/ { next }
+            in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
+            in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
+            in_programme && /<rating system="Red Bull TV">/ { skip_rating=1; next }
+            skip_rating { if (/<\/rating>/) { skip_rating=0 } next }
+            /<\?xml|<!DOCTYPE|<tv|<\/tv>|<channel /,/<\/channel>/ { next }
+            { print }
+          ' og_time/Redbulltv_original.xml >> og_time/Redbulltv.cleaned.xml
 
-          # Remove all existing channels, add fixed one with id=10001
-          for ch in root.findall('channel'):
-              root.remove(ch)
+          echo "</tv>" >> og_time/Redbulltv.cleaned.xml
+          mv og_time/Redbulltv.cleaned.xml og_time/Redbulltv.xml
 
-          channel = ET.SubElement(root, 'channel', id="10001")
-          display_name = ET.SubElement(channel, 'display-name', lang="US")
-          display_name.text = "Red Bull TV"
-          icon = ET.SubElement(channel, 'icon', src="https://i.imgur.com/3IO3vYp.png")
-
-          # Timezone objects
-          tz_utc = pytz.utc
-          tz_sydney = pytz.timezone("Australia/Sydney")
-
-          def convert_time(utc_str):
-              # Format is YYYYMMDDHHMMSS with optional space and tz offset
-              # Strip space and offset if present
-              utc_str = utc_str.strip().split()[0]
-              dt = datetime.strptime(utc_str, "%Y%m%d%H%M%S")
-              dt_utc = tz_utc.localize(dt)
-              dt_syd = dt_utc.astimezone(tz_sydney)
-              # Format like: 20250615191515 +1000 or +1100
-              offset = dt_syd.strftime("%z")
-              return dt_syd.strftime("%Y%m%d%H%M%S") + " " + offset
-
-          # Process all programmes
-          for prog in root.findall('programme'):
-              # Convert start/stop
-              start_utc = prog.get('start')
-              stop_utc = prog.get('stop')
-              if start_utc:
-                  prog.set('start', convert_time(start_utc))
-              if stop_utc:
-                  prog.set('stop', convert_time(stop_utc))
-
-              # Remove any <url> tags under this programme
-              for url in prog.findall('url'):
-                  prog.remove(url)
-
-              # Combine <title> and <sub-title> if sub-title exists
-              title = prog.find('title')
-              subtitle = prog.find('sub-title')
-              if title is not None and subtitle is not None:
-                  title.text = f"{title.text} - {subtitle.text}"
-                  prog.remove(subtitle)
-              # else if only subtitle exists but no title (rare), promote subtitle?
-              elif title is None and subtitle is not None:
-                  title = ET.SubElement(prog, 'title', lang="en")
-                  title.text = subtitle.text
-                  prog.remove(subtitle)
-
-              # Change <desc lang="en"> to <desc>
-              desc = prog.find('desc[@lang="en"]')
-              if desc is not None:
-                  # Create new <desc> without lang attribute, copy text
-                  new_desc = ET.Element('desc')
-                  new_desc.text = desc.text
-                  prog.remove(desc)
-                  prog.append(new_desc)
-
-          # Write output with XML declaration and DOCTYPE on one line
-          xml_str = ET.tostring(root, encoding='utf-8').decode('utf-8')
-          header_line = '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
-          with open(OUTFILE, 'w', encoding='utf-8') as f:
-              f.write(header_line + "\n")
-              f.write(xml_str)
-
-          # Replace original file
-          import os
-          os.replace(OUTFILE, INFILE)
-          EOF
-
-      - name: Commit and push changes
+      - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add individual/redbulltv.xml
-          git commit -m "Update Red Bull TV EPG with Sydney timezone and formatting" || echo "No changes"
-          git push
+
+          git pull --rebase --autostash
+          git add og_time/Redbulltv.xml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Updated EPG $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
