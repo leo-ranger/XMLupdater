@@ -20,27 +20,24 @@ jobs:
 
       - name: Clean and Transform EPG XML
         run: |
-          # Backup original to cleaned file
-          cp individual/Redbulltv.xml individual/Redbulltv.cleaned.xml
-
           # Remove duplicate XML headers and DOCTYPE lines
-          sed -i '/<?xml version=.*?>/d' individual/Redbulltv.cleaned.xml
-          sed -i '/<!DOCTYPE tv SYSTEM.*>/d' individual/Redbulltv.cleaned.xml
+          sed -i '/<?xml version=.*?>/d' individual/Redbulltv.xml
+          sed -i '/<!DOCTYPE tv SYSTEM.*>/d' individual/Redbulltv.xml
 
           # Insert single XML header + DOCTYPE on one line at the top
-          sed -i '1i<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/Redbulltv.cleaned.xml
+          sed -i '1i<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/Redbulltv.xml
 
           # Replace <channel> block with clean static version
           sed -i '/<channel id=/,/<\/channel>/c\
           <channel id="10001">\
           <display-name lang="US">Red Bull TV</display-name>\
           <icon src="https://i.imgur.com/3IO3vYp.png" />\
-          </channel>' individual/Redbulltv.cleaned.xml
+          </channel>' individual/Redbulltv.xml
 
           # Remove all <url>...</url> lines from the file
-          sed -i '/<url>.*<\/url>/d' individual/Redbulltv.cleaned.xml
+          sed -i '/<url>.*<\/url>/d' individual/Redbulltv.xml
 
-          # Use awk to transform programmes
+          # Use awk to transform programmes as requested
           awk '
           BEGIN { RS = "<programme "; ORS = "" }
           NR == 1 { print; next }
@@ -52,7 +49,9 @@ jobs:
             # Extract title and subtitle text
             match(prog, /<title[^>]*>([^<]*)<\/title>/, t)
             match(prog, /<sub-title[^>]*>([^<]*)<\/sub-title>/, st)
-            newtitle = "<title lang=\"zh\">" t[1] " - " st[1] "</title>"
+            newtitle = "<title lang=\"zh\">" t[1]
+            if (st[1] != "") newtitle = newtitle " - " st[1]
+            newtitle = newtitle "</title>"
 
             # Replace old title with new one
             gsub(/<title[^>]*>[^<]*<\/title>/, newtitle, prog)
@@ -63,28 +62,18 @@ jobs:
             # Remove lang="en" from <desc>
             gsub(/<desc lang="en">/, "<desc>", prog)
 
-            # Extract start date for <date> tag
-            match(prog, /start="([0-9]{8})[0-9]{6} \+0000"/, s)
-            dateTag = ""
-            if (s[1] != "") {
-              year = substr(s[1], 1, 4)
-              month = substr(s[1], 5, 2)
-              day = substr(s[1], 7, 2)
-              dateTag = "<date>" year "-" month "-" day "</date>"
-            }
-
-            # Close programme tag and add <date> after
-            prog = prog "</programme>" dateTag "\n"
-
-            print "<programme " prog rest
+            print "<programme " prog "</programme>" rest
           }
-          ' individual/Redbulltv.cleaned.xml > temp.xml && mv temp.xml individual/Redbulltv.cleaned.xml
+          ' individual/Redbulltv.xml > individual/Redbulltv.cleaned.xml
+          
+          # Replace original with cleaned
+          mv individual/Redbulltv.xml individual/Redbulltv.xml
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add individual/Redbulltv.cleaned.xml
+          git add individual/Redbulltv.xml
           git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push --force
