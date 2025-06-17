@@ -1,24 +1,3 @@
-name: Update EPG XML Redbulltv
-
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:
-
-jobs:
-  update:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Create output folder if it doesn't exist
-        run: mkdir -p og_time
-
-      - name: Fetch EPG XML
-        run: curl -o og_time/Redbulltv.xml "https://nzxmltv.com/iptv/redbull.xml"
-
       - name: Clean and Reformat Redbulltv EPG XML
         run: |
           cp og_time/Redbulltv.xml og_time/Redbulltv_original.xml
@@ -28,42 +7,65 @@ jobs:
 
           # Start fresh cleaned file
           {
-            echo '<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">'
+            echo '<?xml version="1.0" encoding="UTF-8"?>'
+            echo '<!DOCTYPE tv SYSTEM "xmltv.dtd">'
             echo "<tv date=\"$tv_date\" generator-info-name=\"NZXMLTV Red Bull TV 1.0\" generator-info-url=\"https://nzxmltv.com/iptv/\" source-info-name=\"NZXMLTV (Red Bull TV)\" source-info-url=\"https://www.redbull.com/int-en/channels/best-of-red-bull-stream\">"
-            echo "  <channel id=\"10001\">"
-            echo "    <display-name lang=\"US\">Red Bull TV</display-name>"
-            echo "    <icon src=\"https://i.imgur.com/3IO3vYp.png\" />"
-            echo "  </channel>"
+            echo '  <channel id="10001">'
+            echo '    <display-name lang="US">Red Bull TV</display-name>'
+            echo '    <icon src="https://i.imgur.com/3IO3vYp.png" />'
+            echo '  </channel>'
           } > og_time/Redbulltv.cleaned.xml
 
-          # Extract and clean valid <programme> entries only
+          # Parse and transform programmes
           awk '
-            BEGIN { in_programme=0; skip_rating=0; }
-            /<programme / { in_programme=1 }
-            /<\/programme>/ { in_programme=0 }
-            in_programme && /<url>.*<\/url>/ { next }
-            in_programme && /<episode-num system="redbull.com">.*<\/episode-num>/ { next }
-            in_programme && /<episode-num system="original-air-date">.*<\/episode-num>/ { next }
-            in_programme && /<rating system="Red Bull TV">/ { skip_rating=1; next }
-            skip_rating { if (/<\/rating>/) { skip_rating=0 } next }
-            /<\?xml|<!DOCTYPE|<tv|<\/tv>|<channel /,/<\/channel>/ { next }
-            { print }
+            BEGIN {
+              RS = "</programme>"
+              FS = "\n"
+            }
+            /<programme / {
+              # Extract start, stop, channel attrs from <programme ...>
+              match($0, /<programme[^>]*start="([^"]+)"/, a_start)
+              match($0, /<programme[^>]*stop="([^"]+)"/, a_stop)
+              match($0, /<programme[^>]*channel="([^"]+)"/, a_chan)
+              start = a_start[1]
+              stop = a_stop[1]
+              channel = a_chan[1]
+
+              # Extract YYYY-MM-DD date from start attribute (first 8 chars)
+              date = substr(start,1,4) "-" substr(start,5,2) "-" substr(start,7,2)
+
+              # Extract <title> content
+              match($0, /<title[^>]*lang="[^"]*"[^>]*>([^<]*)<\/title>/, t)
+              title = t[1]
+
+              # Extract <sub-title> content if exists
+              match($0, /<sub-title[^>]*lang="[^"]*"[^>]*>([^<]*)<\/sub-title>/, st)
+              subtitle = st[1]
+
+              # Merge title and subtitle if subtitle exists
+              if (length(subtitle) > 0) {
+                title = title " - " subtitle
+              }
+
+              # Extract <desc> content
+              match($0, /<desc[^>]*lang="[^"]*"[^>]*>([^<]*)<\/desc>/, d)
+              desc = d[1]
+
+              # Extract <icon src="..."/>
+              match($0, /<icon src="([^"]*)" ?\/>/, ic)
+              icon = ic[1]
+
+              # Print the reformatted programme block
+              printf "  <programme start=\"%s\" stop=\"%s\" channel=\"%s\">\n", start, stop, channel
+              printf "    <title lang=\"en\">%s</title>\n", title
+              printf "    <desc lang=\"en\">%s</desc>\n", desc
+              if (length(icon) > 0) {
+                printf "    <icon src=\"%s\" />\n", icon
+              }
+              printf "    <date>%s</date>\n", date
+              print "  </programme>"
+            }
           ' og_time/Redbulltv_original.xml >> og_time/Redbulltv.cleaned.xml
 
           echo "</tv>" >> og_time/Redbulltv.cleaned.xml
           mv og_time/Redbulltv.cleaned.xml og_time/Redbulltv.xml
-
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-
-          git pull --rebase --autostash
-          git add og_time/Redbulltv.xml
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Updated EPG $(date -u +%Y-%m-%d)"
-            git push
-          else
-            echo "No changes to commit"
-          fi
