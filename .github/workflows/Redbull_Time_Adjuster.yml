@@ -1,0 +1,68 @@
+name: Adjust Redbulltv EPG to Sydney Time
+
+on:
+  schedule:
+    - cron: '10 0 * * *'  # daily at 00:10 UTC
+  workflow_dispatch:
+
+jobs:
+  adjust_time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set timezone offset for Sydney (hours)
+        id: tz_offset
+        run: |
+          month=$(date -u +%m)
+          day=$(date -u +%d)
+          year=$(date -u +%Y)
+
+          first_sunday() {
+            date -d "$1-01 +$(( (7 - $(date -d "$1-01" +%u)) % 7 )) days" +%d
+          }
+
+          oct_first_sunday=$(first_sunday $year-10)
+          apr_first_sunday=$(first_sunday $year-04)
+
+          oct_sunday=$((10 * 100 + 10#$oct_first_sunday))
+          apr_sunday=$((4 * 100 + 10#$apr_first_sunday))
+          today=$((10#$month * 100 + 10#$day))
+
+          if { [ "$today" -ge "$oct_sunday" ] && [ "$month" -ge 10 ]; } || \
+             { [ "$month" -le 3 ] && [ "$today" -le "$apr_sunday" ]; } ; then
+            echo "offset=11" >> $GITHUB_OUTPUT
+          else
+            echo "offset=10" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Adjust programme times to Sydney time
+        run: |
+          offset_hours=${{ steps.tz_offset.outputs.offset }}
+
+          perl -MTime::Piece -MTime::Seconds -pe '
+            my $offset = '"$offset_hours"';
+            s/(start|stop)="(\d{14}) \+0000"/
+              my ($field, $dt_str) = ($1, $2);
+              my $t = Time::Piece->strptime($dt_str, "%Y%m%d%H%M%S");
+              $t += $offset * ONE_HOUR;
+              my $new_dt = $t->strftime("%Y%m%d%H%M%S");
+              qq{$field="$new_dt +1000"}
+            /eg;
+          ' og_time/Redbulltv.xml > individual/Redbull.xml
+
+      - name: Commit and push adjusted XML if changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git pull --rebase --autostash
+          git add individual/Redbull.xml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Adjusted Redbulltv EPG times to Sydney $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to commit"
+          fi
