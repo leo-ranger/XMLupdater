@@ -11,7 +11,7 @@
     <title lang="zh">Wizards Beyond Waverly Place</title>
     <desc>After finding out about the prophecy, Billie avoids using magic, but when a magical creature causes mayhem in the Russo house, Billie worries it's still her fault.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619023000 +0000" stop="20250619030000 +0000">
+  <episode-num system="xmltv_ns">0.20.0</episode-num></programme><programme channel="403788" start="20250619023000 +0000" stop="20250619030000 +0000">
     <title lang="zh">Wizards Beyond Waverly Place</title>
     <desc>After discovering that Billie and Roman are missing, the Russos work together to rescue them from an evil villain's clutches.</desc>
     <date>2025-06-19</date>
@@ -33,7 +33,7 @@
   <category lang="en">Kids</category>
     <desc>Bluey and Bingo want a lick of each other's ice cream; Bingo is playing Bad Mood with Dad; two babysitters turn up to look after Bluey and Bingo.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619043000 +0000" stop="20250619050000 +0000">
+  <episode-num system="xmltv_ns">1.47.0</episode-num></programme><programme channel="403788" start="20250619043000 +0000" stop="20250619050000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
   <category lang="en">Series</category>
@@ -87,7 +87,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>Nancy tries to get Cricket to cut his new rat tail without admitting that she hates it.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619073000 +0000" stop="20250619080000 +0000">
+  <episode-num system="xmltv_ns">2.23.0</episode-num></programme><programme channel="403788" start="20250619073000 +0000" stop="20250619080000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Tilly makes changes to her country's coming-of-age ceremony and Gramma wants none of it; Cricket fast-tracks his training for a rodeo and gets trapped in a never-ending montage.</desc>
     <date>2025-06-19</date>
@@ -95,7 +95,7 @@
     <title lang="zh">Kiff</title>
     <desc>Kiff and Barry help a local bridge troll but discover he has some tricky riddles; Kiff and Barry get detention and meet a ragtag team of students who help them plot an escape.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619083000 +0000" stop="20250619090000 +0000">
+  <episode-num system="xmltv_ns">0.32.0</episode-num></programme><programme channel="403788" start="20250619083000 +0000" stop="20250619090000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff and Barry want to go home, but get into a strange adventure; when he realizes Kiff doesn't know what his job is, Martin wants to prove his inventing prowess.</desc>
     <date>2025-06-19</date>
@@ -151,7 +151,7 @@
     <title lang="zh">SuperKitties</title>
     <desc>The SuperKitties must rescue Wiggles, their new dancing robo-piggy, from Zsa-Zsa before the Kittydale Dance Party; Bitsy cheers on Pickles as he learns something new.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619123000 +0000" stop="20250619130000 +0000">
+  <episode-num system="xmltv_ns">1.3.0</episode-num></programme><programme channel="403788" start="20250619123000 +0000" stop="20250619130000 +0000">
     <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
     <desc>Lizard takes the iguanas from Lagarto Island and turns them into his minions; Team Spidey must get their Dino-Web Crawler back after Rhino steals it.</desc>
     <date>2025-06-19</date>
@@ -217,7 +217,7 @@
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Desperate for extra funds to upgrade her tech, Moon Girl takes a side hustle as a party performer.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403788" start="20250619170000 +0000" stop="20250619173000 +0000">
+  <episode-num system="xmltv_ns">1.22.0</episode-num></programme><programme channel="403788" start="20250619170000 +0000" stop="20250619173000 +0000">
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Lunella needs time to think about a big opportunity, but her mum invites the Beyonder to dinner to get her to open up.</desc>
     <date>2025-06-19</date>
@@ -281,7 +281,7 @@
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys decide to ramp up their local summer block party with supersized attractions; the kids work to save Mom after she is hit by Doof's inator.</desc>
     <date>2025-06-20</date>
-  </programme><programme channel="403788" start="20250620021000 +0000" stop="20250620024000 +0000">
+  <episode-num system="xmltv_ns">4.1.0</episode-num></programme><programme channel="403788" start="20250620021000 +0000" stop="20250620024000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The kids build a giant submarine sandwich submarine while Doof steals food; Candace tries to bust the boys while taking her driving test; Doof causes chaos in traffic.</desc>
     <date>2025-06-20</date>
@@ -590,22 +590,22 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619005000 +0000" stop="20250619011500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties stop Cat Burglar from stealing the trendy new hats in Kittydale; Buddy doesn't give up on learning how to use a telescope.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403674" start="20250619011500 +0000" stop="20250619014000 +0000">
+  <episode-num system="xmltv_ns">1.7.0</episode-num></programme><programme channel="403674" start="20250619011500 +0000" stop="20250619014000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties stop Zsa-Zsa from stealing all the oranges in Kittydale; Bitsy wants to be strong like Buddy but learns she's pawesome just the way she is.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619014000 +0000" stop="20250619020500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>When Amara brings a lost puppy to the "Purr 'N' Play," Bitsy wonders if there will be enough attention for her; the SuperKitties must stop whoever stole Abraca Dan's magic tricks.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619020500 +0000" stop="20250619022500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ginny, Sparks, Buddy and Bitsy are not only cute and cuddly kittens, but are also brave, smart, strong and kind and turn into SuperKitties when trouble arises.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619022500 +0000" stop="20250619025000 +0000">
@@ -620,7 +620,7 @@
     <title lang="zh">Mickey Mouse Funhouse</title>
     <desc>Franken-Pete's batteries run down just before he's supposed to host the Musical Monster Show; Minnie asks Mickey to learn ice dancing with her, but Mickey is nervous.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403674" start="20250619034000 +0000" stop="20250619040500 +0000">
+  <episode-num system="xmltv_ns">0.35.0</episode-num></programme><programme channel="403674" start="20250619034000 +0000" stop="20250619040500 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
   <category lang="en">Series</category>
@@ -670,16 +670,16 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619061000 +0000" stop="20250619063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
   <category lang="en">Kids</category>
     <desc>Mickey and friends try to train Salty the seal for the circus.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403674" start="20250619063500 +0000" stop="20250619070000 +0000">
+  <episode-num system="xmltv_ns">1.32.0</episode-num></programme><programme channel="403674" start="20250619063500 +0000" stop="20250619070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -688,7 +688,7 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619070000 +0000" stop="20250619072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -725,7 +725,7 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619090500 +0000" stop="20250619093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -734,7 +734,7 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619093000 +0000" stop="20250619100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -779,7 +779,7 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619130000 +0000" stop="20250619132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -808,12 +808,12 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619141500 +0000" stop="20250619144000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must figure out why someone is stealing all the yarn in Kittydale; Lab Rat invents a giant boot to smush all the flowers at the Kittydale Flower Festival.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619144000 +0000" stop="20250619150500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>To guard a new dinosaur bone, Buddy must learn to pay attention; Sparks relies on his problem-solving skills to stop Cat Burglar and Lab Rat from stealing a giant cheese wheel.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619150500 +0000" stop="20250619152500 +0000">
@@ -860,17 +860,17 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619172500 +0000" stop="20250619175000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Cat Burglar and a mystery thief compete to steal the Kittydale banner; Bitsy shares her cure for homesickness with Cousin Sassy.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619175000 +0000" stop="20250619181500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Sparks forgets to eat breakfast, so he has to face his fear of loud noises to help his team, even if he is hungry.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619181500 +0000" stop="20250619184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
-<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&amp;h=563&amp;crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000=563=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ariel tries to stop a pesky hermit crab from stealing her land treasures; when Ariel has the task of being the royal banner carrier for Atlantica's parade, she thinks it's a small job and doesn't take it seriously.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619184000 +0000" stop="20250619190500 +0000">
@@ -923,7 +923,7 @@
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619211500 +0000" stop="20250619214500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must find the real thief when animals accuse Sparks of stealing; a jealous Mr. Puppypaws traps all the other dogs to keep them away from the park.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403674" start="20250619214500 +0000" stop="20250619221500 +0000">
@@ -980,22 +980,22 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620005000 +0000" stop="20250620011500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Lab Rat controls the Burble toys to steal all the cheese in Kittydale; the SuperKitties stop Mr. Puppypaws from turning all the wood in the park into fetching sticks.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620011500 +0000" stop="20250620014000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>After Sparks falls off his SuperKitty Kit, the SuperKitties help him get the courage to ride it again; Bitsy eats too many treats and can't help the team stop Lab Rat.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620014000 +0000" stop="20250620020500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Zsa-Zsa steals bird nests from all over Kittydale; when Mr. Puppypaws pretends Poochissimo's piano playing is his own, the SuperKitties set out to reveal the truth.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620020500 +0000" stop="20250620022500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties have to stop Mr. Puppypaws from turning all the animal treats into doggy treats; Buddy accidentally breaks Sparks' SuperKitty kit and doesn't tell him.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620022500 +0000" stop="20250620025000 +0000">
@@ -1060,7 +1060,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620061000 +0000" stop="20250620063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1069,7 +1069,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620063500 +0000" stop="20250620070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1078,7 +1078,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620070000 +0000" stop="20250620072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1115,7 +1115,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620090500 +0000" stop="20250620093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1124,7 +1124,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620093000 +0000" stop="20250620100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1151,7 +1151,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620113000 +0000" stop="20250620120000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties switch powers with each other; when Ginny and Mr. Puppypaws get stuck in the peanut butter factory together, she learns to listen to his ideas to get free.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620120000 +0000" stop="20250620123000 +0000">
@@ -1164,7 +1164,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620130000 +0000" stop="20250620132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&amp;format=webp&amp;width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -1193,12 +1193,12 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620141500 +0000" stop="20250620144000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Mr. Puppypaws steals Bitsy's favorite toy, Mr. Greenie; the SuperKitties must return a grand piano to Petcini after Cat Burglar steals it.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620144000 +0000" stop="20250620150500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must rescue Wiggles, their new dancing robo-piggy, from Zsa-Zsa before the Kittydale Dance Party; Bitsy cheers on Pickles as he learns something new.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620150500 +0000" stop="20250620152500 +0000">
@@ -1245,17 +1245,17 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620172500 +0000" stop="20250620175000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Lab Rat turns Quacksley into a floatie for Otto to play on; the SuperKitties have to save Pizza Night after Cat Burglar steals all of the pizza pies for his new friend.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620175000 +0000" stop="20250620181500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Pet boots go missing all over Kittydale; when Lab Rat makes all of Kittydale super slippery, Bitsy has to help the SuperKitties stop her.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620181500 +0000" stop="20250620184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
-<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&amp;h=563&amp;crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000=563=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>A birthday party misunderstanding; Flounder helps other chefs at an event.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620184000 +0000" stop="20250620190500 +0000">
@@ -1308,7 +1308,7 @@
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620211500 +0000" stop="20250620214500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties switch powers with each other; when Ginny and Mr. Puppypaws get stuck in the peanut butter factory together, she learns to listen to his ideas to get free.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403674" start="20250620214500 +0000" stop="20250620221500 +0000">
@@ -1354,7 +1354,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>Cricket must wrestle a wild animal in order to prove himself worthy of the family name; when Cricket persuades Bill to convert his pickup into a french fry food truck, he discovers a mysterious blue potato that Gramma says is cursed with bad luck.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403837" start="20250619003000 +0000" stop="20250619010000 +0000">
+  <episode-num system="xmltv_ns">0.3.0</episode-num></programme><programme channel="403837" start="20250619003000 +0000" stop="20250619010000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>When the Greens visit an indoor pool, Cricket is challenged to jump off the high dive; Tilly claims that the family's goat has the spirit of a dog and enters it in a dog show.</desc>
     <date>2025-06-19</date>
@@ -1394,7 +1394,7 @@
     <title lang="zh">Gravity Falls</title>
     <desc>Mabel decides to put on a sock puppet rock opera to impress a local puppeteer.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403837" start="20250619053000 +0000" stop="20250619060000 +0000">
+  <episode-num system="xmltv_ns">1.4.0</episode-num></programme><programme channel="403837" start="20250619053000 +0000" stop="20250619060000 +0000">
     <title lang="zh">Gravity Falls</title>
     <desc>Soos needs a date and looks into a dating simulator.</desc>
     <date>2025-06-19</date>
@@ -1498,7 +1498,7 @@
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Lunella Lafayette accidentally brings a dinosaur to the Lower East Side; she protects her community and has the brawn to match her brains.</desc>
     <date>2025-06-19</date>
-  </programme><programme channel="403837" start="20250619190000 +0000" stop="20250619193000 +0000">
+  <episode-num system="xmltv_ns">0.1.0</episode-num></programme><programme channel="403837" start="20250619190000 +0000" stop="20250619193000 +0000">
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>When Lunella loses a game of chess against a supercomputer, her obsession with winning drives the computer to program every device in the school to attack her.</desc>
     <date>2025-06-19</date>
@@ -1702,7 +1702,7 @@
     <title lang="zh">Primos</title>
     <desc>Tater tries to fit in at a local festival celebrating Latinidad; Tater tries to help Tere and Tonita show their big sis Tabi how much they appreciate her.</desc>
     <date>2025-06-20</date>
-  </programme><programme channel="403837" start="20250620203000 +0000" stop="20250620210000 +0000">
+  <episode-num system="xmltv_ns">0.43.0</episode-num></programme><programme channel="403837" start="20250620203000 +0000" stop="20250620210000 +0000">
     <title lang="zh">Primos</title>
     <desc>Tater uncovers a disturbing secret about her hometown; she celebrates her first double-digit birthday.</desc>
     <date>2025-06-20</date>
@@ -1735,82 +1735,132 @@
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619020000 +0000" stop="20250619023000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>The women confront their phobias on a flight to the Bahamas to attend a funeral.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619023000 +0000" stop="20250619030000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia's new friend, an elderly gentleman, has Alzheimer's disease.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619030000 +0000" stop="20250619033000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>The housemates recall some of their absurd moneymaking schemes.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619033000 +0000" stop="20250619040000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>The housemates could earn $100,000 if they adopt an elderly pig.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619040000 +0000" stop="20250619043000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Courtesy of their new housekeeper's magic potions, Blanche's social life perks up and Dorothy wins the battle against insomnia.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619043000 +0000" stop="20250619050000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>The women confront their phobias on a flight to the Bahamas to attend a funeral.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619050000 +0000" stop="20250619053000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Against her better judgment, Reba gives in to Cheyenne's pleas and hires the unemployed Van as her assistant, only to be surprised when he sells the house she has been trying to unload for weeks.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619053000 +0000" stop="20250619060000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Reba takes it upon herself to keep Van sober when she suspects he has a drinking problem; Kyra and her band are invited to perform at a USO event for soldiers leaving for Iraq.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619060000 +0000" stop="20250619063000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Cheyenne and Van must run interference at a client party after Reba takes a pill, by mistake, that will make her violently ill if she drinks alcohol.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619063000 +0000" stop="20250619070000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>When Barbra Jean signs Reba up for an online dating service, Reba winds up dating a mystery man and spending less time with the family.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619070000 +0000" stop="20250619073000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Frasier invites the new station manager (Eric Lutes) home for dinner and a date with Daphne, but Frasier is unaware that the man is gay.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619073000 +0000" stop="20250619080000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Niles (David Hyde Pierce) considers parenthood after helping Frasier and Martin (Kelsey Grammer, John Mahoney) deliver a baby.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619080000 +0000" stop="20250619083000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>When Martin asks his sons Frasier and Niles to accompany him to the closing of his favorite bar, it is only when they arrive there that Frasier and Niles realize they have shares in the company forcing the bar to close.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619083000 +0000" stop="20250619090000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Frasier's advice to a depressed listener prompts a deluge of criticism.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619090000 +0000" stop="20250619093000 +0000">
@@ -1823,49 +1873,77 @@
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619100000 +0000" stop="20250619103000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>When Reba teams up with Van to invest in real estate, he buys an uninspected house, which prompts her to want out of their partnership.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619103000 +0000" stop="20250619110000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Cheyenne asks Reba to talk some sense into Van when he stops going to church, but when Reba's efforts fail, she takes her problem straight to the church's handsome new minister (Patrick Fabian).</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619110000 +0000" stop="20250619113000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Reba is disappointed when her plans for Halloween fall through because everyone in the family has other plans.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619113000 +0000" stop="20250619120000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Realizing that his wife has gained quite a bit of weight, Brock consults Reba on how best to handle the delicate situation.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619120000 +0000" stop="20250619123000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose, concerned about the nuclear arms race, mails letters to President Reagan and Soviet leader Mikhail Gorbachev.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619123000 +0000" stop="20250619130000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>A political candidate announces that he had an affair with Blanche, a contention that she denies.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619130000 +0000" stop="20250619133000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy makes her ex-husband, Stanley Zbornak, jealous when she has an affair with his brother Theodore.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619133000 +0000" stop="20250619140000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's cousin, Sven Lindstrom, arrives from Sweden and falls in love with Blanche.</desc>
     <date>2025-06-19</date>
@@ -1886,7 +1964,7 @@
     <desc>A young woman takes advice from the chalkboard notes that her mysterious tenant leaves when a slick sales rep arrives with plans to buy her family's prized winery.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250619220000 +0000" stop="20250620000000 +0000">
-    <title lang="zh">Love &amp; Jane</title>
+    <title lang="zh">Love  Jane</title>
     <desc>Lilly, a hopeless romantic and literary enthusiast, gets the surprise of a lifetime when her favorite author, Jane Austen, comes into her life.</desc>
     <date>2025-06-19</date>
   </programme><programme channel="403490" start="20250620000000 +0000" stop="20250620020000 +0000">
@@ -1895,82 +1973,132 @@
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620020000 +0000" stop="20250620023000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy hocks an expensive ring to pay off the debt she and her ex-husband owe to the Internal Revenue Service.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620023000 +0000" stop="20250620030000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose, concerned about the nuclear arms race, mails letters to President Reagan and Soviet leader Mikhail Gorbachev.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620030000 +0000" stop="20250620033000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>A political candidate announces that he had an affair with Blanche, a contention that she denies.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620033000 +0000" stop="20250620040000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy makes her ex-husband, Stanley Zbornak, jealous when she has an affair with his brother Theodore.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620040000 +0000" stop="20250620043000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's cousin, Sven Lindstrom, arrives from Sweden and falls in love with Blanche.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620043000 +0000" stop="20250620050000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy hocks an expensive ring to pay off the debt she and her ex-husband owe to the Internal Revenue Service.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620050000 +0000" stop="20250620053000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>When Reba teams up with Van to invest in real estate, he buys an uninspected house, which prompts her to want out of their partnership.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620053000 +0000" stop="20250620060000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Cheyenne asks Reba to talk some sense into Van when he stops going to church, but when Reba's efforts fail, she takes her problem straight to the church's handsome new minister (Patrick Fabian).</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620060000 +0000" stop="20250620063000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Reba is disappointed when her plans for Halloween fall through because everyone in the family has other plans.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620063000 +0000" stop="20250620070000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Realizing that his wife has gained quite a bit of weight, Brock consults Reba on how best to handle the delicate situation.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620070000 +0000" stop="20250620073000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Martin and Frasier decide to endorse opposing congressional candidates. Guest star: Boyd Gaines.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620073000 +0000" stop="20250620080000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Frasier is thrilled when his ideal woman invites him on a vacation to Bora Bora.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620080000 +0000" stop="20250620083000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Frasier discovers his ex-wife, Lilith (Bebe Neuwirth), is in the room next to his at a South Sea island resort.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620083000 +0000" stop="20250620090000 +0000">
     <title lang="zh">Frasier</title>
+  <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Frasier tries to help Martin and his ex-partner, Artie Walsh (Lincoln Kilpatrick), mend a long-held grudge.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620090000 +0000" stop="20250620093000 +0000">
@@ -1983,49 +2111,77 @@
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620100000 +0000" stop="20250620103000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>The family learns that Cheyenne no longer wishes to pursue a career in dentistry after she turns down Brock's offer to intern at his office; Barbara Jean is called for jury duty.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620103000 +0000" stop="20250620110000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>A miscommunication with her brother, Bryan, sends Barbra Jean to his place for Thanksgiving, while he goes to Reba's.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620110000 +0000" stop="20250620113000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>After observing their constant bickering in the office, Reba and Van's boss insists they see the company's occupational therapist.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620113000 +0000" stop="20250620120000 +0000">
     <title lang="zh">Reba</title>
+  <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
+  <category lang="en">Family</category>
     <desc>Reba must care for Brock, who has kidney stones while Barbra Jean is away; Cheyenne helps at the homeless shelter.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620120000 +0000" stop="20250620123000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy, Rose and Blanche seek professional help when living with one another becomes unbearable.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620123000 +0000" stop="20250620130000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose decides to move in with Buddy Rourke, one of her deceased husband's former buddies.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620130000 +0000" stop="20250620133000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche agrees to pose in the nude for a suave European sculptor.</desc>
     <date>2025-06-20</date>
   </programme><programme channel="403490" start="20250620133000 +0000" stop="20250620140000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RtHQX9GWo7CL5loJFxzs1PGZa050zqt_2kFOC8RBSed-B54S"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
+  <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche reunites with her daughter Rebecca after a four-year estrangement; Blanche wants to defend her from an abusive boyfriend.</desc>
     <date>2025-06-20</date>
@@ -2033,7 +2189,7 @@
     <title lang="zh">The Wedding Veil</title>
     <desc>After discovering a long-lost painting, museum curator Avery and new board member Peter investigate the artwork's origins as they plan to unveil it at a gala.</desc>
     <date>2025-06-20</date>
-  </programme><programme channel="403490" start="20250620160000 +0000" stop="20250620180000 +0000">
+  <episode-num system="xmltv_ns">0.1.0</episode-num></programme><programme channel="403490" start="20250620160000 +0000" stop="20250620180000 +0000">
     <title lang="zh">Love at First Bark</title>
     <desc>A single woman with a new, out of control German shepherd turns to a handsome dog trainer for help. As they make progress with the dog, she realizes she may be developing feelings for the trainer.</desc>
     <date>2025-06-20</date>
