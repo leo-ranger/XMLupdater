@@ -1,4 +1,4 @@
-name: Enrich EPG XML with TVmaze and fallback to Trakt.tv
+name: Enrich EPG XML with TVmaze and Trakt fallback
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install lxml requests fuzzywuzzy[speedup]
 
-      - name: Enrich XML files using TVmaze then Trakt.tv
+      - name: Enrich XML files using TVmaze then Trakt.tv fallback
         run: |
           python3 - <<'EOF'
           import time
@@ -40,7 +40,8 @@ jobs:
           def normalize(text):
               return re.sub(r'\W+', ' ', text or '').strip().lower()
 
-          ### TVmaze section ###
+          # --- TVmaze ---
+
           def fetch_show_episodes_tvmaze(title, cache):
               if title in cache:
                   return cache[title]
@@ -57,7 +58,7 @@ jobs:
               cache[title] = []
               return []
 
-          def find_best_match(title, desc, episodes):
+          def find_best_match(title, desc, episodes, min_score=65):
               input_text = normalize(f"{title} {desc}")
               best_score = 0
               best_ep = None
@@ -68,11 +69,12 @@ jobs:
                   if score > best_score:
                       best_score = score
                       best_ep = ep
-              if best_score >= 65:
+              if best_score >= min_score:
                   return best_ep
               return None
 
-          ### Trakt.tv section ###
+          # --- Trakt.tv ---
+
           headers = {
               "Content-Type": "application/json",
               "trakt-api-version": "2",
@@ -80,7 +82,7 @@ jobs:
           }
 
           trakt_show_cache = {}
-          trakt_season_cache = {}
+          trakt_episodes_cache = {}
 
           def fetch_trakt_show(title):
               if title in trakt_show_cache:
@@ -100,8 +102,8 @@ jobs:
               return None
 
           def fetch_trakt_episodes(show_id):
-              if show_id in trakt_season_cache:
-                  return trakt_season_cache[show_id]
+              if show_id in trakt_episodes_cache:
+                  return trakt_episodes_cache[show_id]
               try:
                   url = f"https://api.trakt.tv/shows/{show_id}/seasons?extended=episodes"
                   r = requests.get(url, headers=headers, timeout=10)
@@ -111,13 +113,28 @@ jobs:
                       for season in data:
                           for ep in season.get("episodes", []):
                               episodes.append(ep)
-                      trakt_season_cache[show_id] = episodes
+                      trakt_episodes_cache[show_id] = episodes
                       time.sleep(0.5)
                       return episodes
               except Exception as e:
                   print(f"Trakt episodes fetch failed for show_id '{show_id}': {e}")
-              trakt_season_cache[show_id] = []
+              trakt_episodes_cache[show_id] = []
               return []
+
+          def best_fuzzy_match_episode(title, desc, episodes, min_score=65):
+              input_text = normalize(f"{title} {desc}")
+              best_score = 0
+              best_ep = None
+              for ep in episodes:
+                  overview = ep.get("overview") or ""
+                  compare_text = normalize(f"{title} {overview}")
+                  score = fuzz.partial_ratio(input_text, compare_text)
+                  if score > best_score:
+                      best_score = score
+                      best_ep = ep
+              if best_score >= min_score:
+                  return best_ep
+              return None
 
           cache_tvmaze = {}
 
@@ -136,23 +153,21 @@ jobs:
                   title = title_el.text.strip()
                   desc = desc_el.text.strip()
 
-                  # First try TVmaze
+                  # Try TVmaze first
                   episodes = fetch_show_episodes_tvmaze(title, cache_tvmaze)
                   best_ep = find_best_match(title, desc, episodes)
 
                   if best_ep:
                       season = best_ep["season"]
                       episode = best_ep["number"]
-                      ep_title = best_ep["name"] or ""
+                      ep_title = best_ep.get("name") or ""
                       airdate = best_ep.get("airdate")
 
-                      # Add or update episode-num
                       ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
                       if ep_num_el is None:
                           ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
                       ep_num_el.text = f"{season - 1}.{episode}.0"
 
-                      # Add or update sub-title
                       sub_title_el = prog.find("sub-title")
                       if sub_title_el is None:
                           sub_title_el = etree.Element("sub-title", lang="en")
@@ -160,7 +175,6 @@ jobs:
                           prog.insert(title_index + 1, sub_title_el)
                       sub_title_el.text = ep_title
 
-                      # Add or update date tag
                       if airdate:
                           date_str = airdate.replace("-", "")
                           airdate_el = prog.find("date")
@@ -175,32 +189,19 @@ jobs:
                       print(f"✔ TVmaze matched {title}: S{season:02}E{episode:02} — '{ep_title}'")
                       continue
 
-                  # If TVmaze failed, fallback to Trakt.tv
+                  # If no TVmaze match, fallback to Trakt.tv
                   trakt_show = fetch_trakt_show(title)
                   if trakt_show:
                       show_id = trakt_show["ids"]["slug"]
                       episodes = fetch_trakt_episodes(show_id)
+                      best_ep = best_fuzzy_match_episode(title, desc, episodes)
 
-                      best_score = 0
-                      best_ep = None
-                      input_text = normalize(f"{title} {desc}")
-
-                      for ep in episodes:
-                          overview = ep.get("overview") or ""
-                          compare_text = normalize(f"{title} {overview}")
-                          score = fuzz.partial_ratio(input_text, compare_text)
-                          if score > best_score:
-                              best_score = score
-                              best_ep = ep
-
-                      if best_score >= 65 and best_ep:
+                      if best_ep:
                           season = best_ep.get("season")
                           episode = best_ep.get("number")
                           ep_title = best_ep.get("title") or ""
                           airdate = best_ep.get("first_aired")
-                          # airdate format example: "2011-04-17T07:00:00.000Z"
 
-                          # Convert airdate to YYYYMMDD if possible
                           date_str = None
                           if airdate:
                               try:
@@ -208,13 +209,11 @@ jobs:
                               except:
                                   date_str = None
 
-                          # Add or update episode-num
                           ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
                           if ep_num_el is None:
                               ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
                           ep_num_el.text = f"{season - 1}.{episode}.0"
 
-                          # Add or update sub-title
                           sub_title_el = prog.find("sub-title")
                           if sub_title_el is None:
                               sub_title_el = etree.Element("sub-title", lang="en")
@@ -222,7 +221,6 @@ jobs:
                               prog.insert(title_index + 1, sub_title_el)
                           sub_title_el.text = ep_title
 
-                          # Add or update date tag
                           if date_str:
                               airdate_el = prog.find("date")
                               if airdate_el is not None:
