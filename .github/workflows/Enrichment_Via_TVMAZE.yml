@@ -44,32 +44,32 @@ jobs:
                       data = res.json()
                       episodes = data["_embedded"]["episodes"]
                       cache[title] = episodes
-                      time.sleep(0.5)  # Be nice to TVmaze
+                      time.sleep(0.5)
                       return episodes
               except Exception as e:
                   print(f"TVmaze fetch failed for '{title}': {e}")
               cache[title] = []
               return []
 
-          def find_best_match(desc, episodes):
-              desc_norm = normalize(desc)
+          def find_best_match(title, desc, episodes):
+              input_text = normalize(f"{title} {desc}")
               best_score = 0
               best_ep = None
               for ep in episodes:
                   overview = ep.get("summary") or ""
-                  overview_norm = normalize(overview)
-                  score = fuzz.partial_ratio(desc_norm, overview_norm)
+                  compare_text = normalize(f"{title} {overview}")
+                  score = fuzz.partial_ratio(input_text, compare_text)
                   if score > best_score:
                       best_score = score
                       best_ep = ep
-              if best_score >= 65:
+              if best_score >= 45:
                   return best_ep
               return None
 
           cache = {}
 
           for xml_file in glob.glob("individual/*.xml"):
-              print(f"Processing {xml_file}")
+              print(f"📂 Processing {xml_file}")
               parser = etree.XMLParser(recover=True)
               tree = etree.parse(xml_file, parser)
               root = tree.getroot()
@@ -85,17 +85,32 @@ jobs:
 
                   episodes = fetch_show_episodes(title, cache)
                   if not episodes:
+                      print(f"❌ No episodes found for show: {title}")
                       continue
 
-                  best_ep = find_best_match(desc, episodes)
+                  best_ep = find_best_match(title, desc, episodes)
                   if best_ep:
                       season = best_ep["season"]
                       episode = best_ep["number"]
+                      ep_title = best_ep["name"] or ""
+
+                      # Add episode-num
                       ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
                       if ep_num_el is None:
                           ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
                       ep_num_el.text = f"{season - 1}.{episode}.0"
-                      print(f"✔ Matched {title}: S{season:02}E{episode:02}")
+
+                      # Add sub-title
+                      sub_title_el = prog.find("sub-title")
+                      if sub_title_el is None:
+                          sub_title_el = etree.Element("sub-title", lang="en")
+                          title_index = list(prog).index(title_el)
+                          prog.insert(title_index + 1, sub_title_el)
+                      sub_title_el.text = ep_title
+
+                      print(f"✔ Matched {title}: S{season:02}E{episode:02} — '{ep_title}'")
+                  else:
+                      print(f"⚠️ No good match found for {title}: \"{desc[:80]}...\"")
 
               tree.write(xml_file, encoding="utf-8", xml_declaration=True)
           EOF
@@ -105,4 +120,4 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/*.xml
-          git diff --cached --quiet || (git commit -m "Enriched EPG XML with TVmaze episode data" && git push)
+          git diff --cached --quiet || (git commit -m "Enriched EPG XML with TVmaze episode data + sub-title" && git push)
