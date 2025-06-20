@@ -1,19 +1,19 @@
-name: Enrich EPG XML with TVmaze and Trakt
+name: Enrich EPG with TVmaze & Trakt
 
 on:
   schedule:
-    - cron: '10 0 * * *'  # Daily at 00:10 UTC
+    - cron: '10 0 * * *'
   workflow_dispatch:
 
 jobs:
-  enrich_epgs:
+  enrich:
     runs-on: ubuntu-latest
 
     env:
       TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
 
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Setup Python
@@ -24,13 +24,13 @@ jobs:
       - name: Install dependencies
         run: pip install lxml requests fuzzywuzzy[speedup]
 
-      - name: Enrich XML files with TVmaze & Trakt fallback
+      - name: Enrich XMLs with TVmaze + Trakt fallback
         run: |
           python3 - <<'EOF'
           import os
+          import re
           import time
           import glob
-          import re
           import requests
           from lxml import etree
           from fuzzywuzzy import fuzz
@@ -40,90 +40,75 @@ jobs:
           def normalize(text):
               return re.sub(r'\W+', ' ', text or '').strip().lower()
 
-          def find_best_match(title, desc, episodes, min_score=80):
+          def fuzzy_match(title, desc, episodes, min_score=65):
               input_text = normalize(f"{title} {desc}")
-              best_score = 0
-              best_ep = None
               for ep in episodes:
                   overview = ep.get("summary") or ep.get("overview") or ""
-                  compare_text = normalize(f"{title} {overview}")
-                  score = fuzz.token_set_ratio(input_text, compare_text)
-                  if score > best_score:
-                      best_score = score
-                      best_ep = ep
-              if best_score >= min_score:
-                  return best_ep
-              print(f"❌ No strong match for {title} (best fuzzy score: {best_score})")
+                  score = fuzz.partial_ratio(input_text, normalize(f"{title} {overview}"))
+                  if score >= min_score:
+                      return ep
               return None
 
-          # TVmaze fetching
-          def fetch_show_episodes_tvmaze(title, cache):
+          def fetch_tvmaze(title, cache):
               if title in cache:
                   return cache[title]
               try:
-                  res = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={title}&embed=episodes", timeout=10)
-                  if res.status_code == 200:
-                      data = res.json()
-                      episodes = data["_embedded"]["episodes"]
-                      cache[title] = episodes
+                  r = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={title}&embed=episodes", timeout=10)
+                  if r.status_code == 200:
+                      data = r.json()
+                      eps = data["_embedded"]["episodes"]
+                      cache[title] = eps
                       time.sleep(0.5)
-                      return episodes
+                      return eps
               except Exception as e:
-                  print(f"TVmaze fetch failed for '{title}': {e}")
+                  print(f"TVmaze error for '{title}': {e}")
               cache[title] = []
               return []
 
-          # Trakt API
           headers = {
               "Content-Type": "application/json",
               "trakt-api-version": "2",
               "trakt-api-key": TRAKT_CLIENT_ID,
           }
 
-          trakt_show_cache = {}
-          trakt_episodes_cache = {}
-
           def fetch_trakt_show(title):
-              if title in trakt_show_cache:
-                  return trakt_show_cache[title]
               try:
-                  url = f"https://api.trakt.tv/search/show?query={title}&limit=1"
-                  r = requests.get(url, headers=headers, timeout=10)
-                  if r.status_code == 200:
-                      data = r.json()
-                      if data:
-                          trakt_show_cache[title] = data[0]["show"]
-                          time.sleep(0.5)
-                          return data[0]["show"]
+                  r = requests.get(f"https://api.trakt.tv/search/show?query={title}&limit=1", headers=headers, timeout=10)
+                  if r.status_code == 200 and r.json():
+                      return r.json()[0]["show"]
               except Exception as e:
-                  print(f"Trakt show fetch failed for '{title}': {e}")
-              trakt_show_cache[title] = None
+                  print(f"Trakt show search failed: {e}")
               return None
 
-          def fetch_trakt_episodes(show_id):
-              if show_id in trakt_episodes_cache:
-                  return trakt_episodes_cache[show_id]
+          def fetch_trakt_episodes(slug):
               try:
-                  url = f"https://api.trakt.tv/shows/{show_id}/seasons?extended=episodes"
+                  url = f"https://api.trakt.tv/shows/{slug}/seasons?extended=episodes"
                   r = requests.get(url, headers=headers, timeout=10)
                   if r.status_code == 200:
                       data = r.json()
-                      episodes = []
-                      for season in data:
-                          for ep in season.get("episodes", []):
-                              episodes.append(ep)
-                      trakt_episodes_cache[show_id] = episodes
-                      time.sleep(0.5)
-                      return episodes
+                      eps = []
+                      for s in data:
+                          if s["number"] == 0:  # skip specials
+                              continue
+                          eps.extend(s.get("episodes", []))
+                      return eps
               except Exception as e:
-                  print(f"Trakt episodes fetch failed for show_id '{show_id}': {e}")
-              trakt_episodes_cache[show_id] = []
+                  print(f"Trakt episodes fetch failed for {slug}: {e}")
               return []
+
+          def fetch_trakt_movie(title):
+              try:
+                  r = requests.get(f"https://api.trakt.tv/search/movie?query={title}&limit=1", headers=headers, timeout=10)
+                  if r.status_code == 200 and r.json():
+                      return r.json()[0]["movie"]
+              except Exception as e:
+                  print(f"Trakt movie search failed: {e}")
+              return None
 
           cache_tvmaze = {}
 
           for xml_file in glob.glob("individual/*.xml"):
-              print(f"📂 Processing {xml_file}")
+              print(f"\n📄 Processing {xml_file}")
               parser = etree.XMLParser(recover=True)
               tree = etree.parse(xml_file, parser)
               root = tree.getroot()
@@ -137,89 +122,79 @@ jobs:
                   title = title_el.text.strip()
                   desc = desc_el.text.strip()
 
-                  # === Try TVmaze first ===
-                  episodes = fetch_show_episodes_tvmaze(title, cache_tvmaze)
-                  best_ep = find_best_match(title, desc, episodes)
-
-                  if best_ep:
-                      season = best_ep["season"]
-                      episode = best_ep["number"]
-                      ep_title = best_ep.get("name") or ""
-                      airdate = best_ep.get("airdate")
-
-                      ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
-                      if ep_num_el is None:
-                          ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
-                      ep_num_el.text = f"{season - 1}.{episode}.0"
-
-                      sub_title_el = prog.find("sub-title")
-                      if sub_title_el is None:
-                          sub_title_el = etree.Element("sub-title", lang="en")
-                          title_index = list(prog).index(title_el)
-                          prog.insert(title_index + 1, sub_title_el)
-                      sub_title_el.text = ep_title
-
-                      if airdate:
-                          date_str = airdate.replace("-", "")
-                          airdate_el = prog.find("date")
-                          if airdate_el is not None:
-                              airdate_el.text = date_str
-                          else:
-                              desc_el_index = list(prog).index(desc_el)
-                              new_date_el = etree.Element("date")
-                              new_date_el.text = date_str
-                              prog.insert(desc_el_index + 1, new_date_el)
-
-                      print(f"✔ TVmaze matched {title}: S{season:02}E{episode:02} — '{ep_title}'")
+                  # Skip if already enriched
+                  existing = prog.xpath("episode-num[@system='tvmaze-matched' or @system='trakt-matched']")
+                  if existing:
                       continue
 
-                  # === Fallback to Trakt.tv ===
+                  # === TVmaze Match ===
+                  episodes = fetch_tvmaze(title, cache_tvmaze)
+                  best_ep = fuzzy_match(title, desc, episodes)
+
+                  if best_ep:
+                      season = best_ep.get("season")
+                      episode = best_ep.get("number")
+                      ep_title = best_ep.get("name", "")
+                      airdate = best_ep.get("airdate")
+
+                      etree.SubElement(prog, "episode-num", system="tvmaze-matched").text = f"{season - 1}.{episode}.0"
+                      sub = prog.find("sub-title") or etree.SubElement(prog, "sub-title", lang="en")
+                      sub.text = ep_title
+                      if airdate:
+                          date_tag = prog.find("date") or etree.SubElement(prog, "date")
+                          date_tag.text = airdate.replace("-", "")
+                      print(f"✅ TVmaze: {title} -> S{season:02}E{episode:02} — '{ep_title}'")
+                      continue
+
+                  # === Trakt Episodes Fallback ===
                   trakt_show = fetch_trakt_show(title)
                   if trakt_show:
-                      show_id = trakt_show["ids"]["slug"]
-                      episodes = fetch_trakt_episodes(show_id)
-                      best_ep = find_best_match(title, desc, episodes)
-
+                      slug = trakt_show["ids"]["slug"]
+                      episodes = fetch_trakt_episodes(slug)
+                      best_ep = fuzzy_match(title, desc, episodes)
                       if best_ep:
                           season = best_ep.get("season")
                           episode = best_ep.get("number")
-                          ep_title = best_ep.get("title") or ""
+                          ep_title = best_ep.get("title", "")
                           airdate = best_ep.get("first_aired")
 
-                          ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
-                          if ep_num_el is None:
-                              ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
-                          ep_num_el.text = f"{season - 1}.{episode}.0"
-
-                          sub_title_el = prog.find("sub-title")
-                          if sub_title_el is None:
-                              sub_title_el = etree.Element("sub-title", lang="en")
-                              title_index = list(prog).index(title_el)
-                              prog.insert(title_index + 1, sub_title_el)
-                          sub_title_el.text = ep_title
-
+                          etree.SubElement(prog, "episode-num", system="trakt-matched").text = f"{season - 1}.{episode}.0"
+                          sub = prog.find("sub-title") or etree.SubElement(prog, "sub-title", lang="en")
+                          sub.text = ep_title
                           if airdate:
-                              date_str = airdate[:10].replace("-", "")
-                              airdate_el = prog.find("date")
-                              if airdate_el is not None:
-                                  airdate_el.text = date_str
-                              else:
-                                  desc_el_index = list(prog).index(desc_el)
-                                  new_date_el = etree.Element("date")
-                                  new_date_el.text = date_str
-                                  prog.insert(desc_el_index + 1, new_date_el)
-
-                          print(f"✔ Trakt matched {title}: S{season:02}E{episode:02} — '{ep_title}'")
+                              date_tag = prog.find("date") or etree.SubElement(prog, "date")
+                              date_tag.text = airdate[:10].replace("-", "")
+                          print(f"📺 Trakt: {title} -> S{season:02}E{episode:02} — '{ep_title}'")
                           continue
 
-                  print(f"⚠️ No match found for {title}")
+                  # === Trakt Movie Fallback ===
+                  trakt_movie = fetch_trakt_movie(title)
+                  if trakt_movie:
+                      year = trakt_movie.get("year")
+                      released = trakt_movie.get("released")
+                      movie_title = trakt_movie.get("title", title)
+
+                      etree.SubElement(prog, "episode-num", system="trakt-matched").text = "0.0.0"
+                      sub = prog.find("sub-title") or etree.SubElement(prog, "sub-title", lang="en")
+                      sub.text = movie_title
+                      if released:
+                          date_tag = prog.find("date") or etree.SubElement(prog, "date")
+                          date_tag.text = released[:10].replace("-", "")
+                      # Add category tag for movies
+                      cat_el = etree.SubElement(prog, "category", lang="en")
+                      cat_el.text = "movie"
+
+                      print(f"🎬 Trakt Movie: {title} -> '{movie_title}' ({year})")
+                      continue
+
+                  print(f"⚠️  No match found for: {title}")
 
               tree.write(xml_file, encoding="utf-8", xml_declaration=True)
           EOF
 
-      - name: Commit & push if changed
+      - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/*.xml
-          git diff --cached --quiet || (git commit -m "Enriched EPG XML with episode metadata" && git push)
+          git diff --cached --quiet || (git commit -m "Enriched EPG with metadata and movie categorization" && git push)
