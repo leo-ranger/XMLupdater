@@ -1,0 +1,47 @@
+name: Trigger All Workflows Except Two
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List all workflows
+        id: list_workflows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching workflows list..."
+          # Get all workflow files in .github/workflows
+          workflows=$(gh api repos/${{ github.repository }}/actions/workflows --jq '.workflows[].path' | tr -d '"')
+          
+          # Filter out excluded workflows
+          filtered_workflows=$(echo "$workflows" | grep -vE "Enrichment_Via_TVMAZE_and_Trak.yml|Merge_All_EPGs.yml")
+          
+          echo "Workflows to trigger:"
+          echo "$filtered_workflows"
+          
+          # Save filtered workflows list to output for next step
+          echo "::set-output name=filtered::$filtered_workflows"
+
+      - name: Trigger workflows
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          workflows="${{ steps.list_workflows.outputs.filtered }}"
+          # Convert to array by line
+          IFS=$'\n' read -rd '' -a wf_array <<<"$workflows"
+          
+          for wf_path in "${wf_array[@]}"; do
+            # Get workflow id from path
+            wf_id=$(gh api repos/${{ github.repository }}/actions/workflows --jq ".workflows[] | select(.path==\"$wf_path\") | .id")
+            echo "Triggering workflow $wf_path (id: $wf_id)"
+            
+            # Trigger workflow_dispatch event on the workflow by ID
+            gh api \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              /repos/${{ github.repository }}/actions/workflows/$wf_id/dispatches \
+              -f ref=${{ github.ref_name || github.ref }} || echo "Failed to trigger $wf_path"
+          done
