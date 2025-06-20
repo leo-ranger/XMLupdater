@@ -3,7 +3,7 @@ name: Update EPG XML Hallmark EastUS
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs at midnight UTC daily
-  workflow_dispatch:  # Allows manual runs
+  workflow_dispatch:
 
 jobs:
   update:
@@ -70,7 +70,8 @@ jobs:
 
       - name: Enrich EPG with season/episode from TVmaze (throttled)
         run: |
-          python3 <<EOF
+          echo "Running TVmaze enrichment..."
+          python3 - <<'EOF'
 import xml.etree.ElementTree as ET
 import requests
 import re
@@ -92,7 +93,7 @@ def fetch_show_episodes(title):
             data = res.json()
             episodes = data["_embedded"]["episodes"]
             cache[title] = episodes
-            time.sleep(0.6)  # Throttle to avoid rate-limiting
+            time.sleep(0.6)
             return episodes
     except Exception as e:
         print(f"TVmaze request failed for {title}: {e}")
