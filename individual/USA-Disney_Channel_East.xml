@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="20250619094046 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403788/20250619.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403788&amp;date=20250619&amp;timezone=None">
   <channel id="403788">
     <display-name lang="US">Disney - Eastern Feed</display-name>
-    <icon src="" />
+    <icon src=""/>
   </channel>
   <programme channel="403788" start="20250619000000 +0000" stop="20250619020000 +0000">
     <title lang="zh">Teen Beach 2</title>
@@ -13,7 +14,7 @@
     <title lang="zh">Wizards Beyond Waverly Place</title>
     <desc>After finding out about the prophecy, Billie avoids using magic, but when a magical creature causes mayhem in the Russo house, Billie worries it's still her fault.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.20.0</episode-num></programme>
   <programme channel="403788" start="20250619023000 +0000" stop="20250619030000 +0000">
     <title lang="zh">Wizards Beyond Waverly Place</title>
     <desc>After discovering that Billie and Roman are missing, the Russos work together to rescue them from an evil villain's clutches.</desc>
@@ -39,7 +40,7 @@
   <category lang="en">Kids</category>
     <desc>Bluey and Bingo want a lick of each other's ice cream; Bingo is playing Bad Mood with Dad; two babysitters turn up to look after Bluey and Bingo.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.47.0</episode-num></programme>
   <programme channel="403788" start="20250619043000 +0000" stop="20250619050000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -99,7 +100,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>Nancy tries to get Cricket to cut his new rat tail without admitting that she hates it.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.23.0</episode-num></programme>
   <programme channel="403788" start="20250619073000 +0000" stop="20250619080000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Tilly makes changes to her country's coming-of-age ceremony and Gramma wants none of it; Cricket fast-tracks his training for a rodeo and gets trapped in a never-ending montage.</desc>
@@ -109,7 +110,7 @@
     <title lang="zh">Kiff</title>
     <desc>Kiff and Barry help a local bridge troll but discover he has some tricky riddles; Kiff and Barry get detention and meet a ragtag team of students who help them plot an escape.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.32.0</episode-num></programme>
   <programme channel="403788" start="20250619083000 +0000" stop="20250619090000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff and Barry want to go home, but get into a strange adventure; when he realizes Kiff doesn't know what his job is, Martin wants to prove his inventing prowess.</desc>
@@ -173,7 +174,7 @@
     <title lang="zh">SuperKitties</title>
     <desc>The SuperKitties must rescue Wiggles, their new dancing robo-piggy, from Zsa-Zsa before the Kittydale Dance Party; Bitsy cheers on Pickles as he learns something new.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.3.0</episode-num></programme>
   <programme channel="403788" start="20250619123000 +0000" stop="20250619130000 +0000">
     <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
     <desc>Lizard takes the iguanas from Lagarto Island and turns them into his minions; Team Spidey must get their Dino-Web Crawler back after Rhino steals it.</desc>
@@ -248,7 +249,7 @@
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Desperate for extra funds to upgrade her tech, Moon Girl takes a side hustle as a party performer.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.22.0</episode-num></programme>
   <programme channel="403788" start="20250619170000 +0000" stop="20250619173000 +0000">
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Lunella needs time to think about a big opportunity, but her mum invites the Beyonder to dinner to get her to open up.</desc>
@@ -328,7 +329,7 @@
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys decide to ramp up their local summer block party with supersized attractions; the kids work to save Mom after she is hit by Doof's inator.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.1.0</episode-num></programme>
   <programme channel="403788" start="20250620021000 +0000" stop="20250620024000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The kids build a giant submarine sandwich submarine while Doof steals food; Candace tries to bust the boys while taking her driving test; Doof causes chaos in traffic.</desc>

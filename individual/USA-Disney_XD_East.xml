@@ -1,14 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="20250619090440 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403837/20250619.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403837&amp;date=20250619&amp;timezone=None">
   <channel id="403837">
     <display-name lang="US">Disney XD USA - Eastern Feed</display-name>
-    <icon src="" />
+    <icon src=""/>
   </channel>
   <programme channel="403837" start="20250619000000 +0000" stop="20250619003000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Cricket must wrestle a wild animal in order to prove himself worthy of the family name; when Cricket persuades Bill to convert his pickup into a french fry food truck, he discovers a mysterious blue potato that Gramma says is cursed with bad luck.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.3.0</episode-num></programme>
   <programme channel="403837" start="20250619003000 +0000" stop="20250619010000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>When the Greens visit an indoor pool, Cricket is challenged to jump off the high dive; Tilly claims that the family's goat has the spirit of a dog and enters it in a dog show.</desc>
@@ -58,7 +59,7 @@
     <title lang="zh">Gravity Falls</title>
     <desc>Mabel decides to put on a sock puppet rock opera to impress a local puppeteer.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.4.0</episode-num></programme>
   <programme channel="403837" start="20250619053000 +0000" stop="20250619060000 +0000">
     <title lang="zh">Gravity Falls</title>
     <desc>Soos needs a date and looks into a dating simulator.</desc>
@@ -188,7 +189,7 @@
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>Lunella Lafayette accidentally brings a dinosaur to the Lower East Side; she protects her community and has the brawn to match her brains.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.1.0</episode-num></programme>
   <programme channel="403837" start="20250619190000 +0000" stop="20250619193000 +0000">
     <title lang="zh">Marvel's Moon Girl and Devil Dinosaur</title>
     <desc>When Lunella loses a game of chess against a supercomputer, her obsession with winning drives the computer to program every device in the school to attack her.</desc>
@@ -443,7 +444,7 @@
     <title lang="zh">Primos</title>
     <desc>Tater tries to fit in at a local festival celebrating Latinidad; Tater tries to help Tere and Tonita show their big sis Tabi how much they appreciate her.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.43.0</episode-num></programme>
   <programme channel="403837" start="20250620203000 +0000" stop="20250620210000 +0000">
     <title lang="zh">Primos</title>
     <desc>Tater uncovers a disturbing secret about her hometown; she celebrates her first double-digit birthday.</desc>

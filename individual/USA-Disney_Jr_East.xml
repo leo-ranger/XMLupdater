@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="20250619084337 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403674/20250619.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403674&amp;date=20250619&amp;timezone=None">
   <channel id="403674">
     <display-name lang="US">Disney Junior USA - East</display-name>
-    <icon src="" />
+    <icon src=""/>
   </channel>
   <programme channel="403674" start="20250619002000 +0000" stop="20250619005000 +0000">
     <title lang="zh">Bluey</title>
@@ -17,25 +18,25 @@
   </programme>
   <programme channel="403674" start="20250619005000 +0000" stop="20250619011500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties stop Cat Burglar from stealing the trendy new hats in Kittydale; Buddy doesn't give up on learning how to use a telescope.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.7.0</episode-num></programme>
   <programme channel="403674" start="20250619011500 +0000" stop="20250619014000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties stop Zsa-Zsa from stealing all the oranges in Kittydale; Bitsy wants to be strong like Buddy but learns she's pawesome just the way she is.</desc>
     <date>2025-06-19</date>
   </programme>
   <programme channel="403674" start="20250619014000 +0000" stop="20250619020500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>When Amara brings a lost puppy to the "Purr 'N' Play," Bitsy wonders if there will be enough attention for her; the SuperKitties must stop whoever stole Abraca Dan's magic tricks.</desc>
     <date>2025-06-19</date>
   </programme>
   <programme channel="403674" start="20250619020500 +0000" stop="20250619022500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ginny, Sparks, Buddy and Bitsy are not only cute and cuddly kittens, but are also brave, smart, strong and kind and turn into SuperKitties when trouble arises.</desc>
     <date>2025-06-19</date>
   </programme>
@@ -53,7 +54,7 @@
     <title lang="zh">Mickey Mouse Funhouse</title>
     <desc>Franken-Pete's batteries run down just before he's supposed to host the Musical Monster Show; Minnie asks Mickey to learn ice dancing with her, but Mickey is nervous.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.35.0</episode-num></programme>
   <programme channel="403674" start="20250619034000 +0000" stop="20250619040500 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://upload.wikimedia.org/wikipedia/en/4/48/Bluey_%282018_TV_series%29_title_card.jpg"/>
@@ -110,17 +111,17 @@
   </programme>
   <programme channel="403674" start="20250619061000 +0000" stop="20250619063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
   <category lang="en">Kids</category>
     <desc>Mickey and friends try to train Salty the seal for the circus.</desc>
     <date>2025-06-19</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.32.0</episode-num></programme>
   <programme channel="403674" start="20250619063500 +0000" stop="20250619070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -130,7 +131,7 @@
   </programme>
   <programme channel="403674" start="20250619070000 +0000" stop="20250619072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -172,7 +173,7 @@
   </programme>
   <programme channel="403674" start="20250619090500 +0000" stop="20250619093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -182,7 +183,7 @@
   </programme>
   <programme channel="403674" start="20250619093000 +0000" stop="20250619100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -234,7 +235,7 @@
   </programme>
   <programme channel="403674" start="20250619130000 +0000" stop="20250619132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -266,13 +267,13 @@
   </programme>
   <programme channel="403674" start="20250619141500 +0000" stop="20250619144000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must figure out why someone is stealing all the yarn in Kittydale; Lab Rat invents a giant boot to smush all the flowers at the Kittydale Flower Festival.</desc>
     <date>2025-06-19</date>
   </programme>
   <programme channel="403674" start="20250619144000 +0000" stop="20250619150500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>To guard a new dinosaur bone, Buddy must learn to pay attention; Sparks relies on his problem-solving skills to stop Cat Burglar and Lab Rat from stealing a giant cheese wheel.</desc>
     <date>2025-06-19</date>
   </programme>
@@ -326,19 +327,19 @@
   </programme>
   <programme channel="403674" start="20250619172500 +0000" stop="20250619175000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Cat Burglar and a mystery thief compete to steal the Kittydale banner; Bitsy shares her cure for homesickness with Cousin Sassy.</desc>
     <date>2025-06-19</date>
   </programme>
   <programme channel="403674" start="20250619175000 +0000" stop="20250619181500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Sparks forgets to eat breakfast, so he has to face his fear of loud noises to help his team, even if he is hungry.</desc>
     <date>2025-06-19</date>
   </programme>
   <programme channel="403674" start="20250619181500 +0000" stop="20250619184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
-<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&h=563&crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000=563=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Ariel tries to stop a pesky hermit crab from stealing her land treasures; when Ariel has the task of being the royal banner carrier for Atlantica's parade, she thinks it's a small job and doesn't take it seriously.</desc>
     <date>2025-06-19</date>
   </programme>
@@ -398,7 +399,7 @@
   </programme>
   <programme channel="403674" start="20250619211500 +0000" stop="20250619214500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must find the real thief when animals accuse Sparks of stealing; a jealous Mr. Puppypaws traps all the other dogs to keep them away from the park.</desc>
     <date>2025-06-19</date>
   </programme>
@@ -463,25 +464,25 @@
   </programme>
   <programme channel="403674" start="20250620005000 +0000" stop="20250620011500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Lab Rat controls the Burble toys to steal all the cheese in Kittydale; the SuperKitties stop Mr. Puppypaws from turning all the wood in the park into fetching sticks.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620011500 +0000" stop="20250620014000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>After Sparks falls off his SuperKitty Kit, the SuperKitties help him get the courage to ride it again; Bitsy eats too many treats and can't help the team stop Lab Rat.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620014000 +0000" stop="20250620020500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Zsa-Zsa steals bird nests from all over Kittydale; when Mr. Puppypaws pretends Poochissimo's piano playing is his own, the SuperKitties set out to reveal the truth.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620020500 +0000" stop="20250620022500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties have to stop Mr. Puppypaws from turning all the animal treats into doggy treats; Buddy accidentally breaks Sparks' SuperKitty kit and doesn't tell him.</desc>
     <date>2025-06-20</date>
   </programme>
@@ -556,7 +557,7 @@
   </programme>
   <programme channel="403674" start="20250620061000 +0000" stop="20250620063500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -566,7 +567,7 @@
   </programme>
   <programme channel="403674" start="20250620063500 +0000" stop="20250620070000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -576,7 +577,7 @@
   </programme>
   <programme channel="403674" start="20250620070000 +0000" stop="20250620072500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -618,7 +619,7 @@
   </programme>
   <programme channel="403674" start="20250620090500 +0000" stop="20250620093000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -628,7 +629,7 @@
   </programme>
   <programme channel="403674" start="20250620093000 +0000" stop="20250620100000 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -659,7 +660,7 @@
   </programme>
   <programme channel="403674" start="20250620113000 +0000" stop="20250620120000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties switch powers with each other; when Ginny and Mr. Puppypaws get stuck in the peanut butter factory together, she learns to listen to his ideas to get free.</desc>
     <date>2025-06-20</date>
   </programme>
@@ -675,7 +676,7 @@
   </programme>
   <programme channel="403674" start="20250620130000 +0000" stop="20250620132500 +0000">
     <title lang="zh">Mickey Mouse Clubhouse</title>
-  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78&format=webp&width=1200"/>
+  <icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/60e1ec90-36fb-4f5a-970d-06a3f0aba686/compose?aspectRatio=1.78=webp=1200"/>
   <category lang="en">Educational</category>
   <category lang="en">Animation</category>
   <category lang="en">Comedy</category>
@@ -707,13 +708,13 @@
   </programme>
   <programme channel="403674" start="20250620141500 +0000" stop="20250620144000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Mr. Puppypaws steals Bitsy's favorite toy, Mr. Greenie; the SuperKitties must return a grand piano to Petcini after Cat Burglar steals it.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620144000 +0000" stop="20250620150500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties must rescue Wiggles, their new dancing robo-piggy, from Zsa-Zsa before the Kittydale Dance Party; Bitsy cheers on Pickles as he learns something new.</desc>
     <date>2025-06-20</date>
   </programme>
@@ -767,19 +768,19 @@
   </programme>
   <programme channel="403674" start="20250620172500 +0000" stop="20250620175000 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Lab Rat turns Quacksley into a floatie for Otto to play on; the SuperKitties have to save Pizza Night after Cat Burglar steals all of the pizza pies for his new friend.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620175000 +0000" stop="20250620181500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>Pet boots go missing all over Kittydale; when Lab Rat makes all of Kittydale super slippery, Bitsy has to help the SuperKitties stop her.</desc>
     <date>2025-06-20</date>
   </programme>
   <programme channel="403674" start="20250620181500 +0000" stop="20250620184000 +0000">
     <title lang="zh">Disney Jr's Ariel</title>
-<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000&h=563&crop=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://variety.com/wp-content/uploads/2023/06/ARIEL.jpg?w=1000=563=1"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Educational</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>A birthday party misunderstanding; Flounder helps other chefs at an event.</desc>
     <date>2025-06-20</date>
   </programme>
@@ -839,7 +840,7 @@
   </programme>
   <programme channel="403674" start="20250620211500 +0000" stop="20250620214500 +0000">
     <title lang="zh">SuperKitties</title>
-<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200&aspectRatio=1.78&format=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
+<icon src="https://disney.images.edge.bamgrid.com/ripcut-delivery/v1/variant/disney/8f13f4ce-4b2c-426c-b1a7-13f26985aa26/scale?width=1200=1.78=webp"/>  <category lang="en">Series</category>  <category lang="en">Animation</category>  <category lang="en">Drama</category>  <category lang="en">Kids</category>
     <desc>The SuperKitties switch powers with each other; when Ginny and Mr. Puppypaws get stuck in the peanut butter factory together, she learns to listen to his ideas to get free.</desc>
     <date>2025-06-20</date>
   </programme>
