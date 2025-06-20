@@ -8,6 +8,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -16,11 +17,13 @@ jobs:
         run: mkdir -p individual
 
       - name: Fetch EPG XML
-        run: curl -o individual/USA-Hallmark_EastUS.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=403490"
+        run: |
+          date=$(LC_ALL=C date +%Y%m%d)
+          curl -o individual/USA-Hallmark_EastUS.xml "https://epg.pw/api/epg.xml?lang=en&date=$date&channel_id=403490"
 
       - name: Add XML Declaration and DOCTYPE
         run: |
-          sed -i '1s|$| <!DOCTYPE tv SYSTEM "xmltv.dtd">|' individual/USA-Hallmark_EastUS.xml
+          sed -i '1a <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/USA-Hallmark_EastUS.xml
 
       - name: Check for Title "The Golden Girls" in XML and Add Icon and Categories
         run: |
@@ -36,7 +39,6 @@ jobs:
             echo "The Golden Girls not found in the EPG XML."
           fi
 
-
       - name: Check for Title "Reba" in XML and Add Icon and Categories
         run: |
           if grep -iq '<title[^>]*>Reba</title>' individual/USA-Hallmark_EastUS.xml; then
@@ -51,7 +53,7 @@ jobs:
           else
             echo "Reba not found in the EPG XML."
           fi
-          
+
       - name: Check for Title "Frasier" in XML and Add Icon and Categories
         run: |
           if grep -iq '<title[^>]*>Frasier</title>' individual/USA-Hallmark_EastUS.xml; then
@@ -66,9 +68,9 @@ jobs:
             echo "Frasier not found in the EPG XML."
           fi
 
-          - name: Enrich EPG with season/episode from TVmaze (throttled)
-  run: |
-    python3 <<EOF
+      - name: Enrich EPG with season/episode from TVmaze (throttled)
+        run: |
+          python3 <<EOF
 import xml.etree.ElementTree as ET
 import requests
 import re
@@ -90,7 +92,7 @@ def fetch_show_episodes(title):
             data = res.json()
             episodes = data["_embedded"]["episodes"]
             cache[title] = episodes
-            time.sleep(0.6)  # Throttle request
+            time.sleep(0.6)  # Throttle to avoid rate-limiting
             return episodes
     except Exception as e:
         print(f"TVmaze request failed for {title}: {e}")
@@ -131,7 +133,6 @@ for prog in root.findall("programme"):
 
 tree.write("individual/USA-Hallmark_EastUS.xml", encoding="utf-8", xml_declaration=True)
 EOF
-
 
       - name: Commit and push if changed
         run: |
