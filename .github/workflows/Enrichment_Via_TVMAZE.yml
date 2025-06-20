@@ -44,7 +44,7 @@ jobs:
                       data = res.json()
                       episodes = data["_embedded"]["episodes"]
                       cache[title] = episodes
-                      time.sleep(0.5)
+                      time.sleep(0.5)  # Respectful throttling
                       return episodes
               except Exception as e:
                   print(f"TVmaze fetch failed for '{title}': {e}")
@@ -62,8 +62,10 @@ jobs:
                   if score > best_score:
                       best_score = score
                       best_ep = ep
-              if best_score >= 45:
+              if best_score >= 65:
                   return best_ep
+              elif best_score > 0:
+                  print(f"↪ Closest match score for '{title}': {best_score} — '{best_ep['name']}'")
               return None
 
           cache = {}
@@ -120,4 +122,4 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/*.xml
-          git diff --cached --quiet || (git commit -m "Enriched EPG XML with TVmaze episode data + sub-title" && git push)
+          git diff --cached --quiet || (git commit -m "Enriched EPG XML with TVmaze episode data (threshold 65)" && git push)
