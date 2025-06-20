@@ -1,4 +1,14 @@
 name: Enrich all XML files in individual/
+
+on:
+  schedule:
+    - cron: '10 0 * * *'  # Runs daily at 00:30 UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+jobs:
+  merge_epgs:
+    runs-on: ubuntu-latest
+
 run: |
     python3 - <<'EOF'
     import xml.etree.ElementTree as ET
