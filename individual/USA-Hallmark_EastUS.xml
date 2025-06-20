@@ -1,75 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250620120828 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250620.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250620&amp;timezone=None">
+<tv date="20250620222356 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250620.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250620&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
-    <icon src=""/>
+    <icon src="" />
   </channel>
   <programme channel="403490" start="20250620000000 +0000" stop="20250620020000 +0000">
     <title lang="zh">Reality Bites: A Hannah Swensen Mystery</title>
     <desc>Hannah's favorite reality show takes over "The Cookie Jar." When the producer is found dead, Hannah and Norman team up to track down the killer. Chad invites Hannah to court.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">0.2.0</episode-num><sub-title lang="en">Shock of Love</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620020000 +0000" stop="20250620023000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy hocks an expensive ring to pay off the debt she and her ex-husband owe to the Internal Revenue Service.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620023000 +0000" stop="20250620030000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose, concerned about the nuclear arms race, mails letters to President Reagan and Soviet leader Mikhail Gorbachev.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">2.6.0</episode-num><sub-title lang="en">Letter to Gorbachev</sub-title><date>19871031</date></programme>
+  </programme>
   <programme channel="403490" start="20250620030000 +0000" stop="20250620033000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>A political candidate announces that he had an affair with Blanche, a contention that she denies.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">2.7.0</episode-num><sub-title lang="en">Strange Bedfellows</sub-title><date>19871107</date></programme>
+  </programme>
   <programme channel="403490" start="20250620033000 +0000" stop="20250620040000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy makes her ex-husband, Stanley Zbornak, jealous when she has an affair with his brother Theodore.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620040000 +0000" stop="20250620043000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's cousin, Sven Lindstrom, arrives from Sweden and falls in love with Blanche.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.10.0</episode-num><sub-title lang="en">Love, Rose</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620043000 +0000" stop="20250620050000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy hocks an expensive ring to pay off the debt she and her ex-husband owe to the Internal Revenue Service.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620050000 +0000" stop="20250620053000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -80,7 +80,7 @@
   <category lang="en">Family</category>
     <desc>When Reba teams up with Van to invest in real estate, he buys an uninspected house, which prompts her to want out of their partnership.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">5.5.0</episode-num><sub-title lang="en">The Break-Up</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620053000 +0000" stop="20250620060000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -91,7 +91,7 @@
   <category lang="en">Family</category>
     <desc>Cheyenne asks Reba to talk some sense into Van when he stops going to church, but when Reba's efforts fail, she takes her problem straight to the church's handsome new minister (Patrick Fabian).</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">5.10.0</episode-num><sub-title lang="en">Cheyenne's Rival</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620060000 +0000" stop="20250620063000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -102,7 +102,7 @@
   <category lang="en">Family</category>
     <desc>Reba is disappointed when her plans for Halloween fall through because everyone in the family has other plans.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.3.0</episode-num><sub-title lang="en">As Is</sub-title><date>20050930</date></programme>
+  </programme>
   <programme channel="403490" start="20250620063000 +0000" stop="20250620070000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -113,7 +113,7 @@
   <category lang="en">Family</category>
     <desc>Realizing that his wife has gained quite a bit of weight, Brock consults Reba on how best to handle the delicate situation.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.7.0</episode-num><sub-title lang="en">Have Your Cake</sub-title><date>20051104</date></programme>
+  </programme>
   <programme channel="403490" start="20250620070000 +0000" stop="20250620073000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -123,7 +123,7 @@
   <category lang="en">Family</category>
     <desc>Martin and Frasier decide to endorse opposing congressional candidates. Guest star: Boyd Gaines.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620073000 +0000" stop="20250620080000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -133,7 +133,7 @@
   <category lang="en">Family</category>
     <desc>Frasier is thrilled when his ideal woman invites him on a vacation to Bora Bora.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620080000 +0000" stop="20250620083000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -143,7 +143,7 @@
   <category lang="en">Family</category>
     <desc>Frasier discovers his ex-wife, Lilith (Bebe Neuwirth), is in the room next to his at a South Sea island resort.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620083000 +0000" stop="20250620090000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -153,17 +153,17 @@
   <category lang="en">Family</category>
     <desc>Frasier tries to help Martin and his ex-partner, Artie Walsh (Lincoln Kilpatrick), mend a long-held grudge.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620090000 +0000" stop="20250620093000 +0000">
     <title lang="zh">Cheers</title>
     <desc>Frasier regrets bringing his low self-esteem group to Cheers; Woody's barbering talents leave Sam distressed.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">8.6.0</episode-num><sub-title lang="en">Grease</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620093000 +0000" stop="20250620100000 +0000">
     <title lang="zh">Cheers</title>
     <desc>Woody makes a grave impression on Kelly's (Jackie Swanson) grandmother (Celeste Holm) after moonlighting at a cemetery.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.7.0</episode-num><sub-title lang="en">Old Flames</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620100000 +0000" stop="20250620103000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -174,7 +174,7 @@
   <category lang="en">Family</category>
     <desc>The family learns that Cheyenne no longer wishes to pursue a career in dentistry after she turns down Brock's offer to intern at his office; Barbara Jean is called for jury duty.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.8.0</episode-num><sub-title lang="en">Grannies Gone Wild</sub-title><date>20051111</date></programme>
+  </programme>
   <programme channel="403490" start="20250620103000 +0000" stop="20250620110000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -185,7 +185,7 @@
   <category lang="en">Family</category>
     <desc>A miscommunication with her brother, Bryan, sends Barbra Jean to his place for Thanksgiving, while he goes to Reba's.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.9.0</episode-num><sub-title lang="en">Invasion</sub-title><date>20051118</date></programme>
+  </programme>
   <programme channel="403490" start="20250620110000 +0000" stop="20250620113000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -196,7 +196,7 @@
   <category lang="en">Family</category>
     <desc>After observing their constant bickering in the office, Reba and Van's boss insists they see the company's occupational therapist.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.10.0</episode-num><sub-title lang="en">Issues</sub-title><date>20051209</date></programme>
+  </programme>
   <programme channel="403490" start="20250620113000 +0000" stop="20250620120000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -207,137 +207,137 @@
   <category lang="en">Family</category>
     <desc>Reba must care for Brock, who has kidney stones while Barbra Jean is away; Cheyenne helps at the homeless shelter.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">4.11.0</episode-num><sub-title lang="en">Brock's Got Stones</sub-title><date>20060113</date></programme>
+  </programme>
   <programme channel="403490" start="20250620120000 +0000" stop="20250620123000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy, Rose and Blanche seek professional help when living with one another becomes unbearable.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">1.14.0</episode-num><sub-title lang="en">The Actor</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620123000 +0000" stop="20250620130000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose decides to move in with Buddy Rourke, one of her deceased husband's former buddies.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">4.11.0</episode-num><sub-title lang="en">Ebb Tide</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620130000 +0000" stop="20250620133000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche agrees to pose in the nude for a suave European sculptor.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620133000 +0000" stop="20250620140000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche reunites with her daughter Rebecca after a four-year estrangement; Blanche wants to defend her from an abusive boyfriend.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620140000 +0000" stop="20250620160000 +0000">
     <title lang="zh">The Wedding Veil</title>
     <desc>After discovering a long-lost painting, museum curator Avery and new board member Peter investigate the artwork's origins as they plan to unveil it at a gala.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">0.1.0</episode-num><sub-title lang="en">The Wedding Veil</sub-title><date>20220108</date></programme>
+  </programme>
   <programme channel="403490" start="20250620160000 +0000" stop="20250620180000 +0000">
     <title lang="zh">Love at First Bark</title>
     <desc>A single woman with a new, out of control German shepherd turns to a handsome dog trainer for help. As they make progress with the dog, she realizes she may be developing feelings for the trainer.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">0.7.0</episode-num><sub-title lang="en">A Rain Shower</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620180000 +0000" stop="20250620200000 +0000">
     <title lang="zh">Winter Love Story</title>
     <desc>When author Cassie's first novel isn't selling, she is paired on a book tour with author Elliot to boost her sales, but along the way, a romance starts to blossom.</desc>
     <date>2025-06-20</date>
-  <episode-num system="tvmaze-matched">0.8.0</episode-num><sub-title lang="en">Lie</sub-title><date>20091205</date></programme>
+  </programme>
   <programme channel="403490" start="20250620200000 +0000" stop="20250620220000 +0000">
     <title lang="zh">Rome in Love</title>
     <desc>An actress's dreams come true when she lands the lead role in a remake of Roman Holiday.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">0.9.0</episode-num><sub-title lang="en">Utica</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250620220000 +0000" stop="20250621000000 +0000">
     <title lang="zh">Christmas in Rome</title>
     <desc>Angela, an American tour guide in Rome, agrees to teach a culture-shocked businessman named Oliver about the heart of Rome at Christmas.</desc>
     <date>2025-06-20</date>
-  <episode-num system="trakt-matched">0.1.0</episode-num><sub-title lang="en">55</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621000000 +0000" stop="20250621020000 +0000">
     <title lang="zh">Christmas Island</title>
     <desc>When a snowstorm diverts Kate's first private flight to Christmas Island, she must team up with an air traffic controller to secure her dream job as the family's pilot.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">0.1.0</episode-num><sub-title lang="en">Episode 1</sub-title><date>20221205</date></programme>
+  </programme>
   <programme channel="403490" start="20250621020000 +0000" stop="20250621023000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche and Rose despise one of Dorothy's friends, the novelist Barbara Thorndyke.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title><date>19880116</date></programme>
+  </programme>
   <programme channel="403490" start="20250621023000 +0000" stop="20250621030000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy, Rose and Blanche seek professional help when living with one another becomes unbearable.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">1.14.0</episode-num><sub-title lang="en">The Actor</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621030000 +0000" stop="20250621033000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose decides to move in with Buddy Rourke, one of her deceased husband's former buddies.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">4.11.0</episode-num><sub-title lang="en">Ebb Tide</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621033000 +0000" stop="20250621040000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche agrees to pose in the nude for a suave European sculptor.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621040000 +0000" stop="20250621043000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche reunites with her daughter Rebecca after a four-year estrangement; Blanche wants to defend her from an abusive boyfriend.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621043000 +0000" stop="20250621050000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche and Rose despise one of Dorothy's friends, the novelist Barbara Thorndyke.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title><date>19880116</date></programme>
+  </programme>
   <programme channel="403490" start="20250621050000 +0000" stop="20250621053000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -348,7 +348,7 @@
   <category lang="en">Family</category>
     <desc>The family learns that Cheyenne no longer wishes to pursue a career in dentistry after she turns down Brock's offer to intern at his office; Barbara Jean is called for jury duty.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.8.0</episode-num><sub-title lang="en">Grannies Gone Wild</sub-title><date>20051111</date></programme>
+  </programme>
   <programme channel="403490" start="20250621053000 +0000" stop="20250621060000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -359,7 +359,7 @@
   <category lang="en">Family</category>
     <desc>A miscommunication with her brother, Bryan, sends Barbra Jean to his place for Thanksgiving, while he goes to Reba's.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.9.0</episode-num><sub-title lang="en">Invasion</sub-title><date>20051118</date></programme>
+  </programme>
   <programme channel="403490" start="20250621060000 +0000" stop="20250621063000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -370,7 +370,7 @@
   <category lang="en">Family</category>
     <desc>After observing their constant bickering in the office, Reba and Van's boss insists they see the company's occupational therapist.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.10.0</episode-num><sub-title lang="en">Issues</sub-title><date>20051209</date></programme>
+  </programme>
   <programme channel="403490" start="20250621063000 +0000" stop="20250621070000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -381,7 +381,7 @@
   <category lang="en">Family</category>
     <desc>Reba must care for Brock, who has kidney stones while Barbra Jean is away; Cheyenne helps at the homeless shelter.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.11.0</episode-num><sub-title lang="en">Brock's Got Stones</sub-title><date>20060113</date></programme>
+  </programme>
   <programme channel="403490" start="20250621070000 +0000" stop="20250621073000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -391,7 +391,7 @@
   <category lang="en">Family</category>
     <desc>Niles and Frasier are in hot water when Martin challenges them to fix a broken toilet.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621073000 +0000" stop="20250621080000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -401,7 +401,7 @@
   <category lang="en">Family</category>
     <desc>Roz quits as producer of Frasier's show after he insults her.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621080000 +0000" stop="20250621083000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -411,7 +411,7 @@
   <category lang="en">Family</category>
     <desc>Frasier can't resist becoming involved with one of Martin's unsolved cases.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621083000 +0000" stop="20250621090000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -421,17 +421,17 @@
   <category lang="en">Family</category>
     <desc>Frasier re-evaluates his feelings toward mankind after a thief (Nathan Lane) impersonates him.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621090000 +0000" stop="20250621093000 +0000">
     <title lang="zh">Cheers</title>
     <desc>Carla's son Gino (Josh Lozoff) decides to enter the priesthood; Cliff tries out his stand-up comedy act.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">5.23.0</episode-num><sub-title lang="en">Bar Wars</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621093000 +0000" stop="20250621100000 +0000">
     <title lang="zh">Cheers</title>
     <desc>A birthday surprise for his son reveals a secret from Frasier's past.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">2.18.0</episode-num><sub-title lang="en">Bar Bet</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621100000 +0000" stop="20250621103000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -442,7 +442,7 @@
   <category lang="en">Family</category>
     <desc>Reba does not approve of Barbra Jean's method of disciplining Henry; Brock and Van are mistaken for a gay couple when they go to a day spa.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.3.0</episode-num><sub-title lang="en">As Is</sub-title><date>20050930</date></programme>
+  </programme>
   <programme channel="403490" start="20250621103000 +0000" stop="20250621110000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -453,7 +453,7 @@
   <category lang="en">Family</category>
     <desc>After Brock and Barbra Jean get audited, Brock informs Reba that the IRS is going to audit the last five years of their marriage.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">2.16.0</episode-num><sub-title lang="en">Sister Act</sub-title><date>20040213</date></programme>
+  </programme>
   <programme channel="403490" start="20250621110000 +0000" stop="20250621113000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -464,7 +464,7 @@
   <category lang="en">Family</category>
     <desc>Embarrassed Brock believes the only way he can pay off his back taxes is to sell his house and move to Las Vegas.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.14.0</episode-num><sub-title lang="en">The Goodbye Guy</sub-title><date>20060203</date></programme>
+  </programme>
   <programme channel="403490" start="20250621113000 +0000" stop="20250621120000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -475,12 +475,12 @@
   <category lang="en">Family</category>
     <desc>Dr. Jack Morgan returns to Houston with the intention of resuming his romance with Reba, despite the fact that he is still married.</desc>
     <date>2025-06-21</date>
-  <episode-num system="tvmaze-matched">4.16.0</episode-num><sub-title lang="en">The Trouble with Dr. Hunky</sub-title><date>20060224</date></programme>
+  </programme>
   <programme channel="403490" start="20250621120000 +0000" stop="20250621140000 +0000">
     <title lang="zh">Summer Villa</title>
     <desc>A novelist suffering from writer's block and a chef recovering from a bad review share a French villa for the summer.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">0.1.0</episode-num><sub-title lang="en">Episode 1</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621140000 +0000" stop="20250621160000 +0000">
     <title lang="zh">Junebug</title>
     <desc>Juniper, a book editor turning 40, magically reconnects with an eight-year-old version of herself who questions her life choices, including the dream of writing her own stories.</desc>
@@ -490,25 +490,25 @@
     <title lang="zh">Feeling Butterflies</title>
     <desc>Emily's booming butterfly business delivers monarchs to a birthday party, where she meets Garrett, a single father. With help from Garrett and his daughter, her business soon begins to take flight.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">13.2.0</episode-num><sub-title lang="en">Holiday</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621180000 +0000" stop="20250621200000 +0000">
     <title lang="zh">The Sweetest Heart</title>
     <desc>With help from a handsome investment banker, Maddie does everything she can to save her cupcake business. When her first love unexpectedly returns home, she must choose between a new romance and the man she never stopped loving.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">0.10.0</episode-num><sub-title lang="en">Episode 10</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621200000 +0000" stop="20250621220000 +0000">
     <title lang="zh">The Wedding Cottage</title>
     <desc>A woman must convince an uninspired artist to renovate a rundown cottage for a couple's dream wedding.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">0.1.0</episode-num><sub-title lang="en">Episode 1</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250621220000 +0000" stop="20250622000000 +0000">
     <title lang="zh">Pearl in Paradise</title>
     <desc>A nature photographer heads to Fiji to shoot a magazine cover. She enlists the help of a romance novelist who she's convinced can help her locate a rare blue pearl.</desc>
     <date>2025-06-21</date>
-  <episode-num system="trakt-matched">0.8.0</episode-num><sub-title lang="en">Amongst Us</sub-title></programme>
+  </programme>
   <programme channel="403490" start="20250622000000 +0000" stop="20250623000000 +0000">
     <title lang="zh">Villa Amore</title>
     <desc>Liara goes to Italy and impulsively buys the villa where her parents met. She soon learns she is in way over her head and must ask a lawyer-turned-handyman to help her renovate.</desc>
     <date>2025-06-22</date>
-  <episode-num system="trakt-matched">0.1.0</episode-num><sub-title lang="en">Episode 1</sub-title></programme>
+  </programme>
 </tv>
