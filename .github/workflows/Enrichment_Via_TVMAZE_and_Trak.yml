@@ -36,7 +36,7 @@ jobs:
           def normalize(text):
               return re.sub(r'\W+', ' ', text or '').strip().lower()
 
-          def fuzzy_best_match(title, desc, episodes, threshold=65):
+          def fuzzy_best_match(title, desc, episodes, threshold=80):
               input_text = normalize(f"{title} {desc}")
               best = None
               best_score = threshold
@@ -48,7 +48,7 @@ jobs:
                   fulltext = normalize(f"{title} {name} {summary}")
 
                   if re.search(r'best of|greatest moments|recap', name.lower()):
-                      continue  # skip generic episodes
+                      continue
 
                   score = fuzz.partial_ratio(input_text, fulltext)
                   if score > best_score:
@@ -80,6 +80,7 @@ jobs:
               try:
                   r = requests.get(f"https://api.trakt.tv/search/show?query={title}&limit=1", headers=headers)
                   if r.status_code == 200 and r.json():
+                      time.sleep(0.3)
                       return r.json()[0]["show"]
               except: pass
               return None
@@ -93,6 +94,7 @@ jobs:
                       for s in data:
                           if s["number"] == 0: continue
                           eps.extend(s.get("episodes", []))
+                      time.sleep(0.3)
                       return eps
               except: pass
               return []
@@ -104,6 +106,7 @@ jobs:
                       data = r.json()
                       for s in data:
                           if s["number"] == 0:
+                              time.sleep(0.3)
                               return s.get("episodes", [])
               except: pass
               return []
@@ -112,6 +115,7 @@ jobs:
               try:
                   r = requests.get(f"https://api.trakt.tv/search/movie?query={title}&limit=1", headers=headers)
                   if r.status_code == 200 and r.json():
+                      time.sleep(0.3)
                       return r.json()[0]["movie"]
               except: pass
               return None
@@ -134,10 +138,24 @@ jobs:
                   desc = desc_el.text.strip()
 
                   # Skip if already enriched
-                  if prog.xpath("episode-num[@system='tvmaze-matched' or @system='trakt-matched']"):
+                  if any(ep.get("system") in ("tvmaze-matched", "trakt-matched") for ep in prog.findall("episode-num")):
                       continue
 
-                  # 1) Try TVmaze shows
+                  # If title contains "movie", only check Trakt Movies
+                  if "movie" in title.lower():
+                      trakt_movie = fetch_trakt_movie(title)
+                      if trakt_movie:
+                          etree.SubElement(prog, "episode-num", system="trakt-matched").text = "0.0.0"
+                          etree.SubElement(prog, "sub-title", lang="en").text = trakt_movie.get("title", title)
+                          if trakt_movie.get("released"):
+                              etree.SubElement(prog, "date").text = trakt_movie["released"].replace("-", "")
+                          etree.SubElement(prog, "category", lang="en").text = "Movie"
+                          print(f"[Movie Title] Trakt Movie: {title} -> {trakt_movie['title']}")
+                      else:
+                          print(f"[Movie Title] No Trakt match for movie: {title}")
+                      continue
+
+                  # Step 1: TVmaze
                   eps = fetch_tvmaze(title, cache_tvmaze)
                   match = fuzzy_best_match(title, desc, eps)
                   if match:
@@ -148,26 +166,14 @@ jobs:
                       print(f"TVmaze: {title} -> {match['name']}")
                       continue
 
-                  # 2) Try Trakt shows (season 1+)
+                  # Step 2: Trakt Shows
                   trakt_show = fetch_trakt_show(title)
                   if trakt_show:
                       slug = trakt_show["ids"]["slug"]
                       eps = fetch_trakt_episodes(slug)
                       match = fuzzy_best_match(title, desc, eps)
 
-                      # 3) If no match, try Trakt movies
-                      if not match:
-                          trakt_movie = fetch_trakt_movie(title)
-                          if trakt_movie:
-                              etree.SubElement(prog, "episode-num", system="trakt-matched").text = "0.0.0"
-                              etree.SubElement(prog, "sub-title", lang="en").text = trakt_movie.get("title", title)
-                              if trakt_movie.get("released"):
-                                  etree.SubElement(prog, "date").text = trakt_movie["released"].replace("-", "")
-                              etree.SubElement(prog, "category", lang="en").text = "movie"
-                              print(f"Trakt Movie: {title} -> {trakt_movie['title']}")
-                              continue
-
-                      # 4) If still no match, try Trakt specials (season 0)
+                      # Step 3: Try Trakt specials if no match
                       if not match:
                           eps_specials = fetch_trakt_specials(slug)
                           match = fuzzy_best_match(title, desc, eps_specials)
@@ -178,6 +184,18 @@ jobs:
                           if match.get("first_aired"):
                               etree.SubElement(prog, "date").text = match["first_aired"].split("T")[0].replace("-", "")
                           print(f"Trakt Show: {title} -> {match['title']}")
+                          continue
+
+                  # Step 4: If no show found at all, try Trakt movie
+                  if not trakt_show:
+                      trakt_movie = fetch_trakt_movie(title)
+                      if trakt_movie:
+                          etree.SubElement(prog, "episode-num", system="trakt-matched").text = "0.0.0"
+                          etree.SubElement(prog, "sub-title", lang="en").text = trakt_movie.get("title", title)
+                          if trakt_movie.get("released"):
+                              etree.SubElement(prog, "date").text = trakt_movie["released"].replace("-", "")
+                          etree.SubElement(prog, "category", lang="en").text = "Movie"
+                          print(f"Trakt Movie: {title} -> {trakt_movie['title']}")
                           continue
 
               tree.write(xml_file, encoding="utf-8", xml_declaration=True)
