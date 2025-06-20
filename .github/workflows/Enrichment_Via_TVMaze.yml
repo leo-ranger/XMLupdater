@@ -1,3 +1,18 @@
+name: Enrich all XML files in individual/
+
+on:
+  schedule:
+    - cron: '10 0 * * *'  # Runs daily at 00:10 UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+jobs:
+  enrich_epgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
 - name: Enrich all XML files in individual/
   run: |
     pip install lxml
@@ -67,3 +82,4 @@
 
         tree.write(xml_file, encoding="utf-8", xml_declaration=True)
     EOF
+
