@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-name: Enrich all XML files in individual/
+      - name: Enrich all XML files in individual/
   run: |
     pip install lxml
     python3 - <<'EOF'
