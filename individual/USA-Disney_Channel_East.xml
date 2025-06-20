@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="20250620093956 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403788/20250620.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403788&amp;date=20250620&amp;timezone=None">
   <channel id="403788">
     <display-name lang="US">Disney - Eastern Feed</display-name>
-    <icon src="" />
+    <icon src=""/>
   </channel>
   <programme channel="403788" start="20250620000000 +0000" stop="20250620014500 +0000">
     <title lang="zh">The Proud Family Movie</title>
@@ -13,12 +14,12 @@
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys decide to ramp up their local summer block party with supersized attractions; the kids work to save Mom after she is hit by Doof's inator.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.1.0</episode-num></programme>
   <programme channel="403788" start="20250620021000 +0000" stop="20250620024000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The kids build a giant submarine sandwich submarine while Doof steals food; Candace tries to bust the boys while taking her driving test; Doof causes chaos in traffic.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.3.0</episode-num></programme>
   <programme channel="403788" start="20250620024000 +0000" stop="20250620030500 +0000">
     <title lang="zh">Zombies: The Re-Animated Series</title>
     <desc>Eliza and Wyatt both want to ask the other to the school dance, but mishaps keep getting in their way; feeling pressure to plan her future, Wynter uses VR to find her dream job.</desc>
@@ -28,12 +29,12 @@
     <title lang="zh">Jessie</title>
     <desc>Future Jessie appears from an elevator time machine to warn present Jessie to run for her life; she tells Jessie that when Ravi grows up, he invents a robot version of Bertram that evolves into an army which tries to destroy Jessie and the world.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.23.0</episode-num></programme>
   <programme channel="403788" start="20250620033000 +0000" stop="20250620040000 +0000">
     <title lang="zh">Jessie</title>
     <desc>When Zuri loses interest in bunnysitting her class pet, Jessie steps in, only to lose the rabbit; Emma has a crush on a school jock and enlists Luke's help to learn more about sports.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.18.0</episode-num></programme>
   <programme channel="403788" start="20250620040000 +0000" stop="20250620043000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -55,7 +56,7 @@
   <category lang="en">Kids</category>
     <desc>Bluey keeps breaking her promises; Bluey teaches Bingo how to use magic; Bluey teaches Bingo to be more like him.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.4.0</episode-num></programme>
   <programme channel="403788" start="20250620050000 +0000" stop="20250620053000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -77,7 +78,7 @@
   <category lang="en">Kids</category>
     <desc>Dad tries to teach Bluey how to play chess, but Mom thinks she is still too young; Bingo helps Mom make an omelette for Dad's birthday; Lucky's Dad is outraged that modern Pass the Parcel has a present in every layer.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.11.0</episode-num></programme>
   <programme channel="403788" start="20250620060000 +0000" stop="20250620063000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -104,7 +105,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>A pizza delivery girl from Big City must flee from a crazed country family; when Bill gets a horse for the day, Tilly must hide how much she secretly hates horses.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.27.0</episode-num></programme>
   <programme channel="403788" start="20250620073000 +0000" stop="20250620080000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Tilly and Andromeda exchange letters that reveal their outlooks on the world; Remy enlists the Greens to help him lie to his parents about his week in the country.</desc>
@@ -114,12 +115,12 @@
     <title lang="zh">Kiff</title>
     <desc>Kiff wants to see the inside of the faculty lounge, but once inside struggles to escape; Kiff tries to fail at being Helen's personal assistant so she can retake her career test.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.37.0</episode-num></programme>
   <programme channel="403788" start="20250620083000 +0000" stop="20250620090000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff and Barry agree to move a piano for Helen in exchange for a wish, but can't agree on the wish; Kiff shows a new kid around school but can't stop his family from interfering.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.40.0</episode-num></programme>
   <programme channel="403788" start="20250620090000 +0000" stop="20250620093000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -157,7 +158,7 @@
     <title lang="zh">Mickey Mouse Funhouse</title>
     <desc>When Goofy and Willie the Giant switch sizes, Chickie Boo Boo's egg goes missing and causes chaos; Mortimer gives everyone nicknames, but Cora the Crab doesn't like being called Crabby.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.20.0</episode-num></programme>
   <programme channel="403788" start="20250620110000 +0000" stop="20250620113000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -248,7 +249,7 @@
   <category lang="en">Kids</category>
     <desc>Bluey and Bingo play The Quiet Game; when Mum and Dad have a disagreement, Bluey makes Dad write a love letter to Mum; in the park, Bluey meets a new playmate, Winnie.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.36.0</episode-num></programme>
   <programme channel="403788" start="20250620163000 +0000" stop="20250620170000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff's good deed goes unnoticed while Reggie's receives lots of attention; Kiff and Barry enjoy a kids-only dinner with their shy classmate Darryn.</desc>
@@ -263,7 +264,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>Cricket is caught eating dog food by Gloria and must stop her from revealing his secret shame; Bill installs a parenting device to monitor and discipline Cricket for him.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">3.27.0</episode-num></programme>
   <programme channel="403788" start="20250620180000 +0000" stop="20250620183000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Bill receives a surprise; Jade's boss suspends her from work.</desc>
@@ -273,12 +274,12 @@
     <title lang="zh">Big City Greens</title>
     <desc>Cricket tries to come up with the perfect prank to play on his girlfriend on April Fool's Day; Bill goes to extremes to prevent Tilly from experiencing grief.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">3.29.0</episode-num></programme>
   <programme channel="403788" start="20250620190000 +0000" stop="20250620193000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Chip Whistler attempts to create an evil family, so he takes down the Greens; the Greens move to the suburbs and live under new identities to hide from Chip.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">3.32.0</episode-num></programme>
   <programme channel="403788" start="20250620193000 +0000" stop="20250620200000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>The Greens cause trouble during free sample day at the Farmers Market; Cricket and Nancy toilet paper all of Smalton in a quest for pranking glory.</desc>
@@ -288,7 +289,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>In summer, Cricket impulsively eats Bill's chocolate Santa and must replace it; when Gramma's serene country retreat is disrupted by an outdoor festival, she resolves to stop it.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.44.0</episode-num></programme>
   <programme channel="403788" start="20250620203000 +0000" stop="20250620210000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Cricket gets dumped by his girlfriend, so he tries to change to win her back; Bill becomes hyper-competitive when Cricket starts to be better at things than him.</desc>
@@ -315,7 +316,7 @@
   <category lang="en">Kids</category>
     <desc>Mum gets everyone to play musical statues.</desc>
     <date>2025-06-20</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.27.0</episode-num></programme>
   <programme channel="403788" start="20250620220000 +0000" stop="20250620223000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -357,47 +358,47 @@
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys build an endless ice luge to beat the heat while Doof brings oil to a waterpark; Candace and Doof see the same psychologist, who thinks their experiences may be connected.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.6.0</episode-num></programme>
   <programme channel="403788" start="20250621021000 +0000" stop="20250621024000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys build a zoetrope that goes on an adventure of its own; the kids build a bookcase that gets attacked by an army of Doof-plants.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.7.0</episode-num></programme>
   <programme channel="403788" start="20250621024000 +0000" stop="20250621030500 +0000">
     <title lang="zh">Zombies: The Re-Animated Series</title>
     <desc>Addison uses advanced alien powers that she's not ready for yet and inadvertently causes destruction at the big school dance.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.36.0</episode-num></programme>
   <programme channel="403788" start="20250621030500 +0000" stop="20250621033000 +0000">
     <title lang="zh">Jessie</title>
     <desc>Jessie invites Bertram's mom to visit as a surprise for his birthday but Bertram and his mom do not get along; Ravi and Luke compete in a school egg-drop competition.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.22.0</episode-num></programme>
   <programme channel="403788" start="20250621033000 +0000" stop="20250621040000 +0000">
     <title lang="zh">Jessie</title>
     <desc>Jessie offers to help Zuri earn Butterfly Scout troop badges during a Central Park camping trip; Luke convinces Ravi that lying is a super power.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.17.0</episode-num></programme>
   <programme channel="403788" start="20250621040000 +0000" stop="20250621043000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Cricket and Remy play a contentious game of H-O-R-S-E on the hottest day of the year; in order to avoid punishment, Cricket must make his rational dad believe in aliens.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.13.0</episode-num></programme>
   <programme channel="403788" start="20250621043000 +0000" stop="20250621050000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>When the Greens try to spend an eventful day at the beach, Cricket tries to prank the beach-goers; Cricket discovers he can influence the family's dreams, to disastrous real-life results.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.15.0</episode-num></programme>
   <programme channel="403788" start="20250621050000 +0000" stop="20250621053000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Bill gets addicted to a farm-simulating video game; Cricket's feral wild side takes over when Bill is unable to replicate their old camping trips.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.17.0</episode-num></programme>
   <programme channel="403788" start="20250621053000 +0000" stop="20250621060000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>After finding a box of mementos, Gramma tells the kids the story of her greatest adventure; while the Greens are away, the animals compete to see who will rule the farm.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.18.0</episode-num></programme>
   <programme channel="403788" start="20250621060000 +0000" stop="20250621063000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>Cricket treats his family to dinner, but Bill is suspicious about how he plans to pay for it; Tilly and Cricket battle to see if Bill lies about liking their Father's Day gifts.</desc>
@@ -422,12 +423,12 @@
     <title lang="zh">Kiff</title>
     <desc>Kiff has a lot to do today, but brushing her tooth is not on the list; Kiff, Barry and the crew set out to make a movie so they can have a fun blooper reel, but blooping is hard.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.42.0</episode-num></programme>
   <programme channel="403788" start="20250621083000 +0000" stop="20250621090000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Reggie is the first kid in Table Town to mow his own lawn, and Kiff wants to be the second; when Harry runs away, Barry and Kiff do anything they can to bring him back.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.43.0</episode-num></programme>
   <programme channel="403788" start="20250621090000 +0000" stop="20250621093000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -465,12 +466,12 @@
     <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
     <desc>Team Spidey finds pirate-y Spider Island and a cute new friend, Jeff the Land Shark; meet hero Captain America and new baddie, Hydro-Man.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">3.1.0</episode-num></programme>
   <programme channel="403788" start="20250621110000 +0000" stop="20250621113000 +0000">
     <title lang="zh">SuperKitties</title>
     <desc>The SuperKitties switch powers with each other; when Ginny and Mr. Puppypaws get stuck in the peanut butter factory together, she learns to listen to his ideas to get free.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">1.43.0</episode-num></programme>
   <programme channel="403788" start="20250621113000 +0000" stop="20250621120000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -486,7 +487,7 @@
     <title lang="zh">Big City Greens</title>
     <desc>The mischievous Cricket Green and his family pick up their lives in the country to start anew in the big city.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.15.0</episode-num></programme>
   <programme channel="403788" start="20250621123000 +0000" stop="20250621130000 +0000">
     <title lang="zh">Big City Greens</title>
     <desc>When Tilly sees a manipulative ad, she goes to extremes to save all moths; after spending a week with Bill, Cricket fears he's infected with Billness.</desc>
@@ -496,12 +497,12 @@
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys bring Perry to the vet for a checkup and build a pet wash while they wait; Carl tries to help Perry stop Doof while working three other part-time jobs.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.9.0</episode-num></programme>
   <programme channel="403788" start="20250621133000 +0000" stop="20250621140000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The Flynn-Fletchers take a cruise; Doof steals shrunken goods; Isabella struggles to lead the Fireside Girls on her own, while Doof renews his evil business license.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.12.0</episode-num></programme>
   <programme channel="403788" start="20250621140000 +0000" stop="20250621143000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
@@ -532,7 +533,7 @@
   <category lang="en">Kids</category>
     <desc>Bluey keeps breaking her promises; Bluey teaches Bingo how to use magic; Bluey teaches Bingo to be more like him.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.4.0</episode-num></programme>
   <programme channel="403788" start="20250621190500 +0000" stop="20250621193000 +0000">
     <title lang="zh">Bluey</title>
   <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
@@ -554,32 +555,32 @@
   <category lang="en">Kids</category>
     <desc>Dad tries to teach Bluey how to play chess, but Mom thinks she is still too young; Bingo helps Mom make an omelette for Dad's birthday; Lucky's Dad is outraged that modern Pass the Parcel has a present in every layer.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">2.11.0</episode-num></programme>
   <programme channel="403788" start="20250621200000 +0000" stop="20250621203000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The kids build a giant submarine sandwich submarine while Doof steals food; Candace tries to bust the boys while taking her driving test; Doof causes chaos in traffic.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.3.0</episode-num></programme>
   <programme channel="403788" start="20250621203000 +0000" stop="20250621210000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys build an endless ice luge to beat the heat while Doof brings oil to a waterpark; Candace and Doof see the same psychologist, who thinks their experiences may be connected.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.6.0</episode-num></programme>
   <programme channel="403788" start="20250621210000 +0000" stop="20250621213000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys build a zoetrope that goes on an adventure of its own; the kids build a bookcase that gets attacked by an army of Doof-plants.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.7.0</episode-num></programme>
   <programme channel="403788" start="20250621213000 +0000" stop="20250621220000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys bring Perry to the vet for a checkup and build a pet wash while they wait; Carl tries to help Perry stop Doof while working three other part-time jobs.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.9.0</episode-num></programme>
   <programme channel="403788" start="20250621220000 +0000" stop="20250621222500 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The Flynn-Fletchers take a cruise; Doof steals shrunken goods; Isabella struggles to lead the Fireside Girls on her own, while Doof renews his evil business license.</desc>
     <date>2025-06-21</date>
-  </programme>
+  <episode-num system="xmltv_ns">4.12.0</episode-num></programme>
   <programme channel="403788" start="20250621222500 +0000" stop="20250622000000 +0000">
     <title lang="zh">The Secret Life of Pets 2</title>
     <desc>Explore the emotional lives of pets and the deep bond between them and the families that love them as Max, Gidget, Snowball and the rest of the gang take on new adventures and push themselves to find the courage to become their own heroes.</desc>
@@ -589,5 +590,5 @@
     <title lang="zh">Win or Lose</title>
     <desc>Bored at sister Taylor's softball games, imaginative Ira befriends mischievous teens.</desc>
     <date>2025-06-22</date>
-  </programme>
+  <episode-num system="xmltv_ns">0.5.0</episode-num></programme>
 </tv>
