@@ -97,6 +97,17 @@ jobs:
               except: pass
               return []
 
+          def fetch_trakt_specials(slug):
+              try:
+                  r = requests.get(f"https://api.trakt.tv/shows/{slug}/seasons?extended=episodes", headers=headers)
+                  if r.status_code == 200:
+                      data = r.json()
+                      for s in data:
+                          if s["number"] == 0:
+                              return s.get("episodes", [])
+              except: pass
+              return []
+
           def fetch_trakt_movie(title):
               try:
                   r = requests.get(f"https://api.trakt.tv/search/movie?query={title}&limit=1", headers=headers)
@@ -137,21 +148,7 @@ jobs:
                       print(f"TVmaze: {title} -> {match['name']}")
                       continue
 
-                  # Try Trakt
-                  trakt_show = fetch_trakt_show(title)
-                  if trakt_show:
-                      slug = trakt_show["ids"]["slug"]
-                      eps = fetch_trakt_episodes(slug)
-                      match = fuzzy_best_match(title, desc, eps)
-                      if match:
-                          etree.SubElement(prog, "episode-num", system="trakt-matched").text = f"{match['season']-1}.{match['number']}.0"
-                          etree.SubElement(prog, "sub-title", lang="en").text = match.get("title", "")
-                          if match.get("first_aired"):
-                              etree.SubElement(prog, "date").text = match["first_aired"].split("T")[0].replace("-", "")
-                          print(f"Trakt: {title} -> {match['title']}")
-                          continue
-
-                  # Trakt Movie fallback
+                  # Try Trakt Movie first
                   trakt_movie = fetch_trakt_movie(title)
                   if trakt_movie:
                       etree.SubElement(prog, "episode-num", system="trakt-matched").text = "0.0.0"
@@ -161,6 +158,23 @@ jobs:
                       etree.SubElement(prog, "category", lang="en").text = "movie"
                       print(f"Trakt Movie: {title} -> {trakt_movie['title']}")
                       continue
+
+                  # Try Trakt Show if no movie matched
+                  trakt_show = fetch_trakt_show(title)
+                  if trakt_show:
+                      slug = trakt_show["ids"]["slug"]
+                      eps = fetch_trakt_episodes(slug)
+                      match = fuzzy_best_match(title, desc, eps)
+                      if not match:
+                          eps = fetch_trakt_specials(slug)
+                          match = fuzzy_best_match(title, desc, eps)
+                      if match:
+                          etree.SubElement(prog, "episode-num", system="trakt-matched").text = f"{match['season']-1}.{match['number']}.0"
+                          etree.SubElement(prog, "sub-title", lang="en").text = match.get("title", "")
+                          if match.get("first_aired"):
+                              etree.SubElement(prog, "date").text = match["first_aired"].split("T")[0].replace("-", "")
+                          print(f"Trakt: {title} -> {match['title']}")
+                          continue
 
               tree.write(xml_file, encoding="utf-8", xml_declaration=True)
           EOF
