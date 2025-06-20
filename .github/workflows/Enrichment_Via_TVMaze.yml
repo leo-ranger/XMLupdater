@@ -1,82 +1,69 @@
-name: Enrich all XML files in individual/
+- name: Enrich all XML files in individual/
+  run: |
+    pip install lxml
+    python3 - <<'EOF'
+    import re
+    import time
+    import glob
+    import requests
+    from lxml import etree
 
-on:
-  schedule:
-    - cron: '10 0 * * *'  # Runs daily at 00:10 UTC
-  workflow_dispatch:       # Allows manual trigger from GitHub UI
+    def normalize(text):
+        return re.sub(r'\W+', ' ', text).strip().lower()
 
-jobs:
-  enrich_epgs:
-    runs-on: ubuntu-latest
+    def fetch_show_episodes(title, cache):
+        if title in cache:
+            return cache[title]
+        try:
+            res = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={title}&embed=episodes", timeout=5)
+            if res.status_code == 200:
+                data = res.json()
+                episodes = data["_embedded"]["episodes"]
+                cache[title] = episodes
+                time.sleep(0.6)  # throttle
+                return episodes
+        except Exception as e:
+            print(f"TVmaze request failed for {title}: {e}")
+        cache[title] = []
+        return []
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    cache = {}
 
-      - name: Enrich all XML files in individual/
-        run: |
-          python3 - <<'EOF'
-          import xml.etree.ElementTree as ET
-          import requests
-          import re
-          import time
-          import glob
+    for xml_file in glob.glob("individual/*.xml"):
+        print(f"Processing {xml_file}...")
+        parser = etree.XMLParser(recover=True)
+        tree = etree.parse(xml_file, parser)
+        root = tree.getroot()
+        seen_titles = set()
 
-          def normalize(text):
-              return re.sub(r'\W+', ' ', text).strip().lower()
+        for prog in root.findall("programme"):
+            title_el = prog.find("title")
+            desc_el = prog.find("desc")
+            if title_el is None or desc_el is None:
+                continue
 
-          def fetch_show_episodes(title, cache):
-              if title in cache:
-                  return cache[title]
-              try:
-                  res = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={title}&embed=episodes", timeout=5)
-                  if res.status_code == 200:
-                      data = res.json()
-                      episodes = data["_embedded"]["episodes"]
-                      cache[title] = episodes
-                      time.sleep(0.6)  # throttle
-                      return episodes
-              except Exception as e:
-                  print(f"TVmaze request failed for {title}: {e}")
-              cache[title] = []
-              return []
+            title = title_el.text.strip()
+            desc = desc_el.text.strip()
 
-          cache = {}
+            if title in seen_titles:
+                continue
+            seen_titles.add(title)
 
-          for xml_file in glob.glob("individual/*.xml"):
-              print(f"Processing {xml_file}...")
-              tree = ET.parse(xml_file)
-              root = tree.getroot()
-              seen_titles = set()
+            episodes = fetch_show_episodes(title, cache)
+            if not episodes:
+                continue
 
-              for prog in root.findall("programme"):
-                  title_el = prog.find("title")
-                  desc_el = prog.find("desc")
-                  if title_el is None or desc_el is None:
-                      continue
+            for ep in episodes:
+                summary = ep.get("summary") or ""
+                if normalize(desc)[:50] in normalize(summary):
+                    season = ep["season"]
+                    episode = ep["number"]
+                    ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
+                    if ep_num_el is None:
+                        ep_num_el = etree.SubElement(prog, "episode-num", system="xmltv_ns")
+                    ep_num_el.text = f"{season - 1}.{episode}.0"
+                    print(f"Matched {title} S{season:02}E{episode:02} in {xml_file}")
+                    break
 
-                  title = title_el.text.strip()
-                  desc = desc_el.text.strip()
-
-                  if title in seen_titles:
-                      continue
-                  seen_titles.add(title)
-
-                  episodes = fetch_show_episodes(title, cache)
-                  if not episodes:
-                      continue
-
-                  for ep in episodes:
-                      summary = ep.get("summary") or ""
-                      if normalize(desc)[:50] in normalize(summary):
-                          season = ep["season"]
-                          episode = ep["number"]
-                          ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
-                          if ep_num_el is None:
-                              ep_num_el = ET.SubElement(prog, "episode-num", attrib={"system": "xmltv_ns"})
-                          ep_num_el.text = f"{season - 1}.{episode}.0"
-                          print(f"Matched {title} S{season:02}E{episode:02} in {xml_file}")
-                          break
-
-              tree.write(xml_file, encoding="utf-8", xml_declaration=True)
-          EOF
+        tree.write(xml_file, encoding="utf-8", xml_declaration=True)
+    EOF
