@@ -6,14 +6,16 @@ on:
 jobs:
   trigger-workflows:
     runs-on: ubuntu-latest
+    env:
+      REPO: ${{ github.repository }}
+      GITHUB_REF: ${{ github.ref }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: List all workflows
         id: list_workflows
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Fetching workflows list..."
-          workflows=$(gh api repos/${{ github.repository }}/actions/workflows --jq '.workflows[].path' | tr -d '"')
+          workflows=$(gh api repos/${REPO}/actions/workflows --jq '.workflows[].path' | tr -d '"')
 
           # Exclude the two workflows by full path
           filtered_workflows=$(echo "$workflows" | grep -vE "\.github/workflows/Enrichment_Via_TVMAZE_and_Trak.yml|\.github/workflows/Merge_All_EPGs.yml")
@@ -24,10 +26,6 @@ jobs:
           echo "::set-output name=filtered::$filtered_workflows"
 
       - name: Trigger workflows
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REF: ${{ github.ref }}
-          REPO: ${{ github.repository }}
         run: |
           branch_name=${GITHUB_REF#refs/heads/}
           echo "Branch to trigger workflows on: $branch_name"
@@ -36,22 +34,23 @@ jobs:
           echo "Workflows to trigger:"
           echo "$workflows"
 
-          IFS=$'\n' read -rd '' -a wf_array <<<"$workflows"
+          IFS=$'\n' read -d '' -r -a wf_array <<< "$workflows" || true
 
           for wf_path in "${wf_array[@]}"; do
-            if [ -z "$wf_path" ]; then
+            if [[ -z "$wf_path" ]]; then
               echo "Empty workflow path, skipping"
               continue
             fi
-            wf_id=$(gh api repos/${REPO}/actions/workflows --jq ".workflows[] | select(.path==\"$wf_path\") | .id")
-            if [ -z "$wf_id" ]; then
-              echo "No workflow id found for $wf_path, skipping"
+            echo "Processing workflow path: '$wf_path'"
+
+            escaped_wf_path=$(printf '%s' "$wf_path" | sed 's/"/\\"/g')
+
+            wf_id=$(gh api repos/${REPO}/actions/workflows --jq ".workflows[] | select(.path==\"$escaped_wf_path\") | .id")
+            if [[ -z "$wf_id" ]]; then
+              echo "No workflow id found for '$wf_path', skipping"
               continue
             fi
-            echo "Triggering workflow $wf_path (id: $wf_id) on branch $branch_name"
+            echo "Triggering workflow '$wf_path' (id: $wf_id) on branch $branch_name"
             gh api \
               -X POST \
-              -H "Accept: application/vnd.github+json" \
-              /repos/${REPO}/actions/workflows/$wf_id/dispatches \
-              -f ref="$branch_name" || echo "Failed to trigger $wf_path"
-          done
+              -H "Accept: appl
