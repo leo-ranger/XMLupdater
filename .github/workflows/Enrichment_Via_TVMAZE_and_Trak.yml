@@ -1,8 +1,8 @@
-name: Enrich EPG XML with TVmaze and Trakt fallback
+name: Enrich EPG XML with TVmaze and Trakt
 
 on:
   schedule:
-    - cron: '10 0 * * *'  # daily at 00:10 UTC
+    - cron: '10 0 * * *'  # Daily at 00:10 UTC
   workflow_dispatch:
 
 jobs:
@@ -24,24 +24,39 @@ jobs:
       - name: Install dependencies
         run: pip install lxml requests fuzzywuzzy[speedup]
 
-      - name: Enrich XML files using TVmaze then Trakt.tv fallback
+      - name: Enrich XML files with TVmaze & Trakt fallback
         run: |
           python3 - <<'EOF'
+          import os
           import time
           import glob
           import re
           import requests
           from lxml import etree
           from fuzzywuzzy import fuzz
-          import os
 
           TRAKT_CLIENT_ID = os.getenv("TRAKT_CLIENT_ID")
 
           def normalize(text):
               return re.sub(r'\W+', ' ', text or '').strip().lower()
 
-          # --- TVmaze ---
+          def find_best_match(title, desc, episodes, min_score=80):
+              input_text = normalize(f"{title} {desc}")
+              best_score = 0
+              best_ep = None
+              for ep in episodes:
+                  overview = ep.get("summary") or ep.get("overview") or ""
+                  compare_text = normalize(f"{title} {overview}")
+                  score = fuzz.token_set_ratio(input_text, compare_text)
+                  if score > best_score:
+                      best_score = score
+                      best_ep = ep
+              if best_score >= min_score:
+                  return best_ep
+              print(f"❌ No strong match for {title} (best fuzzy score: {best_score})")
+              return None
 
+          # TVmaze fetching
           def fetch_show_episodes_tvmaze(title, cache):
               if title in cache:
                   return cache[title]
@@ -58,23 +73,7 @@ jobs:
               cache[title] = []
               return []
 
-          def find_best_match(title, desc, episodes, min_score=65):
-              input_text = normalize(f"{title} {desc}")
-              best_score = 0
-              best_ep = None
-              for ep in episodes:
-                  overview = ep.get("summary") or ""
-                  compare_text = normalize(f"{title} {overview}")
-                  score = fuzz.partial_ratio(input_text, compare_text)
-                  if score > best_score:
-                      best_score = score
-                      best_ep = ep
-              if best_score >= min_score:
-                  return best_ep
-              return None
-
-          # --- Trakt.tv ---
-
+          # Trakt API
           headers = {
               "Content-Type": "application/json",
               "trakt-api-version": "2",
@@ -121,21 +120,6 @@ jobs:
               trakt_episodes_cache[show_id] = []
               return []
 
-          def best_fuzzy_match_episode(title, desc, episodes, min_score=65):
-              input_text = normalize(f"{title} {desc}")
-              best_score = 0
-              best_ep = None
-              for ep in episodes:
-                  overview = ep.get("overview") or ""
-                  compare_text = normalize(f"{title} {overview}")
-                  score = fuzz.partial_ratio(input_text, compare_text)
-                  if score > best_score:
-                      best_score = score
-                      best_ep = ep
-              if best_score >= min_score:
-                  return best_ep
-              return None
-
           cache_tvmaze = {}
 
           for xml_file in glob.glob("individual/*.xml"):
@@ -153,7 +137,7 @@ jobs:
                   title = title_el.text.strip()
                   desc = desc_el.text.strip()
 
-                  # Try TVmaze first
+                  # === Try TVmaze first ===
                   episodes = fetch_show_episodes_tvmaze(title, cache_tvmaze)
                   best_ep = find_best_match(title, desc, episodes)
 
@@ -189,25 +173,18 @@ jobs:
                       print(f"✔ TVmaze matched {title}: S{season:02}E{episode:02} — '{ep_title}'")
                       continue
 
-                  # If no TVmaze match, fallback to Trakt.tv
+                  # === Fallback to Trakt.tv ===
                   trakt_show = fetch_trakt_show(title)
                   if trakt_show:
                       show_id = trakt_show["ids"]["slug"]
                       episodes = fetch_trakt_episodes(show_id)
-                      best_ep = best_fuzzy_match_episode(title, desc, episodes)
+                      best_ep = find_best_match(title, desc, episodes)
 
                       if best_ep:
                           season = best_ep.get("season")
                           episode = best_ep.get("number")
                           ep_title = best_ep.get("title") or ""
                           airdate = best_ep.get("first_aired")
-
-                          date_str = None
-                          if airdate:
-                              try:
-                                  date_str = airdate[:10].replace("-", "")
-                              except:
-                                  date_str = None
 
                           ep_num_el = prog.find("episode-num[@system='xmltv_ns']")
                           if ep_num_el is None:
@@ -221,7 +198,8 @@ jobs:
                               prog.insert(title_index + 1, sub_title_el)
                           sub_title_el.text = ep_title
 
-                          if date_str:
+                          if airdate:
+                              date_str = airdate[:10].replace("-", "")
                               airdate_el = prog.find("date")
                               if airdate_el is not None:
                                   airdate_el.text = date_str
@@ -244,4 +222,4 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/*.xml
-          git diff --cached --quiet || (git commit -m "Enriched EPG XML with TVmaze & Trakt episode data" && git push)
+          git diff --cached --quiet || (git commit -m "Enriched EPG XML with episode metadata" && git push)
