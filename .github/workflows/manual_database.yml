@@ -102,11 +102,9 @@ jobs:
                   return result
               except: return []
 
-          # Attempt TVmaze
+          # Fetch episodes with fallback
           episodes = fetch_tvmaze(title)
           source = "tvmaze"
-
-          # If TVmaze fails, fallback to Trakt
           if not episodes:
               slug = fetch_trakt_show(title)
               if slug:
@@ -122,8 +120,8 @@ jobs:
           for ep in episodes:
               season = ep.get("season", 0)
               number = ep.get("number", 0)
-              if season == 0: continue
-
+              if season == 0: 
+                  continue
               name = ep.get("name") or ep.get("title", f"S{season}E{number}")
               summary = ep.get("summary") or ep.get("overview", "")
               airdate = ep.get("airdate") or ep.get("first_aired", "")
@@ -140,13 +138,26 @@ jobs:
                   etree.SubElement(prog, "date").text = airdate
               etree.SubElement(prog, "category", lang="en").text = "Show"
 
-          os.makedirs("Manual_Database", exist_ok=True)
-          outfile = f"Manual_Database/{slug_title}.xml"
+          output_dir = os.path.join(os.getcwd(), "Manual_Database")
+          os.makedirs(output_dir, exist_ok=True)
+          outfile = os.path.join(output_dir, f"{slug_title}.xml")
           etree.ElementTree(root).write(outfile, encoding="utf-8", xml_declaration=True, pretty_print=True)
           print(f"Saved EPG for {title} to {outfile}")
           EOF
 
-      - name: Upload EPG
+      - name: Commit and push generated XML
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Manual_Database/*.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add generated EPG for ${{ github.event.inputs.series_name }}"
+            git push
+          fi
+
+      - name: Upload EPG artifact
         uses: actions/upload-artifact@v4
         with:
           name: series-epg
