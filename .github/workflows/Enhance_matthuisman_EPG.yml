@@ -33,6 +33,7 @@ jobs:
           import re
           import os
           import subprocess
+          import time
           from fuzzywuzzy import fuzz
           from collections import defaultdict
 
@@ -70,6 +71,7 @@ jobs:
 
           def get_tvmaze_data(show, s, e):
               try:
+                  time.sleep(0.5)
                   r = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={show}&embed=episodes")
                   r.raise_for_status()
                   j = r.json()
@@ -88,6 +90,7 @@ jobs:
 
           def get_trakt_movies(title):
               try:
+                  time.sleep(0.5)
                   r = requests.get(f"https://api.trakt.tv/search/movie?query={title}", headers=HEADERS)
                   r.raise_for_status()
                   return r.json()
