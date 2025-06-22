@@ -1,0 +1,150 @@
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Install dependencies
+        run: pip install requests lxml fuzzywuzzy python-Levenshtein
+
+      - name: Enrich South Park EPG (inline python)
+        env:
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
+        run: |
+          python - <<'EOF'
+          import requests
+          from lxml import etree
+          import re
+          import os
+          from fuzzywuzzy import fuzz
+
+          TVMAZE_API = "https://api.tvmaze.com"
+          TRAKT_API = "https://api.trakt.tv"
+          HEADERS = {
+              "trakt-api-key": os.getenv("TRAKT_CLIENT_ID"),
+              "trakt-api-version": "2"
+          }
+
+          def get_epg():
+              url = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
+              print("Fetching EPG XML...")
+              response = requests.get(url)
+              response.raise_for_status()
+              return etree.fromstring(response.content)
+
+          def parse_title(title_text):
+              match = re.search(r"S(\d+)\s*Ep[. ]+(\d+)", title_text, re.IGNORECASE)
+              if match:
+                  return int(match.group(1)), int(match.group(2))
+              return None, None
+
+          def get_tvmaze_data(season, episode):
+              url = f"{TVMAZE_API}/singlesearch/shows?q=South%20Park&embed=episodes"
+              try:
+                  res = requests.get(url)
+                  res.raise_for_status()
+                  show = res.json()
+                  genres = show.get("genres", [])
+                  rating = show.get("contentRating") or show.get("rating", {}).get("average")
+                  rating_system = "TVPG"
+                  if rating and re.match(r"(G|PG|M|MA15\\+|R18\\+|X18\\+)", str(rating)):
+                      rating_system = "AU"
+                  episodes = show['_embedded']['episodes']
+                  for ep in episodes:
+                      if ep['season'] == season and ep['number'] == episode:
+                          return {
+                              "title": ep['name'],
+                              "season": season,
+                              "episode": episode,
+                              "genres": genres,
+                              "rating": rating,
+                              "rating_system": rating_system
+                          }
+              except Exception as e:
+                  print("TVmaze error:", e)
+              return None
+
+          def get_trakt_data(season, episode):
+              try:
+                  show_info = requests.get(f"{TRAKT_API}/shows/south-park", headers=HEADERS)
+                  show_info.raise_for_status()
+                  show_json = show_info.json()
+                  genres = show_json.get("genres", [])
+                  rating = show_json.get("certification", None)
+                  rating_system = "TVPG"
+                  if rating and re.match(r"(G|PG|M|MA15\\+|R18\\+|X18\\+)", str(rating)):
+                      rating_system = "AU"
+                  url = f"{TRAKT_API}/shows/south-park/seasons/{season}"
+                  res = requests.get(url, headers=HEADERS)
+                  res.raise_for_status()
+                  for ep in res.json():
+                      if ep['number'] == episode:
+                          return {
+                              "title": ep['title'],
+                              "season": season,
+                              "episode": episode,
+                              "genres": genres,
+                              "rating": rating,
+                              "rating_system": rating_system
+                          }
+              except Exception as e:
+                  print("Trakt error:", e)
+              return None
+
+          def clear_tags(parent, tag_name):
+              for elem in parent.findall(tag_name):
+                  parent.remove(elem)
+
+          def enrich_programme(prog):
+              title_elem = prog.find('title')
+              raw_title = title_elem.text if title_elem is not None else ""
+              season, episode = parse_title(raw_title)
+              if not season or not episode:
+                  return
+              data = get_tvmaze_data(season, episode)
+              if not data:
+                  data = get_trakt_data(season, episode)
+              if not data:
+                  return
+              title_elem.text = "South Park"
+              sub = prog.find("sub-title")
+              if sub is None:
+                  sub = etree.SubElement(prog, "sub-title", lang="en")
+              sub.text = f"{data['title']} - S{season:02d}E{episode:02d}"
+              clear_tags(prog, "category")
+              for genre in data["genres"]:
+                  cat = etree.SubElement(prog, "category")
+                  cat.text = genre.title()
+              rating_val = data.get("rating")
+              rating_sys = data.get("rating_system", "TVPG")
+              if rating_val:
+                  clear_tags(prog, "rating")
+                  rating_elem = etree.SubElement(prog, "rating", system=rating_sys)
+                  val_elem = etree.SubElement(rating_elem, "value")
+                  val_elem.text = str(rating_val)
+
+          def main():
+              tree = get_epg()
+              progs = tree.findall(".//programme[@channel='mjh-10-south-park']")
+              print(f"Found {len(progs)} South Park entries.")
+              for prog in progs:
+                  enrich_programme(prog)
+              output_dir = "Backflow/Manual_Database"
+              os.makedirs(output_dir, exist_ok=True)
+              output_path = f"{output_dir}/SouthPark.xml"
+              with open(output_path, "wb") as f:
+                  f.write(etree.tostring(tree, pretty_print=True, encoding="UTF-8"))
+              print(f"Output written to {output_path}")
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+      - name: List output files
+        run: ls -al Backflow/Manual_Database/
