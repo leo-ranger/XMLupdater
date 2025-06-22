@@ -25,7 +25,6 @@ jobs:
       - name: Run enrichment script inline
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
-          TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
         run: |
           cat << 'EOF' > enrich_southpark.py
           import requests
