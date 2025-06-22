@@ -154,13 +154,14 @@ jobs:
                   val_elem.text = str(rating_val)
 
           def main():
+              print("CWD:", os.getcwd())
+              print("GITHUB_WORKSPACE:", os.getenv("GITHUB_WORKSPACE"))
               tree = get_epg()
               progs = tree.findall(".//programme[@channel='mjh-10-south-park']")
               print(f"Found {len(progs)} South Park entries.")
               for prog in progs:
                   enrich_programme(prog)
 
-              # Use absolute path from GITHUB_WORKSPACE
               output_dir = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "Backflow", "Manual_Database")
               os.makedirs(output_dir, exist_ok=True)
               output_path = os.path.join(output_dir, "SouthPark.xml")
@@ -174,8 +175,17 @@ jobs:
 
           python enrich_southpark.py
 
-      - name: Confirm output directory exists
+      - name: Show Backflow folder contents
         run: ls -ld Backflow Backflow/Manual_Database
 
       - name: List output files
         run: ls -al Backflow/Manual_Database/
+
+      - name: Commit and push enriched EPG XML if changed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Backflow/Manual_Database/SouthPark.xml
+          git commit -m "Update South Park enriched EPG XML $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase --autostash
+          git push
