@@ -1,9 +1,9 @@
-name: Enrich Multiple Shows and Movies EPG
+name: Enrich and Split EPG by Channel
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 3 * * *'  # Daily 03:20 UTC
+    - cron: '25 3 * * *'
 
 jobs:
   enrich-epg:
@@ -22,20 +22,19 @@ jobs:
         run: |
           pip install requests lxml fuzzywuzzy python-Levenshtein
 
-      - name: Enrich EPG XML
+      - name: Enrich and Split EPG
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          cat << 'EOF' > enrich_epg.py
+          cat << 'EOF' > enrich_split_push.py
           import requests
           from lxml import etree
           import re
           import os
+          import subprocess
           from fuzzywuzzy import fuzz
-
-          TVMAZE_API = "https://api.tvmaze.com"
-          TRAKT_API = "https://api.trakt.tv"
+          from collections import defaultdict
 
           HEADERS = {
               "trakt-api-key": os.getenv("TRAKT_CLIENT_ID"),
@@ -44,219 +43,119 @@ jobs:
 
           SHOWS = {
               "mjh-10-south-park": "South Park",
-              # Add more channels and shows as needed
+              # Extend with other channel:show pairs
           }
 
-          def parse_title(title_text):
-              title_text = title_text.strip()
-              m = re.search(r"S(\d+)\s*Ep[.]?\s*(\d+)", title_text, re.IGNORECASE)
+          def git_commit_and_push(file_path, msg):
+              try:
+                  subprocess.run(["git", "add", file_path], check=True)
+                  subprocess.run(["git", "commit", "-m", msg], check=True)
+                  subprocess.run(["git", "pull", "--rebase", "--autostash"], check=True)
+                  subprocess.run(["git", "push"], check=True)
+              except subprocess.CalledProcessError as e:
+                  print("Git error:", e)
+
+          def parse_title(title):
+              title = title.strip()
+              m = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", title, re.IGNORECASE)
               if m:
                   return int(m.group(1)), int(m.group(2))
-              m = re.search(r"S(\d+)\s*E(\d+)", title_text, re.IGNORECASE)
+              m = re.search(r"S(\d+)\s*E(\d+)", title, re.IGNORECASE)
               if m:
-                  season = int(m.group(1))
-                  ep_num = m.group(2)
-                  season_str = str(season)
-                  if ep_num.startswith(season_str):
-                      episode = int(ep_num[len(season_str):])
-                  else:
-                      episode = int(ep_num)
-                  return season, episode
+                  s = int(m.group(1))
+                  e_str = m.group(2)
+                  e = int(e_str[len(str(s)):] if e_str.startswith(str(s)) else e_str)
+                  return s, e
               return None, None
 
-          def get_tvmaze_data(show_name, season, episode):
+          def get_tvmaze_data(show, s, e):
               try:
-                  res = requests.get(f"{TVMAZE_API}/singlesearch/shows?q={show_name}&embed=episodes")
-                  res.raise_for_status()
-                  show = res.json()
-                  genres = show.get("genres", [])
-                  rating = show.get("contentRating") or show.get("rating", {}).get("average")
-                  episodes = show['_embedded']['episodes']
-                  rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
-                      rating_system = "AU"
-                  for ep in episodes:
-                      if ep['season'] == season and ep['number'] == episode:
+                  r = requests.get(f"https://api.tvmaze.com/singlesearch/shows?q={show}&embed=episodes")
+                  r.raise_for_status()
+                  j = r.json()
+                  for ep in j['_embedded']['episodes']:
+                      if ep['season'] == s and ep['number'] == e:
                           return {
                               "title": ep['name'],
-                              "season": season,
-                              "episode": episode,
-                              "genres": genres,
-                              "rating": rating,
-                              "rating_system": rating_system,
+                              "season": s,
+                              "episode": e,
+                              "genres": j.get("genres", []),
+                              "rating": j.get("rating", {}).get("average"),
                               "airdate": ep.get("airdate")
                           }
-              except Exception as e:
-                  print(f"TVmaze error for {show_name} S{season}E{episode}:", e)
+              except: pass
               return None
 
-          def get_trakt_data(show_name, season, episode):
+          def get_trakt_movies(title):
               try:
-                  show_info = requests.get(f"{TRAKT_API}/shows/{show_name.lower().replace(' ', '-')}", headers=HEADERS)
-                  show_info.raise_for_status()
-                  show_json = show_info.json()
-                  genres = show_json.get("genres", [])
-                  rating = show_json.get("certification", None)
-                  rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
-                      rating_system = "AU"
-                  url = f"{TRAKT_API}/shows/{show_name.lower().replace(' ', '-')}/seasons/{season}"
-                  res = requests.get(url, headers=HEADERS)
-                  res.raise_for_status()
-                  for ep in res.json():
-                      if ep['number'] == episode:
-                          return {
-                              "title": ep['title'],
-                              "season": season,
-                              "episode": episode,
-                              "genres": genres,
-                              "rating": rating,
-                              "rating_system": rating_system,
-                              "airdate": ep.get("first_aired")
-                          }
-              except Exception as e:
-                  print(f"Trakt error for {show_name} S{season}E{episode}:", e)
-              return None
+                  r = requests.get(f"https://api.trakt.tv/search/movie?query={title}", headers=HEADERS)
+                  r.raise_for_status()
+                  return r.json()
+              except: return []
 
-          def get_trakt_movies(search_title):
-              try:
-                  url = f"https://api.trakt.tv/search/movie?query={search_title}"
-                  res = requests.get(url, headers=HEADERS)
-                  res.raise_for_status()
-                  return res.json()
-              except Exception as e:
-                  print(f"Trakt movie search error for '{search_title}':", e)
-                  return []
-
-          def clear_tags(parent, tag_name):
-              for elem in parent.findall(tag_name):
-                  parent.remove(elem)
-
-          def enrich_movie(prog, search_title):
-              movies = get_trakt_movies(search_title)
-              best_match = None
-              best_score = 0
-              for m in movies:
-                  movie_title = m['movie']['title']
-                  score = fuzz.ratio(search_title.lower(), movie_title.lower())
-                  if score > best_score:
-                      best_score = score
-                      best_match = m['movie']
-
-              if best_match and best_score >= 85:
-                  clear_tags(prog, "category")
-                  cat_movie = etree.SubElement(prog, "category")
-                  cat_movie.text = "Movie"
-                  for genre in best_match.get("genres", []):
-                      cat = etree.SubElement(prog, "category")
-                      cat.text = genre.title()
-
-                  title_elem = prog.find('title')
-                  if title_elem is not None:
-                      title_elem.text = best_match.get("title", search_title)
-
-                  clear_tags(prog, "episode-num")
-                  airdate = best_match.get("released")
-                  if airdate:
-                      epnum_elem = etree.SubElement(prog, "episode-num", system="original-air-date")
-                      epnum_elem.text = airdate
-
-                  print(f"Enriched movie match for '{search_title}' with Trakt movie '{best_match.get('title')}'")
+          def enrich_movie(prog, title):
+              movies = get_trakt_movies(title)
+              best = max(movies, key=lambda m: fuzz.ratio(title.lower(), m['movie']['title'].lower()), default=None)
+              if best and fuzz.ratio(title.lower(), best['movie']['title'].lower()) >= 85:
+                  prog.find('title').text = best['movie']['title']
+                  etree.SubElement(prog, "category").text = "Movie"
+                  for g in best['movie'].get('genres', []):
+                      etree.SubElement(prog, "category").text = g.title()
+                  if best['movie'].get("released"):
+                      etree.SubElement(prog, "episode-num", system="original-air-date").text = best['movie']['released']
                   return True
               return False
 
-          def enrich_programme(prog):
+          def enrich(prog):
               if prog.find('desc') is not None:
                   return
-
               channel = prog.get('channel')
-              show_name = SHOWS.get(channel)
               title_elem = prog.find('title')
               raw_title = title_elem.text if title_elem is not None else ""
-
-              if show_name:
-                  if show_name.lower() not in raw_title.lower():
+              show = SHOWS.get(channel)
+              if show and show.lower() in raw_title.lower():
+                  s, e = parse_title(raw_title)
+                  if not s or not e:
                       return
-                  season, episode = parse_title(raw_title)
-                  if not season or not episode:
-                      return
-                  data = get_tvmaze_data(show_name, season, episode) or get_trakt_data(show_name, season, episode)
+                  data = get_tvmaze_data(show, s, e)
                   if not data:
-                      if enrich_movie(prog, raw_title):
-                          return
-                      else:
-                          return
-                  # Enrich episode data
-                  title_elem.text = show_name
-                  sub = prog.find("sub-title")
-                  if sub is None:
-                      sub = etree.SubElement(prog, "sub-title", lang="en")
+                      enrich_movie(prog, raw_title)
+                      return
+                  title_elem.text = show
+                  sub = prog.find("sub-title") or etree.SubElement(prog, "sub-title", lang="en")
                   sub.text = f"{data['title']} - S{data['season']:02d}E{data['episode']:02d}"
-
-                  clear_tags(prog, "category")
-                  for genre in data["genres"]:
-                      cat = etree.SubElement(prog, "category")
-                      cat.text = genre.title()
-
-                  clear_tags(prog, "rating")
-                  rating_val = data.get("rating")
-                  rating_sys = data.get("rating_system", "TVPG")
-                  if rating_val:
-                      rating_elem = etree.SubElement(prog, "rating", system=rating_sys)
-                      val_elem = etree.SubElement(rating_elem, "value")
-                      val_elem.text = str(rating_val)
-
-                  clear_tags(prog, "episode-num")
-                  airdate = data.get("airdate")
-                  if airdate:
-                      epnum_elem = etree.SubElement(prog, "episode-num", system="original-air-date")
-                      epnum_elem.text = airdate
-
-                  return
+                  for tag in prog.findall("category"): prog.remove(tag)
+                  for g in data.get("genres", []):
+                      etree.SubElement(prog, "category").text = g.title()
+                  if data.get("airdate"):
+                      etree.SubElement(prog, "episode-num", system="original-air-date").text = data['airdate']
               else:
-                  # Optionally, try movie enrichment on unknown channels too
                   enrich_movie(prog, raw_title)
 
           def main():
-              print("Working directory:", os.getcwd())
-              print("GITHUB_WORKSPACE:", os.getenv("GITHUB_WORKSPACE"))
-
               url = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
-              print("Fetching EPG XML from", url)
-              response = requests.get(url)
-              response.raise_for_status()
-              tree = etree.fromstring(response.content)
-
-              progs = tree.findall(".//programme")
-              print(f"Found {len(progs)} programmes in XML")
-
-              for prog in progs:
-                  enrich_programme(prog)
-
-              output_dir = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "Backflow", "Manual_Database")
-              os.makedirs(output_dir, exist_ok=True)
-              output_path = os.path.join(output_dir, "Sydney_XML.xml")
-              with open(output_path, "wb") as f:
-                  f.write(etree.tostring(tree, pretty_print=True, encoding="UTF-8"))
-              print(f"Enriched EPG saved to {output_path}")
+              tree = etree.fromstring(requests.get(url).content)
+              grouped = defaultdict(list)
+              for prog in tree.findall(".//programme"):
+                  enrich(prog)
+                  grouped[prog.get("channel")].append(prog)
+              out_base = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "Backflow", "Manual_Database")
+              os.makedirs(out_base, exist_ok=True)
+              for chan, progs in grouped.items():
+                  root = etree.Element("tv")
+                  for p in progs:
+                      root.append(p)
+                  path = os.path.join(out_base, f"{chan}.xml")
+                  with open(path, "wb") as f:
+                      f.write(etree.tostring(root, pretty_print=True, encoding="UTF-8"))
+                  print("Wrote:", path)
+                  git_commit_and_push(path, f"Update EPG for {chan}")
 
           if __name__ == "__main__":
               main()
           EOF
 
-          python enrich_epg.py
+          python enrich_split_push.py
 
-      - name: Show Backflow folder contents
-        run: ls -ld Backflow Backflow/Manual_Database
-
-      - name: List output files
+      - name: Show output
         run: ls -al Backflow/Manual_Database/
-
-      - name: Commit and push changes if any
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add Backflow/Manual_Database/Sydney_XML.xml
-          git commit -m "Update enriched EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase --autostash
-          git push
