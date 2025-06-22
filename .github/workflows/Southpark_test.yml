@@ -25,6 +25,7 @@ jobs:
       - name: Run enrichment script inline
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
           cat << 'EOF' > enrich_southpark.py
           import requests
@@ -159,9 +160,10 @@ jobs:
               for prog in progs:
                   enrich_programme(prog)
 
-              output_dir = "Backflow/Manual_Database"
+              # Use absolute path from GITHUB_WORKSPACE
+              output_dir = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "Backflow", "Manual_Database")
               os.makedirs(output_dir, exist_ok=True)
-              output_path = f"{output_dir}/SouthPark.xml"
+              output_path = os.path.join(output_dir, "SouthPark.xml")
               with open(output_path, "wb") as f:
                   f.write(etree.tostring(tree, pretty_print=True, encoding="UTF-8"))
               print(f"Output written to {output_path}")
@@ -171,6 +173,9 @@ jobs:
           EOF
 
           python enrich_southpark.py
+
+      - name: Confirm output directory exists
+        run: ls -ld Backflow Backflow/Manual_Database
 
       - name: List output files
         run: ls -al Backflow/Manual_Database/
