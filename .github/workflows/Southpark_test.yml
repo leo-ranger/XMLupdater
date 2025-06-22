@@ -1,30 +1,33 @@
-name: Southpark test
+name: Enrich South Park EPG
 
 on:
-  schedule:
-    - cron: '10 0 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '20 3 * * *'  # Daily at 03:20 UTC
 
 jobs:
-  enrich:
+  enrich-south-park:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Set up Python
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests lxml fuzzywuzzy python-Levenshtein
+        run: |
+          pip install requests lxml fuzzywuzzy python-Levenshtein
 
-      - name: Enrich South Park EPG (inline python)
+      - name: Run enrichment script inline
         env:
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
         run: |
-          python - <<'EOF'
+          cat << 'EOF' > enrich_southpark.py
           import requests
           from lxml import etree
           import re
@@ -33,6 +36,7 @@ jobs:
 
           TVMAZE_API = "https://api.tvmaze.com"
           TRAKT_API = "https://api.trakt.tv"
+
           HEADERS = {
               "trakt-api-key": os.getenv("TRAKT_CLIENT_ID"),
               "trakt-api-version": "2"
@@ -59,9 +63,11 @@ jobs:
                   show = res.json()
                   genres = show.get("genres", [])
                   rating = show.get("contentRating") or show.get("rating", {}).get("average")
+
                   rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\\+|R18\\+|X18\\+)", str(rating)):
+                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
                       rating_system = "AU"
+
                   episodes = show['_embedded']['episodes']
                   for ep in episodes:
                       if ep['season'] == season and ep['number'] == episode:
@@ -84,9 +90,11 @@ jobs:
                   show_json = show_info.json()
                   genres = show_json.get("genres", [])
                   rating = show_json.get("certification", None)
+
                   rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\\+|R18\\+|X18\\+)", str(rating)):
+                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
                       rating_system = "AU"
+
                   url = f"{TRAKT_API}/shows/south-park/seasons/{season}"
                   res = requests.get(url, headers=HEADERS)
                   res.raise_for_status()
@@ -114,20 +122,29 @@ jobs:
               season, episode = parse_title(raw_title)
               if not season or not episode:
                   return
+
               data = get_tvmaze_data(season, episode)
               if not data:
                   data = get_trakt_data(season, episode)
               if not data:
                   return
+
+              # Set <title>
               title_elem.text = "South Park"
+
+              # Set or update <sub-title>
               sub = prog.find("sub-title")
               if sub is None:
                   sub = etree.SubElement(prog, "sub-title", lang="en")
               sub.text = f"{data['title']} - S{season:02d}E{episode:02d}"
+
+              # Clear and set <category>
               clear_tags(prog, "category")
               for genre in data["genres"]:
                   cat = etree.SubElement(prog, "category")
                   cat.text = genre.title()
+
+              # Set <rating> (clearing any previous)
               rating_val = data.get("rating")
               rating_sys = data.get("rating_system", "TVPG")
               if rating_val:
@@ -142,6 +159,7 @@ jobs:
               print(f"Found {len(progs)} South Park entries.")
               for prog in progs:
                   enrich_programme(prog)
+
               output_dir = "Backflow/Manual_Database"
               os.makedirs(output_dir, exist_ok=True)
               output_path = f"{output_dir}/SouthPark.xml"
@@ -152,6 +170,8 @@ jobs:
           if __name__ == "__main__":
               main()
           EOF
+
+          python enrich_southpark.py
 
       - name: List output files
         run: ls -al Backflow/Manual_Database/
