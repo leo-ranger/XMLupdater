@@ -1,0 +1,33 @@
+name: Scrape 7plus JudgeJudy Guide
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # daily 1am UTC (adjust as needed)
+  workflow_dispatch:
+
+jobs:
+  scrape-7plus-judgejudy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install puppeteer
+        run: npm install puppeteer
+
+      - name: Run 7plus scraper
+        run: node scrape-7plus-judgejudy.js
+
+      - name: Commit and push scraped guide
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Backflow/Scraper/7plus_JudgeJudy_guide.json
+          git commit -m "Update 7plus JudgeJudy guide $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
