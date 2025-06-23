@@ -1,4 +1,4 @@
-name: Merge Enriched EPGs into Base EPG
+name: Merge backflow Enriched EPGs into Base EPG
 
 on:
   schedule:
