@@ -29,11 +29,10 @@ jobs:
           import re
           import sys
 
-          TVMAZE_SHOW_ID = 216  # South Park's TVmaze show ID
+          TVMAZE_SHOW_ID = 112  # ✅ Correct South Park TVmaze ID
           INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
           OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
 
-          # Fixed icon URL for all episodes
           FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
 
           def get_episode_from_tvmaze(season, episode):
@@ -55,29 +54,20 @@ jobs:
                   time.sleep(5)
                   return None
 
-          # Parse XML file
           tree = ET.parse(INPUT_XML)
           root = tree.getroot()
 
-          # Namespace handling if needed
-          # If your XML has namespaces, adapt here accordingly
-
-          # Regex to parse titles like "South Park S11 Ep. 5"
           title_re = re.compile(r"South Park S(\d+) Ep\. (\d+)", re.IGNORECASE)
 
           def safe_get_episode(season, episode):
-              # If episode > 20, try original
               if episode <= 20:
                   return episode
-              # Check if episode exists
               ep_data = get_episode_from_tvmaze(season, episode)
               if ep_data:
                   return episode
-              # Try to fix episode number by removing season digits prefix
               season_str = str(season)
               ep_str = str(episode)
               if len(ep_str) > len(season_str):
-                  # Remove leading season digits from episode
                   fixed_ep_str = ep_str[len(season_str):]
                   if fixed_ep_str.isdigit():
                       fixed_ep = int(fixed_ep_str)
@@ -98,13 +88,10 @@ jobs:
               season_num = int(match.group(1))
               episode_num = int(match.group(2))
 
-              # Safeguard fix
               episode_num = safe_get_episode(season_num, episode_num)
 
-              # Query TVmaze for episode data
               episode_info = get_episode_from_tvmaze(season_num, episode_num)
 
-              # Prepare sub-title text
               if episode_info and 'name' in episode_info:
                   ep_name = episode_info['name']
               else:
@@ -112,42 +99,33 @@ jobs:
 
               subtitle_text = f"{ep_name} - S{season_num} Ep. {episode_num}"
 
-              # Replace <title> with "South Park"
               title_elem.text = "South Park"
 
-              # Remove existing <sub-title>, <category>, <desc>, <icon> tags inside <programme>
               for tag in ['sub-title', 'category', 'desc', 'icon']:
                   for elem in programme.findall(tag):
                       programme.remove(elem)
 
-              # Add new <sub-title>
               sub_title_elem = ET.Element('sub-title')
               sub_title_elem.text = subtitle_text
               programme.append(sub_title_elem)
 
-              # Add categories from TVmaze genres if available
               if episode_info and 'genres' in episode_info and episode_info['genres']:
                   for genre in episode_info['genres']:
                       cat_elem = ET.Element('category', {'lang':'en'})
                       cat_elem.text = genre
                       programme.append(cat_elem)
 
-              # Add description from TVmaze summary if available (strip HTML tags)
               if episode_info and 'summary' in episode_info and episode_info['summary']:
                   summary = episode_info['summary']
-                  # Remove HTML tags
                   summary_text = re.sub('<[^<]+?>', '', summary)
                   desc_elem = ET.Element('desc')
                   desc_elem.text = summary_text
                   programme.append(desc_elem)
 
-              # Add fixed icon
               icon_elem = ET.Element('icon', {'src': FIXED_ICON})
               programme.append(icon_elem)
 
-          # Write back XML with UTF-8 encoding and XML declaration
           tree.write(OUTPUT_XML, encoding='utf-8', xml_declaration=True)
-
           EOF
 
       - name: Commit and push changes
