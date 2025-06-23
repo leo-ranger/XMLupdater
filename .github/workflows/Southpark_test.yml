@@ -2,12 +2,15 @@ name: Update EPG XML South Park (Australia)
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
   enrich-epg:
     runs-on: ubuntu-latest
+    env:
+      TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -19,111 +22,102 @@ jobs:
         run: |
           curl -o Backflow/Manual_Database/AU-South_Park.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=105810"
 
-      - name: Enrich EPG XML with TVmaze data
-        id: enrich
+      - name: Enrich EPG XML with TVmaze and Trakt
         run: |
           python3 - <<'EOF'
           import xml.etree.ElementTree as ET
-          import requests
-          import time
-          import re
-          import sys
+          import requests, time, re, sys, os
 
-          TVMAZE_SHOW_ID = 112  # ✅ Correct South Park TVmaze ID
+          TVMAZE_SHOW_ID = 112
           INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
           OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
-
           FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
+          TRAKT_CLIENT_ID = os.environ['TRAKT_CLIENT_ID']
 
-          def get_episode_from_tvmaze(season, episode):
+          def get_tvmaze_episode(season, episode):
               url = f"https://api.tvmaze.com/shows/{TVMAZE_SHOW_ID}/episodebynumber?season={season}&number={episode}"
               try:
                   r = requests.get(url)
                   if r.status_code == 200:
-                      time.sleep(1.5)  # Throttle
-                      return r.json()
-                  elif r.status_code == 404:
                       time.sleep(1.5)
-                      return None
-                  else:
-                      print(f"Warning: TVmaze returned status {r.status_code}, retrying after delay...", file=sys.stderr)
-                      time.sleep(5)
-                      return get_episode_from_tvmaze(season, episode)
-              except Exception as e:
-                  print(f"Error querying TVmaze: {e}", file=sys.stderr)
-                  time.sleep(5)
-                  return None
+                      return r.json()
+              except: pass
+              time.sleep(1.5)
+              return None
 
-          tree = ET.parse(INPUT_XML)
-          root = tree.getroot()
-
-          title_re = re.compile(r"South Park S(\d+) Ep\. (\d+)", re.IGNORECASE)
+          def get_trakt_episode(season, episode):
+              headers = {
+                  'Content-Type': 'application/json',
+                  'trakt-api-version': '2',
+                  'trakt-api-key': TRAKT_CLIENT_ID
+              }
+              url = f"https://api.trakt.tv/shows/south-park/seasons/{season}/episodes/{episode}?extended=full"
+              try:
+                  r = requests.get(url, headers=headers)
+                  if r.status_code == 200:
+                      time.sleep(1.5)
+                      return r.json()
+              except: pass
+              time.sleep(1.5)
+              return None
 
           def safe_get_episode(season, episode):
               if episode <= 20:
                   return episode
-              ep_data = get_episode_from_tvmaze(season, episode)
-              if ep_data:
+              if get_tvmaze_episode(season, episode):
                   return episode
               season_str = str(season)
               ep_str = str(episode)
               if len(ep_str) > len(season_str):
-                  fixed_ep_str = ep_str[len(season_str):]
-                  if fixed_ep_str.isdigit():
-                      fixed_ep = int(fixed_ep_str)
-                      ep_data2 = get_episode_from_tvmaze(season, fixed_ep)
-                      if ep_data2:
-                          return fixed_ep
+                  fixed = ep_str[len(season_str):]
+                  if fixed.isdigit() and get_tvmaze_episode(season, int(fixed)):
+                      return int(fixed)
               return episode
 
-          for programme in root.findall('programme'):
-              title_elem = programme.find('title')
-              if title_elem is None or not title_elem.text:
-                  continue
+          def strip_html(text):
+              return re.sub('<[^<]+?>', '', text or '')
 
-              match = title_re.match(title_elem.text.strip())
+          tree = ET.parse(INPUT_XML)
+          root = tree.getroot()
+          title_re = re.compile(r"South Park S(\d+) Ep\. (\d+)", re.IGNORECASE)
+
+          for prog in root.findall('programme'):
+              title_el = prog.find('title')
+              if title_el is None or not title_el.text:
+                  continue
+              match = title_re.match(title_el.text.strip())
               if not match:
                   continue
 
-              season_num = int(match.group(1))
-              episode_num = int(match.group(2))
+              season = int(match.group(1))
+              episode = int(match.group(2))
+              episode = safe_get_episode(season, episode)
+              ep_data = get_tvmaze_episode(season, episode)
+              fallback = get_trakt_episode(season, episode) if not ep_data else None
 
-              episode_num = safe_get_episode(season_num, episode_num)
+              ep_name = ep_data.get('name') if ep_data else fallback.get('title') if fallback else 'Unknown Episode'
+              genres = ep_data.get('genres') if ep_data else fallback.get('genres') if fallback else []
+              summary = ep_data.get('summary') if ep_data else fallback.get('overview') if fallback else ''
+              airdate = ep_data.get('airdate') if ep_data else fallback.get('first_aired') if fallback else None
+              rating = fallback.get('rating', {}).get('value') if fallback and fallback.get('rating') else None
 
-              episode_info = get_episode_from_tvmaze(season_num, episode_num)
+              title_el.text = "South Park"
+              for tag in ['sub-title', 'category', 'desc', 'icon', 'rating', 'premiere']:
+                  for el in prog.findall(tag):
+                      prog.remove(el)
 
-              if episode_info and 'name' in episode_info:
-                  ep_name = episode_info['name']
-              else:
-                  ep_name = "Unknown Episode"
-
-              subtitle_text = f"{ep_name} - S{season_num} Ep. {episode_num}"
-
-              title_elem.text = "South Park"
-
-              for tag in ['sub-title', 'category', 'desc', 'icon']:
-                  for elem in programme.findall(tag):
-                      programme.remove(elem)
-
-              sub_title_elem = ET.Element('sub-title')
-              sub_title_elem.text = subtitle_text
-              programme.append(sub_title_elem)
-
-              if episode_info and 'genres' in episode_info and episode_info['genres']:
-                  for genre in episode_info['genres']:
-                      cat_elem = ET.Element('category', {'lang':'en'})
-                      cat_elem.text = genre
-                      programme.append(cat_elem)
-
-              if episode_info and 'summary' in episode_info and episode_info['summary']:
-                  summary = episode_info['summary']
-                  summary_text = re.sub('<[^<]+?>', '', summary)
-                  desc_elem = ET.Element('desc')
-                  desc_elem.text = summary_text
-                  programme.append(desc_elem)
-
-              icon_elem = ET.Element('icon', {'src': FIXED_ICON})
-              programme.append(icon_elem)
+              ET.SubElement(prog, 'sub-title').text = f"{ep_name} - S{season} Ep. {episode}"
+              for genre in genres or []:
+                  cat = ET.SubElement(prog, 'category', {'lang': 'en'})
+                  cat.text = genre
+              if summary:
+                  ET.SubElement(prog, 'desc').text = strip_html(summary)
+              if airdate:
+                  ET.SubElement(prog, 'premiere').text = airdate[:10]
+              if rating:
+                  r = ET.SubElement(prog, 'rating', {'system': 'Trakt'})
+                  r.text = f"{rating:.1f}"
+              ET.SubElement(prog, 'icon', {'src': FIXED_ICON})
 
           tree.write(OUTPUT_XML, encoding='utf-8', xml_declaration=True)
           EOF
