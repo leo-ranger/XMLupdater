@@ -3,118 +3,118 @@
 <tv date="20250623100912 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250623.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250623&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
-    <icon src="" />
+    <icon src=""/>
   </channel>
   <programme channel="403490" start="20250623000000 +0000" stop="20250623020100 +0000">
     <title lang="zh">Hannah Swensen Mysteries</title>
     <desc>When Hannah's customer and Delores' theater rival is murdered, Hannah must find her killer in order to save her mother's reputation; Chad and Hannah's romance blossoms.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="tvmaze-matched">2024.2.0</episode-num><sub-title lang="en">Pie to Die For</sub-title><date>20250622</date></programme>
   <programme channel="403490" start="20250623020100 +0000" stop="20250623040100 +0000">
     <title lang="zh">A Greek Recipe for Romance</title>
     <desc>While visiting her mother in Greece, Abby decides to open a restaurant with a man she just met.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">0.2.0</episode-num><sub-title lang="en">Two</sub-title></programme>
   <programme channel="403490" start="20250623040100 +0000" stop="20250623043100 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia's new boyfriend Rocco robs a bank and makes her an unsuspecting accomplice.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">3.22.0</episode-num><sub-title lang="en">Sophia's Choice</sub-title></programme>
   <programme channel="403490" start="20250623043100 +0000" stop="20250623050100 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's boyfriend buys a boat and asks her to accompany him on a cruise around the world.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">6.14.0</episode-num><sub-title lang="en">Old Boyfriends</sub-title></programme>
   <programme channel="403490" start="20250623050100 +0000" stop="20250623053100 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy's son Michael is getting married to an older woman, and the mothers of the bride and groom are concerned.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
   <programme channel="403490" start="20250623053100 +0000" stop="20250623060100 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's new boyfriend Mr. Terrific gets Dorothy a job, but her recommendations get him fired.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
   <programme channel="403490" start="20250623060100 +0000" stop="20250623063000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>In flashbacks, the housemates reminisce about Mother's Day celebrations.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">5.21.0</episode-num><sub-title lang="en">Witness</sub-title></programme>
   <programme channel="403490" start="20250623063000 +0000" stop="20250623070000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia's new boyfriend Rocco robs a bank and makes her an unsuspecting accomplice.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">3.22.0</episode-num><sub-title lang="en">Sophia's Choice</sub-title></programme>
   <programme channel="403490" start="20250623070000 +0000" stop="20250623073000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's boyfriend buys a boat and asks her to accompany him on a cruise around the world.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">6.14.0</episode-num><sub-title lang="en">Old Boyfriends</sub-title></programme>
   <programme channel="403490" start="20250623073000 +0000" stop="20250623080000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Dorothy's son Michael is getting married to an older woman, and the mothers of the bride and groom are concerned.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
   <programme channel="403490" start="20250623080000 +0000" stop="20250623083000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose's new boyfriend Mr. Terrific gets Dorothy a job, but her recommendations get him fired.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">2.15.0</episode-num><sub-title lang="en">Dorothy's New Friend</sub-title></programme>
   <programme channel="403490" start="20250623083000 +0000" stop="20250623090000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>In flashbacks, the housemates reminisce about Mother's Day celebrations.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">5.21.0</episode-num><sub-title lang="en">Witness</sub-title></programme>
   <programme channel="403490" start="20250623090000 +0000" stop="20250623093000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -124,7 +124,7 @@
   <category lang="en">Family</category>
     <desc>Frasier inadvertently catches a glimpse of Daphne in the nude.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
   <programme channel="403490" start="20250623093000 +0000" stop="20250623100000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -134,7 +134,7 @@
   <category lang="en">Family</category>
     <desc>Frasier and Niles vie for admission to an exclusive gentleman's club.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
   <programme channel="403490" start="20250623100000 +0000" stop="20250623103000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -145,7 +145,7 @@
   <category lang="en">Family</category>
     <desc>A physical reveals that Reba has high blood pressure; Van asks for Brock's advice on anniversary gifts.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="tvmaze-matched">4.20.0</episode-num><sub-title lang="en">Red Alert</sub-title><date>20060421</date></programme>
   <programme channel="403490" start="20250623103000 +0000" stop="20250623110000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -167,7 +167,7 @@
   <category lang="en">Family</category>
     <desc>Reba is rushed to the hospital after collapsing at Van and Cheyenne's non-wedding; Van and Cheyenne question their marriage.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">4.10.0</episode-num><sub-title lang="en">Issues</sub-title></programme>
   <programme channel="403490" start="20250623113000 +0000" stop="20250623120000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -178,10 +178,10 @@
   <category lang="en">Family</category>
     <desc>Barbra Jean shows off her new sleek figure and staunch dedication to the gym, which Brock fears is about spending time with her male trainer.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="tvmaze-matched">5.1.0</episode-num><sub-title lang="en">Let's Get Physical</sub-title><date>20061119</date></programme>
   <programme channel="403490" start="20250623120000 +0000" stop="20250623123000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
@@ -191,44 +191,44 @@
   </programme>
   <programme channel="403490" start="20250623123000 +0000" stop="20250623130000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia's roommates, bored with themselves, are unaware of her active daytime life.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="tvmaze-matched">3.2.0</episode-num><sub-title lang="en">The Days and Nights of Sophia Petrillo</sub-title><date>19881022</date></programme>
   <programme channel="403490" start="20250623130000 +0000" stop="20250623133000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche encounters a former schoolmate who is the only man to ever turn her down.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
   <programme channel="403490" start="20250623133000 +0000" stop="20250623140000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose competes for St. Olaf's Woman of the Year honors, with a little help of Blanche and Dorothy.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">0.3.0</episode-num><sub-title lang="en">Rose the Prude</sub-title></programme>
   <programme channel="403490" start="20250623140000 +0000" stop="20250623160000 +0000">
     <title lang="zh">Appetite for Love</title>
     <desc>Sparks fly when a woman (Taylor Cole) returns to her hometown in Tennessee to convince her stubborn ex-boyfriend (Andrew W. Walker) to sell his restaurant.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">0.1.0</episode-num><sub-title lang="en">User One</sub-title></programme>
   <programme channel="403490" start="20250623160000 +0000" stop="20250623180000 +0000">
     <title lang="zh">When Love Springs</title>
     <desc>When Rory arrives at a bed-and-breakfast for her parents' vow renewal, she runs into the ex who broke her heart. Panicked, she pretends the bed-and-breakfast owner is her new boyfriend.</desc>
     <date>2025-06-23</date>
-  </programme>
+  <episode-num system="trakt-matched">1.3.0</episode-num><sub-title lang="en">Time Out</sub-title></programme>
   <programme channel="403490" start="20250623180000 +0000" stop="20250623200000 +0000">
     <title lang="zh">A Picture of Her</title>
     <desc>After becoming the subject of an award-winning magazine cover, a woman embarks on a quest to uncover the true identity of the photographer who snapped her photo.</desc>
@@ -248,20 +248,20 @@
     <title lang="zh">The Magic of Lemon Drops</title>
     <desc>When Lolly's Aunt Gert gives her three magical lemon drops, she gets to experience what her life would have been like if she had made different choices and lived those unfulfilled dreams.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">4.12.0</episode-num><sub-title lang="en">The Balls</sub-title></programme>
   <programme channel="403490" start="20250624020000 +0000" stop="20250624023000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia cries foul after being hit with a fly ball at the stadium; Stan tries to sue the ballpark.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">3.22.0</episode-num><sub-title lang="en">Sophia's Choice</sub-title></programme>
   <programme channel="403490" start="20250624023000 +0000" stop="20250624030000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
@@ -271,44 +271,44 @@
   </programme>
   <programme channel="403490" start="20250624030000 +0000" stop="20250624033000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia's roommates, bored with themselves, are unaware of her active daytime life.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="tvmaze-matched">3.2.0</episode-num><sub-title lang="en">The Days and Nights of Sophia Petrillo</sub-title><date>19881022</date></programme>
   <programme channel="403490" start="20250624033000 +0000" stop="20250624040000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Blanche encounters a former schoolmate who is the only man to ever turn her down.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">5.1.0</episode-num><sub-title lang="en">Blanche Delivers</sub-title></programme>
   <programme channel="403490" start="20250624040000 +0000" stop="20250624043000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Rose competes for St. Olaf's Woman of the Year honors, with a little help of Blanche and Dorothy.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">0.3.0</episode-num><sub-title lang="en">Rose the Prude</sub-title></programme>
   <programme channel="403490" start="20250624043000 +0000" stop="20250624050000 +0000">
     <title lang="zh">The Golden Girls</title>
-  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>
+  <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200=1.78=webp"/>
   <category lang="en">Series</category>
   <category lang="en">Comedy</category>
   <category lang="en">Sitcom</category>
   <category lang="en">Drama</category>
     <desc>Sophia cries foul after being hit with a fly ball at the stadium; Stan tries to sue the ballpark.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">3.22.0</episode-num><sub-title lang="en">Sophia's Choice</sub-title></programme>
   <programme channel="403490" start="20250624050000 +0000" stop="20250624053000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -319,7 +319,7 @@
   <category lang="en">Family</category>
     <desc>A physical reveals that Reba has high blood pressure; Van asks for Brock's advice on anniversary gifts.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="tvmaze-matched">4.20.0</episode-num><sub-title lang="en">Red Alert</sub-title><date>20060421</date></programme>
   <programme channel="403490" start="20250624053000 +0000" stop="20250624060000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -341,7 +341,7 @@
   <category lang="en">Family</category>
     <desc>Reba is rushed to the hospital after collapsing at Van and Cheyenne's non-wedding; Van and Cheyenne question their marriage.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">4.10.0</episode-num><sub-title lang="en">Issues</sub-title></programme>
   <programme channel="403490" start="20250624063000 +0000" stop="20250624070000 +0000">
     <title lang="zh">Reba</title>
   <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>
@@ -352,7 +352,7 @@
   <category lang="en">Family</category>
     <desc>Barbra Jean shows off her new sleek figure and staunch dedication to the gym, which Brock fears is about spending time with her male trainer.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="tvmaze-matched">5.1.0</episode-num><sub-title lang="en">Let's Get Physical</sub-title><date>20061119</date></programme>
   <programme channel="403490" start="20250624070000 +0000" stop="20250624073000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -362,7 +362,7 @@
   <category lang="en">Family</category>
     <desc>Frasier hires a female bodyguard to protect him at an awards banquet.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
   <programme channel="403490" start="20250624073000 +0000" stop="20250624080000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -382,7 +382,7 @@
   <category lang="en">Family</category>
     <desc>Frasier suspects a caller's (Glenne Headley) husband (Brian Cousins) is having an affair with Maris.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">1.1.0</episode-num><sub-title lang="en">Ham</sub-title></programme>
   <programme channel="403490" start="20250624083000 +0000" stop="20250624090000 +0000">
     <title lang="zh">Frasier</title>
   <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>
@@ -397,5 +397,5 @@
     <title lang="zh">Cheers</title>
     <desc>Rebecca regrets hiring Woody's cousin Russell (Harry Connick Jr.) to play piano at the bar; Cliff gets a new uniform.</desc>
     <date>2025-06-24</date>
-  </programme>
+  <episode-num system="trakt-matched">8.3.0</episode-num><sub-title lang="en">Rebecca Redux</sub-title></programme>
 </tv>
