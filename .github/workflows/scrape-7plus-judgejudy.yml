@@ -22,7 +22,7 @@ jobs:
         run: npm install puppeteer
 
       - name: Run 7plus scraper
-        run: node scrape-7plus-judgejudy.js
+        run: node Backflow/Scraper/scrape-7plus-judgejudy.js
 
       - name: Commit and push scraped guide
         run: |
