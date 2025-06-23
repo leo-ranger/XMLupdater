@@ -22,11 +22,11 @@ jobs:
         run: |
           curl -o Backflow/Manual_Database/AU-South_Park.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=105810"
 
-      - name: Enrich EPG XML with TVmaze and Trakt
+      - name: Enrich EPG XML with TVmaze and Trakt and fix channel IDs
         run: |
           python3 - <<'EOF'
           import xml.etree.ElementTree as ET
-          import requests, time, re, sys, os
+          import requests, time, re, os
 
           TVMAZE_SHOW_ID = 112
           INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
@@ -82,6 +82,9 @@ jobs:
           title_re = re.compile(r"South Park S(\d+) Ep\. (\d+)", re.IGNORECASE)
 
           for prog in root.findall('programme'):
+              # Fix the channel id here
+              prog.set('channel', 'mjh-10-south-park')
+
               title_el = prog.find('title')
               if title_el is None or not title_el.text:
                   continue
