@@ -107,7 +107,7 @@ jobs:
                       prog.remove(el)
 
               ET.SubElement(prog, 'sub-title').text = f"{ep_name} - S{season} Ep. {episode}"
-              for genre in genres or []:
+              for genre in set(genres or []) | {"Comedy", "Animation"}:
                   cat = ET.SubElement(prog, 'category', {'lang': 'en'})
                   cat.text = genre
               if summary:
