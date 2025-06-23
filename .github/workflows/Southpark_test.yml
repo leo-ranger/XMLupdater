@@ -1,191 +1,160 @@
-name: Enrich South Park EPG
+name: Update EPG XML South Park (Australia)
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '20 3 * * *'  # Daily at 03:20 UTC
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:
 
 jobs:
-  enrich-south-park:
+  enrich-epg:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+      - name: Create output folder if it doesn't exist
+        run: mkdir -p Backflow/Manual_Database
 
-      - name: Install dependencies
+      - name: Download South Park EPG XML
         run: |
-          pip install requests lxml fuzzywuzzy python-Levenshtein
+          curl -o Backflow/Manual_Database/AU-South_Park.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=105810"
 
-      - name: Run enrichment script inline
-        env:
-          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
-          GITHUB_WORKSPACE: ${{ github.workspace }}
+      - name: Enrich EPG XML with TVmaze data
+        id: enrich
         run: |
-          cat << 'EOF' > enrich_southpark.py
+          python3 - <<'EOF'
+          import xml.etree.ElementTree as ET
           import requests
-          from lxml import etree
+          import time
           import re
-          import os
-          from fuzzywuzzy import fuzz
+          import sys
 
-          TVMAZE_API = "https://api.tvmaze.com"
-          TRAKT_API = "https://api.trakt.tv"
+          TVMAZE_SHOW_ID = 216  # South Park's TVmaze show ID
+          INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
+          OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
 
-          HEADERS = {
-              "trakt-api-key": os.getenv("TRAKT_CLIENT_ID"),
-              "trakt-api-version": "2"
-          }
+          # Fixed icon URL for all episodes
+          FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
 
-          def get_epg():
-              url = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
-              print("Fetching EPG XML...")
-              response = requests.get(url)
-              response.raise_for_status()
-              return etree.fromstring(response.content)
-
-          def parse_title(title_text):
-              match = re.search(r"S(\d+)\s*Ep[. ]+(\d+)", title_text, re.IGNORECASE)
-              if match:
-                  return int(match.group(1)), int(match.group(2))
-              return None, None
-
-          def get_tvmaze_data(season, episode):
-              url = f"{TVMAZE_API}/singlesearch/shows?q=South%20Park&embed=episodes"
+          def get_episode_from_tvmaze(season, episode):
+              url = f"https://api.tvmaze.com/shows/{TVMAZE_SHOW_ID}/episodebynumber?season={season}&number={episode}"
               try:
-                  res = requests.get(url)
-                  res.raise_for_status()
-                  show = res.json()
-                  genres = show.get("genres", [])
-                  rating = show.get("contentRating") or show.get("rating", {}).get("average")
-
-                  rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
-                      rating_system = "AU"
-
-                  episodes = show['_embedded']['episodes']
-                  for ep in episodes:
-                      if ep['season'] == season and ep['number'] == episode:
-                          return {
-                              "title": ep['name'],
-                              "season": season,
-                              "episode": episode,
-                              "genres": genres,
-                              "rating": rating,
-                              "rating_system": rating_system
-                          }
+                  r = requests.get(url)
+                  if r.status_code == 200:
+                      time.sleep(1.5)  # Throttle
+                      return r.json()
+                  elif r.status_code == 404:
+                      time.sleep(1.5)
+                      return None
+                  else:
+                      print(f"Warning: TVmaze returned status {r.status_code}, retrying after delay...", file=sys.stderr)
+                      time.sleep(5)
+                      return get_episode_from_tvmaze(season, episode)
               except Exception as e:
-                  print("TVmaze error:", e)
-              return None
+                  print(f"Error querying TVmaze: {e}", file=sys.stderr)
+                  time.sleep(5)
+                  return None
 
-          def get_trakt_data(season, episode):
-              try:
-                  show_info = requests.get(f"{TRAKT_API}/shows/south-park", headers=HEADERS)
-                  show_info.raise_for_status()
-                  show_json = show_info.json()
-                  genres = show_json.get("genres", [])
-                  rating = show_json.get("certification", None)
+          # Parse XML file
+          tree = ET.parse(INPUT_XML)
+          root = tree.getroot()
 
-                  rating_system = "TVPG"
-                  if rating and re.match(r"(G|PG|M|MA15\+|R18\+|X18\+)", str(rating)):
-                      rating_system = "AU"
+          # Namespace handling if needed
+          # If your XML has namespaces, adapt here accordingly
 
-                  url = f"{TRAKT_API}/shows/south-park/seasons/{season}"
-                  res = requests.get(url, headers=HEADERS)
-                  res.raise_for_status()
-                  for ep in res.json():
-                      if ep['number'] == episode:
-                          return {
-                              "title": ep['title'],
-                              "season": season,
-                              "episode": episode,
-                              "genres": genres,
-                              "rating": rating,
-                              "rating_system": rating_system
-                          }
-              except Exception as e:
-                  print("Trakt error:", e)
-              return None
+          # Regex to parse titles like "South Park S11 Ep. 5"
+          title_re = re.compile(r"South Park S(\d+) Ep\. (\d+)", re.IGNORECASE)
 
-          def clear_tags(parent, tag_name):
-              for elem in parent.findall(tag_name):
-                  parent.remove(elem)
+          def safe_get_episode(season, episode):
+              # If episode > 20, try original
+              if episode <= 20:
+                  return episode
+              # Check if episode exists
+              ep_data = get_episode_from_tvmaze(season, episode)
+              if ep_data:
+                  return episode
+              # Try to fix episode number by removing season digits prefix
+              season_str = str(season)
+              ep_str = str(episode)
+              if len(ep_str) > len(season_str):
+                  # Remove leading season digits from episode
+                  fixed_ep_str = ep_str[len(season_str):]
+                  if fixed_ep_str.isdigit():
+                      fixed_ep = int(fixed_ep_str)
+                      ep_data2 = get_episode_from_tvmaze(season, fixed_ep)
+                      if ep_data2:
+                          return fixed_ep
+              return episode
 
-          def enrich_programme(prog):
-              title_elem = prog.find('title')
-              raw_title = title_elem.text if title_elem is not None else ""
-              season, episode = parse_title(raw_title)
-              if not season or not episode:
-                  return
+          for programme in root.findall('programme'):
+              title_elem = programme.find('title')
+              if title_elem is None or not title_elem.text:
+                  continue
 
-              data = get_tvmaze_data(season, episode)
-              if not data:
-                  data = get_trakt_data(season, episode)
-              if not data:
-                  return
+              match = title_re.match(title_elem.text.strip())
+              if not match:
+                  continue
 
-              # Set <title>
+              season_num = int(match.group(1))
+              episode_num = int(match.group(2))
+
+              # Safeguard fix
+              episode_num = safe_get_episode(season_num, episode_num)
+
+              # Query TVmaze for episode data
+              episode_info = get_episode_from_tvmaze(season_num, episode_num)
+
+              # Prepare sub-title text
+              if episode_info and 'name' in episode_info:
+                  ep_name = episode_info['name']
+              else:
+                  ep_name = "Unknown Episode"
+
+              subtitle_text = f"{ep_name} - S{season_num} Ep. {episode_num}"
+
+              # Replace <title> with "South Park"
               title_elem.text = "South Park"
 
-              # Set or update <sub-title>
-              sub = prog.find("sub-title")
-              if sub is None:
-                  sub = etree.SubElement(prog, "sub-title", lang="en")
-              sub.text = f"{data['title']} - S{season:02d}E{episode:02d}"
+              # Remove existing <sub-title>, <category>, <desc>, <icon> tags inside <programme>
+              for tag in ['sub-title', 'category', 'desc', 'icon']:
+                  for elem in programme.findall(tag):
+                      programme.remove(elem)
 
-              # Clear and set <category>
-              clear_tags(prog, "category")
-              for genre in data["genres"]:
-                  cat = etree.SubElement(prog, "category")
-                  cat.text = genre.title()
+              # Add new <sub-title>
+              sub_title_elem = ET.Element('sub-title')
+              sub_title_elem.text = subtitle_text
+              programme.append(sub_title_elem)
 
-              # Set <rating> (clearing any previous)
-              rating_val = data.get("rating")
-              rating_sys = data.get("rating_system", "TVPG")
-              if rating_val:
-                  clear_tags(prog, "rating")
-                  rating_elem = etree.SubElement(prog, "rating", system=rating_sys)
-                  val_elem = etree.SubElement(rating_elem, "value")
-                  val_elem.text = str(rating_val)
+              # Add categories from TVmaze genres if available
+              if episode_info and 'genres' in episode_info and episode_info['genres']:
+                  for genre in episode_info['genres']:
+                      cat_elem = ET.Element('category', {'lang':'en'})
+                      cat_elem.text = genre
+                      programme.append(cat_elem)
 
-          def main():
-              print("CWD:", os.getcwd())
-              print("GITHUB_WORKSPACE:", os.getenv("GITHUB_WORKSPACE"))
-              tree = get_epg()
-              progs = tree.findall(".//programme[@channel='mjh-10-south-park']")
-              print(f"Found {len(progs)} South Park entries.")
-              for prog in progs:
-                  enrich_programme(prog)
+              # Add description from TVmaze summary if available (strip HTML tags)
+              if episode_info and 'summary' in episode_info and episode_info['summary']:
+                  summary = episode_info['summary']
+                  # Remove HTML tags
+                  summary_text = re.sub('<[^<]+?>', '', summary)
+                  desc_elem = ET.Element('desc')
+                  desc_elem.text = summary_text
+                  programme.append(desc_elem)
 
-              output_dir = os.path.join(os.getenv("GITHUB_WORKSPACE", "."), "Backflow", "Manual_Database")
-              os.makedirs(output_dir, exist_ok=True)
-              output_path = os.path.join(output_dir, "SouthPark.xml")
-              with open(output_path, "wb") as f:
-                  f.write(etree.tostring(tree, pretty_print=True, encoding="UTF-8"))
-              print(f"Output written to {output_path}")
+              # Add fixed icon
+              icon_elem = ET.Element('icon', {'src': FIXED_ICON})
+              programme.append(icon_elem)
 
-          if __name__ == "__main__":
-              main()
+          # Write back XML with UTF-8 encoding and XML declaration
+          tree.write(OUTPUT_XML, encoding='utf-8', xml_declaration=True)
+
           EOF
 
-          python enrich_southpark.py
-
-      - name: Show Backflow folder contents
-        run: ls -ld Backflow Backflow/Manual_Database
-
-      - name: List output files
-        run: ls -al Backflow/Manual_Database/
-
-      - name: Commit and push enriched EPG XML if changed
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add Backflow/Manual_Database/SouthPark.xml
-          git commit -m "Update South Park enriched EPG XML $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git add Backflow/Manual_Database/AU-South_Park.xml
+          git commit -m "Updated South Park EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push
