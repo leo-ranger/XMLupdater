@@ -1,0 +1,83 @@
+name: Merge Enriched EPGs into Base EPG
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # daily 2am UTC
+  workflow_dispatch:
+
+jobs:
+  merge-epgs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create folders if missing
+        run: |
+          mkdir -p Backflow/Manual_Database
+          mkdir -p Master_Location
+
+      - name: Download base AU EPG XML
+        run: |
+          curl -L -o Backflow/base_au_epg.xml https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml
+
+      - name: Merge enriched XMLs into base EPG
+        run: |
+          python3 <<EOF
+          import os
+          import xml.etree.ElementTree as ET
+
+          base_epg_path = 'Backflow/base_au_epg.xml'
+          enriched_folder = 'Backflow/Manual_Database'
+          output_path = 'Master_Location/combined_epg.xml'
+
+          # Load base EPG
+          base_tree = ET.parse(base_epg_path)
+          base_root = base_tree.getroot()
+
+          # Collect all channel IDs to replace from enriched XMLs
+          enriched_programs = []
+          replaced_channel_ids = set()
+
+          for filename in os.listdir(enriched_folder):
+              if not filename.endswith('.xml'):
+                  continue
+              enriched_path = os.path.join(enriched_folder, filename)
+              try:
+                  tree = ET.parse(enriched_path)
+                  root = tree.getroot()
+              except Exception as e:
+                  print(f"Skipping {filename}, parse error: {e}")
+                  continue
+
+              # Collect channel IDs in this enriched file
+              file_channel_ids = set()
+              for prog in root.findall('programme'):
+                  ch_id = prog.attrib.get('channel')
+                  if ch_id:
+                      file_channel_ids.add(ch_id)
+                      enriched_programs.append(prog)
+
+              replaced_channel_ids.update(file_channel_ids)
+
+          # Remove all programmes in base with replaced channel IDs
+          base_root[:] = [elem for elem in base_root if not (elem.tag == 'programme' and elem.attrib.get('channel') in replaced_channel_ids)]
+
+          # Append all enriched programmes
+          for prog in enriched_programs:
+              base_root.append(prog)
+
+          # Save merged XML
+          base_tree.write(output_path, encoding='utf-8', xml_declaration=True)
+          print(f"Merged EPG saved to {output_path}")
+          EOF
+
+      - name: Commit and push merged EPG
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Master_Location/combined_epg.xml
+          git commit -m "Merged enriched EPGs $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase --autostash
+          git push
