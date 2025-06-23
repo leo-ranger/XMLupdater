@@ -102,21 +102,36 @@ jobs:
               rating = fallback.get('rating', {}).get('value') if fallback and fallback.get('rating') else None
 
               title_el.text = "South Park"
-              for tag in ['sub-title', 'category', 'desc', 'icon', 'rating', 'premiere']:
+
+              # Remove existing tags to avoid duplicates
+              for tag in ['sub-title', 'category', 'desc', 'icon', 'rating', 'date']:
                   for el in prog.findall(tag):
                       prog.remove(el)
 
+              # Add sub-title
               ET.SubElement(prog, 'sub-title').text = f"{ep_name} - S{season} Ep. {episode}"
+
+              # Add fixed genres + those from data
               for genre in set(genres or []) | {"Comedy", "Animation"}:
                   cat = ET.SubElement(prog, 'category', {'lang': 'en'})
                   cat.text = genre
+
+              # Add description
               if summary:
                   ET.SubElement(prog, 'desc').text = strip_html(summary)
+
+              # Remove old <date> tags and add new
+              for date_elem in prog.findall('date'):
+                  prog.remove(date_elem)
               if airdate:
-                  ET.SubElement(prog, 'premiere').text = airdate[:10]
+                  ET.SubElement(prog, 'date').text = airdate[:10]
+
+              # Add rating
               if rating:
                   r = ET.SubElement(prog, 'rating', {'system': 'Trakt'})
                   r.text = f"{rating:.1f}"
+
+              # Add fixed icon
               ET.SubElement(prog, 'icon', {'src': FIXED_ICON})
 
           tree.write(OUTPUT_XML, encoding='utf-8', xml_declaration=True)
