@@ -3,15 +3,10 @@ import re
 import glob
 import os
 import sys
+import argparse
 
-# Include episode corrector logic from sibling script
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from A_episode_corrector import correct_episode_number
-
-# Paths
-base_epg_path = 'Backflow/scripts/Base_syd.xml'
-enriched_dir = 'Backflow/Manual_Database'
-output_path = 'Master_Location/Sydney_enhanced_EPG.xml'
 
 def extract_season_episode(text):
     if not text:
@@ -19,11 +14,9 @@ def extract_season_episode(text):
     match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", text, re.IGNORECASE)
     if not match:
         return None, None
-    season = int(match.group(1))
-    episode = int(match.group(2))
-    return season, episode
+    return int(match.group(1)), int(match.group(2))
 
-def build_enriched_map():
+def build_enriched_map(enriched_dir):
     lookup = {}
     for path in glob.glob(f"{enriched_dir}/*.xml"):
         try:
@@ -41,10 +34,10 @@ def build_enriched_map():
             print(f"Failed parsing {path}: {e}")
     return lookup
 
-def merge_metadata():
+def merge_metadata(base_epg_path, enriched_dir, output_path):
     base_tree = ET.parse(base_epg_path)
     base_root = base_tree.getroot()
-    enriched_map = build_enriched_map()
+    enriched_map = build_enriched_map(enriched_dir)
 
     for prog in base_root.findall('programme'):
         channel = prog.get('channel')
@@ -62,20 +55,17 @@ def merge_metadata():
         if enriched_prog is None:
             continue
 
-        # Remove old enrichment tags
         for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
             for el in prog.findall(tag):
                 prog.remove(el)
 
-        # Copy enrichment tags
         for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
             el = enriched_prog.find(tag)
             if el is not None:
-                new_el = ET.Element(tag, el.attrib)
+                new_el = ET.Element(el.tag, el.attrib)
                 new_el.text = el.text
                 prog.append(new_el)
 
-        # Copy category tags separately
         for cat in enriched_prog.findall('category'):
             new_cat = ET.Element('category', cat.attrib)
             new_cat.text = cat.text
@@ -84,4 +74,10 @@ def merge_metadata():
     base_tree.write(output_path, encoding='utf-8', xml_declaration=True)
 
 if __name__ == "__main__":
-    merge_metadata()
+    parser = argparse.ArgumentParser(description="Merge enriched metadata into base EPG.")
+    parser.add_argument("--base", default="Backflow/scripts/Base_syd.xml", help="Path to base EPG XML file")
+    parser.add_argument("--enriched-dir", default="Backflow/Manual_Database", help="Directory with enriched XML files")
+    parser.add_argument("--output", default="Master_Location/Sydney_enhanced_EPG.xml", help="Output merged XML file path")
+    args = parser.parse_args()
+
+    merge_metadata(args.base, args.enriched_dir, args.output)
