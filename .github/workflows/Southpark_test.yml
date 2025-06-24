@@ -24,15 +24,14 @@ jobs:
 
       - name: Enrich EPG XML with TVmaze and Trakt and fix channel IDs
         run: |
-          python3 - <<'EOF'
-import xml.etree.ElementTree as ET
-import requests, time, re, os
+          import xml.etree.ElementTree as ET
+          import requests, time, re, os
 
-TVMAZE_SHOW_ID = 112
-INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
-OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
-FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
-TRAKT_CLIENT_ID = os.environ['TRAKT_CLIENT_ID']
+          TVMAZE_SHOW_ID = 112
+          INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
+          OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
+          FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
+          TRAKT_CLIENT_ID = os.environ['TRAKT_CLIENT_ID']
 
 def get_tvmaze_episode(season, episode):
     url = f"https://api.tvmaze.com/shows/{TVMAZE_SHOW_ID}/episodebynumber?season={season}&number={episode}"
