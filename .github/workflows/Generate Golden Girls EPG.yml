@@ -15,6 +15,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+   
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Generate Golden Girls EPG XML
         run: |
@@ -57,6 +60,7 @@ jobs:
           tree = build_xml(episodes)
           tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
           EOF
+
 
       - name: Commit and push XML
         run: |
