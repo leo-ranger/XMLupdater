@@ -47,6 +47,10 @@ jobs:
                   ET.SubElement(prog, "title").text = "The Golden Girls"
                   summary = (ep.get("summary") or "").replace("<p>", "").replace("</p>", "").strip()
                   ET.SubElement(prog, "desc").text = summary
+
+                  # Add the blank <C-desc> tag with empty quotes
+                  ET.SubElement(prog, "C-desc").text = '""'
+
                   ET.SubElement(prog, "category").text = CATEGORY
                   ET.SubElement(prog, "icon", {"src": ICON_URL})
                   ET.SubElement(prog, "episode-num", {"system": "SxxExx"}).text = f"S{ep['season']:02}E{ep['number']:02}"
