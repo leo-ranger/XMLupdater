@@ -1,4 +1,4 @@
-name: Merge Metadata into AU EPG
+name: Merge enriched Backflow into AU EPG
 
 on:
   schedule:
@@ -67,7 +67,9 @@ jobs:
 
               for prog in base_root.findall('programme'):
                   title = (prog.findtext('title') or '').lower()
-                  if 'south park' not in title:
+                                    channel = prog.get('channel')
+                  if channel != prog.attrib.get('channel'):
+                      continue
                       continue
 
                   sub = prog.find('sub-title')
