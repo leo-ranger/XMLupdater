@@ -23,13 +23,26 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Commit merged metadata for each enriched XML
+      - name: Initialize enhanced EPG file
+        run: |
+          mkdir -p Master_Location
+          cp Backflow/Base_EPG_XML/base_syd.xml Master_Location/Sydney_enhanced_EPG.xml
+
+      - name: Commit initial enhanced EPG file
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Master_Location/Sydney_enhanced_EPG.xml
+          git commit -m "Initialize enhanced EPG from base $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push
+
+      - name: Merge and commit enriched metadata for each enriched XML
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
           for enriched_file in Backflow/Manual_Database/*.xml; do
-            echo "Merging $enriched_file into base EPG"
+            echo "Merging $enriched_file into enhanced EPG"
             python3 Backflow/scripts/B_merge_enrich.py "$enriched_file"
             git add Master_Location/Sydney_enhanced_EPG.xml
             git commit -m "Merged metadata from $(basename "$enriched_file")" || echo "No changes to commit"
