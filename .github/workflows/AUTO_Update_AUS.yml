@@ -7,9 +7,11 @@ on:
     types:
       - completed
 
+  workflow_dispatch:   # <-- Manual trigger added here
+
 jobs:
   enrich-epg:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     env:
       TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
@@ -25,7 +27,6 @@ jobs:
         run: |
           while IFS='|' read -r filename url; do
             echo "Downloading $filename from $url"
-            # Expand date in the URL before downloading
             expanded_url=$(echo "$url" | sed "s/\$(date +%Y%m%d)/$(date +%Y%m%d)/g")
             curl -sSfL -o "Backflow/Manual_Database/$filename" "$expanded_url"
           done < Backflow/scripts/epg/EPG_list.txt
@@ -43,7 +44,6 @@ jobs:
             echo "Running enrichment script $script"
             for file in Backflow/Manual_Database/*.xml; do
               echo "  Enriching $file"
-              # Assuming each enrich script uses fixed input/output paths or environment vars.
               python3 "$script"
             done
           done
