@@ -3,7 +3,7 @@ import re, glob
 
 base_epg_path = 'Backflow/base_au_epg.xml'
 enriched_dir = 'Backflow/Manual_Database'
-output_path = 'Master_Location/combined_epg.xml'
+output_path = 'Master_Location/Enhanced_sydney_epg.xml'
 
 def extract_season_episode(text):
     if not text:
