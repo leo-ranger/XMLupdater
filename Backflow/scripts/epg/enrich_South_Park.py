@@ -7,8 +7,8 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from A_episode_corrector import correct_episode_number
 
 TVMAZE_SHOW_ID = 112
-INPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
-OUTPUT_XML = "Backflow/Manual_Database/AU-South_Park.xml"
+INPUT_XML = sys.argv[1]
+OUTPUT_XML = sys.argv[1]  # or you can allow separate output if you want
 FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
 TRAKT_CLIENT_ID = os.environ['TRAKT_CLIENT_ID']
 
