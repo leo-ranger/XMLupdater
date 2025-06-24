@@ -22,6 +22,10 @@ jobs:
         run: |
           curl -o Backflow/Manual_Database/AU-South_Park.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=105810"
 
+      - name: Correct episode numbers in South Park EPG XML (in place)
+        run: |
+          python3 Backflow/scripts/A_episode_corrector.py Backflow/Manual_Database/AU-South_Park.xml Backflow/Manual_Database/AU-South_Park.xml
+
       - name: Enrich EPG XML with TVmaze and Trakt and fix channel IDs
         run: python3 Backflow/scripts/enrich_southpark.py
 
