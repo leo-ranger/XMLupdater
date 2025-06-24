@@ -33,7 +33,7 @@ jobs:
 
       - name: Correct episode numbers in base EPG (in place)
         run: |
-          python3 Backflow/scripts/A_episode_corrector.py Backflow/Base_EPG_XML/base_syd.xml
+          python3 Backflow/scripts/A_episode_corrector.py Backflow/Base_EPG_XML/base_syd.xml Backflow/Base_EPG_XML/base_syd.xml
 
       - name: Commit and push corrected EPG
         run: |
