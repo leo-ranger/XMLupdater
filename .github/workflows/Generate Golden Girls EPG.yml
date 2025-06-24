@@ -1,83 +1,89 @@
-name: Generate Golden Girls EPG
+name: Enrich The Golden Girls with TVmaze Episode Titles
 
 on:
   workflow_dispatch:
 
 jobs:
-  build-epg:
+  enrich:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
 
-      - name: Generate Golden Girls EPG XML
-        run: |
-          mkdir -p Backflow/offline/episodes
-          python - <<EOF
-          import requests, os
-          import xml.etree.ElementTree as ET
-          import xml.dom.minidom
+    - name: Write enrichment script
+      run: |
+        mkdir -p scripts
+        cat << 'EOF' > scripts/enrich_golden_girls.py
+import xml.etree.ElementTree as ET
+import requests
+import time
 
-          SHOW_ID = 722
-          CATEGORY = "Comedy"
-          RATING = "PG"
-          ICON_URL = "https://static.tvmaze.com/uploads/images/original_untouched/1/2668.jpg"
-          OUTPUT_FILE = "Backflow/offline/episodes/The_Golden_Girls.xml"
+file_path = "Backflow/offline/episodes/The_Golden_Girls.xml"
+tvmaze_show_id = 530  # TVmaze ID for "The Golden Girls"
 
-          def fetch_episodes():
-              url = f"https://api.tvmaze.com/shows/{SHOW_ID}/episodes"
-              response = requests.get(url)
-              response.raise_for_status()
-              return [ep for ep in response.json() if ep["season"] > 0]
+episode_cache = {}
 
-          def build_xml(episodes):
-              tv = ET.Element("tv")
-              for ep in episodes:
-                  prog = ET.SubElement(tv, "programme")
+def get_episode_name(season, episode):
+    key = f"S{season:02d}E{episode:02d}"
+    if key in episode_cache:
+        return episode_cache[key]
+    url = f"https://api.tvmaze.com/shows/{tvmaze_show_id}/episodebynumber?season={season}&number={episode}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        title = response.json().get("name", "")
+        episode_cache[key] = title
+        return title
+    return ""
 
-                  ET.SubElement(prog, "title").text = "The Golden Girls"
-                  summary = (ep.get("summary") or "").replace("<p>", "").replace("</p>", "").strip()
-                  ET.SubElement(prog, "desc").text = summary
+tree = ET.parse(file_path)
+root = tree.getroot()
 
-                  # Add the blank <C-desc> tag with empty quotes
-                  ET.SubElement(prog, "C-desc").text = '""'
+for programme in root.findall("programme"):
+    ep_tag = programme.find("./episode-num[@system='SxxExx']")
+    if ep_tag is None or not ep_tag.text:
+        continue
+    epcode = ep_tag.text.strip()
+    match = epcode.upper().replace("S", "").split("E")
+    if len(match) != 2:
+        continue
+    try:
+        season = int(match[0])
+        episode = int(match[1])
+    except ValueError:
+        continue
+    episode_name = get_episode_name(season, episode)
+    if not episode_name:
+        continue
+    subtitle_text = f"{episode_name} – {epcode}"
+    title_tag = programme.find("title")
+    if title_tag is not None:
+        subtitle_tag = ET.Element("sub-title")
+        subtitle_tag.text = subtitle_text
+        title_index = list(programme).index(title_tag)
+        programme.insert(title_index + 1, subtitle_tag)
+    time.sleep(0.2)
 
-                  ET.SubElement(prog, "category").text = CATEGORY
-                  ET.SubElement(prog, "icon", {"src": ICON_URL})
-                  ET.SubElement(prog, "episode-num", {"system": "SxxExx"}).text = f"S{ep['season']:02}E{ep['number']:02}"
-                  ET.SubElement(prog, "episode-num", {"system": "xmltv_ns"}).text = f"{ep['season'] - 1}.{ep['number'] - 1}."
-                  if ep.get("airdate"):
-                      ET.SubElement(prog, "episode-num", {"system": "original-air-date"}).text = ep["airdate"]
-                  rating = ET.SubElement(prog, "rating")
-                  ET.SubElement(rating, "value").text = RATING
-              return ET.ElementTree(tv)
+tree.write(file_path, encoding="utf-8", xml_declaration=True)
+EOF
 
-          def pretty_print_xml(element_tree, file_path):
-              xml_str = ET.tostring(element_tree.getroot(), encoding='utf-8')
-              parsed = xml.dom.minidom.parseString(xml_str)
-              pretty_xml_as_str = parsed.toprettyxml(indent="  ")
-              with open(file_path, "w", encoding="utf-8") as f:
-                  f.write(pretty_xml_as_str)
+    - name: Run enrichment script
+      run: python scripts/enrich_golden_girls.py
 
-          os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-          episodes = fetch_episodes()
-          tree = build_xml(episodes)
-          pretty_print_xml(tree, OUTPUT_FILE)
-          EOF
-
-      - name: Commit and push XML
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add Backflow/offline/episodes/The_Golden_Girls.xml
-          git commit -m "Update Golden Girls EPG XML" || echo "No changes to commit"
-          git push
+    - name: Commit and push changes
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add Backflow/offline/episodes/The_Golden_Girls.xml
+        git commit -m "Enriched The Golden Girls with episode subtitles via TVmaze" || echo "No changes to commit"
+        git push
