@@ -25,12 +25,12 @@ jobs:
       run: |
         mkdir -p scripts
         cat << 'EOF' > scripts/enrich_golden_girls.py
-import xml.etree.ElementTree as ET
-import requests
-import time
+        import xml.etree.ElementTree as ET
+        import requests
+        import time
 
-file_path = "Backflow/offline/episodes/The_Golden_Girls.xml"
-tvmaze_show_id = 530  # TVmaze ID for "The Golden Girls"
+        file_path = "Backflow/offline/episodes/The_Golden_Girls.xml"
+        tvmaze_show_id = 530  # TVmaze ID for "The Golden Girls"
 
 episode_cache = {}
 
