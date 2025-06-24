@@ -44,6 +44,9 @@ jobs:
       - name: Enrich Judge Judy
         run: python3 Backflow/scripts/epg/enrich_Judge_Judy.py Backflow/Manual_Database/AU-Judge_Judy.xml
 
+      - name: Enrich MasterChef
+        run: python3 Backflow/scripts/epg/enrich_MasterChef.py Backflow/Manual_Database/AU-MasterChef.xml
+
 
       - name: Commit and push all changes
         run: |
