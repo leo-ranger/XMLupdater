@@ -11,37 +11,36 @@ def correct_episode_number(season: int, episode: int) -> int:
             return int(fixed_str)
     return episode
 
-def extract_season_episode(text):
+def fix_episode_text(text):
     if not text:
-        return None, None
-    match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", text, re.IGNORECASE)
-    if not match:
-        return None, None
-    season = int(match.group(1))
-    episode = int(match.group(2))
-    episode = correct_episode_number(season, episode)
-    return season, episode
+        return text
+    # Matches S7 Ep707, S07 Ep007, etc.
+    pattern = re.compile(r"(S(\d+)\s*Ep\.?\s*)(\d+)", re.IGNORECASE)
+    def repl(m):
+        season_num = int(m.group(2))
+        episode_num = int(m.group(3))
+        corrected_ep = correct_episode_number(season_num, episode_num)
+        return f"S{season_num} Ep{corrected_ep}"
+    return pattern.sub(repl, text)
 
-def correct_episodes_in_file(input_path, output_path):
-    tree = ET.parse(input_path)
+def correct_episodes_in_file(file_path, output_path):
+    tree = ET.parse(file_path)
     root = tree.getroot()
     for prog in root.findall('programme'):
-        title_el = prog.find('title')
-        if title_el is not None and title_el.text:
-            season, episode = extract_season_episode(title_el.text)
-            if season and episode:
-                corrected_episode = correct_episode_number(season, episode)
-                # If corrected episode differs, fix title text accordingly
-                if corrected_episode != episode:
-                    # Replace episode number in title text
-                    new_title = re.sub(r"(S\d+\s*Ep\.?\s*)\d+", f"\\1{corrected_episode}", title_el.text, flags=re.IGNORECASE)
-                    title_el.text = new_title
+        # Correct <title>
+        title = prog.find('title')
+        if title is not None and title.text:
+            title.text = fix_episode_text(title.text)
+        # Correct <sub-title>
+        sub_title = prog.find('sub-title')
+        if sub_title is not None and sub_title.text:
+            sub_title.text = fix_episode_text(sub_title.text)
     tree.write(output_path, encoding='utf-8', xml_declaration=True)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
+    if len(sys.argv) != 3:
         print("Usage: python A_episode_corrector.py input.xml output.xml")
         sys.exit(1)
-    input_path = sys.argv[1]
-    output_path = sys.argv[2]
-    correct_episodes_in_file(input_path, output_path)
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
+    correct_episodes_in_file(input_file, output_file)
