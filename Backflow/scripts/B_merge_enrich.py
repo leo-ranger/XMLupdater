@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import re, os, glob, sys
+import re, os, glob
 from A_episode_corrector import correct_episode_number, extract_season_episode
 
 base_epg_path = 'Backflow/Base_EPG_XML/base_syd.xml'
@@ -44,26 +44,25 @@ def merge_metadata():
         if not enriched_prog:
             continue
 
-        # Preserve start/stop/channel attributes and title element
+        # Save original attributes and title
         start = prog.get('start')
         stop = prog.get('stop')
         ch = prog.get('channel')
         title = prog.find('title')
 
-        # Clear all children
+        # Clear all child elements
         for tag in list(prog):
             prog.remove(tag)
 
-        # Re-add preserved title
+        # Re-add original title
         prog.append(title)
 
-        # Add enriched elements
+        # Append enriched elements (excluding duplicate title)
         for tag in enriched_prog:
-            if tag.tag == 'title':
-                continue
-            prog.append(tag)
+            if tag.tag != 'title':
+                prog.append(tag)
 
-        # Reassign attributes
+        # Restore attributes
         prog.set('start', start)
         prog.set('stop', stop)
         prog.set('channel', ch)
