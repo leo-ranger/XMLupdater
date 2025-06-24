@@ -127,3 +127,4 @@ def main():
     tree.write(OUTPUT_XML, encoding='utf-8', xml_declaration=True)
 
 if __name__ == "__main__":
+    main()
