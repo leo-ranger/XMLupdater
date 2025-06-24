@@ -21,22 +21,38 @@ jobs:
       - name: Create output folder if it doesn't exist
         run: mkdir -p Backflow/Manual_Database
 
-      - name: Download South Park EPG XML
+      - name: Download all EPG XMLs from list
         run: |
-          curl -o Backflow/Manual_Database/AU-South_Park.xml "https://epg.pw/api/epg.xml?lang=en&date=$(date +%Y%m%d)&channel_id=105810"
+          while IFS='|' read -r filename url; do
+            echo "Downloading $filename from $url"
+            # Expand date in the URL before downloading
+            expanded_url=$(echo "$url" | sed "s/\$(date +%Y%m%d)/$(date +%Y%m%d)/g")
+            curl -sSfL -o "Backflow/Manual_Database/$filename" "$expanded_url"
+          done < Backflow/scripts/epg/EPG_list.txt
 
-      - name: Correct episode numbers in South Park EPG XML (in place)
+      - name: Correct episode numbers in all downloaded EPG XMLs
         run: |
-          python3 Backflow/scripts/A_episode_corrector.py Backflow/Manual_Database/AU-South_Park.xml Backflow/Manual_Database/AU-South_Park.xml
+          for file in Backflow/Manual_Database/*.xml; do
+            echo "Correcting episodes in $file"
+            python3 Backflow/scripts/A_episode_corrector.py "$file" "$file"
+          done
 
-      - name: Enrich EPG XML with TVmaze and Trakt and fix channel IDs
-        run: python3 Backflow/scripts/epg/enrich_southpark.py
+      - name: Run all enrichment scripts on all files
+        run: |
+          for script in Backflow/scripts/epg/*.py; do
+            echo "Running enrichment script $script"
+            for file in Backflow/Manual_Database/*.xml; do
+              echo "  Enriching $file"
+              # Assuming each enrich script uses fixed input/output paths or environment vars.
+              python3 "$script"
+            done
+          done
 
-      - name: Commit and push changes
+      - name: Commit and push all changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add Backflow/Manual_Database/AU-South_Park.xml
-          git commit -m "Updated South Park EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git add Backflow/Manual_Database/*.xml
+          git commit -m "Updated EPG XMLs $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push
