@@ -38,15 +38,12 @@ jobs:
             python3 Backflow/scripts/A_episode_corrector.py "$file" "$file"
           done
 
-      - name: Run all enrichment scripts on all files
-        run: |
-          for script in Backflow/scripts/epg/*.py; do
+    - name: Enrich South Park
+      run: python3 Backflow/scripts/epg/enrich_southpark.py Backflow/Manual_Database/AU-South_Park.xml
             echo "Running enrichment script $script"
-            for file in Backflow/Manual_Database/*.xml; do
-              echo "  Enriching $file"
-              python3 "$script" "$file"
-            done
-          done
+     - name: Enrich Judge Judy
+      run: python3 Backflow/scripts/epg/enrich_judgejudy.py Backflow/Manual_Database/AU-Judge_Judy.xml
+            echo "Running enrichment script $script"
 
       - name: Commit and push all changes
         run: |
