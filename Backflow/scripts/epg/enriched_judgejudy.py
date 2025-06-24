@@ -2,8 +2,8 @@ import xml.etree.ElementTree as ET
 import requests, time, re, os
 import sys
 
-# Insert your scripts folder into path to import the correct_episode_number function
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
+# Insert parent scripts folder into path to import the correct_episode_number function
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from A_episode_corrector import correct_episode_number
 
 TVMAZE_SHOW_ID = 7364
