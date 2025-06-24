@@ -1,0 +1,67 @@
+name: Generate Golden Girls EPG
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Generate Golden Girls EPG XML
+        run: |
+          mkdir -p Backflow/offline/episodes
+          python - <<EOF
+          import requests, os
+          import xml.etree.ElementTree as ET
+
+          SHOW_ID = 722
+          CATEGORY = "Comedy"
+          RATING = "PG"
+          ICON_URL = "https://static.tvmaze.com/uploads/images/original_untouched/1/2668.jpg"
+          OUTPUT_FILE = "Backflow/offline/episodes/The_Golden_Girls.xml"
+
+          def fetch_episodes():
+              url = f"https://api.tvmaze.com/shows/{SHOW_ID}/episodes"
+              response = requests.get(url)
+              response.raise_for_status()
+              return [ep for ep in response.json() if ep["season"] > 0]
+
+          def build_xml(episodes):
+              tv = ET.Element("tv")
+              for ep in episodes:
+                  prog = ET.SubElement(tv, "programme")
+
+                  ET.SubElement(prog, "title").text = "The Golden Girls"
+                  summary = (ep.get("summary") or "").replace("<p>", "").replace("</p>", "").strip()
+                  ET.SubElement(prog, "desc").text = summary
+                  ET.SubElement(prog, "category").text = CATEGORY
+                  ET.SubElement(prog, "icon", {"src": ICON_URL})
+                  ET.SubElement(prog, "episode-num", {"system": "SxxExx"}).text = f"S{ep['season']:02}E{ep['number']:02}"
+                  ET.SubElement(prog, "episode-num", {"system": "xmltv_ns"}).text = f"{ep['season'] - 1}.{ep['number'] - 1}."
+                  if ep.get("airdate"):
+                      ET.SubElement(prog, "episode-num", {"system": "original-air-date"}).text = ep["airdate"]
+                  rating = ET.SubElement(prog, "rating")
+                  ET.SubElement(rating, "value").text = RATING
+              return ET.ElementTree(tv)
+
+          episodes = fetch_episodes()
+          tree = build_xml(episodes)
+          tree.write(OUTPUT_FILE, encoding="utf-8", xml_declaration=True)
+          EOF
+
+      - name: Commit and push XML
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add Backflow/offline/episodes/The_Golden_Girls.xml
+          git commit -m "Update Golden Girls EPG XML" || echo "No changes to commit"
+          git push
