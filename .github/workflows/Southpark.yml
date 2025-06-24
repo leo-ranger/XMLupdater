@@ -27,7 +27,7 @@ jobs:
           python3 Backflow/scripts/A_episode_corrector.py Backflow/Manual_Database/AU-South_Park.xml Backflow/Manual_Database/AU-South_Park.xml
 
       - name: Enrich EPG XML with TVmaze and Trakt and fix channel IDs
-        run: python3 Backflow/scripts/enrich_southpark.py
+        run: python3 Backflow/scripts/epg/enrich_southpark.py
 
       - name: Commit and push changes
         run: |
