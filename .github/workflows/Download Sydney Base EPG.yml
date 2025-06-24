@@ -1,22 +1,36 @@
-name: Download Sydney Base EPG
+name: Sync Base Sydney EPG
 
 on:
   schedule:
     # Runs daily at midnight Australian Eastern Standard Time (AEST is UTC+10)
-    - cron: '0 14 * * *'  # 14:00 UTC = 00:00 AEST next day
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
-  download-base-epg:
+  sync-base-epg:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create Base_EPG_XML folder
+      - name: Create base EPG folder
         run: mkdir -p Backflow/Base_EPG_XML
 
       - name: Download base Sydney EPG XML
         run: |
-          curl -o Backflow/Base_EPG_XML/sydney_epg.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
+          curl -L -o Backflow/Base_EPG_XML/base_syd.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
+
+      - name: Optional: Copy base EPG to another location
+        run: |
+          mkdir -p Backflow/scripts
+          cp Backflow/Base_EPG_XML/base_syd.xml Backflow/scripts/Base_syd.xml
+
+      - name: Commit and push base EPG update
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Backflow/Base_EPG_XML/base_syd.xml Backflow/scripts/Base_syd.xml
+          git commit -m "Update base Sydney EPG $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git pull --rebase --autostash
+          git push
