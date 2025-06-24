@@ -37,13 +37,13 @@ jobs:
             echo "Correcting episodes in $file"
             python3 Backflow/scripts/A_episode_corrector.py "$file" "$file"
           done
+          
+      - name: Enrich South Park
+        run: python3 Backflow/scripts/epg/enrich_southpark.py Backflow/Manual_Database/AU-South_Park.xml
 
-    - name: Enrich South Park
-      run: python3 Backflow/scripts/epg/enrich_southpark.py Backflow/Manual_Database/AU-South_Park.xml
-            echo "Running enrichment script $script"
-     - name: Enrich Judge Judy
-      run: python3 Backflow/scripts/epg/enrich_judgejudy.py Backflow/Manual_Database/AU-Judge_Judy.xml
-            echo "Running enrichment script $script"
+      - name: Enrich Judge Judy
+        run: python3 Backflow/scripts/epg/enrich_judgejudy.py Backflow/Manual_Database/AU-Judge_Judy.xml
+
 
       - name: Commit and push all changes
         run: |
