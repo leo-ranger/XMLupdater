@@ -10,7 +10,7 @@ from A_episode_corrector import correct_episode_number
 # Point to corrected base EPG file after episode correction
 base_epg_path = 'Backflow/scripts/Base_syd_corrected.xml'
 enriched_dir = 'Backflow/Manual_Database'
-output_path = 'Master_Location/Enhanced_sydney_epg.xml'
+output_path = 'Master_Location/Sydney_enhanced_EPG.xml'
 
 def extract_season_episode(text):
     if not text:
