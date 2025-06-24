@@ -33,19 +33,20 @@ jobs:
           enriched_path = 'Backflow/Manual_Database/AU-South_Park.xml'
           output_path = 'Master_Location/combined_epg.xml'
 
-          def extract_season_episode(title):
-              match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", title, re.IGNORECASE)
+          def extract_season_episode(text):
+              match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", text, re.IGNORECASE)
               if not match:
                   return None, None
               season = int(match.group(1))
               episode = int(match.group(2))
+              # Fix malformed episode numbers like "S10 Ep. 1006"
               if episode > 20:
                   ep_str = str(episode)
                   season_str = str(season)
                   if ep_str.startswith(season_str):
-                      fixed = ep_str[len(season_str):]
-                      if fixed.isdigit():
-                          episode = int(fixed)
+                      trimmed = ep_str[len(season_str):]
+                      if trimmed.isdigit():
+                          episode = int(trimmed)
               return season, episode
 
           def build_enriched_map():
@@ -55,10 +56,8 @@ jobs:
               for prog in root.findall('programme'):
                   sub = prog.find('sub-title')
                   if sub is not None and sub.text:
-                      match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", sub.text)
-                      if match:
-                          season = int(match.group(1))
-                          episode = int(match.group(2))
+                      season, episode = extract_season_episode(sub.text)
+                      if season and episode:
                           lookup[(season, episode)] = prog
               return lookup
 
@@ -68,19 +67,20 @@ jobs:
               enriched_map = build_enriched_map()
 
               for prog in base_root.findall('programme'):
-                  title_el = prog.find('title')
-                  if title_el is None or not title_el.text:
+                  if prog.get('channel') != 'mjh-10-south-park':
                       continue
 
-                  channel_id = prog.get('channel')
-                  if channel_id != 'mjh-10-south-park':
-                      continue
+                  # Try <sub-title> first, then fallback to <title>
+                  sub = prog.find('sub-title')
+                  raw_text = sub.text if sub is not None and sub.text else ''
+                  season, episode = extract_season_episode(raw_text)
 
-                  title_text = title_el.text.strip()
-                  if not title_text.lower().startswith("south park"):
-                      continue
+                  if not season or not episode:
+                      title_el = prog.find('title')
+                      if title_el is None or not title_el.text.lower().startswith("south park"):
+                          continue
+                      season, episode = extract_season_episode(title_el.text)
 
-                  season, episode = extract_season_episode(title_text)
                   if not season or not episode:
                       continue
 
@@ -88,15 +88,17 @@ jobs:
                   if not enriched_prog:
                       continue
 
-                  # Replace title
-                  title_el.text = "South Park"
+                  # Set correct <title>
+                  title_el = prog.find('title')
+                  if title_el is not None:
+                      title_el.text = "South Park"
 
                   # Remove existing enrichment tags
                   for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
                       for el in prog.findall(tag):
                           prog.remove(el)
 
-                  # Copy metadata fields
+                  # Copy tags from enriched entry
                   for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
                       el = enriched_prog.find(tag)
                       if el is not None:
@@ -104,7 +106,7 @@ jobs:
                           new_el.text = el.text
                           prog.append(new_el)
 
-                  # Copy category tags
+                  # Copy <category> tags
                   for cat in enriched_prog.findall('category'):
                       new_cat = ET.Element('category', cat.attrib)
                       new_cat.text = cat.text
