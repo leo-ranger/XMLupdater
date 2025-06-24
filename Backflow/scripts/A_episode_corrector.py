@@ -6,27 +6,28 @@ from typing import Tuple
 def correct_episode_number(season: int, episode: int) -> int:
     """
     Corrects episode number if it is mistakenly prefixed with season number.
-    
+    Works for all seasons.
+
     Examples:
-    - Season 12, episode 1223 -> corrected to episode 23
-    - Season 24, episode 2407 -> corrected to episode 7
+    - S9 Ep902  -> episode corrected to 2
+    - S10 Ep1024 -> episode corrected to 24
     - If no correction needed, returns original episode.
     """
     ep_str = str(episode)
     season_str = str(season)
-    
-    # Only apply correction if season >= 10 and episode starts with season number
-    if season >= 10 and ep_str.startswith(season_str):
-        fixed_str = ep_str[len(season_str):].lstrip('0')  # strip leading zeros
+
+    if ep_str.startswith(season_str):
+        fixed_str = ep_str[len(season_str):].lstrip('0')
         if fixed_str.isdigit() and len(fixed_str) > 0:
-            corrected_episode = int(fixed_str)
-            return corrected_episode
-    
+            corrected = int(fixed_str)
+            # Only correct if the remaining episode number is less than 100
+            if corrected < 100:
+                return corrected
     return episode
 
 def extract_season_episode(text: str) -> Tuple[int, int]:
     """
-    Extract season and episode numbers from a string like 'S07 Ep07' or 'S10 Ep1010'
+    Extract season and episode numbers from a string like 'S07 Ep07' or 'S10 Ep1024'.
     """
     if not text:
         return None, None
@@ -51,10 +52,10 @@ def correct_epg_episodes(input_path: str, output_path: str):
         
         corrected_episode = correct_episode_number(season, episode)
         if corrected_episode != episode:
-            # Replace episode number in the title string using lambda replacement
+            # Replace episode number in the title string
             new_title = re.sub(
                 r"(S\d+\s*Ep\.?\s*)\d+",
-                lambda m: f"{m.group(1)}{corrected_episode}",
+                r"\1{}".format(corrected_episode),
                 title_el.text,
                 flags=re.IGNORECASE
             )
