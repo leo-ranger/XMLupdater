@@ -32,7 +32,7 @@ jobs:
         file_path = "Backflow/offline/episodes/The_Golden_Girls.xml"
         tvmaze_show_id = 530  # TVmaze ID for "The Golden Girls"
 
-episode_cache = {}
+        episode_cache = {}
 
 def get_episode_name(season, episode):
     key = f"S{season:02d}E{episode:02d}"
