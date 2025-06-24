@@ -4,11 +4,12 @@ import glob
 import os
 import sys
 
+# Import the episode corrector logic
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from A_episode_corrector import correct_episode_number
 
-# Point to corrected base EPG file after episode correction
-base_epg_path = 'Backflow/scripts/Base_syd_corrected.xml'
+# Base and output paths
+base_epg_path = 'Backflow/scripts/Base_syd.xml'
 enriched_dir = 'Backflow/Manual_Database'
 output_path = 'Master_Location/Sydney_enhanced_EPG.xml'
 
@@ -18,7 +19,10 @@ def extract_season_episode(text):
     match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", text, re.IGNORECASE)
     if not match:
         return None, None
-    return int(match.group(1)), int(match.group(2))
+    season = int(match.group(1))
+    episode = int(match.group(2))
+    episode = correct_episode_number(season, episode)
+    return season, episode
 
 def build_enriched_map():
     lookup = {}
@@ -32,7 +36,6 @@ def build_enriched_map():
                 if channel and sub is not None and sub.text:
                     season, episode = extract_season_episode(sub.text)
                     if season and episode:
-                        episode = correct_episode_number(season, episode)
                         lookup[(channel, season, episode)] = prog
         except Exception as e:
             print(f"Failed parsing {path}: {e}")
@@ -53,20 +56,20 @@ def merge_metadata():
         if not season or not episode:
             continue
 
-        episode = correct_episode_number(season, episode)
-
         enriched_prog = enriched_map.get((channel, season, episode))
         if not enriched_prog:
             continue
 
+        # Remove old enrichment tags
         for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
             for el in prog.findall(tag):
                 prog.remove(el)
 
+        # Copy enrichment tags from enriched_prog
         for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
             el = enriched_prog.find(tag)
             if el is not None:
-                new_el = ET.Element(tag, el.attrib)
+                new_el = ET.Element(tag.tag, el.attrib)
                 new_el.text = el.text
                 prog.append(new_el)
 
