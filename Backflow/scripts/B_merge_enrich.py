@@ -20,6 +20,7 @@ def build_enriched_map(path):
     try:
         tree = ET.parse(path)
         root = tree.getroot()
+        print(f"Building enriched map from: {path}")
         for prog in root.findall('programme'):
             channel = prog.get('channel')
             sub = prog.find('sub-title')
@@ -28,6 +29,7 @@ def build_enriched_map(path):
                 if season and episode:
                     episode = correct_episode_number(season, episode)
                     lookup[(channel, season, episode)] = prog
+        print(f"Enriched map contains {len(lookup)} entries")
     except Exception as e:
         print(f"Failed parsing {path}: {e}")
     return lookup
@@ -35,15 +37,19 @@ def build_enriched_map(path):
 def merge_metadata():
     # If merged base file doesn't exist yet, create it by copying original base EPG
     if not os.path.exists(base_epg_path):
+        print(f"{base_epg_path} not found. Creating from original base EPG.")
         os.makedirs(os.path.dirname(base_epg_path), exist_ok=True)
         original_base = 'Backflow/Base_EPG_XML/base_syd.xml'
         import shutil
         shutil.copy2(original_base, base_epg_path)
+    else:
+        print(f"Loading existing merged EPG file: {base_epg_path}")
     
     base_tree = ET.parse(base_epg_path)
     base_root = base_tree.getroot()
     enriched_map = build_enriched_map(enriched_file)
 
+    merged_count = 0
     for prog in base_root.findall('programme'):
         channel = prog.get('channel')
         title_el = prog.find('title')
@@ -82,7 +88,12 @@ def merge_metadata():
         prog.set('stop', stop)
         prog.set('channel', ch)
 
+        merged_count += 1
+
+    print(f"Merged metadata into {merged_count} programmes.")
+
     base_tree.write(base_epg_path, encoding='utf-8', xml_declaration=True)
+    print(f"Saved merged EPG to {base_epg_path}")
 
 if __name__ == "__main__":
     merge_metadata()
