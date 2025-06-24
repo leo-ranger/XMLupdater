@@ -6,10 +6,10 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from A_episode_corrector import correct_episode_number
 
-TVMAZE_SHOW_ID = 112
+TVMAZE_SHOW_ID = 3160
 INPUT_XML = sys.argv[1]
 OUTPUT_XML = sys.argv[1]  # or you can allow separate output if you want
-FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg"
+FIXED_ICON = "https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2025/06/24/2b912a4e4a8e268169354d1fe3338342-1384340.jpg"
 TRAKT_CLIENT_ID = os.environ['TRAKT_CLIENT_ID']
 
 def get_tvmaze_episode(season, episode):
@@ -72,7 +72,7 @@ def main():
     title_re = re.compile(r"South Park S(\d+) Ep\.? ?(\d+)", re.IGNORECASE)
 
     for prog in root.findall('programme'):
-        prog.set('channel', 'mjh-10-south-park')
+        prog.set('channel', 'mjh-10-masterchef')
 
         title_el = prog.find('title')
         if title_el is None or not title_el.text:
@@ -100,7 +100,7 @@ def main():
         airdate = ep_data.get('airdate') if ep_data else fallback.get('first_aired') if fallback else None
         rating = fallback.get('rating', {}).get('value') if fallback and fallback.get('rating') else None
 
-        title_el.text = "South Park"
+        title_el.text = "MasterChef"
 
         for tag in ['sub-title', 'category', 'desc', 'icon', 'rating', 'date']:
             for el in prog.findall(tag):
@@ -108,7 +108,7 @@ def main():
 
         ET.SubElement(prog, 'sub-title').text = f"{ep_name} - S{season} Ep. {episode}"
 
-        for genre in set(genres or []) | {"Comedy", "Animation"}:
+        for genre in set(genres or []) | {"Cooking"}:
             cat = ET.SubElement(prog, 'category', {'lang': 'en'})
             cat.text = genre
 
