@@ -1,10 +1,18 @@
 import xml.etree.ElementTree as ET
 import re, os, glob
-from A_episode_corrector import correct_episode_number, extract_season_episode
+from A_episode_corrector import correct_episode_number
 
 base_epg_path = 'Backflow/Base_EPG_XML/base_syd.xml'
 enriched_dir = 'Backflow/Manual_Database'
 output_path = 'Master_Location/Sydney_enhanced_EPG.xml'
+
+def extract_season_episode(text):
+    match = re.search(r'[Ss](\d+)\s*[Ee]p\.?\s*\.?\s*(\d+)', text)
+    if match:
+        season = int(match.group(1))
+        episode = int(match.group(2))
+        return season, episode
+    return None, None
 
 def build_enriched_map():
     lookup = {}
