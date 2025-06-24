@@ -1,5 +1,11 @@
 import xml.etree.ElementTree as ET
-import re, glob
+import re
+import glob
+import os
+import sys
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from A_episode_corrector import correct_episode_number
 
 base_epg_path = 'Backflow/base_au_epg.xml'
 enriched_dir = 'Backflow/Manual_Database'
@@ -25,6 +31,8 @@ def build_enriched_map():
                 if channel and sub is not None and sub.text:
                     season, episode = extract_season_episode(sub.text)
                     if season and episode:
+                        # Correct episode number here as well (in case enriched data also needs fix)
+                        episode = correct_episode_number(season, episode)
                         lookup[(channel, season, episode)] = prog
         except Exception as e:
             print(f"Failed parsing {path}: {e}")
@@ -40,9 +48,13 @@ def merge_metadata():
         title_el = prog.find('title')
         if title_el is None or not title_el.text:
             continue
+
         season, episode = extract_season_episode(title_el.text)
         if not season or not episode:
             continue
+
+        # Correct episode number before looking up enriched data
+        episode = correct_episode_number(season, episode)
 
         enriched_prog = enriched_map.get((channel, season, episode))
         if not enriched_prog:
