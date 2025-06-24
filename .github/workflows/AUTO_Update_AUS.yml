@@ -39,10 +39,10 @@ jobs:
           done
           
       - name: Enrich South Park
-        run: python3 Backflow/scripts/epg/enrich_southpark.py Backflow/Manual_Database/AU-South_Park.xml
+        run: python3 Backflow/scripts/epg/enrich_South_Park.py Backflow/Manual_Database/AU-South_Park.xml
 
       - name: Enrich Judge Judy
-        run: python3 Backflow/scripts/epg/enrich_judgejudy.py Backflow/Manual_Database/AU-Judge_Judy.xml
+        run: python3 Backflow/scripts/epg/enrich_Judge_Judy.py Backflow/Manual_Database/AU-Judge_Judy.xml
 
 
       - name: Commit and push all changes
