@@ -72,7 +72,7 @@ def main():
     title_re = re.compile(r"Judge Judy S(\d+) Ep\.? ?(\d+)", re.IGNORECASE)
 
     for prog in root.findall('programme'):
-        prog.set('channel', 'mjh-judgejudy-FAST')
+        prog.set('channel', 'mjh-10-judge-judy')
 
         title_el = prog.find('title')
         if title_el is None or not title_el.text:
