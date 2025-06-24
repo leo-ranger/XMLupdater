@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
-import re, os, glob
+import re, os, sys
 from A_episode_corrector import correct_episode_number
 
 base_epg_path = 'Backflow/Base_EPG_XML/base_syd.xml'
-enriched_dir = 'Backflow/Manual_Database'
 output_path = 'Master_Location/Sydney_enhanced_EPG.xml'
+enriched_file = sys.argv[1]  # Enriched file passed as argument
 
 def extract_season_episode(text):
     match = re.search(r'[Ss](\d+)\s*[Ee]p\.?\s*\.?\s*(\d+)', text)
@@ -14,28 +14,27 @@ def extract_season_episode(text):
         return season, episode
     return None, None
 
-def build_enriched_map():
+def build_enriched_map(path):
     lookup = {}
-    for path in glob.glob(f"{enriched_dir}/*.xml"):
-        try:
-            tree = ET.parse(path)
-            root = tree.getroot()
-            for prog in root.findall('programme'):
-                channel = prog.get('channel')
-                sub = prog.find('sub-title')
-                if channel and sub is not None and sub.text:
-                    season, episode = extract_season_episode(sub.text)
-                    if season and episode:
-                        episode = correct_episode_number(season, episode)
-                        lookup[(channel, season, episode)] = prog
-        except Exception as e:
-            print(f"Failed parsing {path}: {e}")
+    try:
+        tree = ET.parse(path)
+        root = tree.getroot()
+        for prog in root.findall('programme'):
+            channel = prog.get('channel')
+            sub = prog.find('sub-title')
+            if channel and sub is not None and sub.text:
+                season, episode = extract_season_episode(sub.text)
+                if season and episode:
+                    episode = correct_episode_number(season, episode)
+                    lookup[(channel, season, episode)] = prog
+    except Exception as e:
+        print(f"Failed parsing {path}: {e}")
     return lookup
 
 def merge_metadata():
     base_tree = ET.parse(base_epg_path)
     base_root = base_tree.getroot()
-    enriched_map = build_enriched_map()
+    enriched_map = build_enriched_map(enriched_file)
 
     for prog in base_root.findall('programme'):
         channel = prog.get('channel')
@@ -52,25 +51,25 @@ def merge_metadata():
         if not enriched_prog:
             continue
 
-        # Save original attributes and title
+        # Preserve original attributes and title
         start = prog.get('start')
         stop = prog.get('stop')
         ch = prog.get('channel')
         title = prog.find('title')
 
-        # Clear all child elements
+        # Clear all children
         for tag in list(prog):
             prog.remove(tag)
 
         # Re-add original title
         prog.append(title)
 
-        # Append enriched elements (excluding duplicate title)
+        # Add enriched metadata (excluding title)
         for tag in enriched_prog:
             if tag.tag != 'title':
                 prog.append(tag)
 
-        # Restore attributes
+        # Restore original attributes
         prog.set('start', start)
         prog.set('stop', stop)
         prog.set('channel', ch)
