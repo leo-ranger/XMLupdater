@@ -6,28 +6,42 @@ from typing import Tuple
 def correct_episode_number(season: int, episode: int) -> int:
     """
     Corrects episode number if it is mistakenly prefixed with season number.
-    Works for all seasons.
-
+    
     Examples:
-    - S9 Ep902  -> episode corrected to 2
-    - S10 Ep1024 -> episode corrected to 24
+    - Season 12, episode 1223 -> corrected to episode 23
+    - Season 24, episode 2407 -> corrected to episode 7
     - If no correction needed, returns original episode.
     """
     ep_str = str(episode)
     season_str = str(season)
-
-    if ep_str.startswith(season_str):
-        fixed_str = ep_str[len(season_str):].lstrip('0')
+    
+    # Only apply correction if season >= 10 and episode starts with season number
+    if season >= 10 and ep_str.startswith(season_str):
+        fixed_str = ep_str[len(season_str):].lstrip('0')  # strip leading zeros
         if fixed_str.isdigit() and len(fixed_str) > 0:
-            corrected = int(fixed_str)
-            # Only correct if the remaining episode number is less than 100
-            if corrected < 100:
-                return corrected
+            corrected_episode = int(fixed_str)
+            return corrected_episode
+    
+    # Handle seasons 1-9 with similar prefix errors (e.g., S9 Ep902 -> ep 2)
+    if 1 <= season < 10:
+        season_prefix = str(season)
+        ep_str_lstrip = ep_str.lstrip('0')
+        if ep_str.startswith(season_prefix) and len(ep_str) > len(season_prefix):
+            fixed_str = ep_str[len(season_prefix):].lstrip('0')
+            if fixed_str.isdigit() and len(fixed_str) > 0:
+                corrected_episode = int(fixed_str)
+                return corrected_episode
+    
+    # Also strip leading zeros in episode numbers like ep09 -> ep9
+    # If episode does not start with season prefix but has leading zeros
+    if episode != 0 and ep_str.startswith('0'):
+        return int(ep_str.lstrip('0'))
+    
     return episode
 
 def extract_season_episode(text: str) -> Tuple[int, int]:
     """
-    Extract season and episode numbers from a string like 'S07 Ep07' or 'S10 Ep1024'.
+    Extract season and episode numbers from a string like 'S07 Ep07' or 'S10 Ep1010'
     """
     if not text:
         return None, None
@@ -53,9 +67,10 @@ def correct_epg_episodes(input_path: str, output_path: str):
         corrected_episode = correct_episode_number(season, episode)
         if corrected_episode != episode:
             # Replace episode number in the title string
+            # This preserves the original formatting except for the episode number.
             new_title = re.sub(
                 r"(S\d+\s*Ep\.?\s*)\d+",
-                r"\1{}".format(corrected_episode),
+                r"\g<1>{}".format(corrected_episode),
                 title_el.text,
                 flags=re.IGNORECASE
             )
