@@ -1,0 +1,22 @@
+name: Download Sydney Base EPG
+
+on:
+  schedule:
+    # Runs daily at midnight Australian Eastern Standard Time (AEST is UTC+10)
+    - cron: '0 14 * * *'  # 14:00 UTC = 00:00 AEST next day
+  workflow_dispatch:
+
+jobs:
+  download-base-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create Base_EPG_XML folder
+        run: mkdir -p Backflow/Base_EPG_XML
+
+      - name: Download base Sydney EPG XML
+        run: |
+          curl -o Backflow/Base_EPG_XML/sydney_epg.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
