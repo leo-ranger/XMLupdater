@@ -7,7 +7,7 @@ on:
     types:
       - completed
 
-  workflow_dispatch:   # <-- Manual trigger added here
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   enrich-epg:
@@ -38,15 +38,23 @@ jobs:
             python3 Backflow/scripts/A_episode_corrector.py "$file" "$file"
           done
 
-      - name: Run all enrichment scripts on all files
+      - name: Run matching enrichment scripts per XML file
         run: |
-          for script in Backflow/scripts/epg/*.py; do
-            echo "Running enrichment script $script"
-            for file in Backflow/Manual_Database/*.xml; do
-              echo "  Enriching $file"
-              python3 "$script"
-            done
-          done
+          while IFS='|' read -r filename url; do
+            # Remove prefix "AU-" and suffix ".xml" to get base name
+            base="${filename#AU-}"
+            base="${base%.xml}"
+
+            script="Backflow/scripts/epg/enrich_${base}.py"
+            filepath="Backflow/Manual_Database/$filename"
+
+            if [[ -f "$script" ]]; then
+              echo "Running $script on $filepath"
+              python3 "$script" "$filepath"
+            else
+              echo "Warning: No enrichment script found for $filename at $script"
+            fi
+          done < Backflow/scripts/epg/EPG_list.txt
 
       - name: Commit and push all changes
         run: |
