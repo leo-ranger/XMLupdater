@@ -1,8 +1,33 @@
-      - name: Merge enriched metadata from all sources in backflow
+name: Merge Metadata into AU EPG
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  merge-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create required folders
+        run: |
+          mkdir -p Backflow
+          mkdir -p Backflow/Manual_Database
+          mkdir -p Master_Location
+
+      - name: Download base Sydney EPG
+        run: |
+          curl -o Backflow/base_au_epg.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
+
+      - name: Merge enriched metadata from all sources
         run: |
           python3 - <<'EOF'
           import xml.etree.ElementTree as ET
-          import re, os, glob
+          import re, os, glob, sys
           sys.path.insert(0, 'Backflow/scripts')
           from A_episode_corrector import correct_episode_number
 
@@ -41,7 +66,8 @@
               enriched_map = build_enriched_map()
 
               for prog in base_root.findall('programme'):
-                  if 'south park' not in (prog.findtext('title') or '').lower():
+                  title = (prog.findtext('title') or '').lower()
+                  if 'south park' not in title:
                       continue
 
                   sub = prog.find('sub-title')
@@ -85,3 +111,12 @@
 
           enrich_base_epg()
           EOF
+
+      - name: Commit and push merged EPG
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add Master_Location/combined_epg.xml
+          git commit -m "Merged metadata into AU EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git pull --rebase --autostash
+          git push
