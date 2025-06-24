@@ -28,7 +28,6 @@ jobs:
           python3 - <<'EOF'
           import xml.etree.ElementTree as ET
           import re
-          import os
 
           base_epg_path = 'Backflow/base_au_epg.xml'
           enriched_path = 'Backflow/Manual_Database/AU-South_Park.xml'
@@ -73,6 +72,10 @@ jobs:
                   if title_el is None or not title_el.text:
                       continue
 
+                  channel_id = prog.get('channel')
+                  if channel_id != 'mjh-10-south-park':
+                      continue
+
                   title_text = title_el.text.strip()
                   if not title_text.lower().startswith("south park"):
                       continue
@@ -85,12 +88,15 @@ jobs:
                   if not enriched_prog:
                       continue
 
+                  # Replace title
                   title_el.text = "South Park"
 
+                  # Remove existing enrichment tags
                   for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
                       for el in prog.findall(tag):
                           prog.remove(el)
 
+                  # Copy metadata fields
                   for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
                       el = enriched_prog.find(tag)
                       if el is not None:
@@ -98,6 +104,7 @@ jobs:
                           new_el.text = el.text
                           prog.append(new_el)
 
+                  # Copy category tags
                   for cat in enriched_prog.findall('category'):
                       new_cat = ET.Element('category', cat.attrib)
                       new_cat.text = cat.text
