@@ -1,76 +1,111 @@
-name: Merge backflow Enriched EPGs into Base EPG
+name: Merge South Park Metadata into AU EPG
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # daily 2am UTC
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
-  merge-epgs:
+  merge-southpark:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Create folders if missing
+      - name: Create required folders
         run: |
+          mkdir -p Backflow
           mkdir -p Backflow/Manual_Database
           mkdir -p Master_Location
 
-      - name: Download base AU EPG XML
+      - name: Download base Sydney EPG
         run: |
-          curl -L -o Backflow/base_au_epg.xml https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml
+          curl -o Backflow/base_au_epg.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
 
-      - name: Merge enriched XMLs into base EPG
+      - name: Merge enriched South Park metadata
         run: |
-          python3 <<EOF
-          import os
+          python3 - <<'EOF'
           import xml.etree.ElementTree as ET
+          import re
+          import os
 
           base_epg_path = 'Backflow/base_au_epg.xml'
-          enriched_folder = 'Backflow/Manual_Database'
+          enriched_path = 'Backflow/Manual_Database/AU-South_Park.xml'
           output_path = 'Master_Location/combined_epg.xml'
 
-          # Load base EPG
-          base_tree = ET.parse(base_epg_path)
-          base_root = base_tree.getroot()
+          def extract_season_episode(title):
+              match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", title, re.IGNORECASE)
+              if not match:
+                  return None, None
+              season = int(match.group(1))
+              episode = int(match.group(2))
+              if episode > 20:
+                  ep_str = str(episode)
+                  season_str = str(season)
+                  if ep_str.startswith(season_str):
+                      fixed = ep_str[len(season_str):]
+                      if fixed.isdigit():
+                          episode = int(fixed)
+              return season, episode
 
-          # Collect all channel IDs to replace from enriched XMLs
-          enriched_programs = []
-          replaced_channel_ids = set()
-
-          for filename in os.listdir(enriched_folder):
-              if not filename.endswith('.xml'):
-                  continue
-              enriched_path = os.path.join(enriched_folder, filename)
-              try:
-                  tree = ET.parse(enriched_path)
-                  root = tree.getroot()
-              except Exception as e:
-                  print(f"Skipping {filename}, parse error: {e}")
-                  continue
-
-              # Collect channel IDs in this enriched file
-              file_channel_ids = set()
+          def build_enriched_map():
+              tree = ET.parse(enriched_path)
+              root = tree.getroot()
+              lookup = {}
               for prog in root.findall('programme'):
-                  ch_id = prog.attrib.get('channel')
-                  if ch_id:
-                      file_channel_ids.add(ch_id)
-                      enriched_programs.append(prog)
+                  sub = prog.find('sub-title')
+                  if sub is not None and sub.text:
+                      match = re.search(r"S(\d+)\s*Ep\.?\s*(\d+)", sub.text)
+                      if match:
+                          season = int(match.group(1))
+                          episode = int(match.group(2))
+                          lookup[(season, episode)] = prog
+              return lookup
 
-              replaced_channel_ids.update(file_channel_ids)
+          def enrich_base_epg():
+              base_tree = ET.parse(base_epg_path)
+              base_root = base_tree.getroot()
+              enriched_map = build_enriched_map()
 
-          # Remove all programmes in base with replaced channel IDs
-          base_root[:] = [elem for elem in base_root if not (elem.tag == 'programme' and elem.attrib.get('channel') in replaced_channel_ids)]
+              for prog in base_root.findall('programme'):
+                  title_el = prog.find('title')
+                  if title_el is None or not title_el.text:
+                      continue
 
-          # Append all enriched programmes
-          for prog in enriched_programs:
-              base_root.append(prog)
+                  title_text = title_el.text.strip()
+                  if not title_text.lower().startswith("south park"):
+                      continue
 
-          # Save merged XML
-          base_tree.write(output_path, encoding='utf-8', xml_declaration=True)
-          print(f"Merged EPG saved to {output_path}")
+                  season, episode = extract_season_episode(title_text)
+                  if not season or not episode:
+                      continue
+
+                  enriched_prog = enriched_map.get((season, episode))
+                  if not enriched_prog:
+                      continue
+
+                  title_el.text = "South Park"
+
+                  for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
+                      for el in prog.findall(tag):
+                          prog.remove(el)
+
+                  for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
+                      el = enriched_prog.find(tag)
+                      if el is not None:
+                          new_el = ET.Element(tag, el.attrib)
+                          new_el.text = el.text
+                          prog.append(new_el)
+
+                  for cat in enriched_prog.findall('category'):
+                      new_cat = ET.Element('category', cat.attrib)
+                      new_cat.text = cat.text
+                      prog.append(new_cat)
+
+              base_tree.write(output_path, encoding='utf-8', xml_declaration=True)
+
+          enrich_base_epg()
           EOF
 
       - name: Commit and push merged EPG
@@ -78,6 +113,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add Master_Location/combined_epg.xml
-          git commit -m "Merged enriched EPGs $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git commit -m "Merged South Park metadata into AU EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
           git pull --rebase --autostash
           git push
