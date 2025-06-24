@@ -23,9 +23,13 @@ jobs:
         run: |
           curl -o Backflow/scripts/Base_syd.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
 
+      - name: Apply episode corrector in-place
+        run: |
+          python3 Backflow/scripts/A_episode_corrector.py Backflow/scripts/Base_syd.xml Backflow/scripts/Base_syd.xml
+
       - name: Merge enriched metadata from Manual_Database
         run: |
-          python3 Backflow/scripts/B_merge_enrich.py
+          python3 Backflow/scripts/B_merge_enrich.py --base Backflow/scripts/Base_syd.xml --enriched-dir Backflow/Manual_Database --output Master_Location/Sydney_enhanced_EPG.xml
 
       - name: Commit and push updated combined EPG
         run: |
