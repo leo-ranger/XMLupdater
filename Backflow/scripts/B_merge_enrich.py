@@ -7,7 +7,8 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from A_episode_corrector import correct_episode_number
 
-base_epg_path = 'Backflow/base_au_epg.xml'
+# Point to corrected base EPG file after episode correction
+base_epg_path = 'Backflow/scripts/Base_syd_corrected.xml'
 enriched_dir = 'Backflow/Manual_Database'
 output_path = 'Master_Location/Enhanced_sydney_epg.xml'
 
@@ -31,7 +32,6 @@ def build_enriched_map():
                 if channel and sub is not None and sub.text:
                     season, episode = extract_season_episode(sub.text)
                     if season and episode:
-                        # Correct episode number here as well (in case enriched data also needs fix)
                         episode = correct_episode_number(season, episode)
                         lookup[(channel, season, episode)] = prog
         except Exception as e:
@@ -53,19 +53,16 @@ def merge_metadata():
         if not season or not episode:
             continue
 
-        # Correct episode number before looking up enriched data
         episode = correct_episode_number(season, episode)
 
         enriched_prog = enriched_map.get((channel, season, episode))
         if not enriched_prog:
             continue
 
-        # Remove old enrichment tags
         for tag in ['sub-title', 'desc', 'category', 'icon', 'rating', 'date']:
             for el in prog.findall(tag):
                 prog.remove(el)
 
-        # Copy enrichment tags from enriched_prog
         for tag in ['sub-title', 'desc', 'icon', 'rating', 'date']:
             el = enriched_prog.find(tag)
             if el is not None:
@@ -73,7 +70,6 @@ def merge_metadata():
                 new_el.text = el.text
                 prog.append(new_el)
 
-        # Copy all <category> tags
         for cat in enriched_prog.findall('category'):
             new_cat = ET.Element('category', cat.attrib)
             new_cat.text = cat.text
