@@ -23,15 +23,7 @@ jobs:
         run: |
           curl -o Backflow/base_au_epg.xml "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/au/Sydney/epg.xml"
 
-      - name: Apply episode corrector to base EPG
-        run: |
-          python3 Backflow/scripts/A_episode_corrector.py Backflow/base_au_epg.xml Backflow/base_au_epg_corrected.xml
-
-      - name: Replace base EPG with corrected version
-        run: |
-          mv Backflow/base_au_epg_corrected.xml Backflow/base_au_epg.xml
-
-      - name: Merge enriched metadata from Manual_Database
+      - name: Merge enriched metadata from Manual_Database (with episode correction)
         run: |
           python3 Backflow/scripts/B_merge_enrich.py
 
