@@ -21,58 +21,18 @@ jobs:
           date=$(LC_ALL=C date +%Y%m%d)
           curl -o individual/USA-Hallmark_EastUS.xml "https://epg.pw/api/epg.xml?lang=en&date=$date&channel_id=403490"
 
-      - name: Add XML Declaration and DOCTYPE
+      - name: Add XML Declaration and DOCTYPE on line 1
         run: |
-          sed -i '1a <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/USA-Hallmark_EastUS.xml
+          # Prepend XML declaration and DOCTYPE together as line 1
+          sed -i '1s/^/<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE tv SYSTEM "xmltv.dtd">\n/' individual/USA-Hallmark_EastUS.xml
 
-      - name: Check for Title "The Golden Girls" in XML and Add Icon and Categories
-        run: |
-          if grep -q '<title lang="zh">The Golden Girls</title>' individual/USA-Hallmark_EastUS.xml; then
-            echo "Found The Golden Girls in the EPG XML!"
-            sed -i '/<title lang="zh">The Golden Girls<\/title>/a \
-            <icon src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F80FC1BEEB1807F513153B1242DDF2561BCA58759E87AFCFAF602B0423912D46/scale?width=1200&aspectRatio=1.78&format=webp"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Sitcom</category>\
-            <category lang="en">Drama</category>' individual/USA-Hallmark_EastUS.xml
-          else
-            echo "The Golden Girls not found in the EPG XML."
-          fi
-
-      - name: Check for Title "Reba" in XML and Add Icon and Categories
-        run: |
-          if grep -iq '<title[^>]*>Reba</title>' individual/USA-Hallmark_EastUS.xml; then
-            echo "Found Reba in the EPG XML!"
-            sed -i '/<title[^>]*>Reba<\/title>/a \
-            <icon src="https://m.media-amazon.com/images/S/pv-target-images/7727258bad222b37ca98e9cffe3e847cc474add3fa3b19f38d511e29586a76de.jpg"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Drama</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Sitcom</category>\
-            <category lang="en">Family</category>' individual/USA-Hallmark_EastUS.xml
-          else
-            echo "Reba not found in the EPG XML."
-          fi
-
-      - name: Check for Title "Frasier" in XML and Add Icon and Categories
-        run: |
-          if grep -iq '<title[^>]*>Frasier</title>' individual/USA-Hallmark_EastUS.xml; then
-            echo "Found Frasier in the EPG XML!"
-            sed -i '/<title[^>]*>Frasier<\/title>/a \
-            <icon src="https://images1.resources.foxtel.com.au/store2/mount1/16/2/81moo.jpg"/>\
-            <category lang="en">Series</category>\
-            <category lang="en">Comedy</category>\
-            <category lang="en">Sitcom</category>\
-            <category lang="en">Family</category>' individual/USA-Hallmark_EastUS.xml
-          else
-            echo "Frasier not found in the EPG XML."
-          fi
+      - name: Pull latest changes before committing
+        run: git pull --rebase --autostash
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add individual/USA-Hallmark_EastUS.xml
-          git commit -m "Updated EPG $(date +%Y-%m-%d)" || echo "No changes to commit"
-          git pull --rebase --autostash
+          git diff --quiet && git diff --staged --quiet || git commit -m "Updated EPG $(date +%Y-%m-%d)"
           git push --force
