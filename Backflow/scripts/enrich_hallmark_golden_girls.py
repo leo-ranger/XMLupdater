@@ -25,19 +25,22 @@ def copy_programme_with_time_attrs(source, original_attrs):
         new_prog.append(child)
     return new_prog
 
-# Prepare a list of changes (but don’t apply yet)
-programmes_to_replace = []
+# Track replacements
+replaced = 0
 unmatched = 0
 
-for programme in input_root.findall("programme"):
+# Iterate and replace matched episodes
+for i, programme in enumerate(input_root.findall("programme")):
     title = programme.findtext("title", "").strip()
     if title != "The Golden Girls":
         continue
+
     input_desc = programme.findtext("desc", "").strip()
     if not input_desc:
         unmatched += 1
         continue
 
+    # Find best fuzzy match
     best_match = None
     best_score = 0
     for cdesc, ref_prog in ref_programmes:
@@ -52,17 +55,15 @@ for programme in input_root.findall("programme"):
             "start": programme.attrib.get("start", ""),
             "stop": programme.attrib.get("stop", "")
         }
-        replacement = copy_programme_with_time_attrs(best_match, original_attrs)
-        programmes_to_replace.append((programme, replacement))
+        new_prog = copy_programme_with_time_attrs(best_match, original_attrs)
+        input_root.remove(programme)
+        input_root.insert(i, new_prog)
+        replaced += 1
     else:
         unmatched += 1
 
-# SAFETY: If there are any unmatched, cancel all changes
-if unmatched > 0:
-    print(f"❌ {unmatched} unmatched Golden Girls episodes. No changes applied.")
-else:
-    for old_prog, new_prog in programmes_to_replace:
-        input_root.remove(old_prog)
-        input_root.append(new_prog)
-    input_tree.write(input_path, encoding="utf-8", xml_declaration=True)
-    print(f"✅ Replaced {len(programmes_to_replace)} Golden Girls episodes.")
+# Save updated XML
+input_tree.write(input_path, encoding="utf-8", xml_declaration=True)
+
+print(f"✅ Replaced {replaced} Golden Girls episodes.")
+print(f"⚠️ Unmatched: {unmatched}")
