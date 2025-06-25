@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv date="20250625081914 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250625.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250625&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
@@ -9,31 +9,19 @@
     <desc>When her older sister elopes with a non-royal, Princess Bea, who has lived her life away from her royal duties, must step in and honor the arranged marriage to a small kingdom prince.</desc>
     <date>2025-06-25</date>
   </programme>
-  <programme channel="403490" start="20250625023000 +0000" stop="20250625030000 +0000"><title>The Golden Girls</title>
-    <sub-title>Sophia's Wedding: Part 1 – S04E06</sub-title><desc>When Sophia's friend Esther Weinstock dies, she goes to her funeral in Brooklyn. There, she confronts Esther's widower, Max, whom Sophia blames for the failure of her husband's old business.</desc>
-    <C-desc>Sophia wants to wed Max Weinstock, her husband's partner.</C-desc>
-    <category>Comedy</category>
-    <icon src="https://static.tvmaze.com/uploads/images/original_untouched/1/2668.jpg" />
-    <episode-num system="SxxExx">S04E06</episode-num>
-    <episode-num system="xmltv_ns">3.5.</episode-num>
-    <episode-num system="original-air-date">1988-11-19</episode-num>
-    <rating>
-      <value>PG</value>
-    </rating>
-  </programme><programme channel="403490" start="20250625030000 +0000" stop="20250625033000 +0000"><title>The Golden Girls</title>
-    <sub-title>Sophia's Wedding: Part 2 – S04E07</sub-title><desc>Newlyweds Max and Sophia open a pizza knish stand on the beach, while Dorothy has gotten into the habit of smoking cigarettes.</desc>
-    <C-desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk. </C-desc>
-    <category>Comedy</category>
-    <icon src="https://static.tvmaze.com/uploads/images/original_untouched/1/2668.jpg" />
-    <episode-num system="SxxExx">S04E07</episode-num>
-    <episode-num system="xmltv_ns">3.6.</episode-num>
-    <episode-num system="original-air-date">1988-11-26</episode-num>
-    <rating>
-      <value>PG</value>
-    </rating>
-  </programme><programme channel="403490" start="20250625020000 +0000" stop="20250625023000 +0000">
+  <programme channel="403490" start="20250625020000 +0000" stop="20250625023000 +0000">
     <title lang="zh">The Golden Girls</title>
     <desc>Dorothy wants her ex-husband back when he becomes engaged to another woman.</desc>
+    <date>2025-06-25</date>
+  </programme>
+  <programme channel="403490" start="20250625023000 +0000" stop="20250625030000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia wants to wed Max Weinstock, her husband's partner.</desc>
+    <date>2025-06-25</date>
+  </programme>
+  <programme channel="403490" start="20250625030000 +0000" stop="20250625033000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Sophia and Max return from their honeymoon and open a food stand on the boardwalk.</desc>
     <date>2025-06-25</date>
   </programme>
   <programme channel="403490" start="20250625033000 +0000" stop="20250625040000 +0000">
