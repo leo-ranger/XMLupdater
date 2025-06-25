@@ -21,10 +21,10 @@ jobs:
           date=$(LC_ALL=C date +%Y%m%d)
           curl -o individual/USA-Hallmark_EastUS.xml "https://epg.pw/api/epg.xml?lang=en&date=$date&channel_id=403490"
 
-      - name: Add XML Declaration and DOCTYPE on line 1
+      - name: Fix XML declaration and DOCTYPE line
         run: |
-          # Prepend XML declaration and DOCTYPE together as line 1
-          sed -i '1s/^/<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE tv SYSTEM "xmltv.dtd">\n/' individual/USA-Hallmark_EastUS.xml
+          sed -i '1,2{/^<?xml version=.*?>/d; /^<!DOCTYPE tv SYSTEM "xmltv.dtd">/d}' individual/USA-Hallmark_EastUS.xml
+          sed -i '1i<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">' individual/USA-Hallmark_EastUS.xml
 
       - name: Pull latest changes before committing
         run: git pull --rebase --autostash
