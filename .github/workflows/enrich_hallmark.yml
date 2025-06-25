@@ -1,71 +1,31 @@
-name: Enrich Hallmark EPG with Golden Girls Data
+name: Enrich Hallmark Golden Girls Episodes
 
 on:
   workflow_dispatch:
 
 jobs:
-  enrich-epg:
+  enrich:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install rapidfuzz
+
       - name: Run enrichment script
+        run: python Backflow/scripts/enrich_hallmark_golden_girls.py
+
+      - name: Commit and push changes
         run: |
-          python - <<EOF
-          import xml.etree.ElementTree as ET
-
-          SRC_FILE = 'individual/USA-Hallmark_EastUS.xml'
-          REF_FILE = 'Backflow/offline/episodes/The_Golden_Girls.xml'
-          OUTPUT_FILE = 'individual/USA-Hallmark_EastUS_enriched.xml'
-
-          def get_text(elem):
-              return elem.text.strip() if elem is not None and elem.text else ''
-
-          src_tree = ET.parse(SRC_FILE)
-          src_root = src_tree.getroot()
-
-          ref_tree = ET.parse(REF_FILE)
-          ref_root = ref_tree.getroot()
-
-          ref_map = {}
-          for prog in ref_root.findall('programme'):
-              cdesc = prog.find('C-desc')
-              if cdesc is not None:
-                  ref_map[get_text(cdesc)] = prog
-
-          for src_prog in src_root.findall('programme'):
-              src_desc = src_prog.find('desc')
-              if src_desc is None:
-                  continue
-              src_desc_text = get_text(src_desc)
-
-              ref_prog = ref_map.get(src_desc_text)
-              if ref_prog is None:
-                  continue
-
-              for tag_name in ['category', 'icon', 'episode-num', 'rating']:
-                  for old_tag in src_prog.findall(tag_name):
-                      src_prog.remove(old_tag)
-
-              for child in ref_prog:
-                  if child.tag in ['category', 'icon', 'episode-num', 'rating']:
-                      src_prog.append(child)
-
-          src_tree.write(OUTPUT_FILE, encoding='utf-8', xml_declaration=True)
-          print(f"Enriched XML saved to {OUTPUT_FILE}")
-          EOF
-
-      - name: Commit and push enriched XML
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add individual/USA-Hallmark_EastUS_enriched.xml
-          git commit -m "Enriched USA-Hallmark_EastUS.xml with Golden Girls episode data" || echo "No changes to commit"
-          git push
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add individual/USA-Hallmark_EastUS.xml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Enriched Hallmark Golden Girls using episode DB"
+          git push --force
