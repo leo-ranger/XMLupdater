@@ -4,7 +4,7 @@ from rapidfuzz.fuzz import ratio
 input_path = "individual/USA-Hallmark_EastUS.xml"
 reference_path = "Backflow/offline/episodes/The_Golden_Girls.xml"
 
-# Load both XML trees
+# Load XML
 input_tree = ET.parse(input_path)
 input_root = input_tree.getroot()
 
@@ -18,18 +18,19 @@ for programme in ref_root.findall("programme"):
     if cdesc:
         ref_programmes.append((cdesc, programme))
 
-# Function to preserve channel/start/stop attributes
-def copy_programme_with_time_attrs(source, original_attrs):
+# Util: Copy node while skipping <C-desc>
+def copy_programme_with_time_attrs(source_prog, original_attrs):
     new_prog = ET.Element("programme", attrib=original_attrs)
-    for child in source:
+    for child in source_prog:
+        if child.tag == "C-desc":
+            continue  # Exclude C-desc from replacement
         new_prog.append(child)
     return new_prog
 
-# Track replacements
+# Perform replacements
 replaced = 0
 unmatched = 0
 
-# Iterate and replace matched episodes
 for i, programme in enumerate(input_root.findall("programme")):
     title = programme.findtext("title", "").strip()
     if title != "The Golden Girls":
@@ -40,7 +41,7 @@ for i, programme in enumerate(input_root.findall("programme")):
         unmatched += 1
         continue
 
-    # Find best fuzzy match
+    # Fuzzy match against C-desc
     best_match = None
     best_score = 0
     for cdesc, ref_prog in ref_programmes:
@@ -62,8 +63,8 @@ for i, programme in enumerate(input_root.findall("programme")):
     else:
         unmatched += 1
 
-# Save updated XML
+# Save changes
 input_tree.write(input_path, encoding="utf-8", xml_declaration=True)
 
 print(f"✅ Replaced {replaced} Golden Girls episodes.")
-print(f"⚠️ Unmatched: {unmatched}")
+print(f"⚠️ Skipped {unmatched} unmatched episodes.")
