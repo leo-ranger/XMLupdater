@@ -1,114 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250630100753 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250630.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250630&amp;timezone=None">
+<tv date="20250701102008 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403490/20250701.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403490&amp;date=20250701&amp;timezone=None">
   <channel id="403490">
     <display-name lang="US">Hallmark - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403490" start="20250630000000 +0000" stop="20250630020000 +0000">
-    <title lang="zh">Christmas Getaway</title>
-    <desc>After a surprising breakup with her boyfriend, a travel writer decides to go on the picturesque Christmas vacation planned for the two of them, alone.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630020000 +0000" stop="20250630040000 +0000">
-    <title lang="zh">A Christmas Detour</title>
-    <desc>Two travelers become linked when a snowstorm grounds their flight in Buffalo. Paige desperately needs to find a way to New York City to meet her fiance's parents, and it's up to Dylan, a fellow passenger and a guy she can't stand, to get her there.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630040000 +0000" stop="20250630060000 +0000">
-    <title lang="zh">A Cozy Christmas Inn</title>
-    <desc>A real estate executive travels to Alaska during the holidays to acquire a bed-and-breakfast, only to discover it's owned by her ex. She's soon falling in love with the town and quite possibly him all over again.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630060000 +0000" stop="20250630063000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche decides to sell her house, and the roommates prepare to go their separate ways.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630063000 +0000" stop="20250630070000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche decides to sell her house, and the roommates prepare to go their separate ways.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630070000 +0000" stop="20250630073000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Dorothy consults medical experts about her chronic fatigue, which raises concern in Rose and Sophia.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630073000 +0000" stop="20250630080000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Harry Weston recommends a specialist who diagnoses Dorothy's illness.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630080000 +0000" stop="20250630083000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Blanche's unmarried daughter announces her desire to have a baby.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630083000 +0000" stop="20250630090000 +0000">
-    <title lang="zh">The Golden Girls</title>
-    <desc>Rose has to go and get a job when she loses her late husband's pension, where she is confronted for the first time by ageism.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630090000 +0000" stop="20250630093000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Realizing that he has no friends other than his brother, Frasier makes an on-air appeal for a new pal.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630093000 +0000" stop="20250630100000 +0000">
-    <title lang="zh">Frasier</title>
-    <desc>Daphne decides to move into a place of her own after Frasier forbids her boyfriend's overnight visits.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630100000 +0000" stop="20250630103000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>The football players think they're doomed when Cheyenne serves the wrong kind of potato salad at the traditional pregame dinner.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630103000 +0000" stop="20250630110000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Reba's ex-husband becomes jealous when she calls a plumber to fix a faucet; Cheyenne "moons" Van's teammates.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630110000 +0000" stop="20250630113000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>Kyra does not want to spend time with her father since it includes Barbra Jean; Cheyenne and Van plan to move out.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630113000 +0000" stop="20250630120000 +0000">
-    <title lang="zh">Reba</title>
-    <desc>When Van fails a history test due to the pressure of being a star football player, Reba steps in to tutor him.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630120000 +0000" stop="20250630140000 +0000">
-    <title lang="zh">A Heidelberg Holiday</title>
-    <desc>Heidi Heidelberg receives a dream opportunity to sell her beautiful, handmade glass ornaments at the prestigious Heidelberg Christmas Market in Germany. While there, she meets Lukas, a local artisan who helps her reconnect with her lost heritage.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630140000 +0000" stop="20250630160000 +0000">
-    <title lang="zh">Gingerbread Miracle</title>
-    <desc>A man and an old high school friend try to sell his uncle's business -- a Mexican bakery that's famous for magical gingerbread cookies that grant wishes.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630160000 +0000" stop="20250630180000 +0000">
-    <title lang="zh">A Biltmore Christmas</title>
-    <desc>A magical hourglass sends modern-day screenwriter Lucy Hardgrove to the set of the 1947 holiday movie classic "His Merry Wife!" However, before she can return to the present, Lucy must make things right or threaten to alter the future forever.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630180000 +0000" stop="20250630200000 +0000">
-    <title lang="zh">Sense, Sensibility &amp; Snowmen</title>
-    <desc>Christmas party planners Ella and her sister Marianne clash with client Edward, a not-so-jolly toy company CEO.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630200000 +0000" stop="20250630220000 +0000">
-    <title lang="zh">A '90s Christmas</title>
-    <desc>A workaholic lawyer destined to spend Christmas alone is transported back to 1999 after an unexpected run in with a particularly wise ride-share driver.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403490" start="20250630220000 +0000" stop="20250701000000 +0000">
-    <title lang="zh">Sugarplummed</title>
-    <desc>When Emily wishes for a perfect Christmas like the ones found in the popular Sugarplum movies, she's shocked when Sugarplum herself appears to help her fulfill it.</desc>
-    <date>2025-06-30</date>
-  </programme>
   <programme channel="403490" start="20250701000000 +0000" stop="20250701020000 +0000">
     <title lang="zh">Coyote Creek Christmas</title>
     <desc>An event planner discovers Christmas magic with a charming father-son duo while throwing a themed Christmas party at her family's inn.</desc>
@@ -229,9 +124,129 @@
     <desc>Erica is a rancher who's spent her whole life working the family farm with her mother and sister. When Aaron arrives and disrupts her plans, she starts to question what it is she actually wants.</desc>
     <date>2025-07-01</date>
   </programme>
-  <programme channel="403490" start="20250702000000 +0000" stop="20250703000000 +0000">
+  <programme channel="403490" start="20250702000000 +0000" stop="20250702020000 +0000">
     <title lang="zh">My Norwegian Holiday</title>
     <desc>A grieving woman forges a deep connection with a Norwegian man when he discovers she has a troll figurine from his hometown. She soon agrees to accompany him to Norway to uncover the troll's origins and find her own path to healing, love and family.</desc>
     <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702020000 +0000" stop="20250702040000 +0000">
+    <title lang="zh">A Machu Picchu Proposal</title>
+    <desc>Katie helps plan her brother's proposal atop Machu Picchu. When the proposal is ruined by spontaneous Chef Carlos, Katie enlists Carlos to help her find the most romantic spot in all of Peru.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702040000 +0000" stop="20250702043000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy decides to do something with her life by signing up for a comedy spot at the Comedy Barrel, but Sophia is unimpressed; Blanche is having tax problems, but decides it's nothing that a negligee won't put right.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702043000 +0000" stop="20250702050000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy sends her unemployed son to live with his equally irresponsible father.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702050000 +0000" stop="20250702053000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche renews hostilities with her sister when she travels home to attend her father's funeral.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702053000 +0000" stop="20250702060000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>The ladies grow tired of Christmas shopping during a heat wave; they volunteer to serve Christmas dinner at a soup kitchen.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702060000 +0000" stop="20250702063000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy decides to do something with her life by signing up for a comedy spot at the Comedy Barrel, but Sophia is unimpressed; Blanche is having tax problems, but decides it's nothing that a negligee won't put right.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702063000 +0000" stop="20250702070000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Dorothy sends her unemployed son to live with his equally irresponsible father.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702070000 +0000" stop="20250702073000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>Blanche renews hostilities with her sister when she travels home to attend her father's funeral.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702073000 +0000" stop="20250702080000 +0000">
+    <title lang="zh">The Golden Girls</title>
+    <desc>The ladies grow tired of Christmas shopping during a heat wave; they volunteer to serve Christmas dinner at a soup kitchen.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702080000 +0000" stop="20250702083000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>As a friendly gesture, Niles tries to help Maris get rid of $8,000 in parking tickets.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702083000 +0000" stop="20250702090000 +0000">
+    <title lang="zh">Frasier</title>
+    <desc>Frasier encourages everyone to take a "bonus day" and do something special to celebrate the leap year.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702090000 +0000" stop="20250702093000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba's best friend returns to Houston and uncovers a photograph that hints at infidelity early in Reba and Brock's marriage.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702093000 +0000" stop="20250702100000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba celebrates her divorce with lunch and finds her credit card is declined; Reba is angered to find out Brock let Barbra Jean run up the shared credit card for her wedding.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702100000 +0000" stop="20250702103000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Brock asks Reba to help plan his father's funeral after he dies on a golf course and Barbra Jean wants the funeral a grand event and play the bereaved woman.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702103000 +0000" stop="20250702110000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Since the divorce is final, a friend hooks up Reba with her old college boyfriend.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702110000 +0000" stop="20250702113000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba tries to persuade Brock's doubting bride to continue with the wedding while dealing with Kyra not wanting to attend the ceremony.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702113000 +0000" stop="20250702120000 +0000">
+    <title lang="zh">Reba</title>
+    <desc>Reba tries to reconcile with Van and his parents, but her plan backfires when his mother walks out on her husband and stays with Reba.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702120000 +0000" stop="20250702140000 +0000">
+    <title lang="zh">A Christmas to Remember</title>
+    <desc>A TV personality drives to a small-town mountain retreat. On her way, a blizzard veers her off the road and she crashes. When she awakens, she has complete amnesia, and a friendly passerby takes her in.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702140000 +0000" stop="20250702160000 +0000">
+    <title lang="zh">'Tis the Season to Be Merry</title>
+    <desc>Looking for a fresh angle for her book on relationships, Merry heads to snow-covered Vermont. She soon finds a new perspective and Christmas cheer when she meets a charismatic aid worker named Chris.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702160000 +0000" stop="20250702180000 +0000">
+    <title lang="zh">The Santa Class</title>
+    <desc>Kate North, the owner of a struggling Santa School, and her instructor, Dan, must help an amnesia-stricken Santa Claus regain his memories to save Christmas and hopefully her school as well.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702180000 +0000" stop="20250702200000 +0000">
+    <title lang="zh">Christmas Made to Order</title>
+    <desc>When an architect finds himself hosting his family for Christmas, he turns to a holiday coordinator for help. Her expert Christmas spirit brings his family together, but neither expected it to bring them closer to each other.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702200000 +0000" stop="20250702220000 +0000">
+    <title lang="zh">Holiday Crashers</title>
+    <desc>Best friends Toni and Bri have worked at the same card shop for more years than they should as both struggle to find their true life's path. Toni and Bri decide to create new identities to crash the Christmas parties.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250702220000 +0000" stop="20250703000000 +0000">
+    <title lang="zh">Santa Tell Me</title>
+    <desc>A design show host finds a letter from Santa promising to meet her true love, a man named Nick, by Christmas Eve. Meeting three Nicks complicates her search.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403490" start="20250703000000 +0000" stop="20250704000000 +0000">
+    <title lang="zh">Christmas Island</title>
+    <desc>When a snowstorm diverts Kate's first private flight to Christmas Island, she must team up with an air traffic controller to secure her dream job as the family's pilot.</desc>
+    <date>2025-07-03</date>
   </programme>
 </tv>
