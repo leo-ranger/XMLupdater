@@ -1,352 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250630094552 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403788/20250630.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403788&amp;date=20250630&amp;timezone=None">
+<tv date="20250701095107 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403788/20250701.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403788&amp;date=20250701&amp;timezone=None">
   <channel id="403788">
     <display-name lang="US">Disney - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403788" start="20250630005000 +0000" stop="20250630012000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Candace puts Mom in a Candace costume in hopes that she'll finally see the boys' invention; Stacy takes on an agent role with OWCA to rescue Perry from some evil scientists.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630012000 +0000" stop="20250630015000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Doof becomes a mothman; the boys make a movie set.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630015000 +0000" stop="20250630022000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>CHLOROPHYLL-AINS! Francis has to protect a plant from a nefarious threat. EGGS-ISTENTIAL CRISIS! Merian struggles to open an egg salad stand with Pliny.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630022000 +0000" stop="20250630025000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>The kids get sucked into a white-hot, Mutant soap opera; Sara attempts to nail the perfect hairstyle so she can be the star of Francis' painting.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630025000 +0000" stop="20250630031500 +0000">
-    <title lang="zh">Wizards Beyond Waverly Place</title>
-    <desc>When her spell to remove Justin's wisdom teeth also removes all of his wisdom by mistake, Billie is left watching out for a reckless Justin.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630031500 +0000" stop="20250630034500 +0000">
-    <title lang="zh">Wizards Beyond Waverly Place</title>
-    <desc>Billie, Roman, and Winter sneak into the Wizard World so Billie can compete in an underground magic battle: Battle of the Wands. Meanwhile, Milo covers for the kids at home.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630034500 +0000" stop="20250630040000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>To impress his new neighbors, Cricket attempts to launch a chicken into space.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630040000 +0000" stop="20250630043000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630043000 +0000" stop="20250630050000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630050000 +0000" stop="20250630053000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo construct a mini-civilization; Mum is crowned Queen with the girls as her butlers; Bluey and Bingo commute on the Dad-Train.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630053000 +0000" stop="20250630060000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Jack and Rusty play Army at school; the girls set up a fancy restaurant for Mum and Dad; Bluey, Bingo and Muffin strike a deal with the dads.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630060000 +0000" stop="20250630063000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630063000 +0000" stop="20250630070000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The Heelers play a game of Bus; Mum and Bluey play Mum School, where Mum teaches Bluey how to corral her rowdy kids; Bingo decides she's too tired to walk and needs a piggyback.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630070000 +0000" stop="20250630073000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Tilly and Remy put on a play; Cricket meets his favorite heroes; when Gramma temporarily loses her eyesight, Cricket and Tilly try to help her.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630073000 +0000" stop="20250630080000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket struggles to get the best birthday present for his best bud, Remy; due to a close call with a dirt bike, Cricket fearfully decides to live his life in shelter.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630080000 +0000" stop="20250630083000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>A computer error moves Barry into high school, forcing Kiff to follow; Kiff thinks the library should be loud, but it quickly backfires.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630083000 +0000" stop="20250630090000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff finally meets her mom's old college friends.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630090000 +0000" stop="20250630093000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and her friends play a game of helicopter with a tree stump; Chloe tries to teach her dad to improvise and play Bluey's game of Octopus at home; Mum reminisces about Bluey and Judo as babies, where it was a race to see who would walk first.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630093000 +0000" stop="20250630100000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Dad thinks Bluey and Bingo have too many toys; Bluey and friends get ambushed by the Terriers; Bluey and Bingo play a game of Burger Shop with Dad.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630100000 +0000" stop="20250630103000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630103000 +0000" stop="20250630110000 +0000">
-    <title lang="zh">Mickey Mouse Funhouse</title>
-    <desc>Minnie plans a picnic, but on the way there, friends need her picnic supplies more than she does; Daisy realizes she can't fix a mine cart and doesn't want to ask for help.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630110000 +0000" stop="20250630113000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey and Bingo construct a mini-civilization; Mum is crowned Queen with the girls as her butlers; Bluey and Bingo commute on the Dad-Train.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630113000 +0000" stop="20250630120000 +0000">
-    <title lang="zh">Pupstruction</title>
-    <desc>Harry wants to help Pupstruction build PawPaw a great Father's Day gift; Bailey and her classmates are excited for their first class trip, but a broken road stands in their way.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630120000 +0000" stop="20250630123000 +0000">
-    <title lang="zh">SuperKitties</title>
-    <desc>The SuperKitties teach Zsa-Zsa that if she takes care of planted seeds, they'll grow into fruits and veggies for everyone to enjoy.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630123000 +0000" stop="20250630130000 +0000">
-    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
-    <desc>With the help of Reptil, Team Spidey gets new dino powers to defeat Gobby's Dino-Mech; team Spidey must stop a ghost that's stealing from the museum.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630130000 +0000" stop="20250630133000 +0000">
-    <title lang="zh">Robogobo</title>
-    <desc>When the Slink tricks Risky and Royale into joining her crew, RoboGobo must rescue them; Dax and Hopper help a scared penguin go down a slide to escape Pupsicle's Mecha-Muttsicles.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630133000 +0000" stop="20250630140000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Jack and Rusty play Army at school; the girls set up a fancy restaurant for Mum and Dad; Bluey, Bingo and Muffin strike a deal with the dads.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630140000 +0000" stop="20250630143000 +0000">
-    <title lang="zh">Disney Jr's Ariel</title>
-    <desc>Jewels visits and copies everything Ariel does; Sebastian tries to relax for a day.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630143000 +0000" stop="20250630150000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630150000 +0000" stop="20250630153000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Mum gets everyone to play musical statues.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630153000 +0000" stop="20250630160000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630160000 +0000" stop="20250630163000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630163000 +0000" stop="20250630170000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630170000 +0000" stop="20250630173000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff and Barry go on an adventure outside of Table Town to save Halfway There Day!</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630173000 +0000" stop="20250630180000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>A pizza delivery girl from Big City has to flee from a crazed country family; when Bill gets a horse for the day, Tilly must hide how much she secretly hates horses.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630180000 +0000" stop="20250630183000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Tilly and Andromeda exchange letters that reveal their outlooks on the world; Remy enlists the Greens to help him lie to his parents about his week in the country.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630183000 +0000" stop="20250630190000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>The kids plan a heist to steal honey from Bill's beehive; Cricket and Remy run a campaign to get Phoenix, the dog, elected as mayor.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630190000 +0000" stop="20250630193000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket discovers lake life brings out Bill's fun-loving side; when rabbits threaten to destroy Bill's crops, Nancy enlists their country friends to save the harvest.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630193000 +0000" stop="20250630200000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>When the Greens return Gramma and Remy to Big City, they are determined to delay their goodbyes for as long as possible.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630200000 +0000" stop="20250630203000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Tilly and Cricket wrestle with decision making at a truck stop between Big City and the country; Tilly rises through the ranks as a Big City jingle writer.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630203000 +0000" stop="20250630210000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Bill discovers his favorite comedian, Fred the Farmer, may not be who he claims to be; Tilly defends Cricket at a family trial after he's accused of stealing an entire cake.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630210000 +0000" stop="20250630213000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey plays a game of "Shops" with her friends; a pool trip is a blast, until Dad forgets everything; the Heeler family plays a game and goes on an adventure.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630213000 +0000" stop="20250630220000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey is upset when Dad keeps stopping on their walk; Bluey is Dad's only hope to make it to the airport; Bluey takes a solo adventure on the beach.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630220000 +0000" stop="20250630223000 +0000">
-    <title lang="zh">Bluey</title>
-  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
-  <category lang="en">Series</category>
-  <category lang="en">Animation</category>
-  <category lang="en">Comedy</category>
-  <category lang="en">Drama</category>
-  <category lang="en">Kids</category>
-    <desc>Bluey decides to be Mum during a game of "Kids!"; Butterflies is a fun game until Bingo ends up alone; Bluey's eyes are opened to the simple beauty of nature.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630223000 +0000" stop="20250630230500 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>To impress his new neighbors, Cricket attempts to launch a chicken into space; the Greens are excited to continue their traditional monthly steak dinner, but Cricket accidentally loses the steaks on the subway.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630230500 +0000" stop="20250630233000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket must wrestle a wild animal in order to prove himself worthy of the family name; when Cricket persuades Bill to convert his pickup into a french fry food truck, he discovers a mysterious blue potato that Gramma says is cursed with bad luck.</desc>
-    <date>2025-06-30</date>
-  </programme>
-  <programme channel="403788" start="20250630233000 +0000" stop="20250701000000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>The mischievous Cricket Green and his family pick up their lives in the country to start anew in the big city.</desc>
-    <date>2025-06-30</date>
-  </programme>
   <programme channel="403788" start="20250701000000 +0000" stop="20250701003000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys bring Perry to the vet for a checkup and build a pet wash while they wait; Carl tries to help Perry stop Doof while working three other part-time jobs.</desc>
@@ -695,9 +352,331 @@
     <desc>Bill takes Gramma to a doctor's checkup and leaves Tilly in charge of Cricket; Cricket learns that Bill never realized his childhood dream of becoming a gymnast.</desc>
     <date>2025-07-01</date>
   </programme>
-  <programme channel="403788" start="20250702000000 +0000" stop="20250703000000 +0000">
+  <programme channel="403788" start="20250702000000 +0000" stop="20250702003000 +0000">
     <title lang="zh">Kiff</title>
     <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
     <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702003000 +0000" stop="20250702010000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702010000 +0000" stop="20250702013000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Chip is forced to use slap-based tactics to defend a bullied mutant; the kids prank accidentally lures one of Lullahs nemeses to the island.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702013000 +0000" stop="20250702020000 +0000">
+    <title lang="zh">Zombies: The Re-Animated Series</title>
+    <desc>Zed watches funny videos on ShrimpTok and ends up having to save humanity; Dae and Bree use dark magic to prove that they are their favorite band's number one fans.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702020000 +0000" stop="20250702023000 +0000">
+    <title lang="zh">Miraculous: Tales of Ladybug and Cat Noir</title>
+    <desc>A figure skating trainer named Philippe gets akumatized into Frozer; armed with ice skates, he wants to turn Paris into a kingdom of ice.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702023000 +0000" stop="20250702030000 +0000">
+    <title lang="zh">Miraculous: Tales of Ladybug and Cat Noir</title>
+    <desc>Humiliated by Gabriel Agreste, Chloe's mother gets akumatized into Style Queen.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702030000 +0000" stop="20250702033000 +0000">
+    <title lang="zh">Jessie</title>
+    <desc>Jessie notices a famous casting director in the park; she tries to impress him by volunteering to help his daughter befriend the Ross kids.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702033000 +0000" stop="20250702040000 +0000">
+    <title lang="zh">Jessie</title>
+    <desc>Creepy Connie returns but she is not alone; she and her sidekick, Mackenzie, compete for Luke's attention.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702040000 +0000" stop="20250702043000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and her friends play a game of helicopter with a tree stump; Chloe tries to teach her dad to improvise and play Bluey's game of Octopus at home; Mum reminisces about Bluey and Judo as babies, where it was a race to see who would walk first.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702043000 +0000" stop="20250702050000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Dad thinks Bluey and Bingo have too many toys; Bluey and friends get ambushed by the Terriers; Bluey and Bingo play a game of Burger Shop with Dad.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702050000 +0000" stop="20250702053000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey gets her own room; Bluey wants her Father's Day card to be perfect; Mum sets up a backyard obstacle course just for fun.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702053000 +0000" stop="20250702060000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey keeps breaking her promises; Bluey teaches Bingo how to use magic; Bluey teaches Bingo to be more like him.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702060000 +0000" stop="20250702063000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey can't get to sleep, so Mum reads her a story; Dad pretends he was born yesterday; Bingo and Dad brave a magpie protecting its nest.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702063000 +0000" stop="20250702070000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Dad tries to teach Bluey how to play chess, but Mom thinks she is still too young; Bingo helps Mom make an omelette for Dad's birthday; Lucky's Dad is outraged that modern Pass the Parcel has a present in every layer.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702070000 +0000" stop="20250702073000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Identity crises abound; Wayne wants city excitement.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702073000 +0000" stop="20250702080000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Saxon finds love; Remy's parents bond with him.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702080000 +0000" stop="20250702083000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry are identicals tentacles in everything, however an extra gift may tip the scales; Kiff and the gang get lost in the woods during a scary encounter.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702083000 +0000" stop="20250702090000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff loses a hat that gave Barry a confidence boost and attempts to recover it; Kiff and Barry try to return a lost journal without exposing its deeply personal entries.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702090000 +0000" stop="20250702093000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bluey and Bingo love to video chat; Dad agrees to buy ice cream; Dad tells a real-life fairy tale.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702093000 +0000" stop="20250702100000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702100000 +0000" stop="20250702103000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Bingo finds a toy turtle at the playground and wants to take him home; Mom's sister Brandy comes over for a visit; Bluey and Bingo hide under the house and spy on two mysterious tradies working in the backyard.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702103000 +0000" stop="20250702110000 +0000">
+    <title lang="zh">Mickey Mouse Funhouse</title>
+    <desc>It takes Goofy longer to learn ballet steps than Donald and Mickey; King Ludwig's nephews, Hueth, Deweth, and Loueth, struggle to learn about new Easter activities in Majestica.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702110000 +0000" stop="20250702113000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The adventures of a Blue Heeler puppy, Bluey, who lives with her mother, father and sister; her energy and lovable spirit gets her into all kinds of funny and unpredictable situations.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702113000 +0000" stop="20250702120000 +0000">
+    <title lang="zh">Pupstruction</title>
+    <desc>Pupstruction build Dr. Barkley a "Feel Better Mobile," that helps pets who need it; when Roxy wants a demolition party for her birthday, the Pups make her dream a reality.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702120000 +0000" stop="20250702123000 +0000">
+    <title lang="zh">SuperKitties</title>
+    <desc>Lab Rat creates wacky weather that threatens to ruin the Pawesome Picnic; When the Kittydale Race gets sabotaged, Bitsy stops racing to help the SuperKitties save the day.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702123000 +0000" stop="20250702130000 +0000">
+    <title lang="zh">Marvel's Spidey and His Amazing Friends</title>
+    <desc>Team Spidey and White Tiger must stop Gobby and Rhino from mining in a ringtail's habitat; when Trapster traps Spidey, he must get help from friends with big ideas.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702130000 +0000" stop="20250702133000 +0000">
+    <title lang="zh">Robogobo</title>
+    <desc>When a friendly tarantula scares people at the pet adoption, Dax and Allie must help him find a forever home; Booster and Dax team up with Risky and Royale to stop Mönkey Wrënch.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702133000 +0000" stop="20250702140000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>Mum gets everyone to play musical statues.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702140000 +0000" stop="20250702143000 +0000">
+    <title lang="zh">Disney Jr's Ariel</title>
+    <desc>Ursula does not feel well; Ariel and her family head on a road trip.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702143000 +0000" stop="20250702150000 +0000">
+    <title lang="zh">Bluey</title>
+  <icon src="https://cdn-images.dzcdn.net/images/artist/738bd26f2c031830bcddbe883411fcca/1900x1900-000000-80-0-0.jpg"/>
+  <category lang="en">Series</category>
+  <category lang="en">Animation</category>
+  <category lang="en">Comedy</category>
+  <category lang="en">Drama</category>
+  <category lang="en">Kids</category>
+    <desc>The slice-of-life adventures of an Australian Blue Heeler Cattle Dog puppy.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702150000 +0000" stop="20250702151500 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Celebrating Halfway There Day, where everyone is supposed to celebrate mild laziness.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702151500 +0000" stop="20250702154500 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry go on an adventure outside of Table Town to save Halfway There Day!</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702154500 +0000" stop="20250702160000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>A road trip goes awry when scary-looking bikers pursue the Chatterleys and Barry.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702160000 +0000" stop="20250702163000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff wants the first sip at a new water fountain and nothing will stop her; Kiff learns that Barry's family shares bathwater; Kiff is fourth in line.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702163000 +0000" stop="20250702170000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>A computer error moves Barry into high school, forcing Kiff to follow; Kiff thinks the library should be loud, but it quickly backfires.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702170000 +0000" stop="20250702173000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry are identicals tentacles in everything, however an extra gift may tip the scales; Kiff and the gang get lost in the woods during a scary encounter.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702173000 +0000" stop="20250702180000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff loses a hat that gave Barry a confidence boost and attempts to recover it; Kiff and Barry try to return a lost journal without exposing its deeply personal entries.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702180000 +0000" stop="20250702183000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry help a local bridge troll but discover he has some tricky riddles; Kiff and Barry get detention and meet a ragtag team of students who help them plot an escape.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702183000 +0000" stop="20250702190000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff has a lot to do today, but brushing her tooth is not on the list; Kiff, Barry and the crew set out to make a movie so they can have a fun blooper reel, but blooping is hard.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702190000 +0000" stop="20250702193000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry, in a silly mood, threaten a trip to Table Town Museum; when a leftover slice of pizza goes missing in the Chatterley home, they must settle the matter in family court.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702193000 +0000" stop="20250702200000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Barry and the Chatterleys go to the beach; Barry learns to swim.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702200000 +0000" stop="20250702201500 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Celebrating Halfway There Day, where everyone is supposed to celebrate mild laziness.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702201500 +0000" stop="20250702204500 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry go on an adventure outside of Table Town to save Halfway There Day!</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702204500 +0000" stop="20250702210000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702210000 +0000" stop="20250702213000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff has an unsneezed sneeze trapped in her head so she and Barry try everything to get it out; Kiff and Barry meet their favorite actor, but does he not like them?</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702213000 +0000" stop="20250702220000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff and Barry accidentally cause a townwide blackout by upsetting a Lighthouse Keeper. Kiff has dinner at the Buns's and has to hide that she hates the food.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702220000 +0000" stop="20250702223000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff runs for class president against a surprise candidate, Mr. RiPeppa. The Chatterleys take Barry on their island vacation, but he seems to have a dark secret.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702223000 +0000" stop="20250702230500 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff's good deed goes unnoticed while Reggie's receives lots of attention; Kiff and Barry enjoy a kids-only dinner with their shy classmate Darryn.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702230500 +0000" stop="20250702233000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250702233000 +0000" stop="20250703000000 +0000">
+    <title lang="zh">Kiff: Lore of the Ring Light</title>
+    <desc>Kiff and her friends go on an adventure to destroy a ring light of immense power.</desc>
+    <date>2025-07-02</date>
+  </programme>
+  <programme channel="403788" start="20250703000000 +0000" stop="20250704000000 +0000">
+    <title lang="zh">Kiff</title>
+    <desc>Celebrating Halfway There Day, where everyone is supposed to celebrate mild laziness.</desc>
+    <date>2025-07-03</date>
   </programme>
 </tv>
