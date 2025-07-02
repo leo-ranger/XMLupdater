@@ -1,104 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20250701221855 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105837/20250701.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105837&amp;date=20250701&amp;timezone=None">
+<tv date="20250702221918 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105837/20250702.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105837&amp;date=20250702&amp;timezone=None">
   <channel id="105837">
     <display-name lang="Australia">MasterChef</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609083744178340_26.png" />
   </channel>
-  <programme channel="mjh-10-masterchef" start="20250701004700 +0000" stop="20250701021400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 45</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701021400 +0000" stop="20250701031400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 46</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701031400 +0000" stop="20250701041600 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 47</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701041600 +0000" stop="20250701054400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 48</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701054400 +0000" stop="20250701064400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 49</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701064400 +0000" stop="20250701074700 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 50</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701074700 +0000" stop="20250701091600 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 51</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701091600 +0000" stop="20250701101700 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 52</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701101700 +0000" stop="20250701112300 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 53</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701112300 +0000" stop="20250701125400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 54</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701125400 +0000" stop="20250701135400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 55</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701135400 +0000" stop="20250701145700 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 56</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701145700 +0000" stop="20250701162400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 57</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701162400 +0000" stop="20250701172900 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 58</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701172900 +0000" stop="20250701184400 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 59</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701184400 +0000" stop="20250701202200 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 60</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701202200 +0000" stop="20250701220100 +0000">
-    <title lang="zh">MasterChef Australia S12 Ep. 61</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701220100 +0000" stop="20250701234200 +0000">
-    <title lang="zh">MasterChef Australia S14 Ep. 1</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
-  <programme channel="mjh-10-masterchef" start="20250701234200 +0000" stop="20250702000000 +0000">
-    <title lang="zh">MasterChef Australia S14 Ep. 2</title>
-    <desc />
-    <date>2025-07-01</date>
-  </programme>
   <programme channel="mjh-10-masterchef" start="20250702011000 +0000" stop="20250702021400 +0000">
     <title lang="zh">MasterChef Australia S14 Ep. 3</title>
     <desc />
@@ -198,5 +103,110 @@
     <title lang="zh">MasterChef Australia S14 Ep. 22</title>
     <desc />
     <date>2025-07-02</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703000500 +0000" stop="20250703010300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 23</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703010300 +0000" stop="20250703030300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 24</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703030300 +0000" stop="20250703041800 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 25</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703041800 +0000" stop="20250703051700 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 26</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703051700 +0000" stop="20250703061400 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 27</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703061400 +0000" stop="20250703071200 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 28</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703071200 +0000" stop="20250703081500 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 29</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703081500 +0000" stop="20250703093500 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 30</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703093500 +0000" stop="20250703103300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 31</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703103300 +0000" stop="20250703113300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 32</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703113300 +0000" stop="20250703123500 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 33</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703123500 +0000" stop="20250703142300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 34</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703142300 +0000" stop="20250703155100 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 35</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703155100 +0000" stop="20250703165000 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 36</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703165000 +0000" stop="20250703174700 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 37</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703174700 +0000" stop="20250703184600 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 38</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703184600 +0000" stop="20250703194700 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 39</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703194700 +0000" stop="20250703211300 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 40</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703211300 +0000" stop="20250703221200 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 41</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703221200 +0000" stop="20250703231200 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 42</title>
+    <desc />
+    <date>2025-07-03</date>
+  </programme>
+  <programme channel="mjh-10-masterchef" start="20250703231200 +0000" stop="20250704000000 +0000">
+    <title lang="zh">MasterChef Australia S14 Ep. 43</title>
+    <desc />
+    <date>2025-07-03</date>
   </programme>
 </tv>
