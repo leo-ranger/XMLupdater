@@ -1,165 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20250807222335 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105810/20250807.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105810&amp;date=20250807&amp;timezone=None">
+<tv date="20250808222201 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105810/20250808.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105810&amp;date=20250808&amp;timezone=None">
   <channel id="105810">
     <display-name lang="Australia">South Park</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609083910771896_66.png" />
   </channel>
-  <programme channel="mjh-10-south-park" start="20250807000800 +0000" stop="20250807003600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Rainforest Schmainforest - S3 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys accompany a teacher and her singing-and-dancing group to Central America to raise awareness of the rain forest. Also: Kenny falls for a choir member; and Kyle has trouble mastering the choreography.</desc><date>1999-04-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807003600 +0000" stop="20250807010400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Spontaneous Combustion - S3 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Residents start to spontaneously combust, prompting Stan's geologist father to investigate.</desc><date>1999-04-14</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807010400 +0000" stop="20250807013200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>The Succubus (a.k.a. Chef's Mama) - S3 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef gets a visit from his mother when the boys feel his bride-to-be has taken their place in his heart.</desc><date>1999-04-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807013200 +0000" stop="20250807020000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Jakovasaurs - S3 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys discover two nearly extinct animals while camping on the banks of Stark's Pond.</desc><date>1999-06-16</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807020000 +0000" stop="20250807022800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Tweek vs. Craig - S3 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys take a shop class taught by an eccentric, and urge a schoolyard fight between classmates Tweek and Craig.</desc><date>1999-06-23</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807022800 +0000" stop="20250807025600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Sexual Harassment Panda - S3 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman sues Stan for sexual harassment.</desc><date>1999-07-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807025600 +0000" stop="20250807032400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cat Orgy - S3 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Shelly baby-sits Cartman.</desc><date>1999-07-14</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807032400 +0000" stop="20250807035200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Two Guys Naked in a Hot Tub - S3 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A meteor shower hits town, and Stan's sister Shelly babysits Cartman while Mrs. Cartman goes to a "meteor party."</desc><date>1999-07-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807035200 +0000" stop="20250807042000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Jewbilee - S3 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle and Ike go on a camping trip while South Park residents wait for a meteor shower to begin.</desc><date>1999-07-28</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807042000 +0000" stop="20250807044800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Korn's Groovy Pirate Ghost Mystery - S3 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>On Halloween, the boys are plagued by fifth graders and the town is overrun by pirate ghosts. Music group Korn assists, and sings "Falling Away from Me."</desc><date>1999-10-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807044800 +0000" stop="20250807051600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Chinpokomon - S3 Ep. 11</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Adults try to counter when the town's children become obsessed with a fad from Japan, whose government reveals their master plan behind the craze.</desc><date>1999-11-03</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807051600 +0000" stop="20250807054400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Hooked on Monkey Fonics - S3 Ep. 12</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle tries to teach his new rival about love; the boys compete against home-schooled kids in the annual spelling bee; and Cartman's mom agrees to teach him at home.</desc><date>1999-11-10</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807054400 +0000" stop="20250807061100 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Starvin' Marvin in Space! - S3 Ep. 13</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Starvin Marvin returns in a stolen U.S. spaceship, and enlists the boys to help feed his Ethiopian village. The CIA is among their pursuers.</desc><date>1999-11-17</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807061100 +0000" stop="20250807063900 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>The Red Badge of Gayness (a.k.a. War) - S3 Ep. 14</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The town holds its annual reenactment of a Civil War battle, and Cartman suits up for the Confederacy with visions of glory.</desc><date>1999-11-24</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807063900 +0000" stop="20250807070700 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Mr. Hankey's Christmas Classics - S3 Ep. 15</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Mr. Hankey and South Park citizens celebrate the holidays with musical numbers from his Christmas Classics Album.</desc><date>1999-12-01</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807070700 +0000" stop="20250807073500 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Are You There God, It's Me Jesus - S3 Ep. 16</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>"Are You There, God? It's Me, Jesus" purports to "answer age-old questions about who we are and what we're all about."</desc><date>1999-12-29</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807073500 +0000" stop="20250807080300 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Worldwide Recorder Concert (a.k.a. The Brown Noise) - S3 Ep. 17</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys and their class travel to the first "Worldwide Recorder Concert" in Arkansas, where Mr. Garrison confronts the demons of his childhood while visiting his parents.</desc><date>2000-01-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807080300 +0000" stop="20250807083000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>The Tooth Fairy's TATS 2000 - S4 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman impersonates the Tooth Fairy when he learns there's money to be made from harvesting the teeth of underprivileged kids. However, the leader of a dentists' organization sets out to stop him.</desc><date>2000-04-05</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807083000 +0000" stop="20250807085700 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cartman's Silly Hate Crime 2000 - S4 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman is sentenced to juvenile hall and his friends plan to get him out. Meanwhile, he begins to adjust to life on the inside.</desc><date>2000-04-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807085700 +0000" stop="20250807092400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Quintuplets 2000 - S4 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The South Park media showers attention on a family with quintuplets that moves into the area, and Cartman befriends one of the new residents. Meanwhile, Kenny's mom tries to cash in on the excitement by planning a multiple birth of her own.</desc><date>2000-04-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807092400 +0000" stop="20250807095100 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cartman Joins NAMBLA - S4 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman seeks online companionship from older users after deciding that Stan, Kenny and Kyle aren't mature enough.</desc><date>2000-06-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807095100 +0000" stop="20250807101800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cherokee Hair Tampons - S4 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle suffers from a rare kidney disease and Cartman may be the only one who can save him, but at a high price.</desc><date>2000-06-28</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807101800 +0000" stop="20250807104600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Chef Goes Nanners - S4 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef protests against the South Park flag and ignites a town debate that even divides the kids. Meanwhile, Wendy becomes attracted to Cartman.</desc><date>2000-07-05</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807104600 +0000" stop="20250807111300 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Something You Can Do with Your Finger (a.k.a. Fingerbang) - S4 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Stan, Kyle, Kenny and Cartman form their own band and hold tryouts for a fifth member.</desc><date>2000-07-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807111300 +0000" stop="20250807114000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Do the Handicapped Go to Hell? (1) - S4 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys, scared by Priest Maxi's threats of eternal damnation, scramble to take part in Holy Communion and their first Confession in order to "save" themselves.</desc><date>2000-07-19</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807114000 +0000" stop="20250807120700 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Probably (2) - S4 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Satan can't decide between his new boyfriend and his former beau, Saddam Hussein. Meanwhile, Cartman has discovered his evangelical side and tries to ensure the gang a passage to heaven.</desc><date>2000-07-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807120700 +0000" stop="20250807123500 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Fourth Grade - S4 Ep. 11</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The fearful boys speculate on the identity of their teacher as they begin the fourth grade, leading them to build a time machine to take them back to the safety of third grade.</desc><date>2000-11-08</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807123500 +0000" stop="20250807130200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Trapper Keeper - S4 Ep. 12</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Mr. Garrison orders a recount when the race for kindergarten president is too close to call. Meanwhile, a life form from the future appears in the school yard at South Park Elementary.</desc><date>2000-11-15</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807130200 +0000" stop="20250807132900 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Helen Keller! The Musical - S4 Ep. 13</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys work on a Thanksgiving pageant about Helen Keller and decide to use a turkey instead of a dog.</desc><date>2000-11-22</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807132900 +0000" stop="20250807135600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Fat Camp - S4 Ep. 15</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman is sent to a camp for obese youngsters by concerned family and friends. Meanwhile, Kenny has his own hit TV show, "Krazy Kenny." Also, Chef talks to the boys about prostitution.</desc><date>2000-12-06</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807135600 +0000" stop="20250807142300 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>The Wacky Molestation Adventure - S4 Ep. 16</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman becomes South Park's mayor when the kids take over the town.</desc><date>2000-12-13</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807142300 +0000" stop="20250807145000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>A Very Crappy Christmas - S4 Ep. 17</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys make a video Christmas card when Mr. Hankey's visit is delayed.</desc><date>2000-12-20</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807145000 +0000" stop="20250807151800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Timmy! 2000 - S4 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Mr. Mackey excuses Timmy from homework when he mistakenly thinks the boy is suffering from Attention Deficit Disorder; then Cartman and his friends try to develop the same affliction.</desc><date>2000-04-19</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807151800 +0000" stop="20250807154600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>It Hits the Fan - S5 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys realize they may have made history of some sort when Cartman utters an expletive.</desc><date>2001-06-20</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807154600 +0000" stop="20250807161400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cripple Fight - S5 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys join the Mountain Scouts with Timmy, who winds up in a fight with Jimmy in a supermarket parking lot.</desc><date>2001-06-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807161400 +0000" stop="20250807164200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Super Best Friends - S5 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A magician persuades Kenny, Cartman and Kyle to join his cult, and their journey lands them in Washington, D.C.</desc><date>2001-07-04</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807164200 +0000" stop="20250807171000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Scott Tenorman Must Die - S5 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Radiohead plays a role in Cartman's plan for revenge against an eighth-grader who wronged him.</desc><date>2001-07-11</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807171000 +0000" stop="20250807173800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Terrance and Phillip: Behind the Blow - S5 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys are devastated to learn that their heroes Terrence and Phillip have broken up.</desc><date>2001-07-18</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807173800 +0000" stop="20250807180600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Cartmanland - S5 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman uses his $1 million inheritance to open his own amusement park.</desc><date>2001-07-25</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807180600 +0000" stop="20250807183400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Proper Condom Use - S5 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The impulsive implementation of sex-education classes at school leads to an all-out battle between the boys and the girls.</desc><date>2001-08-01</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807183400 +0000" stop="20250807190200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Towelie - S5 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The gang tries to protect a new resident in South Park from the government.</desc><date>2001-08-08</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807190200 +0000" stop="20250807193000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Osama Bin Laden Has Farty Pants - S5 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys decide to get into the patriotic spirit by heeding the President's advice to send money to the children of Afghanistan. But their spirits sour when they receive a package back and their mail becomes the focus of Government investigators.</desc><date>2001-11-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807193000 +0000" stop="20250807195800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>How to Eat with Your Butt - S5 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>As a prank, Cartman somehow gets Kenny's picture pasted on milk cartons as a missing child, which soon backfires on him.</desc><date>2001-11-14</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807195800 +0000" stop="20250807202600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>The Entity (a.k.a. The Ginger Device) - S5 Ep. 11</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle is embarrassed by his cousin, Kyle, and tries to think of ways to avoid him in front of his friends.</desc><date>2001-11-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807202600 +0000" stop="20250807205400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Kenny Dies - S5 Ep. 13</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman discovers the benefits of stem-cell research.</desc><date>2001-12-05</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807205400 +0000" stop="20250807212200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Butters' Very Own Episode - S5 Ep. 14</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Butters looks forward to his parents' anniversary dinner despite his mother's reaction to his father's secret extracurricular activities.</desc><date>2001-12-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807212200 +0000" stop="20250807215000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Krazy Kripples - S7 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The kids become embroiled in the life of a disabled celebrity who breezes through town and gets all the attention.</desc><date>2003-03-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807215000 +0000" stop="20250807221800 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Toilet Paper - S7 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys are under investigation for covering their teacher's house with toilet paper.</desc><date>2003-04-02</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807221800 +0000" stop="20250807224600 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>I'm a Little Bit Country - S7 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The foul-mouthed youngsters return for a seventh season.</desc><date>2003-04-09</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807224600 +0000" stop="20250807231400 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Fat Butt and Pancake Head - S7 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Jennifer Lopez and Ben Affleck come to town.</desc><date>2003-04-16</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807231400 +0000" stop="20250807234200 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Lil' Crime Stoppers - S7 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The guys start their own detective agency.</desc><date>2003-04-23</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
-  <programme channel="mjh-10-south-park" start="20250807234200 +0000" stop="20250808000000 +0000">
-    <title lang="zh">South Park</title>
-    <sub-title>Red Man's Greed - S7 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys try to save the town from developers.</desc><date>2003-04-30</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
   <programme channel="mjh-10-south-park" start="20250808001000 +0000" stop="20250808003800 +0000">
     <title lang="zh">South Park</title>
     <sub-title>South Park is Gay! - S7 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The whole town suddenly discovers it's all the rage to be gay.</desc><date>2003-10-22</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
@@ -313,4 +157,160 @@
   <programme channel="mjh-10-south-park" start="20250808233400 +0000" stop="20250809000000 +0000">
     <title lang="zh">South Park</title>
     <sub-title>Cartman Gets an Anal Probe - S1 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Aliens wreak havoc in the Rockies, first by subjecting Cartman to an anal probe, and then by abducting Kyle's baby brother.</desc><date>1997-08-13</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809000100 +0000" stop="20250809002900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Weight Gain 4000 - S1 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman tries to slim down when he learns a TV talk-show host is coming to town to give him an award, but he bulks up instead. Meanwhile, Mr. Garrison hatches a plan to murder the visiting celeb.</desc><date>1997-08-20</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809002900 +0000" stop="20250809005700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Volcano - S1 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A volcanic eruption interrupts the boys' camping trip.</desc><date>1997-08-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809005700 +0000" stop="20250809012500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>An Elephant Makes Love to a Pig - S1 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>After a botched genetic experiment, Stan's clone is let loose in the town. Voices include Trey Parker and Matt Stone.</desc><date>1997-09-10</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809012500 +0000" stop="20250809015300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Death - S1 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys summon the Grim Reaper.</desc><date>1997-09-17</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809015300 +0000" stop="20250809022100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Pinkeye - S1 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A pinkeye epidemic interrupts the boys' plans to win a Halloween-costume contest; and Kenny has a run-in with a Russian space station when it falls to Earth.</desc><date>1997-10-29</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809022100 +0000" stop="20250809024900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Starvin' Marvin - S1 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>After the boys contact an agency that helps starving children, Government authorities send Cartman to Ethiopia. Meanwhile, the town holds a drive for canned goods; and turkeys revolt against a genetic engineer.</desc><date>1997-11-19</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809024900 +0000" stop="20250809031700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Mr. Hankey, the Christmas Poo - S1 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Because he's Jewish, Kyle is denied involvement in the Nativity play and excluded from trips to see Santa. Meanwhile, South Park residents try to plan a politically correct celebration; and Mr. Hankey visits Kyle.</desc><date>1997-12-17</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809031700 +0000" stop="20250809034500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Damien - S1 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>As Cartman celebrates his birthday, Jesus Christ and Satan duke it out on a pay-per-view TV special. Meanwhile, Satan's son Damien tries to fit in with the crowd after making a violent first impression.</desc><date>1998-02-04</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809034500 +0000" stop="20250809041300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cartman Gets an Anal Probe - S1 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Aliens wreak havoc in the Rockies, first by subjecting Cartman to an anal probe, and then by abducting Kyle's baby brother.</desc><date>1997-08-13</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809041300 +0000" stop="20250809044100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Weight Gain 4000 - S1 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman tries to slim down when he learns a TV talk-show host is coming to town to give him an award, but he bulks up instead. Meanwhile, Mr. Garrison hatches a plan to murder the visiting celeb.</desc><date>1997-08-20</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809044100 +0000" stop="20250809050900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Volcano - S1 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A volcanic eruption interrupts the boys' camping trip.</desc><date>1997-08-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809050900 +0000" stop="20250809053700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cartman's Mom is Still a Dirty Slut - S2 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef and the boys rush to the hospital to check on Mephesto, who's gunned down just as he's set to reveal the identity of Cartman's father. Meanwhile, the townspeople search for the gunman and battle a snowstorm.</desc><date>1998-04-22</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809053700 +0000" stop="20250809060500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chickenlover - S2 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chaos ensues on the streets of South Park as the town is overcome by a crime wave that leaves scores of chickens assaulted. And Officer Barbrady's no help...because he's resigned.</desc><date>1998-05-20</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809060500 +0000" stop="20250809063300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Ike's Wee Wee - S2 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys try to circumvent a delicate surgical procedure set to be performed on Kyle's brother as part of a tradition begun by their Jewish ancestors. Meanwhile, Mr. Mackey is cut from his job after he botches a lecture on drugs.</desc><date>1998-05-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809063300 +0000" stop="20250809070100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Conjoined Fetus Lady - S2 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle's terrified after an injury sustained during a dodgeball game sends him to the nurse---a conjoined twin with an unusual medical condition. Meanwhile, Pip leads the dodgeball team to the world championships in China.</desc><date>1998-06-03</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809070100 +0000" stop="20250809072900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>City on the Edge of Forever - S2 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys put twists on events such as the attempted assassination of a talk-show host and a fight with Death as their bus hangs off a cliff. Meanwhile, Ms. Crabtree finds fame when she goes to look for help.</desc><date>1998-06-17</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809072900 +0000" stop="20250809075700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Summer Sucks - S2 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The mayor devises a plan to make the town's Fourth of July celebration memorable, despite a ban on fireworks; and Mr. Hat vanishes, causing Mr. Garrison to visit a therapist.</desc><date>1998-06-24</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809075700 +0000" stop="20250809082500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chef's Chocolate Salty Balls - S2 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Hollywood pooh-bahs in town for a film festival try to sign Mr. Hankey to a movie deal after their upscale cuisine disrupts the sewage system and nearly destroys him. Meanwhile, locals are up in arms over the movie-industry event.</desc><date>1998-08-19</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809082500 +0000" stop="20250809085300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chickenpox - S2 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The town faces an outbreak of chicken pox.</desc><date>1998-08-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809085300 +0000" stop="20250809092100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Roger Ebert Should Lay Off the Fatty Foods - S2 Ep. 11</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Stan, Kyle and Kenny gravitate toward a new planetarium; and Cartman auditions to be the star of "Les Miserables."</desc><date>1998-09-02</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809092100 +0000" stop="20250809094900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Clubhouses - S2 Ep. 12</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys each build a clubhouse---and Stan is eager to have Wendy over for a game of "truth or dare." However, his parents' separation interferes with his plans.</desc><date>1998-09-23</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809094900 +0000" stop="20250809101600 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cow Days - S2 Ep. 13</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>During South Park's annual rodeo, the boys compete in a bull-riding contest. Meanwhile, the cows find religion.</desc><date>1998-09-30</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809101600 +0000" stop="20250809104400 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chef Aid - S2 Ep. 14</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef invites some of his well-known musician friends to participate in a benefit concert after he loses all of his money in a lawsuit. Meanwhile, the boys join the workforce to help him get out of debt.</desc><date>1998-10-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809104400 +0000" stop="20250809111100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Spooky Fish - S2 Ep. 15</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Stan fears his pet fish may be involved with a rash of unsolved murders that occur on Halloween. Meanwhile, Cartman starts killing people---with kindness, even going so far as to appreciate Wendy's liberal views.</desc><date>1998-10-28</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809111100 +0000" stop="20250809113900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Merry Christmas Charlie Manson! - S2 Ep. 16</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys go to Cartman's grandmother's house for a holiday feast that's also attended by Cartman's uncle (an escaped con) and the police.</desc><date>1998-12-09</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809113900 +0000" stop="20250809120600 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Gnomes (a.k.a. Underpants Gnomes) - S2 Ep. 17</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys work on a project with a high-strung kid whose parents' coffee shop faces strong competition from a conglomerate that hopes to set up in South Park.</desc><date>1998-12-16</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809120600 +0000" stop="20250809123300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Rainforest Schmainforest - S3 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys accompany a teacher and her singing-and-dancing group to Central America to raise awareness of the rain forest. Also: Kenny falls for a choir member; and Kyle has trouble mastering the choreography.</desc><date>1999-04-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809123300 +0000" stop="20250809130100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Spontaneous Combustion - S3 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Residents start to spontaneously combust, prompting Stan's geologist father to investigate.</desc><date>1999-04-14</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809130100 +0000" stop="20250809132900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>The Succubus (a.k.a. Chef's Mama) - S3 Ep. 3</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef gets a visit from his mother when the boys feel his bride-to-be has taken their place in his heart.</desc><date>1999-04-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809132900 +0000" stop="20250809135700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Jakovasaurs - S3 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys discover two nearly extinct animals while camping on the banks of Stark's Pond.</desc><date>1999-06-16</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809135700 +0000" stop="20250809142500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Tweek vs. Craig - S3 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys take a shop class taught by an eccentric, and urge a schoolyard fight between classmates Tweek and Craig.</desc><date>1999-06-23</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809142500 +0000" stop="20250809145300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Sexual Harassment Panda - S3 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman sues Stan for sexual harassment.</desc><date>1999-07-07</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809145300 +0000" stop="20250809152100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cat Orgy - S3 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Shelly baby-sits Cartman.</desc><date>1999-07-14</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809152100 +0000" stop="20250809154900 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Two Guys Naked in a Hot Tub - S3 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>A meteor shower hits town, and Stan's sister Shelly babysits Cartman while Mrs. Cartman goes to a "meteor party."</desc><date>1999-07-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809154900 +0000" stop="20250809161700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Jewbilee - S3 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle and Ike go on a camping trip while South Park residents wait for a meteor shower to begin.</desc><date>1999-07-28</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809161700 +0000" stop="20250809164500 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Korn's Groovy Pirate Ghost Mystery - S3 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>On Halloween, the boys are plagued by fifth graders and the town is overrun by pirate ghosts. Music group Korn assists, and sings "Falling Away from Me."</desc><date>1999-10-27</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809164500 +0000" stop="20250809171300 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chinpokomon - S3 Ep. 11</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Adults try to counter when the town's children become obsessed with a fad from Japan, whose government reveals their master plan behind the craze.</desc><date>1999-11-03</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809171300 +0000" stop="20250809174100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Hooked on Monkey Fonics - S3 Ep. 12</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle tries to teach his new rival about love; the boys compete against home-schooled kids in the annual spelling bee; and Cartman's mom agrees to teach him at home.</desc><date>1999-11-10</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809174100 +0000" stop="20250809180800 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Starvin' Marvin in Space! - S3 Ep. 13</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Starvin Marvin returns in a stolen U.S. spaceship, and enlists the boys to help feed his Ethiopian village. The CIA is among their pursuers.</desc><date>1999-11-17</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809180800 +0000" stop="20250809183600 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>The Red Badge of Gayness (a.k.a. War) - S3 Ep. 14</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The town holds its annual reenactment of a Civil War battle, and Cartman suits up for the Confederacy with visions of glory.</desc><date>1999-11-24</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809183600 +0000" stop="20250809190400 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Mr. Hankey's Christmas Classics - S3 Ep. 15</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Mr. Hankey and South Park citizens celebrate the holidays with musical numbers from his Christmas Classics Album.</desc><date>1999-12-01</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809190400 +0000" stop="20250809193200 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Are You There God, It's Me Jesus - S3 Ep. 16</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>"Are You There, God? It's Me, Jesus" purports to "answer age-old questions about who we are and what we're all about."</desc><date>1999-12-29</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809193200 +0000" stop="20250809200000 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Worldwide Recorder Concert (a.k.a. The Brown Noise) - S3 Ep. 17</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys and their class travel to the first "Worldwide Recorder Concert" in Arkansas, where Mr. Garrison confronts the demons of his childhood while visiting his parents.</desc><date>2000-01-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809200000 +0000" stop="20250809202700 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>The Tooth Fairy's TATS 2000 - S4 Ep. 1</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman impersonates the Tooth Fairy when he learns there's money to be made from harvesting the teeth of underprivileged kids. However, the leader of a dentists' organization sets out to stop him.</desc><date>2000-04-05</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809202700 +0000" stop="20250809205400 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cartman's Silly Hate Crime 2000 - S4 Ep. 2</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman is sentenced to juvenile hall and his friends plan to get him out. Meanwhile, he begins to adjust to life on the inside.</desc><date>2000-04-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809205400 +0000" stop="20250809212100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Quintuplets 2000 - S4 Ep. 4</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The South Park media showers attention on a family with quintuplets that moves into the area, and Cartman befriends one of the new residents. Meanwhile, Kenny's mom tries to cash in on the excitement by planning a multiple birth of her own.</desc><date>2000-04-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809212100 +0000" stop="20250809214800 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cartman Joins NAMBLA - S4 Ep. 5</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Cartman seeks online companionship from older users after deciding that Stan, Kenny and Kyle aren't mature enough.</desc><date>2000-06-21</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809214800 +0000" stop="20250809221600 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Cherokee Hair Tampons - S4 Ep. 6</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Kyle suffers from a rare kidney disease and Cartman may be the only one who can save him, but at a high price.</desc><date>2000-06-28</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809221600 +0000" stop="20250809224400 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Chef Goes Nanners - S4 Ep. 7</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Chef protests against the South Park flag and ignites a town debate that even divides the kids. Meanwhile, Wendy becomes attracted to Cartman.</desc><date>2000-07-05</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809224400 +0000" stop="20250809231100 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Something You Can Do with Your Finger (a.k.a. Fingerbang) - S4 Ep. 8</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Stan, Kyle, Kenny and Cartman form their own band and hold tryouts for a fifth member.</desc><date>2000-07-12</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809231100 +0000" stop="20250809233800 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Do the Handicapped Go to Hell? (1) - S4 Ep. 9</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>The boys, scared by Priest Maxi's threats of eternal damnation, scramble to take part in Holy Communion and their first Confession in order to "save" themselves.</desc><date>2000-07-19</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
+  <programme channel="mjh-10-south-park" start="20250809233800 +0000" stop="20250810000000 +0000">
+    <title lang="zh">South Park</title>
+    <sub-title>Probably (2) - S4 Ep. 10</sub-title><category lang="en">Animation</category><category lang="en">Comedy</category><desc>Satan can't decide between his new boyfriend and his former beau, Saddam Hussein. Meanwhile, Cartman has discovered his evangelical side and tries to ensure the gang a passage to heaven.</desc><date>2000-07-26</date><icon src="https://tendaily-prod-images.s3.ap-southeast-2.amazonaws.com/2020/09/18/9af150a4ebd91350a4713fa737952a1d-993431.jpg" /></programme>
 </tv>
