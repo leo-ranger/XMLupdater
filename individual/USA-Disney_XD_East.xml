@@ -1,249 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?> <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="20250812090416 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403837/20250812.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403837&amp;date=20250812&amp;timezone=None">
+<tv date="20250813090538 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/403837/20250813.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=403837&amp;date=20250813&amp;timezone=None">
   <channel id="403837">
     <display-name lang="US">Disney XD USA - Eastern Feed</display-name>
     <icon src="" />
   </channel>
-  <programme channel="403837" start="20250812000000 +0000" stop="20250812003000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys build the world's greatest roller coaster; Candace is surprised during a trip to Mount Rushmore.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812003000 +0000" stop="20250812010000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys enter the family automobile in a car race; then, a tropical beach paradise in the backyard goes awry.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812010000 +0000" stop="20250812013000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Phineas and Ferb herd stampeding cattle back to a carnival; the boys create a winter wonderland in the middle of summer.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812013000 +0000" stop="20250812020000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys capture Candace, who is wrapped up like a mummy; Phineas and the Ferb-Tones become a one-hit wonder.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812020000 +0000" stop="20250812023000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Phineas enters a thumb-wrestling contest with Buford; Candace tries out for the lead in her favorite play.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812023000 +0000" stop="20250812030000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys scare Candace with a fake Bigfoot; Phineas and Ferb create treehouses for themselves and Candace.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812030000 +0000" stop="20250812033000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Dr. Doofenshmirtz makes Perry the Platypus jealous with his new nemesis; Phineas and Ferb travel back in time.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812033000 +0000" stop="20250812040000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>Phineas and Ferb create a circus for the neighborhood; the boys market a wooden toy version of Perry the platypus.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812040000 +0000" stop="20250812043000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket gets dumped by his girlfriend, so he tries to change to win her back; Bill becomes hyper-competitive when Cricket starts to be better at things than him.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812043000 +0000" stop="20250812050000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>The mischievous Cricket Green and his family pick up their lives in the country to start anew in the big city.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812050000 +0000" stop="20250812053000 +0000">
-    <title lang="zh">Gravity Falls</title>
-    <desc>Dipper is self-conscious that Mabel is taller than him so he seeks out a magic way to grow himself.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812053000 +0000" stop="20250812060000 +0000">
-    <title lang="zh">Gravity Falls</title>
-    <desc>Dipper and Mabel are excited to join in on the fun, but when Wendy casually mentions that trick-or-treating is for kids, Dipper's whole outlook on the evening changes.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812060000 +0000" stop="20250812063000 +0000">
-    <title lang="zh">The Owl House</title>
-    <desc>King finally becomes a successful author by writing a bestseller; his books fly off the shelves, but then he finds out that he should have read the small print.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812063000 +0000" stop="20250812070000 +0000">
-    <title lang="zh">The Owl House</title>
-    <desc>Luz needs to learn a new spell, so Eda trains her in a magical place on the island.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812070000 +0000" stop="20250812073000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Sweet summer science; the kids arrive at Lullah's mysterious summer camp and attempt to fix her laser; mutant mischief; the kids must face the Mutant thieves who stole their food.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812073000 +0000" stop="20250812080000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Pliny tries to keep a promise when the kids play with a strange diorama; Sara feels guilt after conning Larry out of his collectible beans.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812080000 +0000" stop="20250812083000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>To impress her new friend, Tilly claims she saw stone gargoyles come to life; Cricket makes a deal to sell Bill's produce to a major grocery chain.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812083000 +0000" stop="20250812090000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket uses his first tip from working at Big Coffee to buy a singing toy fish; Gramma kicks the family out of the house for the day, so they stay in a hotel for the first time.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812090000 +0000" stop="20250812093000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Gramma tells Cricket and Tilly that there's treasure buried on their property; Cricket adds his own doodles to Gloria's abstract paintings.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812093000 +0000" stop="20250812100000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>On the trip to Big City movie multiplex, Cricket thinks he's too mature for a kids' movie, so he sneaks into a grown-up movie; Cricket registers his house on a home share website.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812100000 +0000" stop="20250812103000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>After being mocked for his handshake, Cricket trains for a Western-style handshake duel; Gloria combines her work life and social life by hiring her friends as employees.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812103000 +0000" stop="20250812110000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Gramma butts heads with Nick when he crashes her special family hockey outing; Chip Whistler recounts what happened to him since "Chipocalypse Now.".</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812110000 +0000" stop="20250812113000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Tilly goes down an internet rabbit hole to figure out what happened to her favorite ice cream treat; Cricket tries to teach Gregly how to make friends.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812113000 +0000" stop="20250812120000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Bill just wants Tilly to come down from a tree; when Remy tells Vasquez that he no longer needs his protection, Vasquez speaks with a therapist.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812120000 +0000" stop="20250812123000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>A nature documentary portrays Big City as a wild ecosystem; avid collector Remy struggles to cope after Cricket finds the rarest of all trading cards.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812123000 +0000" stop="20250812130000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>To prove to his parents that he is money-wise, Remy starts his own business; feeling neglected by his family, Bill befriends a murder of crows.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812130000 +0000" stop="20250812133000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket tries to avoid a fortune teller's ominous prediction that he will get a stinky slap; in an inescapable escape room, Cricket must decide between family and freedom.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812133000 +0000" stop="20250812140000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket is caught eating dog food by Gloria and must stop her from revealing his secret shame; Bill installs a parenting device to monitor and discipline Cricket for him.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812140000 +0000" stop="20250812143000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Bill receives a surprise; Jade's boss suspends her from work.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812143000 +0000" stop="20250812150000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Cricket tries to come up with the perfect prank to play on his girlfriend on April Fool's Day; Bill goes to extremes to prevent Tilly from experiencing grief.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812150000 +0000" stop="20250812153000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>Chip Whistler attempts to create an evil family, so he takes down the Greens; the Greens move to the suburbs and live under new identities to hide from Chip.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812153000 +0000" stop="20250812160000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>The Greens cause trouble during free sample day at the Farmers Market; Cricket and Nancy toilet paper all of Smalton in a quest for pranking glory.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812160000 +0000" stop="20250812163000 +0000">
-    <title lang="zh">Big City Greens</title>
-    <desc>In summer, Cricket impulsively eats Bill's chocolate Santa and must replace it; when Gramma's serene country retreat is disrupted by an outdoor festival, she resolves to stop it.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812163000 +0000" stop="20250812170000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>The kids get sucked into a white-hot, Mutant soap opera; Sara attempts to nail the perfect hairstyle so she can be the star of Francis' painting.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812170000 +0000" stop="20250812173000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Merian takes on the case of a destructive space chimp; Pliny wants to play Geoplomacy when the kids discover six sandbars.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812173000 +0000" stop="20250812180000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Chip becomes a spy to prove he's not a nincompoop; after a close call, daredevil Larry embraces a life of extreme caution.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812180000 +0000" stop="20250812183000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>Sara lies in order to join the kids' Elephant Triumvirate book club; Larry asks Mr. Okay to help unlock the true power of his dud Zorb.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812183000 +0000" stop="20250812190000 +0000">
-    <title lang="zh">StuGo</title>
-    <desc>A Mutant trio sets out to discover the purpose of some weird-shaped berries; a new visitor offers the kids the summer of their dreams.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812190000 +0000" stop="20250812193000 +0000">
-    <title lang="zh">Beyblade X</title>
-    <desc>Now that Team Persona is officially sponsored by Komaba Sushi, the team is finally ready to battle at The X.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812193000 +0000" stop="20250812200000 +0000">
-    <title lang="zh">Chibiverse</title>
-    <desc>Everyone's favorite squirrel, Kiff, hosts a game show.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812200000 +0000" stop="20250812203000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff and Barry try to stay awake until 4am to see a very special comet. Kiff meets a bad banana.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812203000 +0000" stop="20250812210000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>The Chatterleys get ready; Kiff and the crew run the morning announcements at school and it gets out of control.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812210000 +0000" stop="20250812213000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff and the crew learn magic, but end up in over their heads; Helen casts a spell on Kiff and Barry and won't tell them what it is.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812213000 +0000" stop="20250812220000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff and Barry pick up trash in the park but can't decide what is trash; Trevor works out his frustrations by writing libelous stories about Kiff and Barry.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812220000 +0000" stop="20250812223000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff's good deed goes unnoticed while Reggie's receives lots of attention; Kiff and Barry enjoy a kids-only dinner with their shy classmate Darryn.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812223000 +0000" stop="20250812230000 +0000">
-    <title lang="zh">Kiff</title>
-    <desc>Kiff's thirst for life takes her on countless adventures through their city alongside her best friend, Barry.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812230000 +0000" stop="20250812233000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys build an endless ice luge to beat the heat while Doof brings oil to a waterpark; Candace and Doof see the same psychologist, who thinks their experiences may be connected.</desc>
-    <date>2025-08-12</date>
-  </programme>
-  <programme channel="403837" start="20250812233000 +0000" stop="20250813000000 +0000">
-    <title lang="zh">Phineas and Ferb</title>
-    <desc>The boys build a zoetrope that goes on an adventure of its own; the kids build a bookcase that gets attacked by an army of Doof-plants.</desc>
-    <date>2025-08-12</date>
-  </programme>
   <programme channel="403837" start="20250813000000 +0000" stop="20250813003000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>Candace joins a jousting tournament at the Renaissance festival; the boys build robot clones of themselves to complete more projects.</desc>
@@ -484,9 +244,229 @@
     <desc>The Flynn-Fletchers take a cruise; Doof steals shrunken goods; Isabella struggles to lead the Fireside Girls on her own, while Doof renews his evil business license.</desc>
     <date>2025-08-13</date>
   </programme>
-  <programme channel="403837" start="20250814000000 +0000" stop="20250815000000 +0000">
+  <programme channel="403837" start="20250814000000 +0000" stop="20250814003000 +0000">
     <title lang="zh">Phineas and Ferb</title>
     <desc>The boys build a roller-derby rink so that their grandmother can compete against an old rival; the boys take the day off, to Candace's dismay.</desc>
     <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814003000 +0000" stop="20250814010000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Phineas and Ferb unearth a real caveman who falls for Candace; the boys help Buford retrieve his pet goldfish.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814010000 +0000" stop="20250814013000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Candace asks Stacey to bust the boys and their new golf course; a teleporter accident switches Perry and Candace's brains.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814013000 +0000" stop="20250814020000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Perry tries to destroy traffic cam footage sought by Candace; Phineas and Ferb build the world's largest bowling ball and pins.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814020000 +0000" stop="20250814023000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>The boys help Baljeet put together his summer school science fair project.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814023000 +0000" stop="20250814030000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Phineas and Ferb create a rocket ship to explore a star that was named after them.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814030000 +0000" stop="20250814033000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>The boys create "The F Games" to help Buford and Isabella settle a disagreement; Candace has an encounter with Jeremy's little sister Suzy.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814033000 +0000" stop="20250814040000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Phineas and Ferb create a cartoon where they are the heroes and Candace is the villain; the boys create a Rainbow-inator to help Isabella see her first rainbow.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814040000 +0000" stop="20250814043000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Identity crises abound; Wayne wants city excitement.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814043000 +0000" stop="20250814050000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Saxon finds love; Remy's parents bond with him.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814050000 +0000" stop="20250814053000 +0000">
+    <title lang="zh">Gravity Falls</title>
+    <desc>When Mabel befriends a cute merman trapped in the deep end of the public pool, she's determined to return him to his family in the ocean, even though that means her whirlwind romance will come to an end; Dipper learns that Wendy is a lifeguard.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814053000 +0000" stop="20250814060000 +0000">
+    <title lang="zh">Gravity Falls</title>
+    <desc>Mabel and Dipper stumble upon a hidden room inside the Mystery Shack.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814060000 +0000" stop="20250814063000 +0000">
+    <title lang="zh">The Owl House</title>
+    <desc>Luz, Willow and Amity take a stroll down memory lane to reclaim Willow's memories when Amity accidentally destroys them.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814063000 +0000" stop="20250814070000 +0000">
+    <title lang="zh">The Owl House</title>
+    <desc>Luz experiences Grom, Hexside's version of prom; it is not what she expects.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814070000 +0000" stop="20250814073000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Chip tries committing to the ways of survivalist Nils Vulfen; when the kids encounter a dolphin, everyone is excited - except Merian.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814073000 +0000" stop="20250814080000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Lullah sends Sara to stop a rover from drawing a dirty rear on the moon; Francis goes on a quest to deliver a letter.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814080000 +0000" stop="20250814083000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket and Tilly's mother, Nancy Green, returns to the city.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814083000 +0000" stop="20250814090000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>When Bill sneaks out at night with a mysterious duffel bag, the kids hide in his truck to see where he goes; Cricket impulsively buys a giant pet snake.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814090000 +0000" stop="20250814093000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Bill and Nancy prep a special harvest dinner; Cricket and Gramma race Tilly to get a missing ingredient; at the local community center, Tilly wants to win a trophy and begins training with the center's director.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814093000 +0000" stop="20250814100000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Tilly tries ventriloquism for the Big Coffee open mic night; the family plays the people-watching game, making up stories about city folk passing by.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814100000 +0000" stop="20250814103000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Gramma and Cricket fume over an unsightly van parked in front of their house; Nancy joins Cricket and Tilly's Little League team to get back at their unsportsmanlike rivals.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814103000 +0000" stop="20250814110000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Remy uses Cricket's antics to gain views and likes on a new video-sharing app; Gloria gives Tilly and Cricket a tour of the animation studio where she's interning.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814110000 +0000" stop="20250814113000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket tries to prove to Bill he can eat fast food for every meal; Tilly and Cricket debate whether the lives of people in Big City are connected.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814113000 +0000" stop="20250814120000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket teaches the local kids a new curse word, threatening to ruin the community center's choir performance; the Greens try new methods to improve sales at their produce stand.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814120000 +0000" stop="20250814123000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Bill chaperones Cricket and Gabriella's first date; a disagreement between Cricket and Tilly turns into reality-TV-like entertainment for Gloria and Gramma.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814123000 +0000" stop="20250814130000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>When the kids play a role-playing game at Remy's, his rules lead to conflict; when the Greens go out for karaoke, Tilly struggles to decide what genre of music will best express her true self.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814130000 +0000" stop="20250814133000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>On New Year's Eve, Cricket insists on helping Gloria complete her resolution of approaching her crush, Kevin; Cricket and Remy challenge Vasquez to a snowball fight; Tilly creates a snowperson.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814133000 +0000" stop="20250814140000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>When Gloria's parents visit, she ropes the Greens into escalating lies about her success; Cricket goes on a quest to find the best pool in Big City.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814140000 +0000" stop="20250814143000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Chip Whistler tears down the buildings around the Green's house to build a Wholesome Foods store.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814143000 +0000" stop="20250814150000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>At the library, the Greens try to find a book, but a scary librarian threatens them into being quiet; Chip decides if he is really the failure Cricket says he is.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814150000 +0000" stop="20250814153000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Cricket struggles to get the best birthday present for his best bud, Remy; due to a close call with a dirt bike, Cricket fearfully decides to live his life in shelter.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814153000 +0000" stop="20250814160000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>Tilly and Remy put on a play; Cricket meets his favorite heroes; when Gramma temporarily loses her eyesight, Cricket and Tilly try to help her.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814160000 +0000" stop="20250814163000 +0000">
+    <title lang="zh">Big City Greens</title>
+    <desc>When the Greens visit BigTech, Tilly discovers a chance to improve her family; Cricket wins tickets to a show and must decide who to bring.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814163000 +0000" stop="20250814170000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Lullah wants alone time and creates a Manatee-Nanny to watch the kids; Pliny must choose - support Larry's noodling habit or keep him safe.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814170000 +0000" stop="20250814173000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Chip wants to make a breakfast that will blow his friends' socks off; Larry saves a baby lizard and swears to protect it from harm.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814173000 +0000" stop="20250814180000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Chip tries committing to the ways of survivalist Nils Vulfen; when the kids encounter a dolphin, everyone is excited - except Merian.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814180000 +0000" stop="20250814183000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Lullah sends Sara to stop a rover from drawing a dirty rear on the moon; Francis goes on a quest to deliver a letter.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814183000 +0000" stop="20250814190000 +0000">
+    <title lang="zh">StuGo</title>
+    <desc>Chip is forced to use slap-based tactics to defend a bullied mutant; the kids prank accidentally lures one of Lullahs nemeses to the island.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814190000 +0000" stop="20250814193000 +0000">
+    <title lang="zh">Beyblade X</title>
+    <desc>It's Team Persona's debut match, they're set to go head-to-head with the inimitable Team Zooganic.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814193000 +0000" stop="20250814220000 +0000">
+    <title lang="zh">Chibiverse</title>
+    <desc>Dr. Doofenshmirtz is in the hot seat as Tater, Scratch, Marcy and Perry the Platypus take the stage to roast everyone's favorite evil scientist playfully.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814220000 +0000" stop="20250814223000 +0000">
+    <title lang="zh">Lilo &amp; Stitch</title>
+    <desc>Stitch tries to make Keoni fall for Lilo.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814223000 +0000" stop="20250814230000 +0000">
+    <title lang="zh">Lilo &amp; Stitch</title>
+    <desc>Stitch is captured by Gantu while trying to help Pleakley.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814230000 +0000" stop="20250814233000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Candace puts Mom in a Candace costume in hopes that she'll finally see the boys' invention; Stacy takes on an agent role with OWCA to rescue Perry from some evil scientists.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250814233000 +0000" stop="20250815000000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Doof becomes a mothman; the boys make a movie set.</desc>
+    <date>2025-08-14</date>
+  </programme>
+  <programme channel="403837" start="20250815000000 +0000" stop="20250816000000 +0000">
+    <title lang="zh">Phineas and Ferb</title>
+    <desc>Phineas and Ferb work to rescue the Lake Nose monster from the effects of zinc-free water after Dr. Doofenschmirtz removes all the metal from the water.</desc>
+    <date>2025-08-15</date>
   </programme>
 </tv>
