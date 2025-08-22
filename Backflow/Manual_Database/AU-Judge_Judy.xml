@@ -1,168 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20250821221906 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105808/20250821.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105808&amp;date=20250821&amp;timezone=None">
+<tv date="20250822221836 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/105808/20250822.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=105808&amp;date=20250822&amp;timezone=None">
   <channel id="105808">
     <display-name lang="Australia">Judge Judy</display-name>
     <icon src="https://epg.pw/media/images/epg/2024/06/09/20240609083846800793_24.png" />
   </channel>
-  <programme channel="mjh-10-judge-judy" start="20250821000600 +0000" stop="20250821003200 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Engagement ring; biting dog. - S1 Ep. 54</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-11-28</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821003200 +0000" stop="20250821005900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Break-in; unpaid loan - S1 Ep. 55</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-11-29</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821005900 +0000" stop="20250821012500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Baby sitter sues for back wages. - S1 Ep. 56</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-02</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821012500 +0000" stop="20250821015200 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Sexual harassment. - S1 Ep. 57</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-03</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821015200 +0000" stop="20250821021800 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Dispute over diamond; battling roommates. - S1 Ep. 58</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-04</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821021800 +0000" stop="20250821024500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Damaged property; broken contract. - S1 Ep. 59</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-05</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821024500 +0000" stop="20250821031100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Broken contract; Divine Brown. - S1 Ep. 60</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-06</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821031100 +0000" stop="20250821033800 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Damaged car; lovers' loans. - S1 Ep. 61</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-09</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821033800 +0000" stop="20250821040400 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Heirloom jewelry; loan suit. - S1 Ep. 62</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-10</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821040400 +0000" stop="20250821043100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Woman sues father; brother sues brother. - S1 Ep. 63</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-11</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821043100 +0000" stop="20250821045700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Eviction; magician sued. - S1 Ep. 64</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-12</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821045700 +0000" stop="20250821052400 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Woman resists arrest after accident; abandoned, wrecked car. - S1 Ep. 65</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-13</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821052400 +0000" stop="20250821055000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Cosmetic samples; car quibbles. - S1 Ep. 66</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-16</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821055000 +0000" stop="20250821061700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Couple seeks custody of grandchildren. - S1 Ep. 67</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-17</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821061700 +0000" stop="20250821064300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Unpaid loan for wedding dress; Unpaid loan for wedding expenses - S1 Ep. 68</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821064300 +0000" stop="20250821071000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Couples' separation financial dispute; high-interest loan between brothers. - S1 Ep. 69</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-19</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821071000 +0000" stop="20250821073600 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Incompatible couple; gambling losses. - S1 Ep. 70</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-20</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821073600 +0000" stop="20250821080300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Wrecked motorcycle; woman sues former employer. - S1 Ep. 71</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-23</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821080300 +0000" stop="20250821082900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Paternity. - S1 Ep. 72</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-24</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821082900 +0000" stop="20250821085600 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Spinster exploited; custody case. - S1 Ep. 73</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-25</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821085600 +0000" stop="20250821092300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Defendant arrested. - S1 Ep. 74</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-26</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821092300 +0000" stop="20250821094900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Vandals; repossessed car. - S1 Ep. 75</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-27</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821094900 +0000" stop="20250821101600 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>In-laws evict woman. - S1 Ep. 76</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-30</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821101600 +0000" stop="20250821104300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Custody dispute; money dispute ends friendship. - S1 Ep. 77</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1996-12-31</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821104300 +0000" stop="20250821110900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Child support; teen's living expenses. - S1 Ep. 78</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1997-01-01</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821110900 +0000" stop="20250821113600 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Joy-riding teens. - S1 Ep. 79</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1997-01-02</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821113600 +0000" stop="20250821120200 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Hair salon sued; doll-maker. - S1 Ep. 80</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1997-01-03</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821120200 +0000" stop="20250821123100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Orthodontist bills. - S3 Ep. 1</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-14</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821123100 +0000" stop="20250821125900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Orthodontist bills. - S3 Ep. 3</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-15</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821125900 +0000" stop="20250821132700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Engagement rings; broken possessions. - S3 Ep. 4</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-15</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821132700 +0000" stop="20250821135500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Police brutality allegations; storage space. - S3 Ep. 5</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-16</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821135500 +0000" stop="20250821142300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Violent argument. - S3 Ep. 6</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-16</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821142300 +0000" stop="20250821145100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Violent sexual encounter. - S3 Ep. 7</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-17</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821145100 +0000" stop="20250821151900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Canceled wedding; teen drivers. - S3 Ep. 8</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-17</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821151900 +0000" stop="20250821154700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Child support. - S3 Ep. 9</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821154700 +0000" stop="20250821161500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Roommates - S3 Ep. 10</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821161500 +0000" stop="20250821164300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Back rent; credit-card charges. - S3 Ep. 11</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-21</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821164300 +0000" stop="20250821171100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Runaway lovers. - S3 Ep. 12</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-21</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821171100 +0000" stop="20250821173900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Gold necklace; vet bills. - S3 Ep. 14</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-22</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821173900 +0000" stop="20250821180700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Tenant falls from balcony. - S3 Ep. 15</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-23</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821180700 +0000" stop="20250821183500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Dental bills; medical bills. - S3 Ep. 16</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-23</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821183500 +0000" stop="20250821190300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Runaway teen's belongings. - S3 Ep. 17</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-24</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821190300 +0000" stop="20250821193100 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Legal bills; credit-card charges. - S3 Ep. 18</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-24</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821193100 +0000" stop="20250821195900 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Wedding video; cohabitation debts. - S3 Ep. 19</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-25</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821195900 +0000" stop="20250821202700 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Buiness failure; bail loan. - S3 Ep. 20</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-25</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821202700 +0000" stop="20250821205500 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Domestic violence. - S3 Ep. 23</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-30</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821205500 +0000" stop="20250821212300 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Unpaid wages; damaged car. - S3 Ep. 24</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-01</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821212300 +0000" stop="20250821215000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Rights to film footage; unpaid bills. - S3 Ep. 25</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-02</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821215000 +0000" stop="20250821221800 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Car accident; cell-phone deposit. - S3 Ep. 26</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-05</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821221800 +0000" stop="20250821224600 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Unpaid loan. - S3 Ep. 27</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-06</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821224600 +0000" stop="20250821231400 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Borrowed camera; assault. - S3 Ep. 28</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-07</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821231400 +0000" stop="20250821234200 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Loan repayment; dog ownership. - S3 Ep. 29</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-08</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
-  <programme channel="mjh-10-judge-judy" start="20250821234200 +0000" stop="20250822000000 +0000">
-    <title lang="zh">Judge Judy</title>
-    <sub-title>Ring; dog ownership. - S3 Ep. 30</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-10-09</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
   <programme channel="mjh-10-judge-judy" start="20250822001000 +0000" stop="20250822003800 +0000">
     <title lang="zh">Judge Judy</title>
     <sub-title>Orthodontist bills. - S3 Ep. 1</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1998-09-14</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
@@ -319,4 +160,157 @@
   <programme channel="mjh-10-judge-judy" start="20250822235800 +0000" stop="20250823000000 +0000">
     <title lang="zh">Judge Judy</title>
     <sub-title>Dog owners; bar owner sued. - S3 Ep. 92</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-05</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823002600 +0000" stop="20250823005400 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Medical bills; smashed window. - S3 Ep. 93</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-06</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823005400 +0000" stop="20250823012200 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid phone bill; psychics. - S3 Ep. 94</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-07</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823012200 +0000" stop="20250823015000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Computer ownership; unpaid wages. - S3 Ep. 95</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-08</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823015000 +0000" stop="20250823021800 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Baby-sitting suit; parking tickets. - S3 Ep. 96</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-11</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823021800 +0000" stop="20250823024600 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Personal possessions. - S3 Ep. 97</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-12</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823024600 +0000" stop="20250823031400 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Media leaks. - S3 Ep. 98</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-13</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823031400 +0000" stop="20250823034200 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Vacation cancellation; legal testimony. - S3 Ep. 99</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-14</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823034200 +0000" stop="20250823041000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Abused nanny. - S3 Ep. 100</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-15</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823041000 +0000" stop="20250823043800 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Expensive boarder. - S3 Ep. 101</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823043800 +0000" stop="20250823050600 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Child support. - S3 Ep. 102</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-19</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823050600 +0000" stop="20250823053400 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Assaulted policeman. - S3 Ep. 103</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-20</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823053400 +0000" stop="20250823060200 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Computer payments; eviction. - S3 Ep. 104</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-21</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823060200 +0000" stop="20250823063000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid bail loan; stolen car. - S3 Ep. 105</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-22</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823063000 +0000" stop="20250823065800 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Women evicted from a strip club; phone bills. - S3 Ep. 106</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-25</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823065800 +0000" stop="20250823072600 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Dog bite. - S3 Ep. 107</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-26</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823072600 +0000" stop="20250823075400 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid loans. - S3 Ep. 108</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-27</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823075400 +0000" stop="20250823082200 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid bills; man sues former lover for his personal possessions. - S3 Ep. 109</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-28</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823082200 +0000" stop="20250823084900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Divorcees. - S3 Ep. 110</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-01-29</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823084900 +0000" stop="20250823091700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Newlyweds sue hostel; unpaid bills. - S3 Ep. 112</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-02</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823091700 +0000" stop="20250823094500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Pet snake; lost ring. - S3 Ep. 113</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-03</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823094500 +0000" stop="20250823101300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Altercation; pet peacocks. - S3 Ep. 114</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-04</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823101300 +0000" stop="20250823104100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Bar assault. - S3 Ep. 115</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-05</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823104100 +0000" stop="20250823110900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Car loan. - S3 Ep. 117</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-09</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823110900 +0000" stop="20250823113700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Vandalized car; landlord's error. - S3 Ep. 118</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-10</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823113700 +0000" stop="20250823120500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid child-care bills. - S3 Ep. 119</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-11</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823120500 +0000" stop="20250823123300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Son ruins a car; scratched car. - S3 Ep. 120</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-12</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823123300 +0000" stop="20250823130100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Female impersonator demands payment for services; man sues a woman who claims he is stalking her. - S3 Ep. 121</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-15</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823130100 +0000" stop="20250823132900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Traffic altercation. - S3 Ep. 122</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-16</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823132900 +0000" stop="20250823135700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Off-duty policewoman's car is damaged. - S3 Ep. 123</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-17</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823135700 +0000" stop="20250823142500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Estate dispute; parents argue over a fire started by their children. - S3 Ep. 124</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823142500 +0000" stop="20250823145300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>A woman's windows are smashed by her daughter's enemy. - S3 Ep. 125</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-19</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823145300 +0000" stop="20250823152100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Sexual harassment. - S3 Ep. 126</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-22</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823152100 +0000" stop="20250823154900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>False charges. - S3 Ep. 127</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-23</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823154900 +0000" stop="20250823161700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid loans; paternity. - S3 Ep. 128</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-24</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823161700 +0000" stop="20250823164500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Paternity; real-estate scam. - S3 Ep. 129</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-25</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823164500 +0000" stop="20250823171300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Motorcycle ownership; unpaid loans. - S3 Ep. 130</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-02-26</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823171300 +0000" stop="20250823174100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Wedding dress; personal loan. - S3 Ep. 131</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-01</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823174100 +0000" stop="20250823180900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Damaged car; bicycling boy hit. - S3 Ep. 132</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-02</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823180900 +0000" stop="20250823183700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Divorcees; wrecked Jeep. - S3 Ep. 133</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-03</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823183700 +0000" stop="20250823190500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Motorcycle ownership. - S3 Ep. 134</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-04</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823190500 +0000" stop="20250823193300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Divorcees battle over their daughter's expenses. - S3 Ep. 135</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-05</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823193300 +0000" stop="20250823200100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Unpaid loans. - S3 Ep. 136</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-08</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823200100 +0000" stop="20250823202900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Child-care costs; driver sues passenger. - S3 Ep. 137</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-09</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823202900 +0000" stop="20250823205700 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Child support. - S3 Ep. 138</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-10</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823205700 +0000" stop="20250823212500 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Woman sues disabled former husband; lost gold necklace. - S3 Ep. 139</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-11</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823212500 +0000" stop="20250823215300 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Damaged door; borrowed money. - S3 Ep. 140</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-12</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823215300 +0000" stop="20250823222100 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Evicted musicians; credit-card bills. - S3 Ep. 141</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-15</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823222100 +0000" stop="20250823224900 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Damaged car; unfriendly neighbors. - S3 Ep. 142</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-16</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823224900 +0000" stop="20250823231600 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Couples' quarrels. - S3 Ep. 143</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-17</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823231600 +0000" stop="20250823234400 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Damaged door; unpaid loan. - S3 Ep. 144</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-18</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
+  <programme channel="mjh-10-judge-judy" start="20250823234400 +0000" stop="20250824000000 +0000">
+    <title lang="zh">Judge Judy</title>
+    <sub-title>Rent money; assault. - S3 Ep. 145</sub-title><category lang="en">Reality</category><category lang="en">Court</category><date>1999-03-19</date><icon src="https://10play.com.au/ip/s3/2022/09/02/461008ac0d02137f713ec0e4883be6c4-1177265.png" /></programme>
 </tv>
